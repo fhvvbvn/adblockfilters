@@ -125,11 +125,38 @@ class Resolver(object):
                 # [*] 注释
                 if match('^\[.*\]$', line):
                     break
-                if match('^##.*', line):
-                    filter = line
-                    break
                 # #* 注释
                 if match('^#.*', line):
+                    break
+
+                if match('^.*third-party.*', line):
+                    break
+
+                if match('^.*app=.*', line):
+                    break
+
+                if match('^.*jp#.*', line):
+                    break
+
+                if match('^.*de#.*', line):
+                    break
+
+                if match('^.*fr#.*', line):
+                    break
+
+                if match('^.*tw#.*', line):
+                    break
+
+                if match('^.*hk#.*', line):
+                    break
+
+                if match('^.*kr#.*', line):
+                    break
+
+                if match('^.*cc#.*', line):
+                    break
+
+                if match('^.*function(.*', line):
                     break
 
                 # ||example.org^: block access to the example.org domain and all its subdomains, like www.example.org.
