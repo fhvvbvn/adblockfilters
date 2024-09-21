@@ -3,10 +3,10 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240922002357
-! Last modified: 2024/09/22 00:23:57
-! Blocked domains: 53531
-! unBlocked domains: 81
+! Version: 20240922002731
+! Last modified: 2024/09/22 00:27:31
+! Blocked domains: 53530
+! unBlocked domains: 0
 !
 ||001union.com^
 ||0024aadd.com^
@@ -516,7 +516,6 @@
 ||smetrics.360dx.com^
 ||t.360playvid.info^
 ||track.360playvid.info^
-||down.360safe.com^
 ||p1.360soucha.com^
 ||link.360vuz.com^
 ||link-test.360vuz.com^
@@ -53539,84 +53538,3 @@
 ||zzyanhushi.com^
 ||zzycj.com^
 ||a8.zzz-land.com^
-@@||ad.10010.com^
-@@||bnet.163.com^
-@@||equifaxps.122.2o7.net^
-@@||kiplinger.112.2o7.net^
-@@||ltzn.9377.com^
-@@||ad-gone.com^
-@@||17173im.allyes.com^
-@@||logging.apache.org^
-@@||ad.azure.com^
-@@||ad.ext.azure.com^
-@@||captcha.su.baidu.com^
-@@||lemon.baidu.com^
-@@||battle.net^
-@@||buyad.bi-xenon.cn^
-@@||www.bqgyy.com^
-@@||lf1-cdn-tos.bytegoofy.com^
-@@||lf3-cdn-tos.bytegoofy.com^
-@@||lf6-cdn-tos.bytegoofy.com^
-@@||cbsi.map.fastly.net^
-@@||wwwimage-tve.cbsstatic.com^
-@@||chinatelecom.com.cn^
-@@||api.coolapk.com^
-@@||avatar.coolapk.com^
-@@||image.coolapk.com^
-@@||316.coolapk1s.com^
-@@||webtrack.dhlglobalmail.com^
-@@||msg.douyu.com^
-@@||wan.douyu.com^
-@@||bjfesdk.douyucdn.cn^
-@@||gift.douyucdn.cn^
-@@||ecitic.com^
-@@||sdk.open.talk.gepush.com^
-@@||gotunnel.org^
-@@||www.gsxt.gov.cn^
-@@||gia.jd.com^
-@@||m.jingxi.com^
-@@||download.jumpw.com^
-@@||ad.kazakinfo.com^
-@@||advert.kf5.com^
-@@||front-go.lemall.com^
-@@||manwa.me^
-@@||mi.cn^
-@@||api.sec.miui.com^
-@@||myqqjd.com^
-@@||myquark.cn^
-@@||vodafonelimited.tt.omtrdc.net^
-@@||ad.ourgame.com^
-@@||log-api.pangolin-sdk-toutiao-b.com^
-@@||log-api.pangolin-sdk-toutiao.com^
-@@||adcdn.pingan.com^
-@@||beta.bugly.qq.com^
-@@||c.pc.qq.com^
-@@||minigame.qq.com^
-@@||payapp.weixin.qq.com^
-@@||vd.l.qq.com^
-@@||drive.quark.cn^
-@@||pan.quark.cn^
-@@||optout.rlcdn.com^
-@@||track2.royalmail.com^
-@@||feed.mix.sina.com.cn^
-@@||ib.snssdk.com^
-@@||is.snssdk.com^
-@@||sobot.com^
-@@||app.message.sonicwall.com^
-@@||speedtest.net^
-@@||swjoy.com^
-@@||phs.tanx.com^
-@@||umengjmacs.m.taobao.com^
-@@||g.tbcdn.cn^
-@@||metrics.torproject.org^
-@@||tuhu.cn^
-@@||api.ads.tvb.com^
-@@||img.ads.tvb.com^
-@@||browser.cloud.ucweb.com^
-@@||msn.wrating.com^
-@@||cn.app.chat.xiaomi.net^
-@@||xmxing.net^
-@@||redirect.appmetrica.yandex.com^
-@@||redirect.appmetrica.yandex.net^
-@@||zbj.com^
-@@||app-advertise.zhihuishu.com^
