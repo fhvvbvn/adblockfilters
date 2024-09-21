@@ -155,10 +155,6 @@ class Resolver(object):
 
                 if match('^.*cc#.*', line):
                     break
-
-                if match('^.*function(.*', line):
-                    break
-
                 # ||example.org^: block access to the example.org domain and all its subdomains, like www.example.org.
                 if match('^\|\|.*\^$', line):
                     domain = line[2:-1]
