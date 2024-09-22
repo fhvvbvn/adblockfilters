@@ -47,8 +47,8 @@
 | anti-ad | dns | [原始链接](https://anti-ad.net/easylist.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/anti-ad.txt) | 2024/09/22 |
 | AdguardTeam_DNS-Filter | dns | [原始链接](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdguardTeam_DNS-Filter.txt) | 2024/09/22 |
 | TG-Twilight_AWAvenue-Ads-Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/TG-Twilight_AWAvenue-Ads-Rule.txt) | 2024/09/22 |
-| d3ward_Toolz | dns | [原始链接](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/d3ward_Toolz.txt) | 2024/09/22 |
 | malware-filter_Malicious-URL-Blocklist | dns | [原始链接](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/malware-filter_Malicious-URL-Blocklist.txt) | 2024/09/22 |
+| adaway | host | [原始链接](https://github.com/AdAway/adaway.github.io/raw/refs/heads/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/jdlingyu_ad-wars.txt) | 2024/09/22 |
 | jdlingyu_ad-wars | host | [原始链接](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/jdlingyu_ad-wars.txt) | 2024/09/22 |
 
 ## Star History
