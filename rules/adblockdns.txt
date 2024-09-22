@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240922005834
-! Last modified: 2024/09/22 00:58:34
-! Blocked domains: 52079
+! Version: 20240922084107
+! Last modified: 2024/09/22 08:41:07
+! Blocked domains: 52085
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -11123,6 +11123,7 @@
 ||kunyu.csdn.net^
 ||silkroad.csdn.net^
 ||zhannei-dm.csdn.net^
+||csfds000.fun^
 ||metric.cshgreenwich.org^
 ||cshlgg.com^
 ||partner.cshop.sk^
@@ -16189,6 +16190,7 @@
 ||ffychb.com^
 ||ffyoo.com^
 ||t.fgcuathletics.com^
+||fgdkfr.xyz^
 ||fghghh.cn^
 ||fghhbp.xyz^
 ||fgttbz.xyz^
@@ -21409,6 +21411,7 @@
 ||fiowtf.hyggee.com^
 ||pnfkhu.hygi.de^
 ||campaigns.hygiena.com^
+||hyhy2.fun^
 ||counter.hyipexplorer.com^
 ||pix.hyj.mobi^
 ||spoluprace.hyla.cz^
@@ -38870,6 +38873,7 @@
 ||referral.rvappstudio.com^
 ||rvbiocn.cn^
 ||ns.rvmkitt.com^
+||rvnaxwqe.icu^
 ||ingest.make.rvohealth.com^
 ||gknurz.rvonthego.com^
 ||yurobl.rw-co.com^
@@ -46602,6 +46606,7 @@
 ||uafuzcxr.xyz^
 ||uahozcfq.xyz^
 ||lpzxed.uai.com.br^
+||uaoaig.xyz^
 ||sstats.uascrubs.com^
 ||uavejnys.xyz^
 ||images.engage.ubc.ca^
@@ -50750,6 +50755,7 @@
 ||xnbuapwp.icu^
 ||xnfhxszj.xyz^
 ||pupu.xnhh120.com^
+||xnqboqc.icu^
 ||app.go.xo.com^
 ||connect.xo.com^
 ||resources.xo.com^
