@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240922233227
-! Last modified: 2024/09/22 23:32:27
-! Blocked Filters: 52327
+! Version: 20240922233939
+! Last modified: 2024/09/22 23:39:39
+! Blocked Filters: 52324
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1910,7 +1910,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 *##.adbox
 *##.adtable
 *##div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#preAdContent
-*$3p,domain=d3ward.github.io
 *$doc,removeparam=/^utm_/
 *$document,permissions=attribution-reporting=(),from=~localhost
 *$document,permissions=browsing-topics=(),from=~localhost
@@ -5973,7 +5972,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /page_counter.js
 /page_counter_$script,domain=costype.net|imagis.jp|konootokonoko.com|oppaimall.com
 /page_perf_log?
-/pagead.js$domain=d3ward.github.io
 /pagead/lvz?
 /pagecpv/*
 /pagedot.gif?
@@ -9717,7 +9715,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ?type=page&event=
 ?type=pageview&
 ?uclick=*&uclickhash=$removeparam
-@@*$redirect-rule,domain=d3ward.github.io
 @@||profile*.se.360.cn^
 @@||tongji.*kuwo.cn^
 MRelateFeedAd
