@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240922084107
-! Last modified: 2024/09/22 08:41:07
-! Blocked domains: 52085
+! Version: 20240922160924
+! Last modified: 2024/09/22 16:09:24
+! Blocked domains: 52088
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -5035,6 +5035,7 @@
 ||ighbat.bagage24.nl^
 ||ymqnky.bagaggio.com.br^
 ||bagbeam.com^
+||baggvon.icu^
 ||smetric.bahamabreeze.com^
 ||qlqvej.bahia-principe.com^
 ||t.bahn-mietwagen.de^
@@ -21388,6 +21389,7 @@
 ||trk.hvitali.com^
 ||hvlitr.xyz^
 ||hvxrvef.xyz^
+||hwateru.top^
 ||hwnojj.xyz^
 ||hwpvbdj.xyz^
 ||hwvwxerw.xyz^
@@ -50871,6 +50873,7 @@
 ||xxsmad1.com^
 ||xxsmad2.com^
 ||xxsmad3.com^
+||xxsmad4.com^
 ||www.xxxfeng.com^
 ||adc.xxxlshop.de^
 ||watg.xxxlutz.com^
