@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240923161135
-! Last modified: 2024/09/23 16:11:35
-! Blocked Filters: 52079
+! Version: 20240924000913
+! Last modified: 2024/09/24 00:09:13
+! Blocked Filters: 52096
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1893,7 +1893,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 &af_xp=$removeparam=c
 &af_xp=$removeparam=pid
 &ev=PageView&
-&event=view&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &l=dataLayer&cx=c
@@ -2869,6 +2868,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .gif?Log=
 .gif?stat=open
 .gif|$domain=7mshipin.org|viidii.info
+.gif|$domain=8724ck.cc|aeahsck.cc
 .gif|$domain=99re.com
 .goodwell18.com/track/
 .google-analytics.com/
@@ -11912,6 +11912,7 @@ bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
 bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
+bilibili.com##.is-rcmd > div:only-child
 bilibili.com##.is-rcmd:has(a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]))
 bilibili.com##.login-panel-popover
 bilibili.com##.login-tip
@@ -13462,6 +13463,8 @@ cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com###id_qrcode_popup_positioner
+cn.bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
+cn.bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 cn.bing.com##.b_bza_pole
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
@@ -14401,6 +14404,9 @@ dealmoon.com##.dm-event-tip-wrap
 dealmoon.com##.dm-newsletter-subscribe
 dealmoon.com#?#body > .dm-right-float:has(p:contains(/APP|App/))
 dealmoon.com,weibo.com##.pic_ad
+deals.neowin.net#$#.fb_lightbox-overlay { display: none !important; }
+deals.neowin.net#$#div[aria-label="Modal Overlay Box"] { display: none !important; }
+deals.neowin.net#$?#style#dghstyles { remove: true; }
 deals.sharewareonsale.com#$#body { overflow: auto !important; }
 deals.sharewareonsale.com#$#html { overflow: auto !important; }
 deals.sharewareonsale.com#$?#body > div[role="dialog"]:has(> iframe[title^="Email Capture"]) { display: none !important; }
@@ -17149,6 +17155,7 @@ gamefy.cn,sitv.com.cn##.tit > span[style="float:right; width:285px;"]
 gamefy.cn,sitv.com.cn##div[style="float:left; width:220px; padding-top:15px;"]
 gamegaz.com##.snsb > li:not(.comments-balloon-btn)
 gamegaz.com#@#.social-count
+gamegrin.com##article > div.actions:has(> span.subshare)
 gameinns.com##a[url^="/api/ads?"]
 gamejksokuhou.com,shoneekapoor.com,extrememanual.net,kakaowebtoon.com,cafe.daum.net,webtoon.kakao.com,page.kakao.com#$#body { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: auto!important; -ms-user-select: text!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
 gamek.vn##a[onclick*="shareOnFacebook()"]
@@ -17648,7 +17655,10 @@ google-analytics.com/ga.js
 google-analytics.com/urchin.js
 google.*###app-container div[jsaction^="modal"] div[tabindex][class*=" "] div[class]:has(input[value^="https://maps.app.goo.gl/"]) ~ div[class]:has(button img[src*="/share/x-logo-"])
 google.*###google-hats-survey
+google.*###main > div[jscontroller="OPwjEf"]
 google.*###searchform ~ div div.rsir2d > div[role="button"] > span
+google.*##.OBMEnb:has(> .ynRric)
+google.*##.ftihzf:has(> .ynRric)
 google.*##.kp-wholepage div[role="button"][jscontroller="Wct42"][aria-label] > span > span
 google.*##.obcontainer div.c63lMc
 google.*##kno-share-button
@@ -21384,6 +21394,7 @@ ladbible.com,unilad.com,unilad.co.uk,gamingbible.com,tyla.com,sportbible.com#?#d
 ladiaria.com.uy##.ld-share-widget
 lady8844.com###bb_adbox_1
 ladyblog.me##+js(abort-current-script, jQuery, onselectstart)
+ladyblog.me,apkmodhub.in,freshercooker.in,henryharvin.com##.chaty-widget
 lafa.site###qs_form_div
 lagaceta.com.ar##span[onclick^="share("]
 lagou.com##div#go_app
@@ -22679,6 +22690,7 @@ macdaxue.com##.content > div.asb
 macfans.org###portal_block_180
 machow2.com##+js(set-cookie-reload, hustle-hide-module-2, 2)
 macked.app##+js(no-setTimeout-if, showed_system_notice)
+macked.app##a.tabbar-item[data-remote*="?action=share_modal"]
 macked.app,thelocal.*##.action-share
 mackolik.com###fancybox-close
 mackolik.com###featured-media > iframe.is-sticky
@@ -22921,6 +22933,7 @@ marianne.net#@#.share__link
 marianne.net#@#a[href^="https://twitter.com/intent/tweet?"]
 marianne.net#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 marinetraffic.com##.top-banner
+mariosfakiolas.com#?#main div[class] > article[class]:has(> h3:contains(Newsletter))
 markdownguide.org##div[class^="col-"] > p ~ div.card + div.card.border-info
 market.yandex.*##.main > noindex:not([data-tid])
 market.yandex.*##:matches-path(/^\/$|\/\?/)div[data-zone-data*="bannerUrl"]:not([data-zone-name="deals-banner"])
@@ -25511,6 +25524,7 @@ paribucineverse.com#%#//scriptlet('set-constant', 'Visilabs.prototype.AddParamet
 paribucineverse.com#%#//scriptlet('set-constant', 'Visilabs.prototype.Collect', 'noopFunc')
 parniplus.com###eaa_post_between_content
 parniplus.com###text-8
+parniplus.com##.single-socials
 partitionwizard.com,minitool.com##.promotions-banner-wrap
 partitionwizard.jp,partitionwizard.com,constructionenquirer.com,minitool.com##.article-share-wrap
 partnerkin.com##.subscriber_form
@@ -27012,6 +27026,7 @@ realt.by#?#div.col > div.object-item div[class^="col"]:has(> div.ya-share2)
 realting.com###popupOffer
 realtor.com##div[class^="MobileBannerstyles"]
 realty.ya.*##+js(json-prune, rtb direct)
+reason.com##.incontent-email-signup_wrapper
 reason.com##.puprf-signup-widget
 reason.com##.rcom-social-tools
 reason.com##.single-newsletter-signup
@@ -42687,6 +42702,7 @@ zzzyk.com###Tinfo
 ||imgs.itxueyuan.com/advPicture/
 ||imgsen.com/vtrack
 ||imgsmail.ru/gstat?
+||imgsrc.baidu.com/*/pic/*.jpg$domain=8724ck.cc|aeahsck.cc
 ||imgsrc.baidu.com/*/pic/*.jpg$domain=aeahsck.cc
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgssl.constantcontact.com/letters/images/sys/S.gif
@@ -44506,6 +44522,7 @@ zzzyk.com###Tinfo
 ||mapss.icu^$all
 ||maptrackpro.com/track/
 ||marche.onward.co.jp/*/sys/top_adobe_analytics.js
+||market-click2.yandex.ru/safeclick/json|
 ||market.aliyun.com/
 ||market.xiaomi.com/*/ad^
 ||market.xiaomi.com/composite^
