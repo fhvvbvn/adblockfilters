@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240924000913
-! Last modified: 2024/09/24 00:09:13
-! Blocked Filters: 52096
+! Version: 20240924083809
+! Last modified: 2024/09/24 08:38:09
+! Blocked Filters: 52097
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9713,6 +9713,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ?uclick=*&uclickhash=$removeparam
 @@||profile*.se.360.cn^
 @@||tongji.*kuwo.cn^
+@@||usageapi.*.oraclecloud.com^
 MRelateFeedAd
 Ref=CJ^$doc,removeparam=ref
 [$path=/edmredir.php]mobile01.com#%#//scriptlet('trusted-replace-node-text', 'script', '/sendOfflineEvent[\s\S]*?window\.location\.href/', '/(window\.dataLayer[\s\S]*?sendOfflineEvent[\s\S]*?(window.location.href = [\s\S]*?;))/', '$2$1')
