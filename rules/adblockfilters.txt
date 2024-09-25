@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240925161109
-! Last modified: 2024/09/25 16:11:09
-! Blocked Filters: 51598
+! Version: 20240926000937
+! Last modified: 2024/09/26 00:09:37
+! Blocked Filters: 51603
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -14399,6 +14399,7 @@ democracynow.org##+js(set-cookie, campaign_seen_today, true)
 democracynow.org##.home_daily_digest
 demokratkocaeli.com,dts24.pl,playtech.ro##a[href^="https://news.google.com/search?"]
 demonition.com,openworldnews.net,animanch.com##.snscount
+dengekionline.com###sns_share_top
 dengekionline.com##.dolfes_popup
 dengekionline.com##.gEntry_areaSns
 dengekionline.com##li[class^="ArticleList_listBanner__"]
@@ -17866,6 +17867,7 @@ hands.net##.m-m-share-fixed
 hands.net##.snsShareList
 hangikredi.com##.blog-detail-full-content__social-share
 hangikredi.com##.rate-share-article__share
+hangikredi.com##div[class*="bg-bannerLeftGradient"]
 hangikredi.com##main > div.container > div.items-center:has(> img[src="/icons/svg/ShareNetwork.svg"])
 hanime.tv##.smart-banner-content,.golden-saucer
 hanime1.me###playlist-scroll:style(max-height:none !important)
@@ -21780,7 +21782,6 @@ looop-denki.com##.p_postnavi_sns_list
 lootlinks.*##+js(nano-setInterval-booster, count, , 0.02)
 lordikfilms.xyz##.fmain > .fcols > .fright:has(> #vk_groups)
 lordserials.fan##.telegraminfo
-lorimuchbenefit.com,ntv.co.jp,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jasminetesttry.com,erikcoldperson.com,roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,nikkatsu.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,d0000d.com,morganoperationface.com,johntryopen.com,do0od.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,guiasaude.info,gaz.com.br,relevantmagazine.com,camcaps.*,fakazaduo.com,gimy.app,ruyashoujo.com,nhk.or.jp,mangabtt.com,careet.net,contents.premium.naver.com,r114.com,app.kartra.com,box-manga.com,leouve.com.br,comico.jp,tappytoon.com,toonnbook.nate.com,tapas.io,kakaowebtoon.com,lapandilladelarejilla.es,lezhinus.com,lezhin.com,grafolio.naver.com,webtoon.kakao.com,page.kakao.com##+js(addEventListener-defuser, contextmenu)
 losandes.com.ar,lavoz.com.ar,guarda14.com##.story-social
 lostfilm.info##.news-container > div.left+div.right
 lostfilm.info##body > div.wrapper > a[title^="LostFilm"]
@@ -22800,6 +22801,7 @@ mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
 mbd.baidu.com/newspage/api/getrelatednews?nid=news_
 mbd.baidu.com/newspage/api/landing?page=landingshare&refresh=
 mbjremix.com##+js(nano-setInterval-booster, /wpsafe|wait|timer/, *, 0.001)
+mbs.jp,lorimuchbenefit.com,ntv.co.jp,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jasminetesttry.com,erikcoldperson.com,roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,nikkatsu.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,d0000d.com,morganoperationface.com,johntryopen.com,do0od.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,guiasaude.info,gaz.com.br,relevantmagazine.com,camcaps.*,fakazaduo.com,gimy.app,ruyashoujo.com,nhk.or.jp,mangabtt.com,careet.net,contents.premium.naver.com,r114.com,app.kartra.com,box-manga.com,leouve.com.br,comico.jp,tappytoon.com,toonnbook.nate.com,tapas.io,kakaowebtoon.com,lapandilladelarejilla.es,lezhinus.com,lezhin.com,grafolio.naver.com,webtoon.kakao.com,page.kakao.com##+js(addEventListener-defuser, contextmenu)
 mc-at.org##+js(no-setTimeout-if, showads, 7000)
 mc-at.org#@#.showads
 mc.163.com###NIE-topBar-news
@@ -24716,6 +24718,8 @@ nytimes.com#?#div[data-testid="share-tools"] ul > li[class^="css-"]:has(button[a
 nytimes.com,brainfall.com#@#.share-btn
 nzherald.co.nz##.premium-toaster
 nzherald.co.nz##.share-bar > a:not([class^="social-link social-link--bookmark"])
+nzherald.co.nz##div[data-test-ui="viva-article__share-bar"] > a[class="tw-flex tw-items-center laptop:tw-hidden"]
+nzherald.co.nz##div[data-test-ui="viva-article__share-bar"] > a[data-test-ui^="social-link--viva-"]
 o-pro.online,eda-ah.com,ta2deem7arbya.com##+js(nano-setInterval-booster, mdtimer, , 0.02)
 o2.pl##a[data-st-area^="ST-goToO2"][href="/"]
 o2.pl##div[id^="video-player-"] > div.floating
@@ -25495,6 +25499,7 @@ phileweb.com###rmenu_mail
 phileweb.com###sidebar > div#rmenu_sns + div.rmenu
 phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 phileweb.com##.sns_under-article
+philips.com.tr##+js(set-cookie, p-gc35, true)
 phncdn.com/iframe
 phoenixnap.com##.live-chat-btn
 phonearena.com##.content-subscription
