@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240926000937
-! Last modified: 2024/09/26 00:09:37
-! Blocked Filters: 51603
+! Version: 20240926083733
+! Last modified: 2024/09/26 08:37:33
+! Blocked Filters: 51606
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -11169,6 +11169,8 @@ baidu.com##.img-adv-swap1
 baidu.com##.index-banner-text
 baidu.com##.index-module_drawerHand__aRhcO
 baidu.com##.intro-adv
+baidu.com##.invoke-app-floating-tips
+baidu.com##.invoke-app-san-container
 baidu.com##.l-header-ad
 baidu.com##.landrightbanner
 baidu.com##.link-banner
@@ -18011,6 +18013,7 @@ hao7zhe.com##.a_mu,[width="150"][height="300"],.a_pt,.wp.a_f
 haodf.com##div.closeid,div[class^="index_bottom"]
 haokan.baidu.com##+js(no-setTimeout-if, /autoShow.*localStorage\.setItem\(.auto_login_show_count/)
 haokan.baidu.com##.landrightbanner
+haokan.baidu.com##.page-top-rightinfo-popover
 haokan5.com##.ad8,.ads
 haokoo.com##[href="http://m.moomcherry.com/jysd/"],[href^="http://item.m.jd.com/product/"]
 haolexiang.com##div.ctrl_ad,div.right_ad2
