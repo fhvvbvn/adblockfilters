@@ -3,8 +3,8 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240927000936
-! Last modified: 2024/09/27 00:09:36
+! Version: 20240927083808
+! Last modified: 2024/09/27 08:38:08
 ! Blocked Filters: 51239
 !
 $$a[href="/js/app.htm?url="]
@@ -21445,6 +21445,7 @@ linuxtuto.com###bshare-social
 linuxuprising.com,sabishiidesu.com##.share-box
 linyiren.com##embed[width="600"][height="55"],div[style^="width:960px; height:70px;"],DIV#hd > DIV.wp > DIV[style],div#adone,div#adtwo,div#modelfix.modelfix
 lipscosme.com###footer-app-banner
+lipscosme.com##.open-app-banner
 lipscosme.com##.post-show__sns-share
 liputan6.com##.read-page--social-share
 liquidweb.com##.kadence-conversion-popup
@@ -32719,7 +32720,6 @@ yasem5.com##a[href*="yasem5.com/go"][target="_blank"]
 yatu.tv###a_d1
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
-yavtube.com,lipscosme.com##.open-app-banner
 yay.space##.AppDownloadAds
 yaya0506.com##iframe[style="border: 0;"][width="100%"][height="280"][src^="//www.12beststar.com/"]
 yayoiken.com###applink
