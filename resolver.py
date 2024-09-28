@@ -71,7 +71,7 @@ class Resolver(object):
                 if match('^#.*', line):
                     break
 
-                if match('^.*jp\^', line):
+                if match('^\|\|.*\.jp\^$', line):
                     break
 
                 if match('^.*de\^$', line):
