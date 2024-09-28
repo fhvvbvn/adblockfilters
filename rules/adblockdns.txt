@@ -3,10 +3,10 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240928193203
-! Last modified: 2024/09/28 19:32:03
-! Blocked domains: 103946
-! unBlocked domains: 123
+! Version: 20240928194325
+! Last modified: 2024/09/28 19:43:25
+! Blocked domains: 103939
+! unBlocked domains: 125
 !
 ||0-02.net^
 ||000free.us^
@@ -7457,7 +7457,6 @@
 ||adtarget.me^
 ||adtear.com^
 ||adtech.com^
-||adserver.adtech.de^
 ||adtech.us^
 ||adtechium.com^
 ||adtechjp.com^
@@ -22953,7 +22952,6 @@
 ||bpgbcl.coconala.com^
 ||coconutfieryreferee.com^
 ||marketing.coconutmalorie.com^
-||coconuts.boy.jp^
 ||app.coconuts.co^
 ||coconutsumptuousreseptivereseptive.com^
 ||branchtest.cocoon.today^
@@ -63534,7 +63532,6 @@
 ||netnesspb.com^
 ||kaden.netoff.co.jp^
 ||a8clk.netowl.jp^
-||ad.netowl.jp^
 ||dkno.netpartnering.com^
 ||se.netpartnering.com^
 ||netpatas.com^
@@ -65786,7 +65783,6 @@
 ||trk.obtenerbeneficios.com^
 ||obtrusivecrisispure.com^
 ||wpauvu.obuvki.bg^
-||ad.obuy.tw^
 ||ens.obwaldnerzeitung.ch^
 ||oc2tdxocb3ae0r.com^
 ||app.ocamping.fr^
@@ -92148,7 +92144,6 @@
 ||mtl.ttsqgs.com^
 ||ttsycqxjvgrya.xyz^
 ||t.tttmedd.com^
-||ads.ttv.com.tw^
 ||ttwmed.com^
 ||ttwwzqdx.xyz^
 ||image.ttyouma.cn^
@@ -94165,7 +94160,6 @@
 ||uselayer.com^
 ||uselesslumber.com^
 ||uselnk.com^
-||lb.usemaxserver.de^
 ||horse.usemiso.com^
 ||ac-ebis.usen-insurance.com^
 ||ac-ebis.usen.biz^
@@ -100121,7 +100115,6 @@
 ||wrenterritory.com^
 ||wrestcut.com^
 ||clownfish.wrestlingiq.com^
-||ad.wretch.cc^
 ||wretched-confusion.com^
 ||wretchedbomb.com^
 ||wretcheddrunkard.com^
@@ -103963,6 +103956,7 @@
 @@||track.4px.com^
 @@||ads.95516.com^
 @@||ad-gone.com^
+@@||ad.jp^
 @@||ad.nl^
 @@||app.adjust.com^
 @@||login-sh.aki-game.com^
@@ -104004,6 +103998,7 @@
 @@||metrics.icloud.com^
 @@||widget.intercom.io^
 @@||iufostworldcongress-singapore.com^
+@@||trackings.post.japanpost.jp^
 @@||stat.jseea.cn^
 @@||ads.kazakh-zerno.net^
 @@||ad.kazakinfo.com^
