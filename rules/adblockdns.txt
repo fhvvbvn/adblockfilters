@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240928212148
-! Last modified: 2024/09/28 21:21:48
-! Blocked domains: 89561
+! Version: 20240929000829
+! Last modified: 2024/09/29 00:08:29
+! Blocked domains: 89571
 ! unBlocked domains: 117
 !
 ||s8.001fzc.com^
@@ -15494,6 +15494,7 @@
 ||cfcnet.top^
 ||cfcs1.duckdns.org^
 ||cfdanet.com^
+||cfdvd779.fun^
 ||e.cfenl.com^
 ||info.cfevr.org^
 ||cfff.net^
@@ -20409,6 +20410,7 @@
 ||dajean.com^
 ||da.daji.com^
 ||img.dajibai.com^
+||dajs001.shop^
 ||dajswiacllfy.com^
 ||dakawm.cc^
 ||gyydua.dakine.com^
@@ -40766,7 +40768,14 @@
 ||search3-search.ixigua.com^
 ||search5-search.ixigua.com^
 ||search5-search-hl.ixigua.com^
+||v1-ad.ixigua.com^
+||v1-dc-ad.ixigua.com^
 ||v3-ad.ixigua.com^
+||v3-dc-ad.ixigua.com^
+||v6-ad.ixigua.com^
+||v6-dc-ad.ixigua.com^
+||v9-ad.ixigua.com^
+||v9-dc-ad.ixigua.com^
 ||dehua.ixinfan.com^
 ||zjliloveyou.ixiunv.com^
 ||ixnow.xyz^
@@ -43276,6 +43285,7 @@
 ||qpielh.kfhi.or.kr^
 ||jsnywl.kfi8.com^
 ||kfngvuu.com^
+||kfocken.icu^
 ||axp.kfor.com^
 ||kfpicimage.xyz^
 ||kfpnqug.cn^
