@@ -71,6 +71,30 @@ class Resolver(object):
                 if match('^#.*', line):
                     break
 
+                if match('^.*jp\^$', line):
+                    break
+
+                if match('^.*de\^$', line):
+                    break
+
+                if match('^.*fr\^$', line):
+                    break
+
+                if match('^.*tw\^$', line):
+                    break
+
+                if match('^.*hk\^$', line):
+                    break
+
+                if match('^.*kr\^$', line):
+                    break
+
+                if match('^.*cc\^$', line):
+                    break
+
+                if match('^.*ru\^$', line):
+                    break
+
                 if line.find(' ') > 0:
                     line = line[:line.find(' ')]
 
