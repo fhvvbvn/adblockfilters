@@ -48,7 +48,7 @@
 | AdguardTeam_DNS-Filter | dns | [原始链接](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdguardTeam_DNS-Filter.txt) | 2024/09/28 |
 | GOODBYEADS | dns | [原始链接](https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/GOODBYEADS.txt) | 2024/09/28 |
 | adaway | host | [原始链接](https://github.com/AdAway/adaway.github.io/raw/refs/heads/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adaway.txt) | 2024/09/22 |
-| jdlingyu_ad-wars | host | [原始链接](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/jdlingyu_ad-wars.txt) | 2024/09/22 |
+| hagezi | host | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/jdlingyu_ad-wars.txt) | 2024/09/22 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
