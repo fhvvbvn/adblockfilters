@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240928161014
-! Last modified: 2024/09/28 16:10:14
-! Blocked Filters: 50881
+! Version: 20240928191027
+! Last modified: 2024/09/28 19:10:27
+! Blocked Filters: 50875
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -34370,7 +34370,6 @@ zzzyk.com###Tinfo
 ||ad*.on.cc^
 ||ad*.thisisgame.com^
 ||ad*.tmgrup.com.tr^
-||ad*.wisenut.co.kr^
 ||ad-
 ||ad-*.amazonaws.com^
 ||ad-*.appacc.dbankedge.cn^
@@ -34849,7 +34848,6 @@ zzzyk.com###Tinfo
 ||alipay.com/common/um/lsa.swf
 ||alipay.com/service/clear.png?
 ||alipay.com/web/bi.do?ref=
-||alishop*.ru^
 ||alixixi.com/adsview/
 ||aliyun.com/actionlog/
 ||aliyun.com^$removeparam=scm
@@ -36125,7 +36123,6 @@ zzzyk.com###Tinfo
 ||baotintuc.vn/scripts/log.js
 ||baoxian.163.com/$subdocument
 ||baqend.com/v1/rum/
-||bar*.shinobi.jp^
 ||bar-navig.yandex.ru/u
 ||barks.jp/v1/stats
 ||barrons.com/cookies/pixel.gif
@@ -45861,7 +45858,6 @@ zzzyk.com###Tinfo
 ||raw.senmanga.com/js/reader.js
 ||rayfile.com/media/img/rili_
 ||raygun.io/events?
-||rb*.design.ru^
 ||rbc.ru/click?
 ||rbc.ru/count/
 ||rbc.ru/redir/stat/
@@ -45893,7 +45889,6 @@ zzzyk.com###Tinfo
 ||reactive.factor.ua/buhgalter911_chat/$domain=buhgalter.com.ua
 ||readcube.com/assets/track_
 ||readthedocs.*/javascript/readthedocs-analytics.js
-||real*traf.ru^
 ||realestate.com.au^$removeparam=rsf
 ||realestate.yahoo.co.jp^$removeparam=sc_out
 ||realitykings.com/_ats/eta/events
@@ -48859,7 +48854,6 @@ zzzyk.com###Tinfo
 ||v.daum.net^$removeparam=x_imp
 ||v.icbc.com.cn/userfiles/ADResources/$domain=icbc.com.cn
 ||v.laogu.wang/template/*/images/g_js^
-||v.newsportal*.ru^
 ||v.tzbox*.xyz^
 ||v.weixiaov.club/qx6/php/check.php
 ||v.xchanger.io/widget/exchange/default/exchange.php$domain=parkiet.com
