@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240928000913
-! Last modified: 2024/09/28 00:09:13
-! Blocked Filters: 50874
+! Version: 20240928083743
+! Last modified: 2024/09/28 08:37:43
+! Blocked Filters: 50881
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -10399,6 +10399,10 @@ anhuinews.com###ewm
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anige-sokuhouvip.com##div[id^="top_center"]
 anige-sokuhouvip.com##div[style^="border : 2px solid gray;height:245px; width:825px;"]
+anilibria.top##.v-carousel
+anilibria.top##.v-carousel + div.justify-center
+anilibria.top##.v-col-md-8:has(> div.v-card--flat a[href="/support"])
+anilibria.top##.v-col-md-8:has(> div.v-card--flat a[href="/support"]) + div.v-col-md-4
 animatetimes.com##.c-banner-pc
 anime-planet.com##.cta.pure-1
 anime-sanka.com##+js(nano-setInterval-booster, decodeURIComponent(link), , 0.02)
@@ -26744,7 +26748,9 @@ savefrom.net###modal-container > div.popup-content
 savefrom.net###modal-container > div.shade
 savefrom.net###modal-container.center-popup-cont
 savefrom.net##.b-widget-left
+savefrom.net##.sf-apk-promo
 savefrom.net##.smart-app-br
+savefrom.net##.smart-app-br-body
 savevideo.me##+js(abort-current-script, $, Please disable "ad blocker")
 savevideo.me##+js(no-setTimeout-if, function() { if ((($('.y_banner #b0').length < 1, 2000)
 savevideo.me##div[id^="ads_notice_"]
@@ -35121,6 +35127,7 @@ zzzyk.com###Tinfo
 ||angelweb.cn/Inc/AngelG.js
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
+||anilibria.top/api/v1/ads/
 ||animember.net/js/access.js
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 ||anjuke.com^*/ajax/business_area_search/
