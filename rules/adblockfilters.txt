@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20240929161029
-! Last modified: 2024/09/29 16:10:29
-! Blocked Filters: 50294
+! Version: 20240930000818
+! Last modified: 2024/09/30 00:08:18
+! Blocked Filters: 50301
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -6117,6 +6117,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /planetstat.php
 /plausible.js
 /plausible.js$domain=~plausible.io
+/plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
 /play/v*/dmbar_
 /play/v*/toolbar_
@@ -34638,6 +34639,7 @@ zzzyk.com###Tinfo
 ||amazonaws.com/prod/entities
 ||amazonaws.com/prod/nobot
 ||amazonaws.com/prod/report-only
+||amazonaws.com/prod/v1/track$domain=ixxi.com
 ||amazonaws.com/production_beacon
 ||amazonaws.com/reachpeople^
 ||amazonaws.com/s?z=
@@ -39368,6 +39370,7 @@ zzzyk.com###Tinfo
 ||fpbsnc.com/Runtime/js/psData.js
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
+||fpoe.at/tracker/
 ||fpt.shop/fa_tracking.js
 ||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||fragment.firefoxchina.cn/html/
@@ -39519,6 +39522,7 @@ zzzyk.com###Tinfo
 ||game.eroge.xyz/*.gif
 ||game.hiroba.dpoint.docomo.ne.jp^$removeparam=mks_referer_event
 ||game333.net/aainset/
+||game8.jp/logs^
 ||gamedeveloper.com^$removeparam=iiris-ref
 ||gamedistribution.com/collect?
 ||gamedistribution.com/event?
@@ -43400,6 +43404,7 @@ zzzyk.com###Tinfo
 ||mtvnservices.com/measurements/
 ||mtvnservices.com/metrics/
 ||muenchener-stadtplan.com/t.gif
+||multiup.us/cdn-cgi/trace
 ||multporn.net/modules/statistics/statistics.php
 ||mundodesconocido.com/tracker/
 ||muragon.com/js/normal/gtag-event.js
@@ -47007,6 +47012,7 @@ zzzyk.com###Tinfo
 ||streamta.site/stat/
 ||streamtape.cc/stat/
 ||streamtape.com/stat/
+||streamtape.net/stat/
 ||streamtape.to/stat/
 ||streamtape.xyz/stat/
 ||streamtapeadblock.art/stat/
@@ -47279,6 +47285,7 @@ zzzyk.com###Tinfo
 ||tanks.lv/top/stats.php
 ||tanseb.com/vads/
 ||tantifilm.top^*/ping
+||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
 ||taobao.com/api/data/v2/d9543feac7c9433a98bc85be3ba856b1.js
 ||taobao.com/js/smartbanner/
 ||taobao.com/tracker.
