@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240929084157
-! Last modified: 2024/09/29 08:41:57
-! Blocked domains: 89634
+! Version: 20240929161030
+! Last modified: 2024/09/29 16:10:30
+! Blocked domains: 89639
 ! unBlocked domains: 117
 !
 ||s8.001fzc.com^
@@ -9126,6 +9126,7 @@
 ||aycrxa.com^
 ||aydandelion.com^
 ||kbpljd.aydin.edu.tr^
+||ayebsc.xyz^
 ||marketing.ayesa.com^
 ||a.aylix.xyz^
 ||aymobi.online^
@@ -26156,6 +26157,7 @@
 ||enmitystudent.com^
 ||enniced.com^
 ||enodiarahnthedon.com^
+||enokouv.icu^
 ||enoneahbu.com^
 ||enoneahbut.org^
 ||enormous-society.pro^
@@ -35623,6 +35625,7 @@
 ||teijgy.herveleger.com^
 ||track.hervitalityhub.com^
 ||herynore.com^
+||heryt111.fun^
 ||data-e0448d0e4a.herz-fuer-tiere.de^
 ||data-67f17c94f0.herzberatung.de^
 ||data-908fd409d9.herzberatung.de^
@@ -46885,6 +46888,7 @@
 ||book.londonsoundacademy.com^
 ||partneri.londonstore.cz^
 ||info.lonebeaconmedia.com^
+||lonelybulb.com^
 ||lonelyflavor.com^
 ||lonelytransienttrail.com^
 ||lonerdrawn.com^
@@ -48089,6 +48093,7 @@
 ||majesticmountainrange.com^
 ||majesticsecondary.com^
 ||majesticwaterscape.com^
+||majesticwilderness.com^
 ||majestyafterwardprudent.com^
 ||majestybrightennext.com^
 ||photo.majiang188.cn^
