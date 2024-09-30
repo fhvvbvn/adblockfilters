@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240930083939
-! Last modified: 2024/09/30 08:39:39
-! Blocked domains: 89640
+! Version: 20240930161241
+! Last modified: 2024/09/30 16:12:41
+! Blocked domains: 89650
 ! unBlocked domains: 117
 !
 ||s8.001fzc.com^
@@ -28565,6 +28565,7 @@
 ||fgeivosgjk.com^
 ||fghghh.cn^
 ||fghhbp.xyz^
+||fgnfpnae.icu^
 ||fgoqnva.com^
 ||fgrvbkquwurttn.com^
 ||fgttbz.xyz^
@@ -32198,6 +32199,7 @@
 ||ghosttty.cn^
 ||dcc.ghrtgf.xyz^
 ||dog.ghvenue.com^
+||ghwqbii.icu^
 ||ghyhwiscizax.com^
 ||ghyxmovcyj.com^
 ||giantaffiliates.com^
@@ -41382,6 +41384,7 @@
 ||gtm.jerseyfinance.je^
 ||jerusalemcurve.com^
 ||jerusalemstatedstill.com^
+||jeryt111.fun^
 ||jesgoo.com^
 ||ferret.jesper.hk^
 ||jessamyimprovementdepression.com^
@@ -43202,6 +43205,7 @@
 ||blafok.kerton.site^
 ||kertzmann.com^
 ||kerumal.com^
+||keryt111.fun^
 ||video.kesefinternational.com^
 ||kesevitamus.com^
 ||download.kesh5.co.il^
@@ -52331,6 +52335,7 @@
 ||mxcdn.net^
 ||mxcdn1.now.sh^
 ||mxcdn2.now.sh^
+||mxcmwk.xyz^
 ||earthworm.mxdvl.com^
 ||m.mxguan.com^
 ||mxitie.com^
@@ -56971,6 +56976,7 @@
 ||share.oppvenuz.com^
 ||sharelink.oppvenuz.com^
 ||opqhihiw.com^
+||opqnkw.xyz^
 ||opqsr.com^
 ||sa.oprah.com^
 ||ssa.oprah.com^
@@ -66265,6 +66271,7 @@
 ||rjw4obbw.com^
 ||rjwljrf.xyz^
 ||rjy0521.top^
+||rk6h3.icu^
 ||rkalbwupipuow.xyz^
 ||rkapghq.com^
 ||rkatamonju.info^
@@ -66741,6 +66748,7 @@
 ||marketing.roxtec.com^
 ||uk-marketing.roxtec.com^
 ||us-marketing.roxtec.com^
+||roxwusak.icu^
 ||data-47ee1b0882.roxy-kino.de^
 ||metrics.roxy.com^
 ||smetrics.roxy.com^
@@ -86977,6 +86985,7 @@
 ||m.xlhm88.cn^
 ||xliffnsc.xyz^
 ||b.xlineker.com^
+||xliuits.icu^
 ||xlivesex.com^
 ||xljlzylffe.com^
 ||xlkdbbvy.xyz^
@@ -87693,6 +87702,7 @@
 ||web.info.yeppon.it^
 ||whgbog.yereve.com^
 ||yernbiconic.com^
+||yeryt111.fun^
 ||yes-messenger.com^
 ||yes115.com^
 ||xls.yeschool.info^
