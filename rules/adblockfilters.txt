@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241001161146
-! Last modified: 2024/10/01 16:11:46
-! Blocked Filters: 50001
+! Version: 20241002000928
+! Last modified: 2024/10/02 00:09:28
+! Blocked Filters: 50019
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1864,6 +1864,7 @@ $removeparam=zanpid
 $removeparam=zmg_code
 $removeparam=zsource,domain=slashgear.com
 $script,redirect-rule=noop.js,domain=aternos.org
+$websocket,domain=wap.yushuwu.cloud
 $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 $~image,removeparam=itok
 $~ping,removeparam=lcid,domain=~rekono.si
@@ -10876,6 +10877,7 @@ b8b8.tv##[id^="top_960x90"],.adsbygoogle
 b8yy.com##.chat,[height="70"]
 babel.ua##.c-subs-box
 babel.ua,thebabel.net,thebabel.com.ua##.c-post-socials-box
+babelli.de,kidsna.com,live.leisu.com,rausgegangen.de,flowwow.com,theolognion.com,recipe-blog.jp,retty.me,haber.doviz.com,nuum.ru,vinmec.com,coinmarketcap.com,pass.auone.jp,pikabu.ru,makuake.com,low-ya.com,ticketjam.jp,douglas.de,substack.com,mapion.co.jp,amebaownd.com,prospektangebote.de,montecarlo.ru,autoscout24.de,stackoverflow.com,77onlineshop.de,nicovideo.jp,inpost.pl,aipa551.com,vivre.eu,thequestion.ru,mysterycircus.jp,globo.com,delishkitchen.tv##.app-banner
 babelnovel.com##+js(addEventListener-defuser, /contextmenu|copy|selectionchange|mousedown/, native code)
 babes.com##div[data-cy="catfish"]
 babiato.co,rangerboard.com,multics.eu,smokingmeatforums.com##+js(abort-current-script, $, !document.getElementById(btoa)
@@ -16821,6 +16823,7 @@ ghxi.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
 gibiru.com##.icon-mobile-app
 gibiru.com##.install_ext_cta
 gibiru.com##.lead > div[class^="visible"]
+gidadedektifi.com##div[class^="_slug__mobileAppAds__"]
 gidahatti.com,kanalben.com,kibrispostasi.com,patronlardunyasi.com##a[href^="https://news.google.com/publications/"]
 gidonline.fun#$#body { padding-top: 0!important; }
 gigafree.net##.twitter-feed
@@ -17347,6 +17350,7 @@ hamivideo.hinet.net###overlays-ad
 hamivideo.hinet.net##+js(set-constant, myPlayer.adDisplay, undefined)
 hamivideo.hinet.net#%#//scriptlet("set-constant", "myPlayer.adDisplay", "undefined")
 hamsterss.website##+js(nano-setInterval-booster, show_download_links, , 0.02)
+handelsblatt.com###footer_banner_piano
 handelsblatt.com##.vhb-c-social-media
 handelsblatt.com##app-icon-link > a[href*="share"]
 handelsjournal.de,b17.ru,sporx.com##.stick_block_layer
@@ -20199,7 +20203,6 @@ kickstarter.com##.react_share_icons
 kickz.com##.b-product_details-share
 kidsna.com###kidsna-job-banner-line
 kidsna.com##.content__sticky-block
-kidsna.com,live.leisu.com,rausgegangen.de,flowwow.com,theolognion.com,recipe-blog.jp,retty.me,haber.doviz.com,nuum.ru,vinmec.com,coinmarketcap.com,pass.auone.jp,pikabu.ru,makuake.com,low-ya.com,ticketjam.jp,douglas.de,substack.com,mapion.co.jp,amebaownd.com,prospektangebote.de,montecarlo.ru,autoscout24.de,stackoverflow.com,77onlineshop.de,nicovideo.jp,inpost.pl,aipa551.com,vivre.eu,thequestion.ru,mysterycircus.jp,globo.com,delishkitchen.tv##.app-banner
 kiemlua.com,world-trips.net##+js(nano-setInterval-booster, /count-|-wait/, *, 0.02)
 kikinote.ne###Popup
 kikinote.net##+js(set-cookie, isShowSociety, 1)
@@ -20810,6 +20813,7 @@ liepin.com##DIV[id^="nodetpl_g_"]
 liepin.com##div.ui-masklayer,div.aui-dialog-content
 lifan.moe##.ad-container
 lifehacker.com##div[data-ga-module="social-share"]
+lifeinsaudiarabia.net##.td-post-content > div.code-block:has(> p > span > a[href^="https://chat.whatsapp.com/"][target="_blank"])
 lifenewsjr.com##.fabox
 lifestyleasia.com##.btt-top-add-section
 lifewire.com##div[id^="article__broad-video"]
@@ -21858,6 +21862,7 @@ mangaflame.org,nhk.or.jp,jucagototranslations.fukou-da.net,quotev.com,nontongrat
 mangahub.io##.alert.alert-warning
 mangaplaza.com,9111.ru,hmv.co.jp,dmarket.docomo.ne.jp,tabiyomi.yomiuri-ryokou.co.jp,znak.com,askmen.com##.shareBlock
 mangaraw.org#?#.postbody > div.bixbox:has(> span.social)
+mangaworld.ac##.col-sm-12 > div.row:has(> div.col-md-12 > div.socials-banner a[href="https://t.me/MangaWorldITA"])
 manhua.fzdm.com###weizhi
 manhua.weibo.com###p-nav-fix + .p-area.w980
 manhuadb.com##.d-flex.px-2
@@ -24049,6 +24054,8 @@ onsen.nifty.com##.detailShareBox
 onsitego.com##.blog_cta
 ont.by##.l-head__sharing
 ontools.net##+js(nano-setInterval-booster, gotolink, *, 0.02)
+ooiotakara.com##.entry_list2
+ooiotakara.com##.plugin3_outline
 ookla.com##.article-sidebar-panel-social
 ooopic.com##.fix-newUser
 ooopn.com###ab-left
@@ -27898,6 +27905,7 @@ tangdoucdn.com#@#.video-ad
 tango.me###root > div > div[role="button"]
 tangrenjie.tv##div[class$="_acmsd"] > a[target="_blank"] > img
 tanjiaoyi.com,tanpaifang.com##.headad,[id^="ad"],.portal_block_summary
+tanstack.com##.flex > div.md\:block.sticky.top-0
 taobao.com###J_ActivityOut
 taobao.com###J_shopkeeper
 taobao.com###J_shopkeeper_bottom
@@ -28318,6 +28326,9 @@ themehits.com##+js(adjust-setTimeout, showText, *, 0.02)
 themeisle.com###notice-popup
 themeisle.com###text-7
 themeisle.com##.ti-tweet_wrapper
+themeselection.com###thegem-template-13
+themeselection.com###thegem-template-6
+themeselection.com,rambus.com,internet-access-guide.com,myadultanimes.com###custom_html-6
 themodernproper.com,oozeki-japan.com###newsletter-dialog
 themoscowtimes.com##.byline__social:not(#style_important)
 themoscowtimes.com##.social__icon
@@ -29145,6 +29156,7 @@ turk-debrid.net##+js(abort-current-script, window.document.getElementById, s65c)
 turkanime.co##.swal2-backdrop-show
 turkish123.com##.social-home
 turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+turkiye.gov.tr,teb.com.tr#$##smartbanner.ios { display: none!important; }
 turkiye.gov.tr,teb.com.tr#$#html { margin-top: 0!important; }
 turkiyegazetesi.com.tr##.js-sharing-buttons
 turkiyegazetesi.com.tr,tgrthaber.com.tr##.image-wrapper__social-sharing
@@ -29217,6 +29229,7 @@ tvnoviny.sk##.c-card:has(> div.c-newsletter-box)
 tvnturbo.pl,ttv.pl,tvn24.pl#%#//scriptlet('set-constant', 'gemiusStream', 'noopFunc')
 tvnz.co.nz##body .ShareButton
 tvoe.live##div[class^="MovieCard_buttonsWrapper"] > div[class^="MovieCard_buttonsBlock"] > div[class^="MovieCard_buttonsGroup"] > button.buttonSelect:has(> div.shareIcon)
+tvoe.live##div[class^="ShareComponent_"]
 tvoemisto.tv##.community_promo
 tvp.pl##.article__social > a[class^="article__social-"]
 tvp.pl,tvp.info##.social-article__social
@@ -30152,6 +30165,7 @@ wap.sogou.com###indexAppOneClose
 wap.sogou.com##.index-carousel
 wap.sogou.com##.index-tab
 wap.sougou.com###sug_wraper
+wap.yushuwu.cloud##+js(noeval-if, WebSocket)
 wap.zol.com.cn###waitrep
 wapbaike.baidu.com##ul[class][id] > li
 wapp.baidu.com##.j_click_stats
@@ -31505,6 +31519,7 @@ xn----7sba7aachdbqfnhtigrl.xn--j1amh#$#div[id^="pum-"][data-popmake*="nastrojka-
 xn----7sba7aachdbqfnhtigrl.xn--j1amh#$#html { overflow: visible!important; }
 xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##div[aria-label="Баннер соцсети"]
 xn--80aaig9ahr.xn--c1avg##+js(set-local-storage-item, isPromoHidden, true)
+xn--8mr619f.gamerstand.net,zenless.gamerstand.net,yuumi-sokuhou.com,tour.ne.jp,seikyuresyasokuho.com,music.oricon.co.jp,abemahouse.com,itselect.itmedia.co.jp,daigakudenki.com,fromcocoro.com,magazine.photojoy.jp,real-sports.jp,fitnesslove.net,bbm-japan.com,ebetsunopporo.com,umaumanews.com,pizzalover.jp,berd.benesse.jp,tokyo.grand.hyatt.co.jp,tohotheater.jp,brainbox.co.kr,verdy.co.jp,mito-hollyhock.net,baito.nights.fun,blog.tinect.jp,finders.me,osaka-ue.ac.jp,diamond.jp,sfc.jp,cocacola.co.jp,kokugakuin.ac.jp,powerwatch.jp,entamenext.com,kajidaikou-hikaku.jp,kids-zoo.com,tabanavi.com,ai-no-idenshi.com,cybersocean.net,maxmovie.com,videor.co.jp,lifehacktivist.com,bamka.info,y-aoyama.jp,goobike.com,hypnosismic-stage.com,pacoma.jp,kojintekibikematomeblog.com,wipe-udc.com,ryohi.guide,colopl.co.jp,utaten.com,pcmanabu.com,mogalabo.com,k2-hobbyworld.com,level69.net,izakayanonbiri.owst.jp,stage-inuyasha.jp,shogakukan.co.jp,zbuffer3dp.com,decopachi.com,mapple.net,service.smt.docomo.ne.jp,news.kakaku.com,app-story.net,vtuber-matomeblog.com,9db.jp,febri.jp,cnbnews.com,m.weekly.khan.co.kr,umamusume.gamerstand.net,tdk.com,myjcom.jp,iphoroid.jp,ri-life.com,chemical-engineering-review.com,toyokeizai.net,teyvatsokuho.com,pcjisaku.tech,change-your-tomorrow.com,nhk-character.com,sin-surobi.com,onsen.nifty.com,ero-shame.club,mhns.co.kr,ganref.jp,pref.aomori.lg.jp,yanmaga.jp,news.hoken-mammoth.jp,safarilounge.jp,money-viva.jp,wowneta.jp,wowgame.jp,masamune-tv.com,lagunatenbosch.co.jp,gamewiki.jp,square-enix.com,getnavi.jp,s.kakaku.com,st.benesse.ne.jp,excite.co.jp,tbs.co.jp,sumaoji.com,ec.line.me,zaikai.jp,evangelion.co.jp,mayukitchen.com,pan-pan.co,tv-asahi.co.jp,venom-movie.jp,zatsugaku-company.com,xneo.jp,ghostbusters.jp,cs.furyu.jp,njpwss.com,simtaro.com,yakuzatokazoku.com,pokopangtown.game.line.me,anime.priconne-redive.jp,sd-gundam-world.net,yakugakulab.info,websites-manual.com,pokemon.co.jp,en-culture.net,it-trend.jp,tver.jp,hibiki-radio.jp,mtg60.com,rich-miler.com,number333.org,monogatari-series.com,bookyakuno.com,print-gakufu.com,daifuku-diary.com,bandainamco-am.co.jp,sao-alicization.net,promo.kadokawa.co.jp,mabidiary.blogspot.com,7seeds.jp,hobby-museum.com,g-pc.info,fukafuka295.jp,hyperts.net,linart.net,rekoma1991.info,xn--gdkl0dubtwb7e3008dk17a.com,cinemarche.net,sound-tv.net,cospa.co.jp,pockecaoyako.com,yugioh-resaler.com,wagtechblog.com,warorince.com,ta-japan.com,2week.net,nuies.com,emptiness.space,birori-blog.com,tkgranblue.com,tkumamusume.com,vnhiromi.com,uka-ukablog.com,legalsearch.jp,wakibungu.com,takamaru1219.net,intensive911.com,hidesunblog.com,afila0.com,didmemo.work,tarosoku.com,wikinis.net,webst8.com,as-web.jp,mm21railway.co.jp,mba.globis.ac.jp,win10labo.info,dongascience.com,angfa-store.jp,news.paravi.jp,focus.kr,otona-life.com,f1-gate.com##.sns
 xn--90aivcdt6dxbc.xn--p1ai##.article-detail__share
 xn--90aivcdt6dxbc.xn--p1ai##.push-social__inner
 xn--90aqok.xn--p1ai##.entry-content > .warning:has(> center > a[href="https://t.me/sboyRF"])
@@ -31768,7 +31783,7 @@ yeniasir.com.tr##.detail-subscribe
 yenicaggazetesi.com.tr,20minutes.fr,picwish.com,halktv.com.tr,whosampled.com,lefigaro.fr,type.jp,yenihaberden.com,victorysportsnews.com###app-banner
 yenicizgihaber.com#@#.share-wrap
 yeniduzen.com###app-banner
-yenigolcuk.com,hedefgazetesi.com.tr,eldedemokrasi.com,afyonhaberturk.com,nehaberankara.com,mansetburdur.com,bolgesellig.com,telgrafgazetesi.com,burokratika.com,balikesirartihaber.com,ajansbalikligol.com,karar67.com,gazetemalatya.com,vansesigazetesi.com,kocaelisabah.com,antalyadanhaberler.com,aydinyeniufuk.com.tr,yerelvanhaber.com,a2teker.com,kibrishakikat.com,izmirtime35.com,sancakplus.com,marasfisilti.com,burdurgazetesi.com,zeytinburnuhaber.org,denizli20haber.com,akdenizdeyeniyuzyil.net,ulakci.com,egegundem.com.tr,isdunyasindakadin.com,haberimizvar.net##+js(abort-on-property-read, isAdBlockActive)
+yenigolcuk.com,hedefgazetesi.com.tr,eldedemokrasi.com,afyonhaberturk.com,nehaberankara.com,mansetburdur.com,bolgesellig.com,telgrafgazetesi.com,burokratika.com,balikesirartihaber.com,ajansbalikligol.com,karar67.com,gazetemalatya.com,vansesigazetesi.com,kocaelisabah.com,antalyadanhaberler.com,aydinyeniufuk.com.tr,yerelvanhaber.com,a2teker.com,kibrishakikat.com,izmirtime35.com,sancakplus.com,marasfisilti.com,burdurgazetesi.com,zeytinburnuhaber.org,denizli20haber.com,akdenizdeyeniyuzyil.net,ulakci.com,egegundem.com.tr,haberimizvar.net##+js(abort-on-property-read, isAdBlockActive)
 yenikodlar.com,filologikosxoleio.gr,inventiva.co.in,eescobarvip.com,tarotman.ru,siberbulten.com,getintocourse.com,thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,hukukiblog.com,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,borsarti.com,besttechinfo.com,gamesforpublic.de,filmlinks4u.is,z-news.link###check-also-box
 yenisafak.com##.share > a[title]
 yenisafak.com##button[name="share-button"]
@@ -32131,7 +32146,6 @@ zeenews.india.com##.ctadownloadbox
 zeflix.online##noindex > div[id]:has(> div > a[href="https://zetflix.app/"])
 zegtrends.com##+js(nano-setInterval-booster, time, 2500, 0.02)
 zendesk.*##+js(set-cookie, exitModal, true)
-zenless.gamerstand.net,yuumi-sokuhou.com,tour.ne.jp,seikyuresyasokuho.com,music.oricon.co.jp,abemahouse.com,itselect.itmedia.co.jp,daigakudenki.com,fromcocoro.com,magazine.photojoy.jp,real-sports.jp,fitnesslove.net,bbm-japan.com,ebetsunopporo.com,umaumanews.com,pizzalover.jp,berd.benesse.jp,tokyo.grand.hyatt.co.jp,tohotheater.jp,brainbox.co.kr,verdy.co.jp,mito-hollyhock.net,baito.nights.fun,blog.tinect.jp,finders.me,osaka-ue.ac.jp,diamond.jp,sfc.jp,cocacola.co.jp,kokugakuin.ac.jp,powerwatch.jp,entamenext.com,kajidaikou-hikaku.jp,kids-zoo.com,tabanavi.com,ai-no-idenshi.com,cybersocean.net,maxmovie.com,videor.co.jp,lifehacktivist.com,bamka.info,y-aoyama.jp,goobike.com,hypnosismic-stage.com,pacoma.jp,kojintekibikematomeblog.com,wipe-udc.com,ryohi.guide,colopl.co.jp,utaten.com,pcmanabu.com,mogalabo.com,k2-hobbyworld.com,level69.net,izakayanonbiri.owst.jp,stage-inuyasha.jp,shogakukan.co.jp,zbuffer3dp.com,decopachi.com,mapple.net,service.smt.docomo.ne.jp,news.kakaku.com,app-story.net,vtuber-matomeblog.com,9db.jp,febri.jp,cnbnews.com,m.weekly.khan.co.kr,umamusume.gamerstand.net,tdk.com,myjcom.jp,iphoroid.jp,ri-life.com,chemical-engineering-review.com,toyokeizai.net,teyvatsokuho.com,pcjisaku.tech,change-your-tomorrow.com,nhk-character.com,sin-surobi.com,onsen.nifty.com,ero-shame.club,mhns.co.kr,ganref.jp,pref.aomori.lg.jp,yanmaga.jp,news.hoken-mammoth.jp,safarilounge.jp,money-viva.jp,wowneta.jp,wowgame.jp,masamune-tv.com,lagunatenbosch.co.jp,gamewiki.jp,square-enix.com,getnavi.jp,s.kakaku.com,st.benesse.ne.jp,excite.co.jp,tbs.co.jp,sumaoji.com,ec.line.me,zaikai.jp,evangelion.co.jp,mayukitchen.com,pan-pan.co,tv-asahi.co.jp,venom-movie.jp,zatsugaku-company.com,xneo.jp,ghostbusters.jp,cs.furyu.jp,njpwss.com,simtaro.com,yakuzatokazoku.com,pokopangtown.game.line.me,anime.priconne-redive.jp,sd-gundam-world.net,yakugakulab.info,websites-manual.com,pokemon.co.jp,en-culture.net,it-trend.jp,tver.jp,hibiki-radio.jp,mtg60.com,rich-miler.com,number333.org,monogatari-series.com,bookyakuno.com,print-gakufu.com,daifuku-diary.com,bandainamco-am.co.jp,sao-alicization.net,promo.kadokawa.co.jp,mabidiary.blogspot.com,7seeds.jp,hobby-museum.com,g-pc.info,fukafuka295.jp,hyperts.net,linart.net,rekoma1991.info,xn--gdkl0dubtwb7e3008dk17a.com,cinemarche.net,sound-tv.net,cospa.co.jp,pockecaoyako.com,yugioh-resaler.com,wagtechblog.com,warorince.com,ta-japan.com,2week.net,nuies.com,emptiness.space,birori-blog.com,tkgranblue.com,tkumamusume.com,vnhiromi.com,uka-ukablog.com,legalsearch.jp,wakibungu.com,takamaru1219.net,intensive911.com,hidesunblog.com,afila0.com,didmemo.work,tarosoku.com,wikinis.net,webst8.com,as-web.jp,mm21railway.co.jp,mba.globis.ac.jp,win10labo.info,dongascience.com,angfa-store.jp,news.paravi.jp,focus.kr,otona-life.com,f1-gate.com##.sns
 zenmate.com#@#.social-networks
 zennioptical.com###comp-message-bar
 zerkalo.io###vk_group_widget
@@ -32754,6 +32768,7 @@ zzzyk.com###Tinfo
 ||1684sm.com/js/1684/
 ||1688.com/b2bxad?
 ||16888.com/ajax/loadcardata.php
+||1688by.com/static/default/js/loadLM.js
 ||168gamer.*.php?mod=js
 ||168gamer.*/list-
 ||168gamer.*/olist-
@@ -34751,6 +34766,7 @@ zzzyk.com###Tinfo
 ||app.carnow.com/dealers/visitor_info?
 ||app.compendium.com/js/stats_bundle.js
 ||app.convertkit.com/forms/*/visit
+||app.getreview.io/*/widget$script,domain=menunedeli.ru
 ||app.getsentry.com^$domain=d3ward.github.io
 ||app.gongzhuju001.com/pic/gzj.jpg$domain=tyzrcs.com
 ||app.huawei.com/hwa-c*&action=
@@ -38841,6 +38857,7 @@ zzzyk.com###Tinfo
 ||fc2.com/ana/analyzer.php
 ||fc2.com/ana/processor.php?
 ||fc2.com/counter_img.php?
+||fc2.com/o/o/i/ooiotakara/big3_$script,domain=ooiotakara.com
 ||fc2.com/video/css/u/pm/img/PC_bnr_
 ||fc2.com/video/img/b/
 ||fc2.com/video/img/banner/
@@ -43149,6 +43166,7 @@ zzzyk.com###Tinfo
 ||mxcdn.net^$domain=spiegel.de
 ||mxde.com/js/05sun.js$script
 ||mxmfb.com/rsps/img/
+||mxmkitchen.com/ooi_rss/
 ||mxzmz.com/js/
 ||my.kapook.com/asset/js/track.js
 ||my.mail.ru/dstat?random=
@@ -44902,6 +44920,7 @@ zzzyk.com###Tinfo
 ||quora.com^$removeparam=share
 ||quotiq.ru/api/client_events
 ||qvc.com^$removeparam=qq
+||qvc.jp/*/adobeanalytics.min.*.js
 ||qwant.com/action/
 ||qwant.com/impression/
 ||qwant.com/maps/events
@@ -46911,7 +46930,6 @@ zzzyk.com###Tinfo
 ||t.ad.nl^$image
 ||t.adcell.com/*?$removeparam=subId
 ||t.bd.nl^$image
-||t.blog.livedoor.jp/u.js
 ||t.bndestem.nl^$image
 ||t.cn^$domain=28kys.com|92kvip.com
 ||t.co/i/adsct*tw_sale_amount=
@@ -46957,7 +46975,7 @@ zzzyk.com###Tinfo
 ||tags.globo.com/utag/globo/*/prod/utag.js
 ||tags.news.com.au^$script
 ||tags.stepstone.com/utag/*/prod/utag.js
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||tags.tiqcdn.com/utag/adidas/adidasglobal/prod/utag.js

@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241001161147
-! Last modified: 2024/10/01 16:11:47
-! Blocked domains: 89307
+! Version: 20241002000929
+! Last modified: 2024/10/02 00:09:29
+! Blocked domains: 89312
 ! unBlocked domains: 117
 !
 ||s8.001fzc.com^
@@ -1791,6 +1791,7 @@
 ||626uc.com^
 ||m.627859.xyz^
 ||m.62mao.com^
+||62zd0.icu^
 ||fd2.m.630book.la^
 ||rt2.m.630book.la^
 ||63kc.com^
@@ -18843,7 +18844,7 @@
 ||couwainu.xyz^
 ||metrics.covance.com^
 ||smetrics.covance.com^
-||browser.covatic.io^
+||covatic.io^
 ||a8cv.www.covearth.co.jp^
 ||appointments.covenanthealth.org^
 ||discover.covenanthealthcare.com^
@@ -43973,6 +43974,7 @@
 ||info.kratosdefense.com^
 ||partnerapp.kravein.com.au^
 ||krazil.com^
+||krbulhb.com^
 ||krcykddubkrsjm.xyz^
 ||partner.kreativnisvet.cz^
 ||smetrics.krebs.de^
@@ -46245,6 +46247,7 @@
 ||a8clk.ap.livede55.com^
 ||clkcv.livede55.com^
 ||counter2.blog.livedoor.com^
+||t.blog.livedoor.jp^
 ||blogroll.livedoor.net^
 ||livedspoonsbun.com^
 ||liveintent.com^
@@ -80650,6 +80653,7 @@
 ||apps.uquote.io^
 ||uqwbcm.xyz^
 ||a8cventry.uqwimax.jp^
+||wl.uqwjdhgv.top^
 ||uqydcs.xyz^
 ||uqykeq.xyz^
 ||a8clk.ur-s.me^
@@ -88521,6 +88525,7 @@
 ||a8cv.zerorenovation.com^
 ||dl.zerotheme.ir^
 ||img.zeruinong.com^
+||zeryt111.fun^
 ||zesep.com^
 ||zestpocosin.com^
 ||zestycrime.com^
