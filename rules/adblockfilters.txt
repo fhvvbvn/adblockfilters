@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241001000941
-! Last modified: 2024/10/01 00:09:41
-! Blocked Filters: 49470
+! Version: 20241001084214
+! Last modified: 2024/10/01 08:42:14
+! Blocked Filters: 49474
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9278,6 +9278,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 8264.com##.ewmbox
 8264.com##.zhidemaibox
 83133.com##.tb-tanx
+83novel.com##.page-content > div[style]:has(> script[src="https://a.magsrv.com/ad-provider.js"])
 85lou.com###topwarning_7ree
 85novel.com,digitalocean.com,ikjzd.com#@#.ad-content
 85tube.com##+js(addEventListener-defuser, DOMContentLoaded, document.createElement)
@@ -16155,6 +16156,7 @@ freepik.com##.button--share
 freepik.com##.popover--share
 freepik.com##.spr--internal
 freepressjournal.in##.native-share
+freeprojecttv.cyou##.content > div.sbox:has(> div.dt_social_single)
 freeroms.com##+js(adjust-setTimeout, download())
 freestreams-live.my###custom_html-9
 freetp.org##+js(adjust-setTimeout, timer, 1000, 0.02)
@@ -21546,6 +21548,7 @@ mamotoja.pl##.c-facebook-share
 manage.turing.pe%2Fanalytics%2Fopen%2F$image
 manage.turing.pe/analytics/open/$image
 managershare.com##.gag-index-bottom
+manatoki462.net##+js(abort-current-script, oncontextmenu)
 manchestereveningnews.co.uk##.top-sharebar
 mancity.com##.article-share-popup__links-block
 mancity.com##.article-tags-share__share-block
@@ -22848,7 +22851,6 @@ neilpatel.com##+js(remove-class, mfp-popup-exit-quiz-v2, body)
 neilpatel.com##.widget-analyzer
 nejm.org##.g-cta-subscribe
 nejm.org##.m-mini-promo-blank
-nejm.org##ul > li:has(> a[aria-label="Share"])
 nejm.org#$#html { overflow: visible !important; }
 nekopoi.care##.mobileadsbottom
 nekopoi.care##.mobileadstop
@@ -23691,6 +23693,7 @@ onliner.by#?#.news-text > p[style]:has(> strong > a[href="https://t.me/newsonlin
 onliner.by#?#.news-text > p[style]:has(> strong:contains(/Наш канал в|Падпісвайцеся/))
 onlineradiobox.com##.playmarket
 onlinevideoconverter.pro##.pb-50-g
+onlytech.com,nejm.org##ul > li:has(> a[aria-label="Share"])
 onna.kr,tistory.com##+js(abort-current-script, document.addEventListener, copyWithSource)
 onsitego.com##.blog_cta
 ont.by##.l-head__sharing
@@ -27077,6 +27080,7 @@ startpage.com##.serp-toast-container > div[class^="css-"] > .serp-toast:has(> a[
 startpage.com##.widget-install-legacy
 startpage.com#@#.ad.widget
 startpage.com#@#.widget.ad
+startribune.com###piano-paywall
 startribune.com#$#.modal-backdrop { display: none !important; }
 startribune.com#$#body[class] { overflow: auto !important; position: static !important; }
 startup.outlookindia.com,gendai.media##.ad-container

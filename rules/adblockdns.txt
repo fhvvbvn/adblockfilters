@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241001000942
-! Last modified: 2024/10/01 00:09:42
-! Blocked domains: 89296
+! Version: 20241001084215
+! Last modified: 2024/10/01 08:42:15
+! Blocked domains: 89302
 ! unBlocked domains: 117
 !
 ||s8.001fzc.com^
@@ -1438,6 +1438,7 @@
 ||4imk5.online^
 ||metric.4imprint.com^
 ||smetric.4imprint.com^
+||4ir17.icu^
 ||4jnzhl0d0.com^
 ||m.4joon8.cn^
 ||mo.4k9b.cn^
@@ -16516,6 +16517,7 @@
 ||ckrf1.com^
 ||affiliate.ckslniecko.sk^
 ||ckynh.com^
+||ckyriuf.icu^
 ||ckywou.com^
 ||cl0udh0st1ng.com^
 ||cl0udhaven.com^
@@ -19725,6 +19727,7 @@
 ||act.cwsglobal.org^
 ||go.cwtv.com^
 ||cwuaxtqahvk.com^
+||cwwgqu.xyz^
 ||e.cx016d.cn^
 ||cxapio.xyz^
 ||cxense.com^
@@ -37821,6 +37824,7 @@
 ||ms.ienkdaccessory.cn^
 ||ienkdago.cn^
 ||eel.ieo.do^
+||ieryt111.fun^
 ||site.comunicaciones.iesa.es^
 ||igxqyi.iese.edu^
 ||iesnare.com^
@@ -57030,6 +57034,7 @@
 ||oscism.com^
 ||osfrjut.com^
 ||solutions.oshaeducationcenter.com^
+||oshaq.top^
 ||ybgsyd.osharewalker.co.jp^
 ||oshp.io^
 ||osiaffiliate.com^
@@ -58324,7 +58329,6 @@
 ||app.payon.mn^
 ||epl.paypal-communication.com^
 ||sstats.paypal-metrics.com^
-||c.paypal.com^
 ||data.news.paypal.com^
 ||data.service.paypal.com^
 ||i.paypal.com^
@@ -66571,6 +66575,7 @@
 ||rsvvfx.xyz^
 ||m.rsvy.io^
 ||rswhowishedto.info^
+||rsyepnq.icu^
 ||go.rtafleet.com^
 ||rtb-media.me^
 ||rtb.com.ru^
@@ -86339,6 +86344,7 @@
 ||grow.business.xerox.com^
 ||marketing.external.xerox.com^
 ||transportation.external.xerox.com^
+||xeryt111.fun^
 ||xevzdl.xyz^
 ||aplobv.xexymix.com^
 ||xfahjal.com^
