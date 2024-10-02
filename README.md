@@ -26,7 +26,6 @@
 |:-|:-|:-|:-|:-|
 | Uniartisan AdBlock lite filter | filter | [原始链接](https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Uniartisan_AdBlock_lite_filter.txt) | 2024/10/02 |
 | ADgk filter | filter | [原始链接](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ADgk_filter.txt) | 2024/09/22 |
-| AdGuard Chinese filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/224.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | 2024/10/02 |
 | AdGuard URL Tracking filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/17.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_URL_Tracking_filter.txt) | 2024/10/01 |
 | LegitimateURLShortener | filter | [原始链接](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/LegitimateURLShortener.txt) | 2024/09/30 |
 | AdGuard Tracking Protection lite filter | filter | [原始链接](https://filters.adtidy.org/ios/filters/3_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Tracking_Protection_lite_filter.txt) | 2024/10/02 |
@@ -43,7 +42,6 @@
 | AdGuard Popups filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/19_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Popups_filter.txt) | 2024/10/02 |
 | AdGuard Other Annoyances filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/21_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Other_Annoyances_filter.txt) | 2024/10/02 |
 | AdGuard Mobile App Banners  filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/20_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Mobile_App_Banners__filter.txt) | 2024/10/02 |
-| anti-ad | dns | [原始链接](https://anti-ad.net/easylist.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/anti-ad.txt) | 2024/10/02 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
