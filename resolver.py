@@ -135,34 +135,7 @@ class Resolver(object):
                 if match('^.*app=.*', line):
                     break
 
-                if match('^.*jp#.*', line):
-                    break
-
-                if match('^.*de#.*', line):
-                    break
-
-                if match('^.*fr#.*', line):
-                    break
-
-                if match('^.*tw#.*', line):
-                    break
-
-                if match('^.*hk#.*', line):
-                    break
-
-                if match('^.*kr#.*', line):
-                    break
-
-                if match('^.*cc#.*', line):
-                    break
-
-                if match('^.*ru#.*', line):
-                    break
-
-                if match('^.*la#.*', line):
-                    break
-
-                if match('^.*se#.*', line):
+                if match('^.*(jp#|de#|fr#|tw#|hk#|kr#|cc#|ru#|la#|se#|kz#|pl#|ua#|es#).*', line):
                     break
                     
                 if match('^.*@@.*', line):
