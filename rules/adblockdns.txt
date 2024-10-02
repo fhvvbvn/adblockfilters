@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241002083751
-! Last modified: 2024/10/02 08:37:51
-! Blocked domains: 89392
+! Version: 20241002161112
+! Last modified: 2024/10/02 16:11:12
+! Blocked domains: 89399
 ! unBlocked domains: 117
 !
 ||s8.001fzc.com^
@@ -9108,6 +9108,7 @@
 ||ayads.co^
 ||ayaghlq.com^
 ||zhcmli.ayakkabidunyasi.com.tr^
+||ayalcid.icu^
 ||menecx.ayanokoji-onlineshop.jp^
 ||ayboll.com^
 ||aycrxa.com^
@@ -15434,6 +15435,7 @@
 ||tr.info.certypro.fr^
 ||ceruchina.com^
 ||private.cervicalcancer-risk.com^
+||ceryt111.fun^
 ||ces2007.org^
 ||ceschemicalcovenings.info^
 ||cesebsir.xyz^
@@ -43614,6 +43616,7 @@
 ||join-staging.kloaked.app^
 ||app.klokahem.com^
 ||klonedaset.org^
+||kloojzn.icu^
 ||log.klook.com^
 ||kloperd.com^
 ||collect.klove.com^
@@ -44376,6 +44379,7 @@
 ||kwtgntyu.xyz^
 ||kwtnhdrmbx.com^
 ||kwumme.xyz^
+||kwurserd.top^
 ||kwyamu.xyz^
 ||go.kx.com^
 ||kxadykuwmllrn.com^
@@ -48423,6 +48427,7 @@
 ||marormesole.com^
 ||rum.marquardmedia.hu^
 ||analytics.marquiz.ru^
+||quiz.marquiz.ru^
 ||script.marquiz.ru^
 ||marriedbelief.com^
 ||marriedmailbox.com^
@@ -51694,6 +51699,7 @@
 ||mqrupjsm.xyz^
 ||mqsnce.xyz^
 ||mqwmgs.xyz^
+||mqwtgq.xyz^
 ||mqznjujv.xyz^
 ||mr-rank.de^
 ||mraozo.xyz^
@@ -83272,6 +83278,7 @@
 ||t.vrbo.io^
 ||hr2019.vrcom7.com^
 ||reg.vrdconf.com^
+||vrdfxioe.icu^
 ||goat.vrds.app^
 ||vrdxznr.xyz^
 ||cts.vresp.com^
