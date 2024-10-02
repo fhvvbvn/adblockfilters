@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241002212701
-! Last modified: 2024/10/02 21:27:01
-! Blocked Filters: 41058
+! Version: 20241003000929
+! Last modified: 2024/10/03 00:09:29
+! Blocked Filters: 41069
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -14158,7 +14158,6 @@ gfan.com##div[style="width:960px;height:90px;margin-top:10px;"]
 gfan.com,gfan.net.cn#@##shareBox
 gfoodd.com##.box_group ~ br
 gfoodd.com##.box_group ~ div.singleh4
-gfoodd.com##div[class^="blogroll_"]
 gfoodd.com##div[class^="code-block code-block-"][style="margin: 8px 0; clear: both;"]
 gfsoso.99lb.net##center > #logo-gf ~ * h7[style="color: red;"]
 gfsoso.99lb.net##center > #logo-gf ~ h7[style="color: red;"]
@@ -14870,6 +14869,7 @@ hexieshe.com,hexieshe.xyz,xxshe.info##.mh-sidebar img
 hexieshe.com,hexieshe.xyz,xxshe.info,xxshe.xyz##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
 hexlet.io##.sticky-top
 hexlet.io##.x-promo-bg-gradient
+hexlet.io##main > section[class^="container-"]:has(> div.row > div[class^="col-"] div.card > div.card-body > div[class] > a[href^="/programs/"])
 hexnode.com##.nav-sub-menu-wrap__trail-wrap
 hexun.com###bottom_extension
 hexun.com###hexunCouplet01
@@ -15019,6 +15019,7 @@ hnonline.sk##.piano-pushnotify--hnonline
 hobbyconsolas.com###dailymotion-pip-large-viewport
 hochi.news###ohtani-pickup
 hokuohkurashi.com##div[id^="mobile_app_link_"]
+hola.com##div[class^="HolaNewsletter_"]
 hold168.com##.news_ggimg
 holiholic.com,kisene.com,itcstore.in,farmasave.it##.wrapper-newsletter
 hollywoodreporter.com,thegatewaypundit.com,pennlive.com,mlive.com##+js(set-constant, admrlLoaded, true)
@@ -19650,6 +19651,7 @@ nodejs.cn###biz_center
 nodejs.cn###biz_nav
 nodejs.cn###pagead
 nodejs.cn#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
+nofootynolife.net,gfoodd.com##div[class^="blogroll_"]
 noklapja.hu#$#.blurry { filter: none !important; }
 noklapja.hu#$#.m-fbPopup { display: none !important; }
 noltrt.com##+js(adjust-setTimeout, #download_ad_addon, 10000, 0.02)
@@ -19669,6 +19671,7 @@ nordvpn.com##div[id^="popup_"]
 norisoku.com###random
 normteam.com##[href$=".taobao.com/"]
 northcasino.com##+js(set-session-storage-item, anonSessionNotific, 1)
+northdata.*##.segments > div.ui[style="padding-bottom: 1.5em !important; padding-top: 1.5em !important"]
 northnews.cn##.sponsor02
 northnews.cn##[class^="sponsor"],[class^="ad-"]
 note.youdao.com##.top-btns
@@ -20055,6 +20058,7 @@ otomi-games.com##+js(nano-setInterval-booster, wpsafe-, 2000, 0.02)
 otomi-games.com##+js(nano-setInterval-booster, wpsafe-generate, 1000, 0.02)
 otomobilgunluklerim.com#@##adcontent
 otonarisoku.com##div[class$="blogroll"]
+otonarisoku.com##div[style$="px; overflow:hidden;"]
 otonarisoku.com##div[style="height:280px; overflow:hidden;"]
 ottawacitizen.com##div[class$="newsletter-slot"]
 otvfoco.com.br##.confira
@@ -21524,6 +21528,7 @@ rtlxl.nl##.adblock
 rtvi.com###telintext
 rtvi.com##.tlg-block
 ru-mi.com##div[data-retailrocket-markup-block]
+ru.hexlet.io##.hexlet-blog-banner-wrapper
 ruan8.com##[href^="http://1.055intn.cn"]
 ruanjianxia.com###gaosu_downloads
 ruanyifeng.com###cre
@@ -23093,6 +23098,9 @@ teknopaid.xyz##+js(remove-attr, disabled, #wcGetLink)
 teknopaid.xyz##+js(remove-class, hidden, #wcGetLink)
 teknosa.com##+js(remove-class, header-infobar-active, body)
 tekstilbank.com.tr,icbc.com.tr,212.109.224.91###mobileAppPanel
+tele1.com.tr##.googlenewsbar
+tele1.com.tr##.patweb
+tele1.com.tr##.whatsappkanali
 telefonica.com,scambieuropei.info##.box--newsletter
 telegraaf.nl##data-hydrate[data-name="NewsletterForm"]
 telegraf.news##aside > div.left:has(> a[href^="https://news.google.com/publications/"])
@@ -31126,6 +31134,7 @@ zzzyk.com###Tinfo
 ||device-metrics-us*.amazon.com^
 ||devicebind.ebay.com/signin/sub/log
 ||deyangs.com/img/
+||df-training-consulting.ck.page^$domain=dariusforoux.com
 ||df.infra.shopee.
 ||df.infra.sz.shopee.
 ||dfcfw.com/EMFloatFrame/
@@ -33268,6 +33277,7 @@ zzzyk.com###Tinfo
 ||hubspot.com/cs/loader-v2.js
 ||hubspot.com/tracking/
 ||hubspot.com/usage-logging/
+||hubspotusercontent-na1.net/hubfs/*/banners/tax-haven-banner-*.gif
 ||hudong.com/11/85/26100000005581147339859649123.jpg
 ||hudong.com/flux.js
 ||huffingtonpost.it^$removeparam=cnt
@@ -35431,6 +35441,7 @@ zzzyk.com###Tinfo
 ||mobilecdngz.kugou.com/new/app^
 ||mochiads.com/clk/
 ||modanisa.com/al/j/analytics.js
+||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
 ||moe48.com/static/img/1200x
 ||moedao.com/js/top.js
