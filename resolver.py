@@ -139,7 +139,13 @@ class Resolver(object):
                     break
                     
                 if match('^.*(jp|de|fr|tw|hk|kr|cc|ru|la|se|kz|pl|ua|es|uk|co),.*', line):
-                    break   
+                    break
+                    
+                if match('^.*(jp|de|fr|tw|hk|kr|cc|ru|la|se|kz|pl|ua|es|uk|co)/.*', line):
+                    break
+                    
+                if match('^.*(yandex|yahoo).*', line):
+                    break 
                     
                 if match('^.*@@.*', line):
                     break
