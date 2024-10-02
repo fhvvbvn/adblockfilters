@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241002184044
-! Last modified: 2024/10/02 18:40:44
-! Blocked domains: 53165
+! Version: 20241002212702
+! Last modified: 2024/10/02 21:27:02
+! Blocked domains: 53115
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -4298,7 +4298,6 @@
 ||webtarget.astrogaming.com^
 ||info.astronovainc.com^
 ||tr.contact.astuceco.fr^
-||instagram.astv.ru^
 ||metrics.asumag.com^
 ||smetrics.asumag.com^
 ||marketing.asurarisk.com^
@@ -22001,7 +22000,6 @@
 ||mmg.whatsapp.net.iberostar.com^
 ||mobile-events.eservice.emarsys.net.iberostar.com^
 ||p16-tiktokcdn-com.akamaized.net.iberostar.com^
-||report.appmetrica.yandex.net.iberostar.com^
 ||resolver.msg.global.xiaomi.net.iberostar.com^
 ||scontent-atl3-2.xx.fbcdn.net.iberostar.com^
 ||scontent-cdg4-1.xx.fbcdn.net.iberostar.com^
@@ -51971,32 +51969,6 @@
 ||yadro.ru^
 ||smetrics.yaencontre.com^
 ||limpet.yago.dev^
-||am.yahoo.co.jp^
-||b0.yahoo.co.jp^
-||b90.yahoo.co.jp^
-||b91.yahoo.co.jp^
-||b92.yahoo.co.jp^
-||b97.yahoo.co.jp^
-||b99.yahoo.co.jp^
-||clb.yahoo.co.jp^
-||dsb.yahoo.co.jp^
-||logql.yahoo.co.jp^
-||pvtag.yahoo.co.jp^
-||ybx.yahoo.co.jp^
-||3p-geo.yahoo.com^
-||3p-udc.yahoo.com^
-||analytics.yahoo.com^
-||analytics.query.yahoo.com^
-||bats.video.yahoo.com^
-||cookiex.ngd.yahoo.com^
-||ganon.yahoo.com^
-||geo.yahoo.com^
-||jill.fc.yahoo.com^
-||noa.yahoo.com^
-||nol.yahoo.com^
-||pclick.yahoo.com^
-||pr-bh.ybp.yahoo.com^
-||webc2s.pubgw.yahoo.com^
 ||yahugg.com^
 ||itp.yaku-job.com^
 ||a8.yakumatch.com^
@@ -52016,28 +51988,6 @@
 ||secure.yami8alea.com^
 ||www.yami8alea.com^
 ||count.yandeg.ru^
-||appmetrica.yandex.com^
-||clck.yandex.com^
-||mc.yandex.com^
-||abt.s3.yandex.net^
-||analytics.mobile.yandex.net^
-||awaps.yandex.net^
-||browser-updater.yandex.net^
-||csp.yandex.net^
-||extmaps-api.yandex.net^
-||adfox.yandex.ru^
-||adfstat.yandex.ru^
-||adsdk.yandex.ru^
-||amc.yandex.ru^
-||an.yandex.ru^
-||awaps.yandex.ru^
-||awsync.yandex.ru^
-||bs.yandex.ru^
-||informer.yandex.ru^
-||log.strm.yandex.ru^
-||mc.yandex.ru^
-||uaas.yandex.ru^
-||yandexadexchange.net^
 ||yangjingbang.net^
 ||cmta.yangkeduo.com^
 ||ta.yangkeduo.com^
