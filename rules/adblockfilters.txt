@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241002000928
-! Last modified: 2024/10/02 00:09:28
-! Blocked Filters: 50019
+! Version: 20241002083750
+! Last modified: 2024/10/02 08:37:50
+! Blocked Filters: 50026
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -19222,7 +19222,9 @@ itboth.com,itkeyword.com##a[href*=".aliyun."]
 itbricksoft.com,bolavip.com,gorky.media##.subs-block
 itc.cn/w/u/0/old-insertad-
 itc.ua##+js(set-cookie, popupbottom, 1)
+itc.ua##.about-noa
 itc.ua##.partner-posts
+itc.ua##.popup-bottom
 itcast.cn##div#webim,div#kfpopupDiv
 itch.io##.share_row
 itch.io,all-stars.jp,pravda.com.ua##.post_social
@@ -20185,6 +20187,7 @@ kengso.com,pansoso.com,xgsoso.com##a[href*=".click.taobao.com"]
 kenh14.vn##.kmnw-content > .kc-facebook
 kenh14.vn,genk.vn##.kbwc-socials
 kenh14.vn,genk.vn##.kns-social
+kentcdodds.com##main + div[class]:has(> div.w-full a[href="https://epicreact.dev"])
 kentonline.co.uk##+js(no-setInterval-if, nagScroll)
 kentonline.co.uk#$##meterNagBG { display: none !important; }
 keyakizaka46matomemory.net##.article-footer ~ div[style]
@@ -20454,7 +20457,6 @@ kurashiru.com##div[class^="Dl"][class$="VideoWatchedSlideUpModal-wrapper"]
 kurashiru.com#$##dly-LandingPopupBanner { display: none !important; }
 kurashiru.com#$#.dly-modal-root { display: none !important; }
 kurashiru.com#$#html.dly-modal-active { overflow: auto !important; }
-kurier.at##.shareComponent
 kurs.com.ua###popup-wrapper
 kurs.com.ua#$#body { overflow: visible !important; }
 kurumaerabi.com##.social_area_line
@@ -25092,6 +25094,9 @@ products.aspose.app##.mobile-buttons
 proewildfire.cn##.a_mu,.a_h,.a_t,.a_pr,.a_pb,[height="90"]
 proewildfire.cn##.comiis_nav ~ a
 profgalloway.com##+js(set-cookie, closedsticky, true)
+profil.at###newsletterSignUp
+profil.at##.headerComp-share
+profil.at,kurier.at##.shareComponent
 profm.ro##article div.social
 prog-8.com##.app-download-links
 prog-8.com##.document-review-text > div[style="text-align: center;"]
@@ -41598,6 +41603,7 @@ zzzyk.com###Tinfo
 ||kemono.party/onomek.js
 ||kenga.tech/heatmaps-
 ||kentaku.co.jp/js/gtm.js
+||kentcdodds.com/assets/promotification-*.js
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
 ||kerch.fm/templates/FM/js/analytic.js
 ||kewaishu.info/js/yuedu$script
@@ -45490,6 +45496,7 @@ zzzyk.com###Tinfo
 ||salesforce.com/sfga.js
 ||salesforceliveagent.com^$domain=liquidweb.com|intimissimi.com
 ||salesiq.zoho.com/widget
+||salesiq.zohopublic.eu/widget
 ||salesloft.com/sl.js
 ||salesmanago.com/api/r.gif
 ||salesmanago.pl/*/popups.js
