@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241003000930
-! Last modified: 2024/10/03 00:09:30
-! Blocked domains: 53116
+! Version: 20241003083753
+! Last modified: 2024/10/03 08:37:53
+! Blocked domains: 53120
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -3180,6 +3180,7 @@
 ||smetrics.flex.amazon.com.au^
 ||smetrics.flex.amazon.com.mx^
 ||smetrics.flex.amazon.com.sg^
+||bugsnag.shopbop.amazon.dev^
 ||smetrics-smartcommerce.amazon.in^
 ||smetrics.flex.amazon.in^
 ||smetrics.smartcommerce.amazon.in^
@@ -30390,6 +30391,7 @@
 ||usdbbx.mmartan.com.br^
 ||marketing-ap.mmc.co.jp^
 ||nr.static.mmcdn.com^
+||nwr.static.mmcdn.com^
 ||mmkkiivv.com^
 ||lets.go.mmm-online.com^
 ||track.info.mmm-online.com^
@@ -30896,6 +30898,7 @@
 ||smetrics.motortrend.com^
 ||sstats.motosport.com^
 ||jzauch.motostorm.it^
+||motu-teamblue.services^
 ||www3.motumb2b.com^
 ||smetrics.mounjaro.com^
 ||foakwk.mounli.ro^
@@ -52565,6 +52568,7 @@
 ||fglopb.zapaka.com^
 ||pjmryh.zapatos.es^
 ||amethyst.zappos.com^
+||marty.zappos.com^
 ||track.zappos.com^
 ||partneri.zaprovizi.cz^
 ||go.zapyle.com^

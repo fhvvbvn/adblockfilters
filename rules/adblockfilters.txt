@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241003000929
-! Last modified: 2024/10/03 00:09:29
-! Blocked Filters: 41069
+! Version: 20241003083752
+! Last modified: 2024/10/03 08:37:52
+! Blocked Filters: 41076
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -3476,6 +3476,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /api/drpStats
 /api/event-rfkj/*
 /api/events|$domain=boticario.com.br|livehdcams.com|pornhublive.com|hog.tv|eudora.com.br|belezanaweb.com.br|vult.com.br|quemdisseberenice.com.br|bookmark.xxx
+/api/front/v2/observability$ping
 /api/increment-pv$xmlhttprequest
 /api/internal/pixel?
 /api/ipv4check?
@@ -4043,6 +4044,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /dmap.gif
 /dmp/pixel.js
 /dmu2panalytics/ajax_call.php?
+/dnx-event-collector/*
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
@@ -21218,6 +21220,7 @@ rastaneko-blog.com##.plugin3_outline + br
 rastaneko-blog.com##div[style="background-color: #f5f5f5; padding: 10px; font-size: 18px; border: 1px dotted #000000;"] ~ dl:not([class])
 rastaneko-blog.com,2chav.com##.plugin3_outline
 ratedxbiz.com##.ima,.rmedia,.sppc
+rawg.io,iherb.com##.welcome-banner
 rawstory.com###mobile-inline-rs-signup-offer
 rawstory.com###piano-infobar-container
 rawstory.com##.body-description > div[id^="lightbox-inline-form-"]
@@ -27301,7 +27304,10 @@ zzzyk.com###Tinfo
 ||6park.com/img/*0.gif
 ||6park.com/parks/$script
 ||6park.com^$subdocument,badfilter
+||6pm.com/err.cgi?
 ||6pm.com/martypixel?
+||6pm.com/onload.cgi?
+||6pm.com/track.cgi?
 ||6rooms.com/$image,domain=~6.cn
 ||6vgood.com/d/$script
 ||6vhao.tv/d/
@@ -34666,6 +34672,7 @@ zzzyk.com###Tinfo
 ||libero.it/cgi-bin/twit?
 ||libero.it/search/abin/ajaxtrace?
 ||libero.it^*/counter.php?
+||liberty.schip.io/liberty-metrics/
 ||libhunt.com/api/ahoy/event
 ||libs.platform.californiatimes.com/meteringjs/
 ||libs.platform.californiatimes.com/newsletter-campaign-manager/latest.js
