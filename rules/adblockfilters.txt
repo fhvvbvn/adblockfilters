@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241003161104
-! Last modified: 2024/10/03 16:11:04
-! Blocked Filters: 41279
+! Version: 20241004000926
+! Last modified: 2024/10/04 00:09:26
+! Blocked Filters: 41294
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9214,6 +9214,7 @@ araba.mitula.com.tr###bannerUsuario
 arabiaweather.com#$##ad-block-modal { display: none !important; }
 arabiaweather.com#$#.overflow-hidden { overflow: auto !important; }
 arahdrive.com##+js(nano-setInterval-booster, Number, *, 0.001)
+arbeit.nifty.com##.listAppBanner
 arbeitsrecht.org##+js(no-setTimeout-if, #FloaterModal)
 arcamax.com##.channel-subscribe
 archive.*#?#div[style^="display:table-cell;"] > div[align="right"]:has(> div[style*="dashed"] a[title^="Install"][title$="extension"])
@@ -9851,6 +9852,7 @@ baishi.baidu.com##.video-adv,.adv-container,#playerPauseAdv
 baiten.cn##.JS_advertisement
 baiten.cn##.news2ad
 baitoru.com##.common-cutSpace > div[style="padding: 40px 10px 0px;"]
+baitorupro.com,mini.*##.js-smartbanner
 baixbbs.net##div#wp>table,div.a_cn,div.a_fl.a_cb,div.a_fr.a_cb
 baixing.com###carousel-links,[data-atype="b-x-a-d-a"]
 baixing.com###port-info
@@ -10632,6 +10634,10 @@ brainly.com.br,brainly.in#$#body.sg-dialog-no-scroll { overflow: auto !important
 brainly.lat##.js-react-adblock-banner
 brandsales.58.com#@#div[id^="ad_"]
 brasil247.com###taboola-mid-article-leia-mais
+brasilparalelo.com.br###body-content > div._w-100
+brasilparalelo.com.br###body-content > div.new-section.dark
+brasilparalelo.com.br##.chamada-newsletter
+brasilparalelo.com.br##.new-ribbon
 brasilparalelo.com.br##.newsletter-article-block
 bravedown.com##+js(set-constant, antiADB, noopFunc)
 braziljournal.com##+js(abort-on-property-read, addCopy)
@@ -12877,7 +12883,6 @@ easylinkref.com##+js(nano-setInterval-booster, #second, , 0.02)
 easylinks.in##+js(adjust-setTimeout, #get_btn, , 0.02)
 easymc.io##+js(adjust-setTimeout, e(t-1), *, 0.001)
 eater.com###newsletter-signup-short-form
-eater.com,outsports.com,polygon.com,vox.com##div[class^="adblock-allowlist-messaging"]
 eatthis.com##.newsletter-window
 eatthis.com##.widget-postup-standalone-form
 eba.gov.tr##.go-app
@@ -13478,6 +13483,7 @@ ficbook.net#$##notificationsSubscribeModal { display: none !important; }
 ficbook.net#$##notificationsSubscribeModal ~ .modal-backdrop { display: none !important; }
 ficbook.net#$#body { overflow: visible !important; padding-right: 0 !important; }
 ficbook.net#?#.home-block > h3:contains(Промо фанфиков)
+fieldgulls.com,eater.com,outsports.com,polygon.com,vox.com##div[class^="adblock-allowlist-messaging"]
 fifm.live###player_ad,.adsbygoogle
 figma.com##.css-eouiu8
 figsoku.net##.rssarea
@@ -15420,6 +15426,7 @@ i.qq.com##.linwei-logo
 i.qq.com##.linwei-txt
 i.y.qq.com##.js_pg_content.top_operation_box
 i.y.qq.com##.js_tj.js_download.btn_download
+i879.com###app-footerbnr
 ia.acs.org.au###subscribeModal
 iaea.org#$#.modal-backdrop { display: none !important; }
 iaea.org#$#.newsletter-popup { display: none !important; }
@@ -15909,7 +15916,9 @@ inoreader.com##+js(set-cookie, promo_sidebar_dismissed, 1)
 inoreader.com##[class^="ad"],[id^="leaderboard_ad"]
 inquirer.com###banner-wrapper
 inquirer.net##.sib-form
+insider-gaming.com###ig-newsletter-holder
 insider-gaming.com##.entry-content  > p:has(> a[title="Newsletter"])
+insider-gaming.com##main > div.flex > div.hidden > div:has(> a[href^="https://www.youtube.com/@insider_gaming?"])
 insidermonkey.com##.daily-newsletter + .email-privacy-policy-warning
 insights.sei.cmu.edu##.subscribe_small
 instacart.ca,instacart.com##+js(set-local-storage-item, homeExpressEmailSignupExitIntentModal, 1)
@@ -18849,7 +18858,6 @@ minepay.top##.sponsors-container
 ming120.com##a[href^="http://www.mining120.com"]
 mingpao.com###photo_transition
 minhangcidian.com##div[id^="googleAd"]
-mini.*##.js-smartbanner
 mini.eastday.com###dsp_btxf
 mini.eastday.com##.ordernumad
 mini.eastday.com##li[class^="recommend_news recommend_ad_hot_"]
@@ -20134,6 +20142,7 @@ open.spotify.com##div[data-testid="signup-bar"]
 open.spotify.com#$#div[data-testid="lyrics-container"] p.encore-text { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 open.spotify.com#$#span[dir="auto"][draggable="true"] { user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: text!important;-ms-user-select: text!important; }
 open.spotify.com#?#body > div.ReactModalPortal:has(> div > div[aria-label="In-App Message Modal"])
+opencorporates.com##.oc-footer-notification
 openculture.com##.new_subscription_block
 opendemocracy.net##.donate__sticky-banner
 opendemocracy.net##.donation-cta-contenttop
@@ -28641,6 +28650,7 @@ zzzyk.com###Tinfo
 ||api.viavarejo.com.br/fp/
 ||api.vicomi.com/api/*/analytics/
 ||api.vk.com/method/statEvents.
+||api.weglot.com/pageviews?api_key
 ||api.weibo.cn/2/cardlist?$replace=/promotion//
 ||api.weibo.cn/2/checkin^
 ||api.weibo.cn/2/client/publisher_list?
@@ -28890,6 +28900,7 @@ zzzyk.com###Tinfo
 ||assets.alicdn.com/g/alilog/aplus_plugin_xwj/index.js
 ||assets.apollo.io/micro/website-tracker/
 ||assets.bbystatic.com/analytics-dotcom/
+||assets.bwbx.io/s3/foundation/event-recorder-client/1.0/event-recorder-client.min.js
 ||assets.emarsys.net/web-emarsys-sdk/*/web-emarsys-sdk.js
 ||assets.grubhub.com/libs/*/clickstream2.min.js
 ||assets.htvapps.com/lumiere/fallback/analytics.js
@@ -35291,6 +35302,9 @@ zzzyk.com###Tinfo
 ||maizixueyuan*/js/html*.js
 ||makaidong.com/img/
 ||make.com^$removeparam=fromImt
+||makeship.com/_vercel/insights/script.js
+||makeship.com/ingest/*?compression=
+||makeship.com/ingest/static/recorder-v2.js
 ||malimali5.com/ad1.png
 ||mall.kinarino.jp^$removeparam=karea
 ||mall.kinarino.jp^$removeparam=klay
@@ -37328,6 +37342,7 @@ zzzyk.com###Tinfo
 ||rackcdn.com/gate.js
 ||rackcdn.com/htv/banners/$domain=hanime.tv
 ||rackcdn.com/stf.js
+||radar.cloudflare.com/api/analytics
 ||radikal.ru^$domain=18board.com|18p2p.com
 ||radioroks.ua^$domain=megatrack.top
 ||radiotime.com/Report.ashx?

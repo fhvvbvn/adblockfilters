@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241003161104
-! Last modified: 2024/10/03 16:11:04
-! Blocked domains: 53137
+! Version: 20241004000926
+! Last modified: 2024/10/04 00:09:26
+! Blocked domains: 53139
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -6693,6 +6693,7 @@
 ||counter.bloke.com^
 ||log.bloodppressure.info^
 ||log.bloodsugars.live^
+||eventrecorder.cm.bloomberg.com^
 ||tracking.bloomberg.com^
 ||smetrics.bloombergbna.com^
 ||app.bloombergconnects.org^
@@ -23081,6 +23082,7 @@
 ||lu9xve2c97l898gjjxv4.instantlymodern.com^
 ||ping.instantsearchplus.com^
 ||go.instantusabenefits.com^
+||heatmap-events-collector.instapage.com^
 ||player-metrics.instaread.co^
 ||summary.instaread.co^
 ||sstats.instawares.com^
