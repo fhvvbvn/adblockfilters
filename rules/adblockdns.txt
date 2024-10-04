@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241004000926
-! Last modified: 2024/10/04 00:09:26
-! Blocked domains: 53139
+! Version: 20241004083752
+! Last modified: 2024/10/04 08:37:52
+! Blocked domains: 53146
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -651,6 +651,7 @@
 ||img.3rdplatform.me^
 ||3ri.cc^
 ||3shangyou.com^
+||3site-rss.s3-ap-northeast-1.amazonaws.com^
 ||img.3sjt.com^
 ||3vn52l.cn^
 ||tr.cdiscount.3wregie.com^
@@ -9976,6 +9977,7 @@
 ||hcjpbc.closerweekly.com^
 ||nnvoia.closetworld.com^
 ||www.cloud-9751.com^
+||widget.cloud-cdn.ru^
 ||www.cloud-exploration.com^
 ||secure.cloud-ingenuity.com^
 ||www.cloud-ingenuity.com^
@@ -26697,6 +26699,7 @@
 ||fsm.lapresse.ca^
 ||avocado.laprovence.com^
 ||join.lapse.app^
+||hawk.laptopmag.com^
 ||squirrel.laravel-mix.com^
 ||cat.laravel-news.com^
 ||boom.laravel.io^
@@ -27365,6 +27368,7 @@
 ||visit.lifeblood.com.au^
 ||ehtrack.lifebrandsdigital.com^
 ||trk.lifecatalysthub.com^
+||chatbot.lifecell.ua^
 ||tgg.lifecraft-games.com^
 ||t.lifefullplan.com^
 ||feedback.lifeguardarena.com^
@@ -33956,6 +33960,7 @@
 ||stg.oncourselearning.com^
 ||webinars.oncourselearning.com^
 ||webtracking.oncourselearning.com^
+||widget.oncustomer.asia^
 ||smetrics.ondacero.es^
 ||go.ondutydoc.com^
 ||a8cv.one-netbook.jp^
@@ -42444,6 +42449,7 @@
 ||sp.solus.nu^
 ||track.solutionsfindercentral.com^
 ||a8cv.shop.solve-grp.com^
+||widget.solvemate.com^
 ||info.engage.solventum.com^
 ||track.solventum.com^
 ||data.comunicaciones.solvenza.hn^
@@ -49860,6 +49866,7 @@
 ||links.official.vsco.co^
 ||branch.vsco.ninja^
 ||krum.vsct.fr^
+||partner-widget.vse-sdal.com^
 ||s.frida.vse42.ru^
 ||gh.vsee.me^
 ||ghd.vsee.me^
