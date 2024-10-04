@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241004161054
-! Last modified: 2024/10/04 16:10:54
-! Blocked Filters: 41792
+! Version: 20241005000947
+! Last modified: 2024/10/05 00:09:47
+! Blocked Filters: 41806
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -10513,6 +10513,8 @@ blog.jetbrains.com##.jb-download-button
 blog.logrocket.com##.code-block-49
 blog.logrocket.com##.code-block-52
 blog.logrocket.com##.code-block-57
+blog.logrocket.com##.code-block:has(> div#arcade-interstitial)
+blog.logrocket.com##.code-block:has(> div#gutter)
 blog.logrocket.com##.metrics-banner
 blog.moneysmart.sg##+js(addEventListener-defuser, scroll, function)
 blog.naver.com##+js(set-constant, autoSourcingYn, false)
@@ -10805,6 +10807,7 @@ business-standard.com##.notification-col
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 business.tutsplus.com##.post__inarticle-ad-template-mobile
+businessday.ng##.join-whatsapp
 businessinsider.com##.app-badges
 businessinsider.com##.app-download-cta-container
 businessinsider.com##.bottom-recommended
@@ -15303,6 +15306,7 @@ hola.com##div[class^="HolaNewsletter_"]
 hold168.com##.news_ggimg
 holiholic.com,kisene.com,itcstore.in,farmasave.it##.wrapper-newsletter
 hollywoodreporter.com,thegatewaypundit.com,pennlive.com,mlive.com##+js(set-constant, admrlLoaded, true)
+holod.media##.a-our-social
 holtrenfrew.com#%#//scriptlet('set-constant', 'ometria', 'emptyObj')
 holtrenfrew.com#%#//scriptlet('set-constant', 'ometria.init', 'noopFunc')
 home.firefoxchina.cn##.border-gray-200.tuijian
@@ -18921,9 +18925,9 @@ medicalxpress.com,phys.org###js-popup-nwletter
 medimagazin.com.tr#?#.flex:has(> div > div.flex > div > a[href^="https://news.google.com/publications/"])
 medindia.net#?#.container form[name="subform"]:upward(1)
 mediotiempo.com,milenio.com###pushNotification-disclaimer
+medium.com###root div[style^="top:"][style*="50vh"]:has(span > button:contains(Sign up for free))
 medium.com##a[href^="https://rsci.app.link"]
 medium.com#$#html { overflow-y: visible!important; }
-medium.com#?##root div[style^="top: calc("][style$="+ 50vh);"]:has(span > button:contains(Sign up for free))
 medium.com#?#div:not([class]):has(> a[href^="/plans?source=upgrade_membership-"])
 medobr.com##+js(remove-class, popup-active, body[class="popup-active"])
 medsci.cn##.adv1201
@@ -19018,7 +19022,7 @@ metaso.cn##.css-0.MuiBox-root[class^=SystemMessage_container]
 metasrc.com##+js(set-constant, AdBlocker, false)
 meteoblue.com##+js(set-constant, mb.advertisingShouldBeEnabled, false)
 meteomedia.com##+js(set-constant, jwplayer.defaults.autostart, '')
-meteored.mx,meteored.com.ar##.descarga-app
+meteored.do,meteored.pe,meteored.cl,meteored.mx,tempo.com,tiempo.com,meteored.com.ar##.descarga-app
 meteum.ai##button[class^="AppPromo_container"]
 metode.my.id,sigaptech.com,tutorialsaya.com,tinys.click#$##wpsafe-generate { display: block !important; }
 metode.my.id,sigaptech.com,tutorialsaya.com,tinys.click#$##wpsafe-link { display: block !important; }
@@ -20670,6 +20674,7 @@ patch.com##section[class^="styles_SubscribeForm__"]
 patched.to##.guest_warn
 patents.justia.com##.rotating-leads
 patreon.com##+js(set-local-storage-item, desktopAppBannerDismissed, true)
+patreon.com##nav div[class^="sc-"]:has(> button[type="button"] div[class^="sc-"] > span[class^="sc-"] > svg[data-tag="IconPhone"])
 patreon.com#?#div[class] > div[class]:has(> div[aria-hidden="true"] > svg > path[d^="M12 2.25c-3.375"])
 patrika.com##+js(set-constant, document.onpaste, undefined)
 patronlardunyasi.com##.Subscribe\\GeneralForm
@@ -21261,6 +21266,7 @@ programme-television.org#?#.article__media__title:contains(/^Le [cC]oup/)
 programme-tv.net###dailymotion-pip-large-viewport
 programme-tv.net##.mediaSelectionSidebar > .mediaSelectionSidebar-stickyWrapper .pushCard-item > a[href^="https://www.programme-tv.net/espace-dedie/"] > .pictureTagGenerator
 programme-tv.net##body > .modal:has(> div.modal-background > div.modal-content > div.customModalNewsletterButtons)
+projects.propublica.org##.follow-wrapper
 pron.tv##.nomobile
 pronetblog.by##.adsensepost
 pronetblog.by#?#aside > section.widget-after-post-content:has(> div.textwidget > div[id] > div.rss2)
@@ -23193,6 +23199,7 @@ stackexchange.com,stackoverflow.com###newsletter-ad
 stackexchange.com,superuser.com,stackoverflow.com##.js-dismissable-hero
 stackoverflow.com###divQuestionFollowFeaturePopover
 stackoverflow.com###overlay-header
+stackoverflow.com##.nav-links > li.js-overflowai-cta
 stackoverflow.com##di#SE20-ad-container
 stackshare.io##+js(cookie-remover, pageViews)
 stackshare.io##[id^="HeaderNotice-"]
@@ -23640,7 +23647,7 @@ techcommunity.microsoft.com##.ui-dialog:has(.survey-prompt-dialog)
 techcrunch.com##.newsletter-signup-block
 techcrunch.com##.rightrail--promo
 techcrunch.com##.wp-block-tc23-newsletter-signup-compact
-techcrunch.com##main + div[data-testid="text-html"]:has(> div.showTemplate > div.pn-ribbon)
+techcrunch.com##body div[data-testid="text-html"]:has(> div.showTemplate > div.pn-ribbon)
 techcrunch.com,governing.com##.hbspt-form
 techgear.gr##.google_news
 techhelpbd.com##+js(nano-setInterval-booster, /counter--|downloadButton/, , 0.02)
@@ -23840,8 +23847,10 @@ theharborside.org,fleetstar.com,resources.harneys.com,zeomega.com,marketing.rsvp
 thehill.com###block-thehill-blocks-amp-outbrain
 thehill.com##.nxs-player-wrapper > div.floating
 thehindu.com###gsi_overlay
+thehindu.com###left-bottom-sticky-container iframe[id^="offer-"]
 thehindu.com###sectiondivicymi
 thehindu.com##+js(set-constant, Adblock, false)
+thehindu.com##.articlebodycontent > #artmeterpv iframe[id^="offer-"]
 thehindu.com##.read-in-app-floating-btn
 thehindu.com#$#.tp-backdrop { display: none!important; }
 thehindu.com#$#body.tp-modal-open { overflow: auto !important;height: auto !important; }
@@ -25049,6 +25058,7 @@ videosxgays.com##+js(remove-class, with-ticker, body)
 videouroki.net##+js(adjust-setTimeout, /action-downloadFile?)
 vidhub.me,vidhub.tv##.promolnk
 vidhub.me,vidhub.tv##.promote-link
+viet-jo.com##div[style="width:99.5%;text-align:center;min-height:200px;height:auto"]
 view.inews.qq.com##[class^="new-hot-comment_subText"]
 view.inews.qq.com##[class^="normal_buttonWrap"]
 view.inews.qq.com##[class^="slider-top-bar_sliderWrapper"]
@@ -30747,6 +30757,7 @@ zzzyk.com###Tinfo
 ||cdninstagram.com^$removeparam=ccb
 ||cdninstagram.com^$removeparam=efg
 ||cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.1/clipboard.min.js
+||cdnjs.cloudflare.com/ajax/libs/fancybox$domain=ya.zerocoder.ru
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
 ||cdnmaster.com/sitemaster/sm360.js
@@ -33211,10 +33222,13 @@ zzzyk.com###Tinfo
 ||getelevar.com/shops/*/events.js
 ||getglue.com^*/count?
 ||getidol.com^$removeparam=ref
+||getir.com^$removeparam=af_reengagement_window
 ||getir.com^$removeparam=c
 ||getir.com^$removeparam=deep_link_value
 ||getir.com^$removeparam=is_retargeting
+||getir.com^$removeparam=pid
 ||getir.com^$removeparam=shortlink
+||getir.com^$removeparam=source_caller
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
 ||getitfree.cn/wp-content/plugins/anti-
 ||getkudos.me/a?$image
