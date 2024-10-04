@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241004083752
-! Last modified: 2024/10/04 08:37:52
-! Blocked domains: 53146
+! Version: 20241004161055
+! Last modified: 2024/10/04 16:10:55
+! Blocked domains: 53156
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -2169,6 +2169,7 @@
 ||adobeanalytics.aerotek.com^
 ||data-b5689af0d0.aerotelegraph.com^
 ||securetags.aeroterra.com^
+||aeryt111.fun^
 ||btptod.aerzteblatt.de^
 ||data-c0856a82d9.aerzteblatt.de^
 ||data-df5a2bcc30.aerzteblatt.de^
@@ -13997,6 +13998,7 @@
 ||analytics.e1.ru^
 ||gmufag.e1.ru^
 ||e1e.io^
+||e1zin.icu^
 ||analytics.e2estudios.com^
 ||equity.e2g.com^
 ||e739.cn^
@@ -15812,6 +15814,7 @@
 ||mapp.ewm.co.uk^
 ||ewqeq23.fun^
 ||metrics.ewstv.com^
+||ewurserw.top^
 ||smetrics.ewweb.com^
 ||ewxufqs.cn^
 ||sanalytics.ewz.ch^
@@ -19336,7 +19339,6 @@
 ||smetrics.goodsamrvinsurance.com^
 ||cbsbnq.goodsey.com^
 ||goodvibe1.com^
-||goodvibesmatterforus.com^
 ||app.goodwearmall.com^
 ||info.goodwillgr.org^
 ||google-analytics-cn.com^
@@ -20879,6 +20881,7 @@
 ||hhfun.cn^
 ||marketing.hhglobal.com^
 ||hhllyt.com^
+||hhrerv.xyz^
 ||hhvip86.com^
 ||a8cv.hi-tailor.jp^
 ||sdd.hi1718.com^
@@ -26101,6 +26104,7 @@
 ||tqtedm.kosmetik.at^
 ||data-545e23e607.kosmo.at^
 ||a8cv.kosodatemoney.com^
+||kossog.xyz^
 ||boar.kostholdsveilederen.no^
 ||secure.kota3chat.com^
 ||www.kota3chat.com^
@@ -26851,6 +26855,7 @@
 ||events.lbesecapi.com^
 ||psi.lbesecapi.com^
 ||lbjdbym.xyz^
+||lbjekygz.icu^
 ||ads.lbtrack.com^
 ||lc-cn-n1-shared.com^
 ||a8cv.lc-jewel.jp^
@@ -29709,6 +29714,7 @@
 ||merryvault.com^
 ||stat.mersz.hu^
 ||stats.merx.com^
+||meryt111.fun^
 ||tr.mes-bonsplans.be^
 ||tr.mes-prestataires.fr^
 ||cattle.mes-renovateurs.com^
@@ -29848,6 +29854,7 @@
 ||app.mgoblue.com^
 ||t.mgoblue.com^
 ||bmodjx.mgos.jp^
+||mgqtcs.xyz^
 ||rent.mgrc.com^
 ||counter.mgronline.com^
 ||mgs123.com^
@@ -32225,6 +32232,7 @@
 ||karlovo.nerters.space^
 ||kyustendil.nerters.space^
 ||nervoussummer.com^
+||neryt111.fun^
 ||sorrhs.nescafe.com.tr^
 ||info.nescornow.com^
 ||smetrics.nesn.com^
@@ -33294,6 +33302,7 @@
 ||mas.nth.ch^
 ||marketing.nthdegree.com^
 ||nthtcs.com^
+||ntiutox.icu^
 ||smetrics.ntkm2.com^
 ||tracking.ntl.no^
 ||ntlzvrv.xyz^
@@ -51499,6 +51508,7 @@
 ||wwjtdjj.cn^
 ||axp.wwlp.com^
 ||ywrcqa.wwltv.com^
+||wwursere.top^
 ||www.www-path.com^
 ||wwwpromoter.com^
 ||mm.wxc.cc^
