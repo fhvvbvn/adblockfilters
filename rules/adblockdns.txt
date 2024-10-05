@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241005160949
-! Last modified: 2024/10/05 16:09:49
-! Blocked domains: 53177
+! Version: 20241006000819
+! Last modified: 2024/10/06 00:08:19
+! Blocked domains: 53178
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -18620,6 +18620,7 @@
 ||ok.gethealthperks.net^
 ||fetch.gethuan.com^
 ||marketing-company.getinsured.com^
+||getjan.io^
 ||app.getjerry.com^
 ||b.getmaintainx.com^
 ||branch-dev.getmaintainx.com^

@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241005160949
-! Last modified: 2024/10/05 16:09:49
-! Blocked Filters: 41933
+! Version: 20241006000819
+! Last modified: 2024/10/06 00:08:19
+! Blocked Filters: 41937
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -12357,6 +12357,7 @@ didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;lin
 didown.com##[class*="i-gg-"],.program-header
 diediao.com###buffer
 diediao123.com##[class$="_ad"]
+diena.lv##section:has(> form[action*="newsletter"])
 diepresse.com###abocontainer-f
 diffchecker.com##+js(set-local-storage-item, alreadySawHomepageModal, true)
 digi.no##img[src^="https://ish.tumedia.no/ish_tracker.gif"]
@@ -14138,6 +14139,7 @@ fun48.com##.margin-big-bottom
 funabashi-tsushin.com###main > a[href="https://funabashi-tsushin.com/banner_ads"]
 fund.eastmoney.com##div[data-url^="//same.eastmoney.com/"]
 fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
+fussballtransfers.com##+js(set-constant, adManagerBlocked, false)
 futura-sciences.com##.viously > div.viously-sticked
 futura-sciences.com#%#//scriptlet('set-constant', 'pa', 'emptyObj')
 futura-sciences.com#%#//scriptlet('set-constant', 'pa.privacy', 'emptyObj')
@@ -30932,6 +30934,7 @@ zzzyk.com###Tinfo
 ||chaoxing.com^$domain=igangju.com
 ||chargebee.com/api/internal/track_info_error
 ||charmmy-api.line.me/api/*/bars/tracking
+||chat*-ce.chatdealer.jp^
 ||chatango.com/js/gz/emb.js
 ||chatdealer.jp^$domain=zeirisi.co.jp
 ||chatfuel.com/cf-analytics/
@@ -38124,6 +38127,7 @@ zzzyk.com###Tinfo
 ||report*.appmetrica.webvisor.com^
 ||report.*.qq.com^
 ||report.23video.com/api/analytics/
+||report.error-report.com^$subdocument
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||requirejs.cn/ts.png
 ||res-ga.smzdm.com/gtm.js
