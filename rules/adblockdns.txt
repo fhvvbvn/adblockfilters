@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241005083722
-! Last modified: 2024/10/05 08:37:22
-! Blocked domains: 53158
+! Version: 20241005160949
+! Last modified: 2024/10/05 16:09:49
+! Blocked domains: 53177
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -1388,6 +1388,7 @@
 ||om.abritel.fr^
 ||som.abritel.fr^
 ||abruptroad.com^
+||absalomcsa.com^
 ||data-11c63b1cbc.abschied-nehmen.de^
 ||discover.absciex.com^
 ||discover.absciex.com.cn^
@@ -5261,6 +5262,7 @@
 ||baifendian.com^
 ||baigamp.icu^
 ||baigh8eosmgie01.site^
+||baigh8eosmgie02.site^
 ||baihuiad.com^
 ||baike.biz^
 ||baimuyuan.com.cn^
@@ -5830,6 +5832,7 @@
 ||a8cv.www.bedstyle.jp^
 ||track.bedtimekz.com^
 ||yxsdgi.bedworld.net^
+||bedzbu.xyz^
 ||link.beebs.app^
 ||verified.beefbooster.com^
 ||smetrics.beefeater.co.uk^
@@ -9442,6 +9445,7 @@
 ||ftuart.chomedeynissan.com^
 ||vkbvny.chookjenews.kr^
 ||a8.choomia.com^
+||chooncv.icu^
 ||marketing.choosechicago.com^
 ||fpc.choosemylo.com^
 ||images.guidance.choosemylo.com^
@@ -11695,6 +11699,7 @@
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2t77mnxyo7adj.cloudfront.net^
+||d2tf0.icu^
 ||d2tgfbvjf3q6hn.cloudfront.net^
 ||d2uhnetoehh304.cloudfront.net^
 ||d2un76zvb5mgzx.cloudfront.net^
@@ -14030,6 +14035,7 @@
 ||eapect.icu^
 ||al.eaphi.co.jp^
 ||go.eapps.com^
+||eaqgsw.xyz^
 ||eaqlos.xyz^
 ||go.earlywarning.com^
 ||go.www4.earlywarning.com^
@@ -20336,6 +20342,7 @@
 ||sxjfhh.hattiesburgamerican.com^
 ||data-162d89b6ce.haufe.de^
 ||marketing.haughn.com^
+||hauqou.top^
 ||data-195efe600e.haus.de^
 ||data-bd87db2679.haus.de^
 ||wqfflc.hausgarten.net^
@@ -21351,6 +21358,7 @@
 ||stats.honeywell.com^
 ||honeywhipped.com^
 ||hongi7ie8owiie01.site^
+||hongi7ie8owiie02.site^
 ||go.hongkongcupid.date^
 ||i.honk.me^
 ||appsflyer-report.honkaiimpact3.com^
@@ -27955,6 +27963,7 @@
 ||parrot.lovably.com^
 ||tr.love-repair-coaching.de^
 ||love745221.com^
+||loveameng.top^
 ||bgtaeb.loveandpop.kr^
 ||metrics.lovefilm.com^
 ||smtccv.loveholidays.com^
@@ -31321,6 +31330,7 @@
 ||go.muzz.com^
 ||data-40370dcf13.mv-online.de^
 ||mvbvvch.xyz^
+||mvcngm.xyz^
 ||mdws.mvcu.ca^
 ||mvevgi.xyz^
 ||datadog-service.mvfglobal.com^
@@ -32018,6 +32028,7 @@
 ||www.navy9gear.com^
 ||analytics.navyfederal.org^
 ||email.msg.navyfederal.org^
+||img2021.navyfederal.org^
 ||app.navyhealth.com.au^
 ||app-uat.navyhealth.com.au^
 ||t.navysports.com^
@@ -33310,6 +33321,7 @@
 ||evt-api.ntm.eu^
 ||metrics.ntnews.com.au^
 ||clnbze.nto.pl^
+||ntpnfyga.icu^
 ||ntrtifx.xyz^
 ||ntt-fletscv.ntt-flets.com^
 ||images.internalcomms.ntt.com^
@@ -34821,6 +34833,7 @@
 ||mm.paizi.net^
 ||pajhvd.xyz^
 ||pajtll.xyz^
+||pakaujf.icu^
 ||smetrics.pakietyserwisowe.pl^
 ||sp.pal-item.com^
 ||srepdata.pal-item.com^
@@ -37050,6 +37063,7 @@
 ||prpmdp.xyz^
 ||www.prt-or-067.com^
 ||prtadf.xyz^
+||prtfpl.xyz^
 ||metrics.pru.co.uk^
 ||privacy-digital.pru.co.uk^
 ||smetrics.pru.co.uk^
@@ -37650,6 +37664,7 @@
 ||a1.qqan.com^
 ||qqdwz.com^
 ||qqhuhu.com^
+||qqryt111.fun^
 ||qqvlsr.icu^
 ||img1.qqwangming6.com^
 ||qqyjis.xyz^
@@ -37883,6 +37898,7 @@
 ||stats.qwant.com^
 ||iadctest.qwapi.com^
 ||qwnmfiti.xyz^
+||qwursery.top^
 ||qwvv.com^
 ||qwxcs.com^
 ||show.qx15.com^
@@ -41686,6 +41702,7 @@
 ||tt.sj.se^
 ||1.sj33.net^
 ||sjaidu.com^
+||sjezce.xyz^
 ||sjgsgy.xyz^
 ||sjkdbvjksbv.com^
 ||smetrics.sjmtech.ma^
@@ -47522,6 +47539,7 @@
 ||twqtf.boats^
 ||twrank.com^
 ||a1.twtym.com^
+||twurseri.top^
 ||jp.twww.sbs^
 ||et.twyn.com^
 ||twzui6.com^
@@ -52141,6 +52159,7 @@
 ||yezilm.com^
 ||yfaqgk.xyz^
 ||yfasjfk.icu^
+||yfoega.xyz^
 ||yfzpxnb.xyz^
 ||ygfgzmzo.xyz^
 ||jzrcod.ygl.co.il^
