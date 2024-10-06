@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241006084125
-! Last modified: 2024/10/06 08:41:25
-! Blocked domains: 53178
+! Version: 20241006160930
+! Last modified: 2024/10/06 16:09:30
+! Blocked domains: 53188
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -4912,6 +4912,7 @@
 ||app.avopass.com^
 ||track1.avplayer.com^
 ||avplwte.xyz^
+||avqdhss.icu^
 ||uzfxwv.avrupanetworking.com^
 ||st.avsplow.com^
 ||info.avtecinc.com^
@@ -7965,6 +7966,7 @@
 ||bxmazls.icu^
 ||bxmns.com^
 ||bxoaeju.icu^
+||bxqgk.icu^
 ||ca.bxwx3.org^
 ||analytics.contents.by-fw.jp^
 ||monitor-frontend-collector.a.bybit-aws.com^
@@ -23917,6 +23919,7 @@
 ||data-d815104c6c.it2media.de^
 ||it8vh.site^
 ||oqidne.itaka.pl^
+||itakrid.icu^
 ||data.newsletter.italia.it^
 ||partner.italier.cz^
 ||a8clk.www.italki.com^
@@ -34692,6 +34695,7 @@
 ||animaux.oworld.fr^
 ||splitexpenses.oworld.fr^
 ||google-analytics.bi.owox.com^
+||owurserk.top^
 ||owyame.xyz^
 ||smetrics.oxfam.org.uk^
 ||marketing.oxfordcomputergroup.com^
@@ -35203,6 +35207,7 @@
 ||clk.pbsolutions.online^
 ||smetrics.pbteen.ca^
 ||smetrics.pbteen.com^
+||pbvdlb.xyz^
 ||data-c63b992bb9.pc-magazin.de^
 ||data-db9f015784.pc-magazin.de^
 ||pc768.com^
@@ -36111,6 +36116,7 @@
 ||tracking.plex.com^
 ||analytics.plex.tv^
 ||angebote.plexonline.de^
+||plfwxtgu.icu^
 ||vsjaoa.plie.com.br^
 ||tr.spain.plimsoll.es^
 ||tr.france.plimsoll.fr^
@@ -37918,6 +37924,7 @@
 ||qzalsk.xyz^
 ||qzehwg.xyz^
 ||qznjujv.xyz^
+||qzorwe.xyz^
 ||qzozsa.xyz^
 ||qzsvwo.xyz^
 ||qzvzluu.xyz^
@@ -43098,6 +43105,7 @@
 ||srsg.srglobal.com^
 ||sruk.srglobal.com^
 ||srhuafeng.com^
+||srmsii.xyz^
 ||metrics.srpnet.com^
 ||smetrics.srpnet.com^
 ||smetrics.srptelecom.com^
@@ -48454,6 +48462,7 @@
 ||learn.uwindsor.ca^
 ||privacy.uwm.com^
 ||marketing.uwmedicine.org^
+||uwursert.top^
 ||console.uxlens.com^
 ||marketing.uxreactor.com^
 ||uyaeco.xyz^
@@ -52508,6 +52517,7 @@
 ||yu0123456.com^
 ||yuancangi.cn^
 ||overseauspider.yuanshen.com^
+||yuayku.xyz^
 ||sgtm.yubico.com^
 ||a8clk.yubisashi.com^
 ||game.yubqj.co^
