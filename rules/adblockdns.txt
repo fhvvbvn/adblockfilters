@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241007000754
-! Last modified: 2024/10/07 00:07:54
-! Blocked domains: 53188
+! Version: 20241007161057
+! Last modified: 2024/10/07 16:10:57
+! Blocked domains: 53199
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -422,6 +422,7 @@
 ||2cnt.net^
 ||ttfpil.2dehands.be^
 ||partner.2din.cz^
+||2efgcdcjr000.fun^
 ||ngueja.2ememain.be^
 ||stat.api.2gis.ru^
 ||2hpg0.fun^
@@ -895,6 +896,7 @@
 ||6avz.com^
 ||6c.cn^
 ||6dad.com^
+||6efgcdcjr000.fun^
 ||6ldu6qa.com^
 ||gcjrdj.6n7.com^
 ||olo.6niuwang.com^
@@ -6825,6 +6827,7 @@
 ||csvtu.bmolending.com^
 ||csvtt.bmolife.com^
 ||csvtr09.bmonesbittburns.com^
+||bmqulua.icu^
 ||smetrics.bms-immuno-dermatologie.de^
 ||smetrics.bms-io-academy.co.uk^
 ||smetrics.bms-newfrontiers.com.au^
@@ -7957,6 +7960,7 @@
 ||app.bws.com.au^
 ||target.bws.com.au^
 ||solutions.bwtek.com^
+||bwurserv.top^
 ||bx-cloud.com^
 ||vezsyr.bxblue.com.br^
 ||bxbyll.xyz^
@@ -9976,6 +9980,7 @@
 ||damselfly.clk.click^
 ||clkads.com^
 ||clkdbbvy.xyz^
+||clmcam.xyz^
 ||clmkwi.xyz^
 ||jkerpa.clogau.co.uk^
 ||cloisteredcurve.com^
@@ -12124,6 +12129,7 @@
 ||ddla593ymz72o.cloudfront.net^
 ||a.ddli.jp^
 ||ddllhqj.xyz^
+||ddlmsoyo.icu^
 ||ddlvpmt.xyz^
 ||ddnzpr.xyz^
 ||ddpaowanji.com^
@@ -14355,6 +14361,7 @@
 ||ferret.ecvan.io^
 ||www.ed-clr-01.com^
 ||ed-sys.net^
+||edadmy.xyz^
 ||link.edapp.com^
 ||event.edb.gov.sg^
 ||info.edb.gov.sg^
@@ -22602,6 +22609,7 @@
 ||azlyta.immowelt.de^
 ||immugendx.com^
 ||smetrics.immunooncology.be^
+||imndl.icu^
 ||imop.com^
 ||y.one.impact-ad.jp^
 ||trkapi.impact.com^
@@ -25646,6 +25654,7 @@
 ||kgubus.xyz^
 ||srepdata.kgw.com^
 ||ywrcqa.kgw.com^
+||kgymoc.xyz^
 ||links.kha.com^
 ||a8clk.www.khaki.jp^
 ||uac.khan.co.kr^
@@ -28216,6 +28225,7 @@
 ||lwprdv.xyz^
 ||game.lwpxa.co^
 ||lwrohd.xyz^
+||lwurserl.top^
 ||metrics.lww.com^
 ||smetrics.lww.com^
 ||lx167.com^
@@ -51829,6 +51839,7 @@
 ||xlrjnhxi.xyz^
 ||sadbmetrics.xlsemanal.com^
 ||xlwrdnrw.xyz^
+||xlxehr.xyz^
 ||xlypzbzs.xyz^
 ||partner.xm.cz^
 ||track.xmarketech.com^

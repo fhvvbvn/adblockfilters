@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6jeSHsBHCBuxhPLSpkktyA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1728192991-3600.patch
+! Checksum: vrktjxTme41r9ZFTi5PFYQ
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1728283035-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.16.95
-! TimeUpdated: 2024-10-04T10:33:36+00:00
+! Version: 2.0.16.96
+! TimeUpdated: 2024-10-07T06:33:34+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ###xm_app_stickyHeader
@@ -66,9 +66,7 @@ v.daum.net##.box_floating:has(button[data-tiara-action-name="다음앱배너_클
 member.kms.kuronekoyamato.co.jp##.common-header ~ div > .overlay:has(> .open-app-area)
 wear.jp###app_info
 camp-fire.jp###main ~ section > div[class]:has(> img[src*="_app"])
-appli.jorudan.co.jp##.dl_bnr
 hromadske.radio##div[class^="ModalBanner_modalBanner"]
-yamap.com##.Posts__Download__Section
 colorblindnesstest.org##.rightcol > div.text16:has(> a[href^="https://chrome.google.com/"])
 revolut.com#?##__next > div[class^="Box-rui__sc"]:has(> span[class^="Box-rui__sc"] > a[href^="https://get.revolut.com/"])
 downdetector.*##.app-promo-card
@@ -173,6 +171,7 @@ ya.ru###search-result > div.serp-item:has(> div.Organic-App)
 zeflix.online##noindex > div[id]:has(> div > a[href="https://zetflix.app/"])
 manga-up.com##footer > section.select-none
 search.brave.com##.download-button
+news.yahoo.co.jp##.newsFeed_list > li[class^="sc"]:has(> a[href^="https://app.adjust.com/"])
 familydollar.com##.headerPromoBar
 mail.yahoo.co.jp###root > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"]:has( > div[class^="sc-"] > img[alt="Yahoo!メールアプリをインストール"])
 indiatimes.com##a[href^="https://timesofindia.onelink.me"]
@@ -206,7 +205,7 @@ quotidiano.net##+js(set-local-storage-item, pwa_show, true)
 savett.cc##body > section.container:has(> div.card > div.row > div[class] > a[href="https://play.google.com/store/apps/details?id=com.savett"])
 news10.com###custom_html-22
 news10.com##a[href="https://www.news10.com/news/say-hello-to-the-new-news10-abc-mobile-app/"]
-meteored.do,meteored.pe,meteored.cl,meteored.mx,tempo.com,tiempo.com,meteored.com.ar##.descarga-app
+tempo.com,tiempo.com,meteored.*##.descarga-app
 news.tvbs.com.tw##.guangxuan > a[rel="nofollow"][href^="https://bit.ly/"]
 u.gg##.builds-page-promo
 hellobacsi.com##a[href="https://hellobacsivn.page.link/app"]
@@ -268,9 +267,11 @@ olx.in#?#main + div div[class^="_"]:has(> div > div > div > div > a[href^="https
 javdb.com##.app-desktop-banner
 sinefy3.com##.btn-watch-together.app
 ilmeteo.it##+js(set-cookie-reload, sb_user_close, 1)
+airbnb.*##div[data-plugin-in-point-id="NAV_MOBILE"]
 fora.ua##.jss121
 goo-net.com#$#.app_top_search { display: none !important; }
 goo-net.com#$#.mainAppSearch { padding-top: 0 !important; }
+||app.link/branch-amp-journeys-pre
 tim.it##+js(set-cookie, TIM_ScaricaApp_Negative, 1)
 max.book118.com##.side-app
 max.book118.com##.preview-app
@@ -305,6 +306,7 @@ langeek.co##main > a[href$="/mobile-app"]
 deepl.com##aside[data-testid="app_banner_content"]
 keirin.netkeiba.com#?#div[class^="Column_Detail"] > div.banner320:has(> a[href] > img[src*="appdl_banner_square"])
 r18.clickme.net###app-load
+monsterhunternow.com###download
 bt.cn##.wechat-customer
 3bmeteo.com###favDialog
 iraw.rcc.jp###app-btn
@@ -406,6 +408,7 @@ boredpanda.com##.bp-pwa-promotion-container
 ||bbc.com/*/manifest.json
 qidian.com##.bototm-qrcode
 qidian.com###left-container > div[dl-track$="_redpacketdownload"]
+motilaloswal.com##h1.section-title-mytag + div.icons ~ br
 rainews.it#$#.banner-app { display: none !important; }
 rainews.it#$#html > body[data-layout=homepage] main { border-bottom: 0px solid #009 !important; }
 researchgate.net##.lite-page__footer-native-app
@@ -441,7 +444,10 @@ pikabu.ru##.appstore-link
 histrf.ru#$#.min-h-screen { margin-top: 0 !important; }
 histrf.ru#$#header { top: 0 !important; }
 pdf2go.com##.extension-container
+yazio.com,msdmanuals.com,tierschutzbund.de##.smartbanner
 ||navitime.co.jp/static/*/bicycle/banner/app_p1.png
+navitime.co.jp###appliAppeal
+navitime.co.jp##.appliButton
 channelchk.com##a[href="https://channelchk.com/app"]
 foxnews.com##.article-wrap a[href^="https://www.foxnews.com/apps-products"]
 yahoo.co.jp##img[src^="https://s.yimg.jp/images/yjtop-app/promo/banner"]
@@ -529,6 +535,7 @@ songkick.com##.get-mobile-app-button
 wantedly.com##div[class^="AppInstallationAlert_"]
 blog.terabox.com##.download-wap
 deepl.com##aside[aria-labelledby="app-ad-banner-heading"]
+walmart.com#?#div[data-automation-id="sb-div-bottom-module"]:has(> button[data-automation-id="sb-btn-get-the-app"])
 douyu.com##div[class^="recommendApp"]
 nytimes.com##button[data-testid="getstarted-magic-link"]
 m.haber7.com###makroo-sticky-adunit
@@ -551,6 +558,7 @@ ubie.app##div[class^="Footer_appInstallBannerContainer"]
 hoteles.com,hotels.com##.uitk-view-row-theme-brand_promo_primary
 whosampled.com##.spSlot
 paypay.ne.jp###appDownload
+paypay.ne.jp###footerApp
 player.fm##.download-the-app-mobile-promo
 kekememes.de#$#body { overflow: visible!important; }
 wear.jp#?#.bg-gray-200:has(> div.bg-white a[href^="https://itunes.apple.com/jp/app/"])
@@ -585,6 +593,7 @@ gaosan.com##.float-qrcode
 kogan.com###kogan-ad-sidebar
 sekerbank.com.tr##div[class^="mobilebadge_mobileBadge"]
 windy.com###articles
+tenki.jp,m.diningcode.com##.app-banner-wrap
 wallscloud.net,7themes.su###android_promo
 livemint.com##.appMint
 vivo.com.br##.barra-conversao--purple[data-settings='{"pagina": "Vivo Easy Prime: Plano de celular digital com Cashback"}']
@@ -611,9 +620,6 @@ tutu.ru##.b-mobile_apps
 tutu.ru##+js(set-cookie, ptt_ad_banner_hidden, true)
 pro.m.jd.com##.download-pannel
 news.nifty.com##.widget_official_full_app
-sports.smt.docomo.ne.jp#$##app_ad_bnr { display: none !important; }
-service.smt.docomo.ne.jp###app_ad_bnr
-service.smt.docomo.ne.jp#$##wrapper_low { padding-top: 0px !important; }
 search.yahoo.co.jp##div[class^="AppPromo"]
 finance.yahoo.co.jp##div[class^="_"] > a[href^="https://app.adjust.com/"]
 pizzahut.jp,noin.shop##.promote-app
@@ -662,6 +668,8 @@ whowatch.tv,curazy.com,ebay.*,locari.jp##.app-download-banner
 travel.navitime.com##.l-footer-app
 m.shein.com#$#body { margin-top: 0px !important; }
 ||scdn.line-apps.com/stf/line-news/js/thirdparty/
+banggood.com#$#.drainage-pop { display: none !important; }
+banggood.com#$#.global-no-scroll { position: static !important; }
 banggood.com##.bottom-app-contain
 banggood.com#$#.header.show-app-bar { top: 0 !important; }
 banggood.com#$##appTopBar { display: none !important; }
@@ -788,6 +796,7 @@ benesse.ne.jp##.app_download_area
 fox-saying.com,jeremyfoodie.tw,pixnet.net##.web_to_app__container
 ati.su##.apps-block
 ||audee.jp/js/smart.banner/
+jp-news.mercari.com##.mercari-app
 stolichki.ru#$#div[class^="secondMenu__wrapper"] { top: 0 !important; }
 hmetro.com.my,bharian.com.my,nst.com.my##+js(set-cookie, appDownloadBanner, 1)
 flipboard.com#$#body { overflow: visible!important; position: static!important; }
@@ -837,6 +846,7 @@ m.gamer.com.tw,noin.shop,india.com##.open-app
 bhaskar.com,divyabhaskar.co.in#?#div[class][style^="position:"] > div[class]:has(> a[href^="https://play.google.com/store/apps/details?id=com.ak.ta."])
 /images/playstore-$domain=bhaskar.com|divyabhaskar.co.in
 ||ssl.pstatic.net/static/m/comic/im/app_banner_
+m.kooora.com#$#html { margin-top: 0 !important; }
 nur.kz##.js-page-top
 nperf.com##.mobilePromoLogos
 myanimelist.net##.header-mini-banner
@@ -898,6 +908,7 @@ weather.yahoo.co.jp##.footeLinkPromo
 baitoru.com,hokuohkurashi.com,weather.yahoo.co.jp##a[href^="https://app.adjust.com/"]
 netkeiba.com,zhihu.com,wayfair.de,shopping.yahoo.co.jp,103.by##.AppBanner
 sportsnavi.ht.kyodo-d.jp,sports.yahoo.co.jp,baseball.yahoo.co.jp,soccer.yahoo.co.jp##.sn-modBanner
+thehindu.com###artmeterwrap
 novaposhta.ua##.b_banners
 /googleplay_135x40.png$domain=xn----etbbecbrbp5ahkja1ae7v.xn--p1ai|kingisepp-today.ru
 /appstore_135x40.png$domain=xn----etbbecbrbp5ahkja1ae7v.xn--p1ai|kingisepp-today.ru
@@ -913,6 +924,7 @@ coolapk.com##a[onclick="weixinDownload();"]
 smotrim.ru,tieba.baidu.com,m.economictimes.com,trip.com#$#body { overflow: auto !important; }
 trip.com###top-install
 klook.com,japantaxi.jp,crichd.*,theinitium.com,operanewsapp.com,iq.com,news.awa.fm,trip.com##.download
+sirabee.com##a[href^="https://app.sirabee.com"]
 ozon.by,ozon.ru##[data-widget="webToAppBanner"]
 arzamas.academy##.ra__heading .ra__app__btns
 arzamas.academy#$#body { margin-top: 0! important; }
