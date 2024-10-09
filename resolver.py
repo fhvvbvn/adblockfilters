@@ -71,7 +71,7 @@ class Resolver(object):
                 if match('^#.*', line):
                     break
 
-                if match('^.*(jp|de|fr|tw|hk|kr|cc|ru|la|se|kz|pl|ua|es|uk|co)\^$', line):
+                if match('^.*(jp|de|fr|tw|hk|kr|cc|ru|la|se|kz|pl|ua|es|uk|co)\^.*', line):
                     break
 
                 if line.find(' ') > 0:
@@ -130,9 +130,6 @@ class Resolver(object):
                     break
                 # #* 注释
                 if match('^#.*', line):
-                    break
-
-                if match('^.*third-party.*', line):
                     break
 
                 if match('^.*app=.*', line):
