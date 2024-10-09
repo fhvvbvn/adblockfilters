@@ -59,7 +59,7 @@
 | yhost | host | [原始链接](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/yhost.txt) | 2024/10/09 |
 | yhost-tvbox | host | [原始链接](https://raw.githubusercontent.com/vokins/yhosts/master/data/tvbox.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/yhost-tvbox.txt) | 2023/12/19 |
 | YoursList | host | [原始链接](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/YoursList.txt) | 2024/10/09 |
-| 自用 | filter | [原始链接](https://raw.githubusercontent.com/fhvvbvn/ad-filters-subscriber/refs/heads/v2/rule/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/YoursList.txt) | 2024/10/09 |
+| 自用 | filter | [原始链接](https://raw.githubusercontent.com/fhvvbvn/ad-filters-subscriber/refs/heads/v2/rule/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/自用.txt) | 2024/10/09 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
