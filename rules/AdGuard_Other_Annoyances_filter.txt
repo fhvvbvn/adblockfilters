@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: xFIft7YXsSh3y+mVp3x4lg
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1728441365-3600.patch
+! Checksum: FsDnjNdApGrEajU7BSmFwg
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1728477437-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.26.90
-! TimeUpdated: 2024-10-08T17:32:58+00:00
+! Version: 2.0.26.94
+! TimeUpdated: 2024-10-09T12:33:13+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -1181,6 +1181,12 @@ banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.ba
 banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.banki.ru/products/"]
 ##a[href^="https://apay-up-banner.com?merchantId="] > img
 ||apay-up-banner.com^$image,third-party
+tproger.ru##.tp-layout-default__aside-right-widget--jobs
+tproger.ru##.tp-ui-infinite-scroll > div.tp-widget-card:has(div.tp-widget-jobs-wrapper)
+ya.zerocoder.ru##.layout-sidebar > div.banner
+[$path]fontanka.ru#?#.gridContainer > div[class*="grid"]:has(> section[class^="baseBlock_"] > a[href]:contains(/^(Новости компаний|Фонтанка PRO)$/))
+sravni.ru##div[class^="page_mainColumn"] > div[class]:has(> div[class^="special-offers_wrapper"])
+hexlet.io##.hexlet-blog-post-body > blockquote:has(> p > a[href*="promo_name=courses"][target="_blank"])
 playground.ru###steamInfoBlock
 playground.ru##.main-navigation > li:has(> a.btn-steam-pay)
 stackoverflow.com##.nav-links > li.js-overflowai-cta
@@ -1768,6 +1774,7 @@ solvusoft.com##.recommendation
 adac.de##.richtextComponent-banner
 testbook.com##.desktop-side-banner-mcq
 testbook.com##.super-banner--mcq
+tripadvisor.*#?##lithium-root > div[style^="bottom:"]:has(> div[class] span > svg[viewBox="0 0 24 24"])
 mall.hr###above-header
 elog-ch.com##.l-sidebar > aside.widget_custom_html:last-of-type
 renso-ruigo.com##.sidebar-box4
