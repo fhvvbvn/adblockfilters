@@ -52,13 +52,13 @@
 | 小贝塔 | filter | [原始链接](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/小贝塔.txt) | 2024/10/08 |
 | adrule | filter | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adrule.txt) | 2024/10/09 |
 | NEO DEV HOST | filter | [原始链接](https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/NEO_DEV_HOST.txt) | 2024/10/09 |
-| OISD Big | filter | [原始链接](https://big.oisd.nl/) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Claire9518/filters/main/rules/OISD_Big.txt.txt) | 2024/10/09 |
+| OISD Big | filter | [原始链接](https://big.oisd.nl/) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/OISD_Big.txt) | 2024/10/09 |
 | AWAvenue Ads Rule | filter | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AWAvenue_Ads_Rule.txt) | 2024/10/09 |
 | 1024 hosts | host | [原始链接](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/1024_hosts.txt) | 2024/10/09 |
 | ad-wars hosts | host | [原始链接](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ad-wars_hosts.txt) | 2023/11/17 |
-| yhost | host | [原始链接](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Claire9518/filters/main/rules/yhost.txt.txt) | 2024/09/24 |
-| yhost-tvbox | host | [原始链接](https://raw.githubusercontent.com/vokins/yhosts/master/data/tvbox.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Claire9518/filters/main/rules/yhost-tvbox.txt.txt) | 2023/12/19 |
-| YoursList | host | [原始链接](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Claire9518/filters/main/rules/YoursList.txt.txt) | 2024/09/24 |
+| yhost | host | [原始链接](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/yhost.txt) | 2024/10/09 |
+| yhost-tvbox | host | [原始链接](https://raw.githubusercontent.com/vokins/yhosts/master/data/tvbox.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/yhost-tvbox.txt) | 2023/12/19 |
+| YoursList | host | [原始链接](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/YoursList.txt) | 2024/10/09 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
