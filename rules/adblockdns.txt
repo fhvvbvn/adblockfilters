@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241010083737
-! Last modified: 2024/10/10 08:37:37
-! Blocked domains: 72661
+! Version: 20241010161110
+! Last modified: 2024/10/10 16:11:10
+! Blocked domains: 72680
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -643,6 +643,7 @@
 ||32ycta.xyz^
 ||www.33-trk-srv.com^
 ||dm1.3328.cn^
+||333bbb777bbb.com^
 ||339.cn^
 ||3393.com^
 ||ab823c0616.3397afa9b2.com^
@@ -6980,6 +6981,7 @@
 ||data-fdc5118d41.at-minerals.com^
 ||atableofcup.com^
 ||joc.marketing.atafreight.com^
+||ataiyalstrays.com^
 ||get.atakama.com^
 ||atala-apw.com^
 ||a8cv.atami-box.com^
@@ -7906,6 +7908,7 @@
 ||azuremystique.com^
 ||vx.azuresjukes.com^
 ||go.azuritec.com^
+||azygotesonless.com^
 ||azyuuk.xyz^
 ||success.azzure-it.com^
 ||b-5-shield.com^
@@ -8183,6 +8186,7 @@
 ||bailonushe.com^
 ||baimuyuan.com.cn^
 ||bainushe.com^
+||baipahanoop.net^
 ||baiseesh.net^
 ||secure.bait4role.com^
 ||www.bait4role.com^
@@ -11166,6 +11170,7 @@
 ||egret.brothers.studio^
 ||brotherslocket.com^
 ||brothersparklingresolve.com^
+||brottpyric.com^
 ||broughtalienshear.com^
 ||broughtenragesince.com^
 ||broughtincompatiblewasp.com^
@@ -18516,6 +18521,7 @@
 ||dilruwha.net^
 ||diluststrk.com^
 ||dilutegulpedshirt.com^
+||diluterocciput.click^
 ||dilutesnoopzap.com^
 ||dilutionavailstoker.com^
 ||dilvyi2h98h1q.cloudfront.net^
@@ -21666,6 +21672,7 @@
 ||endingmedication.com^
 ||endingrude.com^
 ||endjigsur.com^
+||endlessgoes.com^
 ||endlesslyalwaysbeset.com^
 ||endlesstrust.com^
 ||endlessvow.com^
@@ -26197,6 +26204,7 @@
 ||www.gbl007.com^
 ||www.gblwebcen.com^
 ||gblxtlo.xyz^
+||gbqgwes.icu^
 ||report.iheartmedia.gbqofs.io^
 ||gbrtyhnsc.xyz^
 ||gbsp002.com^
@@ -27604,6 +27612,7 @@
 ||workspacesolutions.gos1.com^
 ||sp.gosanangelo.com^
 ||sxjfhh.gosanangelo.com^
+||goschenelect.com^
 ||marketing.gosenergy.com^
 ||goshbiopsy.com^
 ||app.goshockers.com^
@@ -28466,6 +28475,7 @@
 ||habutaeirisate.com^
 ||images.newsletter.hach.com.cn^
 ||asp.hachipp119.com^
+||hackeestrict.click^
 ||connect.care.hackensackmeridian.org^
 ||metrics.hackerrank.com^
 ||mxsvjc.hackers.ac^
@@ -31404,6 +31414,7 @@
 ||securetags.igeo.com.bo^
 ||tags.igeo.com.bo^
 ||igetnaughty.com^
+||iggbky.xyz^
 ||link.igglo.com^
 ||sut.iggroup.com^
 ||ut.iggroup.com^
@@ -38909,6 +38920,7 @@
 ||mabelasateens.com^
 ||a.mabipa.com^
 ||mabolmvcuo.com^
+||mabolocorrive.com^
 ||mabtcaraqdho.com^
 ||macan-native.com^
 ||macaronibackachebeautify.com^
@@ -39481,6 +39493,7 @@
 ||trk.margarinaiberia.com.mx^
 ||margaritaimmense.com^
 ||margaritapowerclang.com^
+||marginshache.com^
 ||secure.mari4norm.com^
 ||www.mari4norm.com^
 ||mariadock.com^
@@ -41310,6 +41323,7 @@
 ||b.miwebflex.com^
 ||miwfkm.xyz^
 ||miwllmo.com^
+||miwpkk.xyz^
 ||link.mix.com^
 ||ac-3.mix.tokyo^
 ||npfopn.mix.tokyo^
@@ -44760,6 +44774,7 @@
 ||marketing.nparallel.com^
 ||lma.npaw.com^
 ||npbtnl.xyz^
+||npdbxf.xyz^
 ||npdnnsgg.com^
 ||npetropicalnorma.com^
 ||npftmqv.cn^
@@ -45295,6 +45310,7 @@
 ||oceanvids.space^
 ||ocggec.xyz^
 ||chickadee.och.dev^
+||ochoovoajaw.xyz^
 ||info.ochsner.org^
 ||psfcnf.ochsnersport.ch^
 ||partner.ochutnejorech.cz^
@@ -50751,6 +50767,7 @@
 ||ptoakooph.net^
 ||ptoaltie.com^
 ||ptoangir.com^
+||ptoavibsaron.net^
 ||ptobsagn.com^
 ||ptoftaupsift.com^
 ||ptoksoaksi.com^
@@ -53472,6 +53489,7 @@
 ||reticencecarefully.com^
 ||tr.n.retif.eu^
 ||retinaesprent.com^
+||retingexylogen.com^
 ||retintsmillion.com^
 ||retinueabash.com^
 ||retinuegigoh.com^
@@ -67731,6 +67749,7 @@
 ||sstats.vogue.com^
 ||metrics.vogue.com.au^
 ||nsmetrics.vogue.com.au^
+||voguesmaison.com^
 ||gwucmf.voguewigs.com^
 ||link.voiapp.io^
 ||app.voice.football^
