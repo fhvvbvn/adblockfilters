@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241010161110
-! Last modified: 2024/10/10 16:11:10
-! Blocked domains: 72680
+! Version: 20241011000915
+! Last modified: 2024/10/11 00:09:15
+! Blocked domains: 72694
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -4274,6 +4274,7 @@
 ||mlog.aipai.com^
 ||a8clk.aipo.com^
 ||aipofeem.net^
+||aipoufoomsaz.xyz^
 ||aiqidwcfrm.com^
 ||hpymkg.air-austral.com^
 ||go.air-electra.co.il^
@@ -19218,6 +19219,7 @@
 ||track.entry.dokoyorimo.com^
 ||dokseptaufa.com^
 ||a8cv.dokugaku-dx.com^
+||collect.dolap.com^
 ||dolatiaschan.com^
 ||mail.dolce-gusto.at^
 ||mail.dolce-gusto.be^
@@ -21516,6 +21518,7 @@
 ||tarsier.emitremmus.com^
 ||emizkno.cn^
 ||emjpbua.com^
+||emjrwypl.xyz^
 ||emkarto.fun^
 ||kjzixi.emkbh.com^
 ||omjtca.emlakjet.com^
@@ -26813,6 +26816,7 @@
 ||gitoku.com^
 ||truehits1.gits.net.th^
 ||truehits3.gits.net.th^
+||gitsurtithauth.net^
 ||api.cupid.ptqy.gitv.tv^
 ||msg.video.ptqy.gitv.tv^
 ||msg2.video.ptqy.gitv.tv^
@@ -31504,6 +31508,7 @@
 ||smetrics.iilg.com^
 ||afi.iino.life^
 ||iinzwyd.com^
+||iionads.com^
 ||marketing.iip-llc.net^
 ||iisabujdtg.com^
 ||a8.iisakafuji.online^
@@ -31695,6 +31700,7 @@
 ||imgfeedget.com^
 ||imghst-de.com^
 ||ads-yallo-production.imgix.net^
+||imgix.video^
 ||imglnkd.com^
 ||imglnke.com^
 ||imgmin133.top^
@@ -33524,6 +33530,7 @@
 ||j6r9oi.cn^
 ||j6rudlybdy.com^
 ||j6zh4g0.cn^
+||j7c16.icu^
 ||js.j8jp.com^
 ||j93557g.com^
 ||ja2n2u30a6rgyd.com^
@@ -46479,6 +46486,7 @@
 ||web.orionpharma.com^
 ||marketing.orionrisk.com^
 ||marketing.orionti.ca^
+||oritooep.win^
 ||cueohf.orizzontescuolaforum.net^
 ||metrics.orlandofuntickets.com^
 ||starget.orlandofuntickets.com^
@@ -48421,6 +48429,7 @@
 ||phoaraut.com^
 ||phoawhap.net^
 ||phoawhoax.com^
+||phockukoagu.net^
 ||stats.phoenix-widget.com^
 ||metrics.phoenix.edu^
 ||smetrics.phoenix.edu^
@@ -57890,6 +57899,7 @@
 ||sensors.snappea.com^
 ||snappedanticipation.com^
 ||snappedtesting.com^
+||snappffgxtwwpvt.com^
 ||snappyreport.com^
 ||bobcat.snapshooter.io^
 ||misc.api.snaptube.app^
@@ -64184,6 +64194,7 @@
 ||triumphantplace.com^
 ||go.triumphlearning.com^
 ||a.trivita.com^
+||trjwraxkfkm.com^
 ||trk-aspernatur.com^
 ||trk-consulatu.com^
 ||trk-epicurei.com^
@@ -65260,6 +65271,7 @@
 ||l.umba.com^
 ||s.umba.com^
 ||tracking.umbrella.com^
+||umbrellaomendear.com^
 ||umdgene.com^
 ||umebella.com^
 ||umeng.com^
@@ -69081,6 +69093,7 @@
 ||whaidroansee.net^
 ||whaijeezaugh.com^
 ||whaijoorgoo.com^
+||whainsairgi.net^
 ||whairtoa.com^
 ||whaitsaitch.com^
 ||whaiweel.com^
@@ -70573,6 +70586,7 @@
 ||xiaobeier.cn^
 ||cc.xiaodapei.com^
 ||xiaodongrui.com^
+||xiaofangtongzhi.xyz^
 ||xiaohei.com^
 ||xiaohuangshu.me^
 ||adtrack.xiaojukeji.com^
