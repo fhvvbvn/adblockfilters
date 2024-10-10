@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241010000923
-! Last modified: 2024/10/10 00:09:23
-! Blocked domains: 72657
+! Version: 20241010083737
+! Last modified: 2024/10/10 08:37:37
+! Blocked domains: 72661
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -28877,6 +28877,7 @@
 ||hauphoak.xyz^
 ||hauphuchaum.com^
 ||haupsoag.xyz^
+||hauqks.top^
 ||hauqou.top^
 ||wqfflc.hausgarten.net^
 ||app.hauskey.com^
@@ -34599,6 +34600,7 @@
 ||jsfir.cyou^
 ||jsftzha.com^
 ||jsfuz.com^
+||jsgapai.icu^
 ||jsgdvkjz.com^
 ||ao.jsitel.com^
 ||analytics.jslib.win^
@@ -45177,6 +45179,7 @@
 ||oataltaul.com^
 ||oatmealstickyflax.com^
 ||oatscheapen.com^
+||oauqyw.xyz^
 ||oawhaursaith.com^
 ||oawvsm.xyz^
 ||oaxpcohp.com^
@@ -65033,6 +65036,7 @@
 ||udookrou.com^
 ||udraokrou.com^
 ||udsahkln.xyz^
+||udswai.xyz^
 ||uduhytyllobm.com^
 ||uduxztwig.com^
 ||udzpel.com^
