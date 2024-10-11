@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241011000915
-! Last modified: 2024/10/11 00:09:15
-! Blocked domains: 72694
+! Version: 20241011083808
+! Last modified: 2024/10/11 08:38:08
+! Blocked domains: 72709
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -1517,6 +1517,7 @@
 ||9e53d7ea46.6f0b6cb0fe.com^
 ||6fxtpu64lxyt.com^
 ||fg850ik01.6g0blqi1541polz4n0kjvwo1kjl5tcx30.xyz^
+||6gi0edui.xyz^
 ||6glece4homah8dweracea.com^
 ||6hdw.site^
 ||6hejing.cn^
@@ -5397,6 +5398,7 @@
 ||ams-pageview-public.s3.amazonaws.com^
 ||plausible.ams.to^
 ||hbid.ams3.cdn.digitaloceanspaces.com^
+||amsbce.xyz^
 ||qyogcr.amscope.com^
 ||insure.amsservices.com^
 ||privacy.amstel.nl^
@@ -8032,6 +8034,7 @@
 ||info.backbonemedia.com^
 ||msioay.backcountry.com^
 ||sstats.backcountry.com^
+||backedliar.com^
 ||backetkidlike.com^
 ||backfireaccording.com^
 ||backfiremountslippery.com^
@@ -22478,6 +22481,7 @@
 ||upload.euleriancdn.net^
 ||av.eulerupslant.com^
 ||eulogiafilial.com^
+||eumarkdepot.com^
 ||track.eunatural.com^
 ||eunzkvf.com^
 ||euonymysager.com^
@@ -23893,6 +23897,7 @@
 ||images.novedades.fibercorp.com.ar^
 ||images.info.fibia.dk^
 ||fibmaths.com^
+||fibrefilamentherself.com^
 ||fibrehighness.com^
 ||ladybug.ficabo.com^
 ||buzzard.ficabo.com.au^
@@ -26202,6 +26207,7 @@
 ||a8cv.gb-chat.com^
 ||gbc27.online^
 ||gbddeyjekkixrn.com^
+||gbengene.com^
 ||marketing.gbg.com^
 ||gbitcoin.cn^
 ||www.gbl007.com^
@@ -27707,6 +27713,7 @@
 ||promos.gpniches.com^
 ||gpodipsawtaf.com^
 ||gporkecpyttu.com^
+||gpqkeq.xyz^
 ||securemetrics.gpsuniforms.com^
 ||red.gptgirlfriend.online^
 ||gpxxbyf.cn^
@@ -34542,6 +34549,7 @@
 ||jouthee.com^
 ||jouzoapi.com^
 ||jovialwoman.com^
+||jowingtykhana.click^
 ||jowlishdiviner.com^
 ||joxaviri.com^
 ||a8cv.joy-karaokerental.com^
@@ -35927,6 +35935,7 @@
 ||kokotrokot.com^
 ||staging-link.kol.store^
 ||kolerevprivatedqu.com^
+||koleyo.xyz^
 ||sa.kolik.cz^
 ||kolkwi4tzicraamabilis.com^
 ||info.kollmorgen.cn^
@@ -39353,6 +39362,7 @@
 ||app.connect.mandiant.com^
 ||images.connect.mandiant.com^
 ||adat.mandiner.hu^
+||mandjasgrozde.com^
 ||manduzo.xyz^
 ||ak.maneasiestways.com^
 ||manentsysh.info^
@@ -46537,6 +46547,7 @@
 ||visit.oschina.net^
 ||oscism.com^
 ||osfrjut.com^
+||osfultrbriolenai.info^
 ||osgsijvkoap.com^
 ||solutions.oshaeducationcenter.com^
 ||oshaq.top^
@@ -50087,6 +50098,7 @@
 ||hruk.prikupok.com^
 ||hruk.prikupok.icu^
 ||pages.primalpictures.com^
+||primarkingfun.giving^
 ||primaryads.com^
 ||primaryderidemileage.com^
 ||marketing.primaryservices.com^
@@ -54319,6 +54331,7 @@
 ||ropemoon.com^
 ||ropesunfamiliar.com^
 ||ropwilv.com^
+||roqeke.xyz^
 ||roqiwno.com^
 ||roredi.com^
 ||roriba.uno^
@@ -63154,6 +63167,7 @@
 ||ao.tolydigital.net^
 ||track.tom.com^
 ||web.web.tomasiauto.com^
+||analytics.tomato.gg^
 ||tomatoescampusslumber.com^
 ||tomatoesstripemeaningless.com^
 ||tomatohackblobs.com^
@@ -71289,6 +71303,7 @@
 ||ygblpbvojzq.com^
 ||ygeqiky.com^
 ||ygfgzmzo.xyz^
+||ygipjqf.icu^
 ||jzrcod.ygl.co.il^
 ||ygmkcuj3v.com^
 ||ygqczh.com^
