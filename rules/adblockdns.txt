@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241011161111
-! Last modified: 2024/10/11 16:11:11
-! Blocked domains: 72829
+! Version: 20241012000918
+! Last modified: 2024/10/12 00:09:18
+! Blocked domains: 72863
 ! unBlocked domains: 0
 !
 ||001union.com^
@@ -316,6 +316,7 @@
 ||1717gs.com^
 ||cnzz.172internet.com^
 ||1736253261.rsc.cdn77.org^
+||img.175532.com^
 ||17772175ab.com^
 ||177o.com^
 ||177tvbxs.com^
@@ -1472,6 +1473,7 @@
 ||666aa777bb.com^
 ||666bb777ww.com^
 ||666bbb888www.com^
+||666hh999gg.com^
 ||666ppp222ppp.com^
 ||666ppp888ppp.com^
 ||66997.top^
@@ -1858,6 +1860,7 @@
 ||8wtkfxiss1o2.com^
 ||marketing.90degreebenefits.com^
 ||data-449cc4329e.90minuten.at^
+||img.911787.com^
 ||91199a.xyz^
 ||bcc2e48039.911c3826e7.com^
 ||bdm.911cha.com^
@@ -4815,6 +4818,7 @@
 ||www5.oss-cn-hangzhou.aliyuncs.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
+||xpjcg.oss-accelerate.aliyuncs.com^
 ||tags.aljazeera.com^
 ||tags.aljazeera.net^
 ||smetrics.alka.dk^
@@ -15504,6 +15508,7 @@
 ||analytics.corusent.com^
 ||corveseiren.com^
 ||cueohf.corvettepassion.com^
+||cos1999.top^
 ||cciqma.cosabella.com^
 ||sp.coshoctontribune.com^
 ||srepdata.coshoctontribune.com^
@@ -15549,6 +15554,7 @@
 ||a8cv.cosmo-water.net^
 ||cosmo001.top^
 ||cosmo100.top^
+||cosmo202.top^
 ||analytics.cosmonova.net^
 ||aiq-in.cosmopolitan.com^
 ||td.cosmopolitan.com^
@@ -16743,6 +16749,7 @@
 ||d1kzm6rtbvkdln.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d24ak3f2b.top^
+||d24fnxkxwarvg8.cloudfront.net^
 ||d29gqcij.com^
 ||d2fbkzyicji7c4.cloudfront.net^
 ||d2fbvay81k4ji3.cloudfront.net^
@@ -16879,6 +16886,7 @@
 ||d2vwl2vhlatm2f.cloudfront.net^
 ||d2vwsmst56j4zq.cloudfront.net^
 ||d2w92zbcg4cwxr.cloudfront.net^
+||d2w9cdu84xc4eq.cloudfront.net^
 ||d2wa5sea6guof0.cloudfront.net^
 ||d2werg7o2mztut.cloudfront.net^
 ||d2wexw25ezayh1.cloudfront.net^
@@ -18467,6 +18475,7 @@
 ||differpurifymustard.com^
 ||differsassassin.com^
 ||differsprosperityprotector.com^
+||diffhobbet.click^
 ||difficultfog.com^
 ||difficultydilapidationsodium.com^
 ||difficultyearliestclerk.com^
@@ -19596,6 +19605,7 @@
 ||sp.dpgmedia.net^
 ||dpirwgljl6cjp.cloudfront.net^
 ||dpjlvaveq1byu.cloudfront.net^
+||dpjzr.top^
 ||dpmsrv.com^
 ||dppaivsn6f9dy.cloudfront.net^
 ||dprtb.com^
@@ -28341,6 +28351,7 @@
 ||mms.gulflive.com^
 ||keoofp.gulfnews.com^
 ||marketing.gulfshores.com^
+||gullahbaraca.com^
 ||gullible-hope.com^
 ||gullible-lawyer.pro^
 ||gullibleanimated.com^
@@ -30514,6 +30525,7 @@
 ||met1.hp.com^
 ||met2.hp.com^
 ||hp1mufjhk.com^
+||hp8g6.icu^
 ||page.hpcspecialtypharmacy.com^
 ||etrack.ext.hpe.com^
 ||images.connect.hpe.com^
@@ -34698,6 +34710,7 @@
 ||jssearch.net^
 ||analytics.jst.ai^
 ||scripttags.jst.ai^
+||776.jstatic.xyz^
 ||jstclphsy.com^
 ||marketing.jstokes.com^
 ||nsmeasure.jstor.org^
@@ -35857,6 +35870,7 @@
 ||kmnhbr.xyz^
 ||kmodukuleqasfo.info^
 ||kmpxq.cn^
+||kmqianneng66.com^
 ||smetrics.kmshair.com^
 ||metrics.kmsmep.com^
 ||kmyiubbv.xyz^
@@ -39317,6 +39331,7 @@
 ||go.malcotools.com^
 ||trck.asset.malcotools.com^
 ||maldini.xyz^
+||malduckcompile.com^
 ||track.malehealthjournal.online^
 ||track.malehealthmagazine.online^
 ||track.malelifestyle.online^
@@ -43026,6 +43041,8 @@
 ||n2major.com^
 ||www.n3kijf75r.com^
 ||n49seircas7r.com^
+||n55cpw.vip^
+||n55ylc001.vip^
 ||n5n5s.icu^
 ||n6579.com^
 ||n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com^
@@ -43160,6 +43177,7 @@
 ||nanrumandbac.com^
 ||marketing.nanthealth.net^
 ||data-be032ee936.nanu.news^
+||cg-pao-tu.nanyanglk.com^
 ||napainsi.net^
 ||napallergy.com^
 ||metrics.napaonline.com^
@@ -50799,6 +50817,7 @@
 ||psuaqpz.com^
 ||psuftoum.com^
 ||psungaum.com^
+||psunseewhu.com^
 ||psuphuns.net^
 ||psurdoak.com^
 ||psurigrabi.com^
@@ -51431,6 +51450,7 @@
 ||pzpivx.xyz^
 ||pzqfmhy.com^
 ||pztezl.xyz^
+||pzvai.site^
 ||ptarmigan.q-free.com^
 ||q02orc.cn^
 ||q1-tdsge.com^
@@ -52107,6 +52127,7 @@
 ||ssl.o.qxmd.com^
 ||qxrbu.com^
 ||qxvp6.site^
+||qxwoiv.com^
 ||qxyam.com^
 ||qxycdoexyj.com^
 ||qxzlmzt.xyz^
@@ -60463,6 +60484,7 @@
 ||supposedbrand.com^
 ||supposerevenue.com^
 ||suppressedanalogyrain.com^
+||supqajfecgjv.com^
 ||lp.supremapoker.com.br^
 ||trck.el.supremapoker.com.br^
 ||dluat.supremapoker.net^
@@ -71033,6 +71055,7 @@
 ||images.e.xtelligentmedia.com^
 ||xtgreat.com^
 ||xtnwxhjv.xyz^
+||files.xtpag.top^
 ||loc.xtr2020.com^
 ||ads.xtra.ca^
 ||go.xtrack.click^
@@ -72381,11 +72404,22 @@
 ||zijaipse.com^
 ||partneri.zijchytre.cz^
 ||applog.zijieapi.com^
+||feedback-c.zijieapi.com^
 ||log.zijieapi.com^
 ||mcs.zijieapi.com^
+||minigame5-normal-hl.zijieapi.com^
+||minigame5-normal-lq.zijieapi.com^
 ||mon.zijieapi.com^
+||mssdk.zijieapi.com^
+||os-mon.zijieapi.com^
+||pc-mon.zijieapi.com^
+||polaris.zijieapi.com^
+||saveu5-normal-lq.zijieapi.com^
+||starkgame.zijieapi.com^
+||timon.zijieapi.com^
 ||tnc3-alisc1.zijieapi.com^
 ||tnc3-bjlgy.zijieapi.com^
+||view.zijieapi.com^
 ||download.zikirapp.com^
 ||zikraist.net^
 ||zikroarg.com^

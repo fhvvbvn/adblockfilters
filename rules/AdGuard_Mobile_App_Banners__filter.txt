@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: XoQ9E6BMM5j7VzMaK1k7/g
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1728614184-3600.patch
+! Checksum: t/66E0/6JWQgzkjG54inEw
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1728653773-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.17.5
-! TimeUpdated: 2024-10-10T11:32:51+00:00
+! Version: 2.0.17.8
+! TimeUpdated: 2024-10-11T13:33:01+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ###xm_app_stickyHeader
@@ -20,6 +20,9 @@
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 ###SmBnLink
 turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+dzen.ru##.news-advert-column
+hinative.com##.mod_banner_app_download_sticky_button
+hinative.com##.mod_banner_app_download_footer
 web.whatsapp.com#?#.landing-main > aside:has(> div div > button > div > div:contains(pp))
 web.whatsapp.com#?##app > .app-wrapper-web > div[tabindex] > header ~ div[class]:has(> div[class]:only-child div > button:only-child > div:only-child > div:only-child:contains(Store))
 web.whatsapp.com###side > div[role="button"]:has(> div:only-child div[class] > span[data-icon="wa-square-icon"] + span)
@@ -1319,6 +1322,7 @@ honeysanime.com#$##header-line-2 { margin-top: -60px !important; }
 honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
+video.tv-tokyo.co.jp###modal:has(> div#modal-inner > div#webpushsp)
 blog.livedoor.jp##a[href="https://play.google.com/store/apps/details?id=tokyo.zapp.MFNchMatome"]
 dietplus.jp##header[class="md:hidden"] > div[data-testid="wrapper"]:has(> a[href="/s/service_dietplus"])
 tripadvisor.*###lithium-root > div:has(> div > div > picture[style="width:40px;height:40px"])
