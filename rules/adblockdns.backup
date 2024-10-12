@@ -325,7 +325,6 @@ tracker.1232sdf.com
 123apps.com
 123bet.dk
 123doks.com
-123fg-email.s3.amazonaws.com
 123formbuilder.com
 123hala.com
 tracker.123heldo.com
@@ -2366,7 +2365,6 @@ a9able.com
 a9e83e9b144614a02973f6d34bf694bd-1401248241.us-east-1.elb.amazonaws.com
 a9v8.cn
 a9yw.net
-images.cargomarketing.email.aa.com
 metrics.aa.com
 smetrics.aa.com
 go.aa1trk.com
@@ -3409,20 +3407,7 @@ data.aem-sites-internal.adobe.com
 data.b2bmail.adobe.com
 data.customer-success-apac.adobe.com
 data.e.adobe.com
-data.email-discovery.cjm.adobe.com
-data.email-disney.cjm.adobe.com
-data.email-kpn.cjm.adobe.com
-data.email-lightroom.cjm.adobe.com
-data.email-merkle.cjm.adobe.com
-data.email-mobiledx.cjm.adobe.com
-data.email-signify.cjm.adobe.com
-data.email-tsb.cjm.adobe.com
-data.email.podcast.adobe.com
-data.emaillpb.adobe.com
 data.notifications.campaign.adobe.com
-data.wunderman-email.cjm.adobe.com
-demo.emaillpb.adobe.com
-dev.email-signify.cjm.adobe.com
 ereg.adobe.com
 flashplayerfeedback.adobe.com
 genuine.adobe.com
@@ -3430,7 +3415,6 @@ geo2.adobe.com
 hbrt.adobe.com
 hl2rcv.adobe.com
 hlrcv.stage.adobe.com
-landingpage.emaillpb.adobe.com
 lm.licenses.adobe.com
 lmlicenses.wip4.adobe.com
 lp.b2bmail.adobe.com
@@ -3456,9 +3440,6 @@ lp.demo8.demoamericas275.adobe.com
 lp.demo9.demoamericas275.adobe.com
 lp.dmillersb.journeyusshared.adobe.com
 lp.dmillersbdev.journeyusshared.adobe.com
-lp.email-kpn.cjm.adobe.com
-lp.email-lightroom.cjm.adobe.com
-lp.email-merkle.cjm.adobe.com
 lp.hol1.demoamericas275.adobe.com
 lp.hol10.demoamericas275.adobe.com
 lp.hol11.demoamericas275.adobe.com
@@ -3482,19 +3463,14 @@ lp.jkowalskisbdev.journeyusshared.adobe.com
 lp.kkaufmansb.journeyusshared.adobe.com
 lp.owarnersb.journeyusshared.adobe.com
 lp.owarnersbdev.journeyusshared.adobe.com
-lptest.email-mobiledx.cjm.adobe.com
 na1r.services.adobe.com
 na2m-pr.licenses.adobe.com
-newtest.wunderman-email.cjm.adobe.com
 practivate.adobe.com
 secureflashplayerfeedback.adobe.com
-sms.email-disney.cjm.adobe.com
-sms.email-mobiledx.cjm.adobe.com
 sstats.adobe.com
 sstatstest.adobe.com
 stats.adobe.com
 targetlr.adobe.com
-test-landing-page-122122.email-disney.cjm.adobe.com
 whatif.fr.adobe.com
 whatif.it.adobe.com
 whatif.nl.adobe.com
@@ -3511,7 +3487,6 @@ data.ajo-demosystem4.adobedemosystem.com
 adobedtm.com
 acc.marketing.adobedxcusteng.com
 adobeioruntime.net
-ablink.marketing.adobemailing.com
 ajo-zensar.adobesandbox.com
 data.accenturemkt.adobesandbox.com
 data.accentureplcmkt.adobesandbox.com
@@ -3952,7 +3927,6 @@ go.aero.com
 aeroadmin.com
 trk.aeroengineconference.com
 trk.aeroenginesusa.com
-tr.email.aeroexpo.online
 aeroleads.com
 tr.info.aeroportdeauville.com
 pzxhyp.aeropostale.com
@@ -4102,7 +4076,6 @@ tr.agefiseminaires.com
 tricolored.ageisms.site
 go.agelessadvicedaily.com
 trackingssl.agemployeebenefits.be
-tr.emailing.agencereference.com
 awin.agencia77.com
 analytics.agenedia.com
 cv.agent-sana.com
@@ -4114,7 +4087,6 @@ sdc.agenziaentrate.it
 a8cv.ageru-career.com
 ageverify.com
 enterpriseimaging.agfahealthcare.com
-email.agfuse.com
 aggle.net
 obblewha.agglet.store
 aggregateknowledge.com
@@ -4170,7 +4142,6 @@ agrantsem.com
 data-30826b1c29.agrarheute.com
 data-4fec147c37.agrarheute.com
 zmzkyj.agrieuro.com
-tr.email.agriexpo.online
 al.agriz.net
 tk.agrizone.net
 agrvt.com
@@ -4187,7 +4158,6 @@ swwcyk.ahaber.com.tr
 ahacdn.me
 log.ahamo.com
 a8.ahcswiss.com
-emails.ahctv.com
 links.ahctv.com
 ahcyzs8888.com
 track.ahealthierlifeforme.com
@@ -4298,7 +4268,6 @@ push.air-matters.com
 get.air-measure.com
 a8.air-snet.com
 info.air-weigh.com
-images.email.air-worldwide.com
 tracking.air-worldwide.com
 w3.air-worldwide.com
 w4.air-worldwide.com
@@ -4510,7 +4479,6 @@ pstat.akathists.com
 akcnkancklankl.com
 akdie.xyz
 akerolabs.com
-tr.email.akerys.com
 stat-ssl.akiba-souken.com
 get.akim.bo
 akipam.com
@@ -4692,6 +4660,7 @@ analytics.algolia.com
 telemetry.algolia.com
 insights.algolia.io
 metrik.algorithmwatch.org
+algosit.com
 c.algovid.com
 sadbmetrics.alhambraventure.com
 marketing.alhi.com
@@ -4780,7 +4749,6 @@ allawntech.com
 imjsfy.allbeauty.com
 s.allbootdisks.com
 allbud.s3.amazonaws.com
-emails.app.allcal.com
 info.allcatcoverage.com
 tj.allcdn.vip
 analytics-ssl.allconnect.com
@@ -4905,7 +4873,6 @@ tracking.almax.com
 almeremarktonderzoek.nl
 www.connect.api.almirall.com
 19035924.automated.almosafer.com
-19035924.email.almosafer.com
 19035924.loyalty.almosafer.com
 19035924.mktg.almosafer.com
 6519114.automated.almosafer.com
@@ -4915,11 +4882,9 @@ ablink.loyalty.almosafer.com
 ablink.mktg.almosafer.com
 app.almosafer.com
 link.automated.almosafer.com
-link.email.almosafer.com
 link.loyalty.almosafer.com
 link.mktg.almosafer.com
 links.automated.almosafer.com
-links.email.almosafer.com
 marketing.almusnet.com
 app.almutawapharmacies.com
 www.alnw3nsdi.com
@@ -5139,7 +5104,6 @@ ambientdsp.com
 ambithub.com
 affiliate.ambitv.cz
 pls.ambue.com
-links.commercialemails.amcplc.com
 link.global.amd.com
 metrics.amd.com
 discover.amdesign.com
@@ -5206,8 +5170,6 @@ cm-jp.americanexpress.com
 cm-sg.americanexpress.com
 corporatecards.americanexpress.com
 corporateforms.americanexpress.com
-email-hk.americanexpress.com
-email-tw.americanexpress.com
 ep.americanexpress.com
 eprivacy.americanexpress.com
 forex.americanexpress.com
@@ -5525,7 +5487,6 @@ go.anifox.net
 logs.animaapp.com
 smetrics.animalhealthacademy.com.au
 smetrics.animalnetwork.com
-emails.animalplanet.com
 links.animalplanet.com
 sa.animalplanet.com
 ssa.animalplanet.com
@@ -5795,7 +5756,6 @@ apeagle.io
 smetrics.apellis.com
 apenterprise.io
 apester.com
-email.apexauctions.com
 track.apexhq.com
 chocolatine.apexlegendsstatus.com
 apexlink.to
@@ -6053,7 +6013,6 @@ appsupdate.sinaapp.com
 apptentive.com
 apptime.xyz
 apptimize.com
-email.everyonesocial.apptio.com
 apptivo.com
 apptornado.com
 apptrace.com
@@ -6159,7 +6118,6 @@ solutions.arcb.com
 arcgisonline.com
 archant-web-resources.s3.eu-west-2.amazonaws.com
 info.archerdx.com
-tr.email.archiexpo.com
 pixel.archipro.co.nz
 analytics.architectum.com
 sstats.architecturaldigest.com
@@ -6735,7 +6693,6 @@ ad.aucfan.com
 tr.rh.auchan.com
 images.news.auchan.lu
 track.auckland.ac.nz
-data.emails.aucklandairport.co.nz
 deals.aucklandtimepieces.co.nz
 yak.auclantis.com
 connect.aucmed.edu
@@ -6745,7 +6702,6 @@ auctiveltrk.com
 ad.aucview.com
 ablink.your.audacy.com
 click1.e.audacy.com
-click1.email.audacy.com
 go.audacy.com
 audgiqb.cn
 u.audi-pureprotection.com
@@ -7090,7 +7046,6 @@ info.avantiplc.com
 avantisvideo.com
 avantlink.com
 avapp.tv
-email.social.avasecurity.com
 avast.com
 avastbrowser.com
 metrics.avastin-hcp.com
@@ -7250,7 +7205,6 @@ awoudsoo.xyz
 awqsaged.cn
 sinfo.awrostamani.com
 aws.dev
-email.awscloud.com
 analytics2.awsli.com.br
 awsmpsa.com
 images.demand.awspls.com
@@ -7293,7 +7247,6 @@ axisgroupbenefits.axiscapital.com
 axisinsurance.axiscapital.com
 axisre.axiscapital.com
 community.axiscapital.com
-email.axisintegrated.ca
 axislogger.appspot.com
 axkxy.com
 axonhealthcare.nl
@@ -8388,13 +8341,13 @@ app.belbet.by
 belboon.com
 belco.io
 cizzvi.beldona.com
+belezaedieta.com
 lp.belezaifoco.com
 ezvjys.belezanaweb.com.br
 smtx.belfius.be
 analytics.belgacom.be
 mdws.belgianalliancecu.mb.ca
 belgiancowboys.be
-data.email.belgiantrain.be
 data.service.belgiantrain.be
 sstats.belgiantrain.be
 erkwet.beliani.cz
@@ -8438,7 +8391,6 @@ infos.belong.com.au
 umhyck.belvilla.com
 kaacsi.belvilla.nl
 link.bemachine.app
-bemail.it
 info.bematechus.com
 track.bemestarconexo.com
 track.bemestardavida.com
@@ -8457,7 +8409,6 @@ hyfh.benbaisteel.com
 anteater.benborgers.com
 aardwolf.benbrignell.com
 bench-life.me
-benchmarkemail.com
 benchmarkone.com
 benchplatform.com
 marketing.bencordropsupport.com
@@ -9704,7 +9655,6 @@ click.bokecc.com
 imedia.bokecc.com
 tracking.bokf.com
 tracking2.bokf.com
-images.emails.bokfinancial.com
 tracking.bokfinancial.com
 tracking2.bokfinancial.com
 tagging.bokus.com
@@ -9916,7 +9866,6 @@ metrics.bostonglobe.com
 smetrics.bostonglobe.com
 somni.bostonpizza.com
 pxjkbj.bostonproper.com
-email.everyonesocial.bostonscientific.com
 metric.bostonscientific.com
 metrics.bostonscientific.com
 marketing.bostwick-braun.com
@@ -9982,7 +9931,6 @@ bovoda.net
 bowencraggs.com
 solutions.bowengroup.com.au
 preferences.bowerswilkins.com
-email.bowl.com
 bowoprf.icu
 mdws.bowvalleycu.com
 bowvses.icu
@@ -10074,7 +10022,6 @@ tracking.bradyid.com
 brafton.com
 lu9xve2c97l898gjjxv4.brain-sharper.com
 adebis0508.brain-sleep.com
-content.brain-storm-email.com
 app.studios.brain.ai
 imagica.brain.ai
 m.brain.ai
@@ -10097,54 +10044,11 @@ eloqua.brakepartsinc.com
 s.bramptonguardian.com
 branch.io
 22153974.branch.rocks
-active-email.branch.rocks
-amazon-email.branch.rocks
 avasgtest.branch.rocks
 bdtestsendpulse.branch.rocks
-bluecore-email.branch.rocks
 bmf.branch.rocks
 clevertapsendgrid.branch.rocks
-click1.email-postup.branch.rocks
 cttest.branch.rocks
-delivery.email-pepipost.branch.rocks
-email-activecampaign.branch.rocks
-email-adobe.branch.rocks
-email-appboy.branch.rocks
-email-betaout.branch.rocks
-email-bronto.branch.rocks
-email-bronto-stage.branch.rocks
-email-bss-new.branch.rocks
-email-campmon.branch.rocks
-email-cheetahmail.branch.rocks
-email-cm.branch.rocks
-email-cordial.branch.rocks
-email-eloqua.branch.rocks
-email-emarsys.branch.rocks
-email-epsilon.branch.rocks
-email-full-sailthru.branch.rocks
-email-hubspot.branch.rocks
-email-icubespro.branch.rocks
-email-insider.branch.rocks
-email-iterable.branch.rocks
-email-klaviyo.branch.rocks
-email-listrak.branch.rocks
-email-mailjet.branch.rocks
-email-mailup.branch.rocks
-email-mandrill.branch.rocks
-email-marketo.branch.rocks
-email-messagegears.branch.rocks
-email-moengage.branch.rocks
-email-rapidmail.branch.rocks
-email-selligent.branch.rocks
-email-sender.branch.rocks
-email-sendgrid.branch.rocks
-email-simple-sailthru.branch.rocks
-email-smartech.branch.rocks
-email-sp.branch.rocks
-email-vero.branch.rocks
-email-yesmail.branch.rocks
-email.customerio.branch.rocks
-email.email-cusomerio.branch.rocks
 expertsender.branch.rocks
 hanadev.branch.rocks
 hanastage.branch.rocks
@@ -10161,7 +10065,6 @@ hparksendgrid.branch.rocks
 hparksendgridstage.branch.rocks
 hubert.branch.rocks
 igorsgtest.branch.rocks
-links.silverpop-email.branch.rocks
 links.sparkmail.branch.rocks
 monster.branch.rocks
 myapp.branch.rocks
@@ -10178,7 +10081,6 @@ url6143.branch.rocks
 url8258.jshek.branch.rocks
 whatcounts.branch.rocks
 www.branch.rocks
-yiyemail.branch.rocks
 dashboardbntest.branchcustom.xyz
 delete-me.branchcustom.xyz
 delete-me-2.branchcustom.xyz
@@ -10197,7 +10099,6 @@ k.brandalley.be
 k.brandalley.co.nl
 dl2.brandatt.com
 brandcdn.com
-brandcentral.email
 gjtdzt.brandchee.com
 app.brandclub.com
 brandcom.inc
@@ -10255,7 +10156,6 @@ stats.bravesoftware.com
 stats.bsg.bravesoftware.com
 variations.bravesoftware.com
 ijaabm.bravotv.com
-links.email.bravotv.com
 partner.brawolife.cz
 vnmopn.brax.com
 brax.me
@@ -10439,7 +10339,6 @@ bruceklemz.com
 brucelead.com
 marketing.brucknertruck.com
 affil.bruderland.cz
-bruemail.com
 mbna.bruker.com
 mbns.bruker.com
 mbopt.bruker.com
@@ -11040,7 +10939,6 @@ a.dev-ajo.caixabank.com
 data.accionista.caixabank.com
 data.cxbevents.caixabank.com
 data.dev-ajo.caixabank.com
-data.emails.caixabank.com
 l.dev-ajo.caixabank.com
 data.clientefnac.caixabankpc.com
 data.clientemediamarkt.caixabankpc.com
@@ -11207,21 +11105,10 @@ canadiantire.ca
 eulerian.canal-plus.com
 secure-stat.canal-plus.com
 stat.canal-plus.com
-tr.emailing.canalbox.com
 tr.contact.canalplay.com
-tr.emailing.canalplay.com
-tr.emailing.canalplus-afrique.com
-tr.emailing.canalplus-caledonie.com
-tr.emailing.canalplus-caraibes.com
-tr.emailing.canalplus-haiti.com
-tr.emailing.canalplus-maurice.com
-tr.emailing.canalplus-polynesie.com
-tr.emailing.canalplus-reunion.com
-tr.emailing.canalplus.ch
 tr.servicesclients.canalplus.ch
 snr4.canalplus.com
 canalplus.pro
-tr.emailing.canalsat.ch
 red.canary.is
 eymiwj.cancan.ro
 views.cancan.ro
@@ -12161,7 +12048,6 @@ cgigc.com.cn
 info.cgjordaninsurance.com
 cgmalight.com
 cgqwgv.icu
-email.cgroup.online
 cgskqg.com
 cgskys.xyz
 cgyx.tv
@@ -12697,7 +12583,6 @@ fpc.ciel.com
 connect.ciena.com
 smetrics.ciena.com
 lp.cienciaebeleza.com.br
-tr.emailing.cifea-mkg.com
 cdp.cifinancial.com
 jnkqnf.cifraclub.com
 cifraclub.com.br
@@ -12762,7 +12647,6 @@ marketing.circadence.com
 circle-ci.com
 circle-cl.com
 apps.circle.com
-email.everyonesocial.circle.com
 iphufr.circleline.com
 caterpillarsigns.circleone.in
 invite.circleparties.com
@@ -13056,10 +12940,6 @@ clearlyhere.com
 clearme.com
 connect.clearonblack.com
 clearsale.com.br
-email.clearscore.ca
-email.clearscore.co.za
-email.clearscore.com
-email.clearscore.com.au
 clk.clearskideals.com
 clearspring.com
 clearunited.com
@@ -13300,7 +13180,6 @@ clout.social
 moose.cloverlearning.com
 cloverly-ecommerce.com
 app.clovia.com
-emailer45.clovinfo.com
 axtpva.clovisatacado.com.br
 clplrhum.xyz
 clqjyw.xyz
@@ -13544,7 +13423,6 @@ traffic.prod.cobaltgroup.com
 cobanoir.site
 ggduev.cobone.com
 cobrowser.com
-email.cobsbread.com
 ae.cobweb.com
 pages.cobweb.com
 data.accountsamericas.coca-cola.com
@@ -13637,7 +13515,6 @@ reportwest-midas.codmwest.com
 codomaza.com
 panther.codyhatfield.me
 piwik.coe.int
-tr.emailing.coe.int
 biz.coface.com
 contact.coface.com
 downloads.coface.com
@@ -13781,7 +13658,6 @@ data.customermail.syst.colruytgroup.com
 data.customermail.test.colruytgroup.com
 securedata.colruytgroup.com
 securedata.colruytgroupacademy.be
-email.everyonesocial.colt.net
 invite.colu.com
 metrics.columbia.com
 smetrics.columbia.com
@@ -13899,7 +13775,6 @@ telemetry.commonspirit.org
 smetrics.commonwealth.com
 info.commonwealthcommercial.com
 commonwealthproficient.com
-data.msg.email.commsec.com.au
 commsor.com
 innovation.communica.world
 communicationads.net
@@ -14032,7 +13907,6 @@ confiant-integrations.global.ssl.fastly.net
 confiant-integrations.net
 confiant.com
 marketing.confidentialcures.com
-confidentialityemail.com
 confirmic.com
 confirmit.com
 confirmit.com.au
@@ -14293,7 +14167,6 @@ cookieoptimizer.com
 cookiereports.com
 cookiespool.com
 cookieyes.com
-emails.cookingchanneltv.com
 links.cookingchanneltv.com
 sa.cookingchanneltv.com
 scrippscookingchannel.cookingchanneltv.com
@@ -14440,7 +14313,6 @@ corusdigitaldev.com
 analytics.corusent.com
 cueohf.corvettepassion.com
 corvidae.ai
-autoemail.cos.com
 mail.cos.com
 cos1999.top
 cciqma.cosabella.com
@@ -14542,7 +14414,6 @@ smetrics.countrypassport.com
 zrknjk.countrystorecatalog.com
 secure.coup7cold.com
 www.coup7cold.com
-email.everyonesocial.coupa.com
 logs-partners.coupang.com
 mercury.coupang.com
 weblog.coupang.com
@@ -14791,9 +14662,7 @@ cctrkom.creditcards.com
 ch.credithypo.com
 tags.creditkarma.com
 creditkarmacdn-a.akamaihd.net
-click.emails.creditonebank.com
 somni.creditonebank.com
-link.creditonemail.com
 creditsafe.com
 smetrics.creditscore.com
 marketing.credoreference.com
@@ -15164,7 +15033,6 @@ link.curve.com
 curvyerotic.com
 custhelp.com
 custobar.com
-tr.email.custom-campaign.com
 custom-capability.com
 custom-fluentd-eyzeqmfaaa-uk.a.run.app
 customer-i.nl
@@ -15376,7 +15244,6 @@ d16fk4ms6rqz1v.cloudfront.net
 d16kgn4efacaad.cloudfront.net
 d16mn2gxspkaop.cloudfront.net
 d16wq72hfqgb8j.cloudfront.net
-tr.email.d17.tv
 d171pcnztb7w0x.cloudfront.net
 d172q3toj7w1md.cloudfront.net
 d1733r3id7jrw5.cloudfront.net
@@ -15808,7 +15675,6 @@ d77hab4jv6kh0.cloudfront.net
 d7aa7r7vz5xs4.cloudfront.net
 d7hftxdivxxvm.cloudfront.net
 d7j863fr5jhrr.cloudfront.net
-tr.email.d8.tv
 d81mfvml8p5ml.cloudfront.net
 d8360.com
 d88f3ym7dkyv7.cloudfront.net
@@ -16446,7 +16312,6 @@ deferendum.com
 success.definitive-results.com
 definitivehc.com
 preferences.definitivetechnology.com
-tr.email.defiscaliser.com
 cdn.defractal.com
 defybrick.com
 a8.degicashop.com
@@ -16681,7 +16546,6 @@ falcon.designed.org
 applink.designengineapp.com
 chimpanzee.designerdailyreport.com
 rt.designlifestyleeveryday.com
-email.designmynight.com
 trk.designnews.com
 affiliate.designovynabytek.cz
 affiliate.designshoes.cz
@@ -16709,7 +16573,6 @@ destemvandevrouw.nl
 t.destentor.nl
 temptation.destentor.nl
 destination.one
-emails.destinationamerica.com
 links.destinationamerica.com
 marketing.destinationcanada.com
 trk.destinationfashionevents.com
@@ -16823,7 +16686,6 @@ tr.devis-professionnels.com
 tr.devis.digital
 tr.news.devisdirect.be
 devisdirect.com
-email.devishetty.com
 kartik.devishetty.com
 branch.devishetty.net
 kartik.devishetty.net
@@ -17183,7 +17045,6 @@ test-links.dipdip.com
 pkqfky.direct-abris.com
 www.direct-aws-a1.com
 www.direct-azr-78.com
-direct-email.nl
 partner.directalpine.cz
 smetrics.directauto.com
 directavenue.tech
@@ -17195,7 +17056,6 @@ sstats.directgeneral.com
 marketing1.directimpactinc.com
 marketing4.directimpactinc.com
 marketing6.directimpactinc.com
-tr.email.directindustry.com
 al.directishii.net
 smetrics.directline.com
 cngbpl.directliquidation.com
@@ -17269,13 +17129,9 @@ links.discovery.com
 sa.discovery.com
 simg.discovery.com
 ssa.discovery.com
-test.emails.discovery.com
 link.get.discovery.plus
 link.support.discovery.plus
-emails.discoverygo.com
-emails.discoverylife.com
 links.discoverylife.com
-go.emails.discoveryplus.com
 links.discoveryplus.com
 links.br.discoveryplus.com
 links.ca.discoveryplus.com
@@ -17283,11 +17139,6 @@ links.emea.discoveryplus.com
 links.ph.discoveryplus.com
 sa.discoveryplus.com
 ssa.discoveryplus.com
-test.links.emails.discoveryplus.com
-test.links.emails.br.discoveryplus.com
-test.links.emails.ca.discoveryplus.com
-test.links.emails.emea.discoveryplus.com
-test.links.emails.ph.discoveryplus.com
 sa.discoveryplus.in
 ssa.discoveryplus.in
 ssa.discoveryrise.org
@@ -17352,11 +17203,9 @@ ensighten.distrelec.com
 wt.distrelec.com
 distribusion.com
 pages.distributionstrategy.com
-tr.email.distributor-expo.com
 link.district34.com
 districtm.ca
 districtm.io
-links.email.distrokid.com
 distroscale.com
 ozcuxo.disturb.fi
 cmtmwn.ditano.com
@@ -17459,7 +17308,6 @@ dmc1acwvwny3.cloudfront.net
 dmca.com
 marketing.dmcc.ae
 dmcdn.net
-email-test.dmcperforma.com.br
 dmeia.xyz
 dmepyodjotcuks.com
 jildui.dmfit.com.br
@@ -17657,7 +17505,6 @@ domain-routing.com
 bf35f69f2c6f6bcda64064b1f5b49218.domain.com.au
 l.e.domain.com.au
 l.t.domain.com.au
-td.emails.domain.com.au
 ykhqhe.domain.com.au
 www.domainanalytics.net
 partner.domaining.com
@@ -17667,7 +17514,6 @@ mon.domdog.io
 partner.dometa.cz
 trail.dominiosistemas.com.br
 b.prod1.youroffers.dominos.ca
-b.your.rewardsemail.dominos.ca
 smetrics.dominos.com
 metrics.dominos.com.tr
 affil.domio.cz
@@ -18368,7 +18214,6 @@ dygtulfe.icu
 dyhnbgtsl.xyz
 a.dyjqd.com
 dykeep.com
-email.everyonesocial.dykema.com
 marketing.dylangrayconsulting.com
 microsite2.dylansnoddon.com
 rtc.dymatrix.cloud
@@ -19256,7 +19101,6 @@ receiver.eigene.io
 eigenrichting.eu
 eigenuity.com
 eloqgx.eightoclock.com
-ablink.8email.eightsleep.com
 stats.eightyfourrooms.com
 eignky.xyz
 a8cv.eikajapan.com
@@ -19321,7 +19165,6 @@ smetrics.elal.com
 dmp.eland-tech.com
 app.elanic.in
 elas666.pics
-elasticemail.com
 t.elasticsuite.io
 marketing.elastoproxy.com
 dl.elaw.om
@@ -19421,7 +19264,6 @@ cattle.elitecanines.com.au
 elitechnology.com
 stats.eliteclng.com
 partners.elitecoaching.cz
-email.elitedangerous.com
 ref.elitehrv.com
 fahmta.elitetraveler.com
 stats.elixir-lang.org
@@ -19502,30 +19344,6 @@ lpzxed.em.com.br
 images.marketing.emaarinfo.com
 emag.ro
 metrix.emagister.com
-lb.billing01.email-allstate.com
-lb.marketing01.email-allstate.com
-lb.quote01.email-allstate.com
-lb.service01.email-allstate.com
-email-circleci.com
-email-marketing-consultants.com
-images.em.email-prudential.com
-secure.arg.email-prudential.com
-email-zoom.com
-emailanalytics.com
-img.exb.emaildwtc.com
-gamefowl.emailforward.mx
-emailheatmaps.com
-tr.emailing-wishesfactory.com
-tr.client.emailing.bnpparibas
-tr.ere.emailing.bnpparibas
-tr.reglementaire.emailing.bnpparibas
-web.histoire.emailing.bnpparibas
-emailoctopus.com
-stats.emailrep.io
-emails-circleci.com
-emailservcesonline.site
-emailsnow.info
-data.edge-cert.emailtechops.net
 azg1.emalu-store.com
 a8clk.afi1.emanon-sharesalon.com
 a8clk.mirrorball-recurit.emanon-sharesalon.com
@@ -19742,7 +19560,6 @@ marketing.energystewardsinc.com
 smetrics.energytoday.biz
 m.enerpac.com
 count.enet.com.cn
-emailct.enfavr.com
 tr.jesuis.enformedelotus.com
 engagebay.com
 engagement.ai
@@ -19882,7 +19699,6 @@ eoapxl.com
 tpubrk.eobuv.com
 sizcsi.eobuv.cz
 lxmnrl.eobuv.sk
-email.eomega.org
 cp.eoncreativity.com
 ijaabm.eonline.com
 swa.eonline.com
@@ -20336,7 +20152,6 @@ integrations.etrusted.com
 etrvfx.xyz
 smetrics.ets.org
 uvgxhu.ets2.lt
-ablink.email.etsy.com
 ablink.seller.etsy.com
 toad.ettiennevorster.co.za
 ettoday.net
@@ -20503,8 +20318,6 @@ strack.evertondirect.evertonfc.com
 track.evertondirect.evertonfc.com
 a8.evertrust-inc.com
 everymatrix.com
-email.mg.everyonesocial.com
-email.mg.test.everyonesocial.com
 tms.hft.everyplate.com
 mobile.everytap.com
 axp.everythinglubbock.com
@@ -20599,7 +20412,6 @@ exceptiontop.ga
 exchange4media.com
 exchangeratesapi.io
 exclusiefmoment.nl
-email.info.exclusive-networks.com
 lp.internalcomms.exclusive-networks.com
 pages.info.exclusive-networks.com
 tracking.exclusive-networks.com
@@ -20863,7 +20675,6 @@ f2zd.com
 f4cebacks.com
 secureforms.f4f.com
 f4nfg.site
-email.social.f5.com
 interact.f5.com
 mktg.aa.f5.com
 f53a.com
@@ -21067,7 +20878,6 @@ metrics.farnell.com
 smetrics.farnell.com
 target.farnell.com
 resources.faronics.com
-web.email.farrow-ball.com
 pat.farvd.com
 farwx.com
 faseruionser.za.com
@@ -21372,7 +21182,6 @@ adebis.ferret-one.com
 ferriesendless.com
 smetrics.ferroviedellostato.it
 ferzy.com
-email.festiva.com
 marketing.festiva.com
 marketing.festivaorlandoresort.com
 t.festo.com
@@ -21463,7 +21272,6 @@ images.novedades.fibercorp.com.ar
 images.info.fibia.dk
 ladybug.ficabo.com
 buzzard.ficabo.com.au
-images.email.fico.com
 data.notificaciones.ficohsa.com
 data.info.ficohsa.com.gt
 pages.comunicaciones.ficohsa.com.gt
@@ -21768,7 +21576,6 @@ affil.fit-pro.cz
 a8.fit-theme.com
 fitanalytics.com
 track.fitbee-deutschland.com
-app.email.fitchratings.com
 forms.fitchratings.com
 n.fitchratings.com
 fitcoaching-pa.googleapis.com
@@ -21941,8 +21748,6 @@ ablink.mail.flipfit.com
 ablink.msg.flipfit.com
 go.flipfit.com
 trk.flipfit.com
-email.link.flipgive.com
-email.staging-link.flipgive.com
 pla-tk.flipkart.net
 dl.flipkartwholesale.com
 applinks.fliplearn.com
@@ -21956,8 +21761,6 @@ rt.flix360.com
 t.flix360.com
 flixgvid.flix360.io
 stats.flixhq.live
-email.floatme.io
-email.mail.floatme.io
 flocdn.com
 flockler.com
 flocktory.com
@@ -22217,7 +22020,6 @@ metrics.foodnavigator-usa.com
 metrics.foodnavigator.com
 edge.foodnetwork.ca
 str.foodnetwork.ca
-emails.foodnetwork.com
 link.foodnetwork.com
 links.foodnetwork.com
 metrics.foodnetwork.com
@@ -22288,7 +22090,6 @@ foragerwild.best
 foragerwildfood.sa.com
 fbg.forbeinggood.com
 ab-machine.forbes.com
-d.email.forbes.com
 d.newsletter.forbes.com
 fuse.forbes.com
 geolocation.forbes.com
@@ -22369,7 +22170,6 @@ track.f1store.formula1.com
 a8trck.ws.formzu.net
 cueohf.foroactivo.com
 tkjcqb.forrent.com
-app.email.forrester.com
 elq.forrester.com
 mktg.forrester.com
 forrzp.xyz
@@ -22660,7 +22460,6 @@ t.freelancer.com
 s.freelanceratecalculator.com
 freelancerliviu.org
 rt.freelessons.online
-adat.freemail.hu
 analytics.freemake.com
 metrics.freemake.com
 freememorygame.com
@@ -22716,7 +22515,6 @@ metrics.fressnapf.at
 purpose.fressnapf.at
 metrics.fressnapf.ch
 purpose.fressnapf.ch
-email.fretello.com
 link.fretello.com
 meet.freunden.org
 freychang.fun
@@ -22759,7 +22557,6 @@ front99.com
 frontapp.com
 toad.frontendmentor.io
 connect.frontier.com
-email.everyonesocial.frontier.com
 metrics.frontier.com
 smetrics.frontier.com
 corporate.frontierconsul.net
@@ -23210,8 +23007,6 @@ gamingclub.com
 tgg.gamingtechtime.com
 djmzap.gamivo.com
 affil.gamlery.cz
-data.email.gamma.be
-data.email.gamma.nl
 cs1137.wpc.gammacdn.net
 gamned.com
 gamomat.com
@@ -23634,7 +23429,6 @@ dl.getdrivemark.com
 hits.getelevar.com
 shopify-gtm-suite.getelevar.com
 getelevatr.com
-getemail.io
 a.getemoji.me
 dev.getemoji.me
 i.getemoji.me
@@ -23654,7 +23448,6 @@ test-app.getgifted.com
 tmpbr.getgifted.com
 app.getgigl.com
 getgist.com
-links.email.getgocafe.com
 links.info.getgocafe.com
 gtmfsstatic.getgoogletagmanager.com
 u.getgoose.com
@@ -23705,7 +23498,6 @@ spocs.getpocket.com
 widgets.getpocket.com
 dev-link.getprizepool.com
 links.getprizepool.com
-links.email.getprizepool.com
 links.marketing.getprizepool.com
 getpublica.com
 l.getpyfl.com
@@ -23864,7 +23656,6 @@ ghwqbii.icu
 giabatg.org
 aa.giantbomb.com
 saa.giantbomb.com
-links.email.gianteagle.com
 links.info.gianteagle.com
 giantin.com
 a.giantrealm.com
@@ -24300,7 +24091,6 @@ t.gobison.com
 t.goblackbears.com
 t.gobobcats.com
 dlchjp.goboony.nl
-data.email.gobrightline.com
 data.info.gobrightline.com
 gobrowsi.com
 app.gobulldogs.com
@@ -24493,8 +24283,6 @@ deeplink.goodmeasures.com
 links.goodpup.com
 log.goodreels.com
 pstat.goodremotejobs.com
-email.goodrx.com
-email-staging.goodrx.com
 segment-api.goodrx.com
 smetrics.goodsamrvinsurance.com
 cbsbnq.goodsey.com
@@ -25141,7 +24929,6 @@ stats.graphql-api.com
 falsterbo.grappee.space
 mariefred.grappee.space
 stats.gras-system.org
-tr.emailing.grassavoye.com
 attribution.grasshoppers.com
 connect.grassicpas.com
 event.grassicpas.com
@@ -25226,12 +25013,10 @@ metrics.greenflag.com
 smetrics.greenflag.com
 analytics.greenhost.net
 livestats.greenhost.nl
-email-address-validator.us.greenhouse.io
 gblock.greenhousedata.com
 greenhouseglobal.cn
 metrics.greenies.com
 promo.greeninvestings.com
-links.email.greenlight.me
 rbbgbi.greenline.dk
 analytics.greenmountain.com
 analytics.greenmountainenergy.com
@@ -25964,7 +25749,6 @@ haoyundm.com
 haoyundmtaotao.com
 m1.hapi123.net
 authsmtp.happ.social
-email.happ.social
 exchange.happ.social
 ftp.happ.social
 imap.happ.social
@@ -26256,7 +26040,6 @@ share.headliner.app
 jkzoac.headphones.com
 links.info.headspace.com
 links.notifications.headspace.com
-email.headsuphealth.com
 headsway.org
 app.headuplabs.com
 betterhealthrewards.headuplabs.com
@@ -26463,7 +26246,6 @@ kmqhmn.helen-marlen.com
 helende-reis.com
 tfcwiz.helenejw.com
 helio.app
-heliosdax.email
 listing-a8-itp.hello-storage.com
 a8trck.helloactivity.com
 mlinks.helloalfred.com
@@ -26716,7 +26498,6 @@ hgthpj.xyz
 edge.hgtv.ca
 data-26e104754d.hgtv.com
 data-3aee2d871a.hgtv.com
-emails.hgtv.com
 links.hgtv.com
 metrics.hgtv.com
 sa.hgtv.com
@@ -26952,7 +26733,6 @@ hjtedf.xyz
 applink.hk01.com
 track.hk01.com
 hk9600.com
-images.email.hkaf.org
 hkbumv.icu
 hkctmldg.icu
 abc.hkepc.com
@@ -26985,7 +26765,6 @@ geo.hltv.org
 hly.com
 hlzad.com
 hlzyb.cn
-email.hm.com
 idservice.hm.com
 metrics.hm.com
 s.hm.com
@@ -26993,7 +26772,6 @@ sc.hm.com
 smetrics.hm.com
 social.hm.com
 geoip.hmageo.com
-email.everyonesocial.hmausa.com
 hmcubp.top
 hmcvs.cn
 mdws.hmecu.com
@@ -27061,7 +26839,6 @@ lzjsfu.hobobags.com
 apps.go.hobsons.com
 hockeyapp.net
 mb.hockeybuzz.com
-email.hockeytown.com
 app.hocngoainguhieuqua.com
 go.hocoma.com
 tgg.hodgelandscaping.com
@@ -27159,7 +26936,6 @@ holor0804.cn
 holor857.cn
 ssc.holosameryky.com
 images.holtcat.com
-email-hg.holyredeemer.com
 tnhcsf.holzkern.com
 swordfish.holzschuhe.at
 marketing.home-inspection-franchise-opportunity.com
@@ -27333,9 +27109,7 @@ tracking.hostgator.com
 afiliados.hostgator.com.br
 xuymgm.hostgator.mx
 hosting24.com
-data.email.hostplus.com.au
 sstats.hostplus.com.au
-view.email.hostplus.com.au
 hot-mob.com
 cs.hot.net.il
 images.join.hot.net.il
@@ -27400,7 +27174,6 @@ analytics.houghtonstatebank.com
 sanalytics.houghtonstatebank.com
 a8cv.houjin-keitai.com
 ad.houkei-shinjuku.com
-click.email.houndapp.com
 houndify.com
 content.hourigan.group
 ad.house365.com
@@ -27708,7 +27481,6 @@ hubs.li
 hubspot-forms-static-embed.s3.amazonaws.com
 hubspot.com
 hubspot.net
-hubspotemail.net
 hubspotfeedback.com
 hubspotlinks.com
 hubspotqa.com
@@ -27788,7 +27560,6 @@ ping.hungama.com
 cueohf.hungarianforum.com
 ablink.e.hungryjacks.com.au
 abmail2.e.hungryjacks.com.au
-email.hunkemoller.com
 detnmz.hunker.com
 www.hunt-leads.com
 www.hunter-details.com
@@ -27830,7 +27601,6 @@ photography.hursey.com
 connect.huru.ai
 huryds.top
 info.huseby.com
-hushemail.net
 hushenqiquan.com
 hushly.com
 attribution.hushpuppies.com
@@ -28344,7 +28114,6 @@ id5-sync.com
 id5.io
 id528.com
 id6.me
-email-mandrill.id90travel.com
 findnsave.idahostatesman.com
 tr.clients.idaia.group
 marketing.idakc.com
@@ -28604,7 +28373,6 @@ smy.iheart.com
 us-events.api.iheart.com
 images.share.iheartmedia.com
 analytics.ihg.com
-emailhoteldevelopment.ihg.com
 target.ihg.com
 ihgluu.xyz
 a8.ihinnoseiriyasan.com
@@ -28665,7 +28433,6 @@ ijvla.cn
 a3.ikafan.com
 a8cv.ikapula.com
 ilbj.ikarialeanbellyjuicestore.online
-data.cloud.email.ikea.ae
 icas.ikea.com
 metrics.ikea.com
 secureae-edge.ikea.com
@@ -28673,8 +28440,6 @@ sicas.ikea.com
 smetrics.ikea.com
 icas.ikea.net
 sicas.ikea.net
-data.cloud.email.ikea.om
-data.cloud.email.ikea.qa
 ikjwmfeds.xyz
 vuypew.ikks.com
 iklda.cn
@@ -28962,7 +28727,6 @@ ivstat.indavideo.hu
 indazn.com
 indaznlab.com
 indebuurt.nl
-email.everyonesocial.indeed.com
 pxl.indeed.com
 t.indeed.com
 jas.indeednps.com
@@ -29051,7 +28815,6 @@ no88kks.infinityscans.net
 ok88okg.infinityscans.net
 infisecure.com
 influ2.com
-app.email.influitive.com
 br.potato1.influitive.com
 cq.hq1.influitive.com
 marketing.influitive.com
@@ -29405,12 +29168,6 @@ track.instaboostinc.com
 link.instabridge.com
 stats.instabudget.app
 instabug.com
-click.instacartemail.com
-deeplink.instacartemail.com
-links.customers.instacartemail.com
-shoppers.instacartemail.com
-shoppers-test.instacartemail.com
-test.customers.instacartemail.com
 track.instacashy.com
 link.instaeats.com
 instaging.io
@@ -29461,7 +29218,6 @@ marketing.insurancedesigners.com
 marketing.insurancedesigners.net
 go.insuranceenrollmentsupporting.com
 info.insurancehotline.com
-aon.insurancemail.ca
 eloqua.insurancenexus.com
 tracker.insurancenexus.com
 metrics.insurancesaver.com
@@ -29491,7 +29247,6 @@ tigershark.integratecolumbus.org
 app.response.integratelecom.com
 connected.integrationpoint.com
 mdws.integriscu.ca
-email.everyonesocial.integritystaffing.com
 integry.io
 aa.diyer.intel-social.com
 ainu.intel.cn
@@ -29567,7 +29322,6 @@ intelliresponse.com
 intellitxt.com
 elqtrk.intelrealsense.com
 intely.cn
-email.inteng-testing.com
 intentiq.com
 tracking.intentsify.io
 intentsoftware.com
@@ -29746,7 +29500,6 @@ secure.inventiveperception365.com
 stahhx.inversapub.com
 invertase.io
 content.news.invest.bnpparibas
-emails.investigationdiscovery.com
 links.investigationdiscovery.com
 sa.investigationdiscovery.com
 ssa.investigationdiscovery.com
@@ -30103,7 +29856,6 @@ iskyworker.com
 analytics.islamicfinder.org
 smetrics.islandford.ca
 mdws.islandsavings.ca
-data.email.islandsbanki.is
 data.markadsmal.islandsbanki.is
 islbaho.top
 ssc.isleofmtv.com
@@ -30467,7 +30219,6 @@ a3.jandan.net
 b3.jandan.net
 jane1.top
 jane2.top
-tr.email.janedeboy.com
 marketing.janek.com
 go.janesvilleinnovation.com
 catshark.janetalexandersson.com
@@ -30739,9 +30490,7 @@ stats.jessesquires.com
 jessicarace.com
 not-a-tracker.jet-stream.com
 ccpd.jet2.com
-data.email.jet2.com
 ccpd.jet2holidays.com
-data.email.jet2holidays.com
 metrics.jetblue.com
 omnistats.jetblue.com
 smetrics.jetblue.com
@@ -31023,48 +30772,15 @@ link.clearsky.jlg.com
 link.staging.clearsky.jlg.com
 jljftl.xyz
 cookies.jll-mena.com
-email-am.jll-mena.com
-email-ap.jll-mena.com
-email-cm.jll-mena.com
-email-em.jll-mena.com
-email-em.jll.be
 cookies.jll.ca
-email-am.jll.ca
-email-ap.jll.ca
-email-cm.jll.ca
-email-em.jll.ca
 cookies.jll.ch
-email-am.jll.ch
-email-em.jll.ch
 cookies.jll.cl
-email-am.jll.cl
-email-cm.jll.cl
-email-em.jll.cl
 cookies.jll.co.id
-email-ap.jll.co.id
-email-cm.jll.co.id
-email-em.jll.co.id
 cookies.jll.co.il
-email-am.jll.co.il
-email-ap.jll.co.il
-email-cm.jll.co.il
-email-em.jll.co.il
 cookies.jll.co.in
-email-am.jll.co.in
-email-ap.jll.co.in
-email-am.jll.co.th
-email-ap.jll.co.th
-email-cm.jll.co.th
 cookies.jll.co.za
-email-am.jll.co.za
-email-em.jll.co.za
 cookies.us.jll.com
 discover.jll.com
-email-am.stage.ca.jll.com
-email-am.us.jll.com
-email-cm.stage-jp.jll.com
-email-em.stage-in.jll.com
-email-em.us.jll.com
 engage-emea.jll.com
 images.engageemea.jll.com
 images.go.jll.com
@@ -31072,70 +30788,24 @@ images.interact.jll.com
 images.perspectives.jll.com
 marketing.am.jll.com
 cookies.jll.com.ar
-email-am.jll.com.ar
-email-ap.jll.com.ar
-email-cm.jll.com.ar
-email-em.jll.com.ar
-email-am.jll.com.au
-email-ap.jll.com.au
-email-cm.jll.com.au
 cookies.jll.com.br
 cookies.jll.com.lk
-email-am.jll.com.lk
-email-ap.jll.com.lk
-email-em.jll.com.lk
-email-am.jll.com.mo
-email-ap.jll.com.mo
 cookies.jll.com.mx
-email-am.jll.com.mx
-email-ap.jll.com.mx
-email-cm.jll.com.mx
-email-em.jll.com.mx
 cookies.jll.com.my
-email-ap.jll.com.my
-email-cm.jll.com.my
 cookies.jll.com.ph
-email-ap.jll.com.ph
 cookies.jll.com.sg
-email-ap.jll.com.sg
-email-cm.jll.com.sg
 cookies.jll.com.tr
-email-em.jll.com.tr
 cookies.jll.cz
-email-am.jll.cz
-email-ap.jll.cz
 cookies.jll.fi
-email-am.jll.fi
-email-ap.jll.fi
-email-cm.jll.fi
-email-em.jll.fi
 cookies.jll.hu
-email-am.jll.hu
-email-cm.jll.hu
 cookies.jll.ie
-email-cm.jll.ie
-email-em.jll.ie
 cookies.jll.it
-email-am.jll.it
-email-em.jll.it
 cookies.jll.lu
-email-ap.jll.lu
-email-em.jll.lu
 cookies.jll.nl
-email-em.jll.nl
 cookies.jll.nz
-email-ap.jll.nz
-email-cm.jll.nz
 cookies.jll.pe
-email-am.jll.pe
-email-ap.jll.pe
-email-cm.jll.pe
-email-em.jll.pe
 cookies.jll.pt
-email-cm.jll.pt
-email-em.jll.pt
 cookies.jll.ro
-email-em.jll.ro
 s.jlminte.com
 cdn.ads.jlscds.com
 jlssbz.com
@@ -31296,12 +30966,7 @@ info.jonas-construction.com
 favorable-harmonious.jonathandupre.com
 redtrack.jonathanmontoyalive.com
 cookies.joneslanglasalle.com.cn
-email-ap.joneslanglasalle.com.cn
-email-em.joneslanglasalle.com.cn
 cookies.joneslanglasalle.com.vn
-email-am.joneslanglasalle.com.vn
-email-ap.joneslanglasalle.com.vn
-email-cm.joneslanglasalle.com.vn
 jooble.com
 try.joonapp.io
 tracker.joost.com
@@ -31947,7 +31612,6 @@ cf-native.karte.io
 client-log.karte.io
 gae.karte.io
 t.karte.io
-data.email.karwei.nl
 clk.karzinsurance.net
 franchising.kas.co.nz
 bee.kascend.com
@@ -32217,12 +31881,8 @@ rodent.kevindendievel.com
 keweifuwu.shop
 e.kewro.com
 kewrutd.top
-data.email.key.com
-data.email2.key.com
 data.servicing.key.com
-lpage.email2.key.com
 metrics.key.com
-page.email.key.com
 target.key.com
 info.key2.ca
 info.key4cleaningsupplies.com
@@ -32235,7 +31895,6 @@ keydot.net
 servedby.keygamesnetwork.com
 aardwolf.keygen.sh
 marketing.keylane.com
-email-activecampaign.keylyst.com
 keyne-in.com.cn
 keyresearch-ao.com
 keyrun.cn
@@ -32418,7 +32077,6 @@ app.kingofthecurve.org
 app-dat.kingofthecurve.org
 kingpolo.com.cn
 kingroot.org
-www.kings-email.com
 marketing.kingsiii.com
 kingsoft-office-service.com
 kingsoft.com
@@ -32917,7 +32575,6 @@ partnerapp.kravein.com.au
 krbulhb.com
 partner.kreativnisvet.cz
 kreditangebot2017.net
-email.branchio.mg.kreezee.com
 vgazda.krefel.be
 kreisis.top
 srepdata.krem.com
@@ -33545,7 +33202,6 @@ applinks.laoshi.io
 basilisk.laosima.com
 secure.lapersonnelle.com
 secure1.lapersonnelle.com
-marketing.laplinkemail.com
 fsm.lapresse.ca
 lapropostagiornaliera.it
 avocado.laprovence.com
@@ -34131,7 +33787,6 @@ info.lexisnexis.com.cn
 info.lexisnexis.com.my
 info.lexisnexis.com.sg
 analytics.lexisnexisrisk.com
-email.everyonesocial.lexisnexisrisk.com
 campaign.lexjet.com
 events.lexmark.com
 images.response.lexmark.com
@@ -34345,7 +34000,6 @@ smetrics.lifestride.com
 analytics.lifestyledemocracy.com
 c2.lifestyleguideusa.com
 track.lifestylehacks.online
-br.email.lifesum.com
 clicks.lifesum.com
 track.lifeswitcher.com
 metrics.lifetime.life
@@ -34771,8 +34425,6 @@ production-mcs.lvp.llnw.net
 llnwd.net
 beacon.s.llnwi.net
 link.lloydsbank.com
-links.commercialemails.lloydsbank.com
-links.emails.international.lloydsbank.com
 links.insurance.lloydsbank.com
 analytics.data.lloydsbankinggroup.com
 optimisation.data.lloydsbankinggroup.com
@@ -35068,7 +34720,6 @@ lotingwoning.nl
 stats.lotlinx.com
 lotofhappiness.nl
 ssrlot.lotoquebec.com
-email.lottehotel.com
 stay.lottehotel.com
 zlgkpr.lottehotel.com
 yrpicm.lotteimall.com
@@ -35259,7 +34910,6 @@ lufax.com
 lpzxed.lugarcerto.com.br
 stats.luieremmer.net
 trk.luisaviaroma.com
-trkemail.luisaviaroma.com
 trklink.luisaviaroma.com
 xlbvvo.luisaviaroma.com
 ad-tracker-api.luizalabs.com
@@ -35291,20 +34941,17 @@ cznfum.lumas.com
 analytics.lumberliquidators.com
 doklln.lumecube.com
 ametrics.lumen.com
-email.everyonesocial.lumen.com
 marketing.lumenera.com
 stats.lumension.com
 resources.lumestrategies.com
 redtrack.lumevltta.com
 track.offer.lumina-shop24.com
 track.luminaryads.com
-ablink.email.luminarypodcasts.com
 luminati.io
 anglerfish.luminfire.com
 knjybs.luminis-films.com
 healthier.luminishealth.org
 tracking.luminishealth.org
-email.luminpdf.com
 mdws.luminusfinancial.com
 marketing.lumiradx.com
 lumnxiel.top
@@ -35736,7 +35383,6 @@ tr4.mailperf.com
 tr5.mailperf.com
 mailperformance.com
 mailplus.nl
-mailrabobank.email
 mailspice.com
 mailssenders.com
 tr.nespresso.mailsservices.com
@@ -35758,7 +35404,6 @@ eulerian.maison-facile.com
 lwkvkd.maison-objet.com
 tk.maison123.com
 maisoncherry.com
-tr.email.maisonfoody.com
 tr.hello.maisonfoody.com
 tr.news.maisonfoody.com
 adtrack.maisonlexia.com
@@ -35799,7 +35444,6 @@ stats.mako.co.il
 makqsd.icu
 analytics.makro.be
 sanalytics.makro.cz
-data.emails.makro.nl
 sanalytics.makro.nl
 analytics.makro.pt
 sanalytics.makro.pt
@@ -35972,7 +35616,6 @@ blackbird.marcelgil.com
 px.marchex.io
 rw.marchex.io
 ieeowa.marcjacobsbeauty.com
-url6933.email.marcon.au
 srepdata.marconews.com
 lp.marcosduda.com.br
 web.marcotozzi.com
@@ -36553,7 +36196,6 @@ ahsxot.meaningfulbeauty.com
 mwa.meanwellaustralia.com.au
 meapk.com
 meaqcj.cn
-measuremail.com
 measurementsys.com
 measureworks.nl
 meatballsandads.com
@@ -36644,7 +36286,6 @@ link.medibuddy.app
 adobe-ep.medicaid.gov
 data-fd399543fe.medical-design.news
 track.info.medicalbag.com
-tr.email.medicalexpo.com
 adobe-ep.medicare.gov
 tqbdio.medicare.pt
 zlvxiw.medicarelife.com
@@ -36725,7 +36366,6 @@ meetsourhig.biz
 report-ps.meettech.net
 analytics-tracking.meetup.com
 dbhsejcg.meetup.com
-email-analytics.meetup.com
 mefiafd.top
 track.megabotpro.com
 jatpmv.megacolchoes.com.br
@@ -36937,7 +36577,6 @@ chanalytics.merchantadvantage.com
 secure.merchantadvantage.com
 merchantfabricsbd.com
 tr.info.mercialys.com
-email.everyonesocial.merckgroup.com
 smetrics.mercola.com
 smetrics.mercolamarket.com
 mercor.cn
@@ -37044,15 +36683,12 @@ analytics.metro.be
 analytics.metro.bg
 analytics.metro.co.in
 sanalytics.metro.co.in
-data.emails.metro.it
 sanalytics.metro.it
 analytics.metro.md
 analytics.metro.pk
-data.emails.metro.ro
 analytics.metro.sk
 data.account.metrobyt-mobile.com
 data.cart.metrobyt-mobile.com
-data.email.metrobyt-mobile.com
 data.notice.metrobyt-mobile.com
 metrics.metrobyt-mobile.com
 smetrics.metrobyt-mobile.com
@@ -38044,7 +37680,6 @@ marketing.molenaar.nl
 app.innovate.molex.com
 fwychy.moliera2.cz
 mfrkld.mollerus.com
-click.email.mollie.com
 mollitiamindustries.com
 molocoads.com
 molpmh.xyz
@@ -38296,7 +37931,6 @@ lnk.most-days.com
 lnk.mostdays.com
 hirlevel.mostjoaron.hu
 stats.mostlycoding.com.au
-motabet.email
 emu.motala.no
 motcmn.icu
 smetrics.motegrity.com
@@ -38368,7 +38002,6 @@ ablink.marketing.motortrend.com
 ablink.newsletters1.motortrend.com
 ablink.newsletters2.motortrend.com
 ablink.subscribers.motortrend.com
-emails.motortrend.com
 links.motortrend.com
 metrics.motortrend.com
 smetrics.motortrend.com
@@ -38597,7 +38230,6 @@ msf.com
 amcdn.msftauth.net
 msftncsi.com
 smetrics.msg.com
-msg.email
 msgapi-prod-weu.cloudapp.net
 msgapp.com
 msgfocus.com
@@ -39040,7 +38672,6 @@ analytics.myfidevs.io
 myfinance.com
 mfd.myfirstdressing.com
 link.e.blog.myfitnesspal.com
-link.email.myfitnesspal.com
 link.info.myfitnesspal.com
 csp.myfonts.com
 myfonts.net
@@ -39140,8 +38771,6 @@ gtaqrn.myparfum.su
 u652.myplainview.com
 tag.myplay.com
 marketing.mypoindexter.com
-email.mypopshop.app
-email.dev.mypopshop.app
 link.mypostcard.com
 link.hey.mypostcard.com
 applink.mypostcardapp.com
@@ -39352,7 +38981,6 @@ sig.nadex.com
 smetrics.nadro.mx
 smetrics.i22.nadro.mx
 jlffeu.nadula.com
-naemailom.fun
 partneri.naenergie.cz
 images.medlem.naf.no
 marketing.naf.no
@@ -39562,7 +39190,6 @@ sc.natwestgroupremembers.com
 nsc.natwestinternational.com
 sc.natwestinternational.com
 logs.naukri.com
-tr.email.nauticexpo.com
 app.nautilus.io
 marketing.nav-x.com
 go.hello.navan.com
@@ -39620,7 +39247,6 @@ info.navitor.com
 secure.navy9gear.com
 www.navy9gear.com
 analytics.navyfederal.org
-email.msg.navyfederal.org
 img2021.navyfederal.org
 app.navyhealth.com.au
 app-uat.navyhealth.com.au
@@ -39653,7 +39279,6 @@ ads.nbbookne.com
 clients.nbc-insurance.ca
 uat-client.nbc-insurance.ca
 links.nbc.com
-links.email.nbc.com
 axp.nbc4i.com
 blue.nbc4i.com
 link.nbcadmin.com
@@ -39770,7 +39395,6 @@ link.nearpod.com
 share.nearpod.us
 click.track.nearthecashcorner.com
 go.neat-revenue.com
-email.everyonesocial.neat.no
 neatspy.com
 smetrics.nebraskafarmer.com
 metrics.nebraskatotalcare.com
@@ -40486,7 +40110,6 @@ calibration.ni.com
 crm.landing.ni.com
 delphi.ni.com
 dozententag.ni.com
-email.everyonesocial.ni.com
 ets.ni.com
 evelynn.landing.ni.com
 harris.ni.com
@@ -40651,7 +40274,6 @@ ads.ninemsn.com.au
 api.ning.com
 track.ning.com
 ninja.akamaized.net
-email.branch.ninomail.com
 webmetrics.nintendo-europe.com
 yxxuyo.nintendo.co.za
 metrics.nintendo.com
@@ -40985,7 +40607,6 @@ link.staff.notab.com
 heron.notability.com
 ip.notable.app
 telemetry.notable.app
-email.everyonesocial.notarize.com
 links.notarize.com
 sg3.notarize.com
 deeplink.api-sandbox.notarycam.com
@@ -41243,7 +40864,6 @@ tmrhpl.nurse-agent.com
 app.nursef.ly
 look-ahead.nurturemarketing.com
 beacon.nuskin.com
-email.everyonesocial.nuskin.com
 app.nusports.com
 t.nusports.com
 nutaku.net
@@ -42136,7 +41756,6 @@ ontraport.net
 lp.onucleo7.com
 smetrics.onureg.ch
 onvix.tv
-email.onvz.nl
 style.onvz.nl
 onxeacj.cn
 ablink.lifecycle.onxmaps.com
@@ -42822,7 +42441,6 @@ zcnknu.oxxo.com.tr
 eulerian.oxybul.com
 tmbsxx.oxybul.com
 osd.oxygem.it
-links.email.oxygen.com
 meta-events.oxygenmag.com
 trk.oxywise.com
 oyell.net
@@ -42896,7 +42514,6 @@ us-east-1.paa-reporting-advertising.amazon
 tigershark.paavanmagic.com
 reindeer.pablomaceda.com
 prism.pablonouvelle.com
-email.pac-12.com
 marketing.pac.com
 tracking.pacharge.com
 pacificalliancebank.com
@@ -43242,7 +42859,6 @@ s.parrysound.com
 parse.ly
 parsely.com
 analytics.partcommunity.com
-email.participaction.com
 aiddut.particleformen.com
 log.particlenews.com
 analytics.partijvoordedieren.nl
@@ -43809,7 +43425,6 @@ pewresearch.org
 images.outreach.pewtrusts.org
 pexavfro.xyz
 cat.pexels.com
-emails.pexels.com
 pexi.nl
 pexnjio.cn
 smetrics.pfa.dk
@@ -44256,7 +43871,6 @@ visitor.pixplug.in
 pixrealm.com
 s.pixsrvcs.com
 pizzaandads.com
-web.email.pizzaexpress.com
 uurykr.pizzahut.com.mx
 franchising.pizzapizza.ca
 pj3f7.xyz
@@ -44553,7 +44167,6 @@ ads.pof.com
 pofang.com
 analytics.poferries.com
 pofmnj.xyz
-tr.emailing.pogioclub.be
 pogwua.cn
 ijvugl.pohistvo.si
 pohpll.xyz
@@ -44979,7 +44592,6 @@ get.prapo.com
 partner.pravopisne.cz
 affiliate.pravopropodnikatele.cz
 pra.praxis.nl
-email.pray.com
 link.pray.com
 notify.pray.com
 prazpf.cn
@@ -45055,7 +44667,6 @@ statdb.pressflex.com
 pressit.cn
 presslabs.net
 r.presspadnews.com
-ablink.email.pressreader.com
 ablink.info.pressreader.com
 lp.prestazioniavanzate.online
 smetrics.prestigeclub.in
@@ -45108,26 +44719,18 @@ primis.tech
 primo.design
 primordalx.ru.com
 a8.princess-jp.com
-data.au-email.princess.com
 data.au-guest.princess.com
-data.email.princess.com
 data.guest.princess.com
-data.hk-email.princess.com
 data.hk-guest.princess.com
-data.jp-email.princess.com
 data.jp-guest.princess.com
-data.sg-email.princess.com
 data.sg-guest.princess.com
 data.sm.princess.com
-data.tw-email.princess.com
 data.tw-guest.princess.com
-data.uk-email.princess.com
 data.uk-guest.princess.com
 images.contact.princess.com
 images.inport.princess.com
 m.sm.princess.com
 metrics.princess.com
-pages.email.princess.com
 pages.guest.princess.com
 smetrics.princess.com
 images.edm.princesscruises.com.au
@@ -45703,7 +45306,6 @@ track.push-ad.com
 pushadvert.bid
 track.pushbullet.com
 pushcrew.com
-tracking.email-mandrill.pushd.com
 pushdealer.com
 pushengage.com
 pusher.com
@@ -45894,7 +45496,6 @@ q53ztm.cn
 q6gub.website
 a1.q6u.com
 omtrns.sstats.q8.dk
-data.email.q8.it
 q9y39.cn
 qacdf511.cn
 qaexp-static.com
@@ -46419,7 +46020,6 @@ smetrics.quickenloans.org
 somni.quickenloans.org
 click.quickenloansnow.com
 quickkoala.io
-quicklyemailsend77.com
 quickpcfixer.click
 stats.quicksilvercre.com
 link.quicktakes.io
@@ -47040,7 +46640,6 @@ br.realitykings.com
 rzmarketing.realization.com
 metrics.reallymoving.com
 data.automaticas.realmadrid.com
-data.email.realmadrid.com
 data.fans.realmadrid.com
 data.inst.socios.realmadrid.com
 data.madridista-free.realmadrid.com
@@ -47263,7 +46862,6 @@ secure.refl3alea.com
 www.refl3alea.com
 gtm.reflect.app
 bmrg.reflected.net
-email.reflectlyapp.com
 pntbrs.reflectwindow.com
 an.reflektion.com
 trk.reflo.io
@@ -47440,9 +47038,6 @@ users.rentbabe.com
 rnnstu.rentbeforeowning.com
 gqjppj.rentcafe.com
 t.rentcafe.com
-email.rentomojo.in
-email.rentomojo.org
-email.rentomojomailer.com
 smetrics.rentprogress.com
 renzhen8.cn
 www.rep0pkgr.com
@@ -47492,7 +47087,6 @@ republish1.nl
 repuso.com
 marketing-uk.reputation.com
 oms.reputationdefender.com
-email.mg.repuzzlic.com
 www.repyua.com
 www.req12pkg.com
 www.req12pkgb.com
@@ -47823,7 +47417,6 @@ rightnowtech.com
 stats.rightourhistoryhawaii.com
 content.rightsourcemarketing.com
 member-app.rightwayhealthcare.com
-pbm-email.rightwayhealthcare.com
 secure.rigi9bury.com
 www.rigi9bury.com
 beyondmeasure.rigoltech.com
@@ -47854,7 +47447,6 @@ data.articles.ringcentral.com
 data.discover.ringcentral.com
 data.e.ringcentral.com
 data.em.ringcentral.com
-data.emails.ringcentral.com
 data.resources.ringcentral.com
 go2.ringcentral.com
 hwyyuy.ringcentral.com
@@ -48326,7 +47918,6 @@ rrsubway.com
 rrutu.com
 rrxddl.xyz
 rrxplatform.com
-tr.email.rs-fr.com
 stats.rs-online.com
 rs6.net
 rs83.com
@@ -48391,7 +47982,6 @@ invest.rubicoin.com
 learn.rubicoin.com
 rubiconproject.com
 rublacietrk.com
-email.everyonesocial.rubrik.com
 rubyfortune.com
 nstclj.rubylane.com
 marketing.ruckuswireless.com
@@ -48817,8 +48407,6 @@ smetrics.samsunglife.com
 nmetrics.samsungmobile.com
 policy.samsungrs.com
 contact.samsungsds.com
-lp.mkt-email.samsungsds.com
-tracking.mkt-email.samsungsds.com
 api.samsungtvplus.com
 business.samsungusa.com
 ebis.samurai271.com
@@ -49196,7 +48784,6 @@ smetrics.science.org
 www.scienceaaas.org
 sciencebasedtargets.org
 smetrics.sciencecareers.org
-emails.sciencechannel.com
 links.sciencechannel.com
 ssl.sciencechannel.com
 nav.sciencedirect.com
@@ -49370,7 +48957,6 @@ images.e.seagate.com
 images.messages.seagate.com
 nbg.seagate.com
 lamprey.seagyndavis.com
-trk.e.seahawksemail.com
 www.seainan333.com
 sdata.sealedair.com
 sealmetrics.com
@@ -49889,7 +49475,6 @@ shakegroup.nl
 shakemedia.nl
 cname2.shaken-yoyaku.com
 clicks.shakeshack.com
-clicks.email.shakeshack.com
 shalltry.com
 shallwead.com
 ana.chat.shalove.net
@@ -50181,7 +49766,6 @@ activate.shopjustice.com
 shopkick.com
 marketing.shoplet.com
 ptsc.shoplocal.com
-ablink.email.creator.shopltk.com
 ablink.updates.creator.shopltk.com
 metrics.shopmyexchange.com
 smetrics.shopmyexchange.com
@@ -50216,7 +49800,6 @@ tracking.shopstyle.com
 widget.shopstyle.com.au
 edge.shopsuite.com
 pkdimy.shoptime.com.br
-emails.shopupp.com
 link.shopview.in
 sst.shopware.com
 ablink.help.shopwell.com
@@ -50300,7 +49883,6 @@ adashx.ut.shuqi.com
 shuqistat.com
 shuqw.com
 prvizg.shurgard.be
-marketing.shurtapemail.com
 branch.shuruapp.com
 a1.shusanqi.com
 shushijiameng123.com
@@ -50312,7 +49894,6 @@ trk.bc.shutterfly.com
 analytics.shutterstock.com
 custom.info.shutterstock.com
 go.shutterstock.com
-images.premier.email.shutterstock.com
 m.premier.info.shutterstock.com
 platformsolutions.shutterstock.com
 smb.info.shutterstock.com
@@ -50793,7 +50374,6 @@ skdunkig.xyz
 aiq-in.skechers.ca
 smetrics.skechers.co.nz
 yjlhep.skechers.co.nz
-click.devemails.skechers.com
 llqutk.skechers.com.au
 smetrics.skechers.com.au
 ghrzlu.skechers.com.tr
@@ -50838,7 +50418,6 @@ skipperpools.net
 go.skippy.ai
 partner.skiresort.cz
 ski1.skiset.com
-dev.email.skistar.com
 metrics.skistar.com
 d.skk.moe
 skldbklsbvss.com
@@ -51109,7 +50688,6 @@ smartdnsproxy.com
 stat.smarteca.cz
 stat.smarteca.sk
 api.smartechmetrics.com
-partneri.smartemailing.cz
 secure.smartenterprisewisdom.com
 p.smartertravel.com
 sstats.smartertravel.com
@@ -51133,7 +50711,6 @@ smartlook.com
 smartly.io
 smartmad.com
 smartmail.cyou
-m.smartmatch.email
 tracking.smartmeapp.com
 webpixel.smartmeapp.com
 pixel.smartmedia.tj
@@ -51285,7 +50862,6 @@ question.snapiio.com
 snapito.com
 snapkit.com
 snapmobileasia.net
-email.snappcar.nl
 sensors.snappea.com
 snapppt.com
 bobcat.snapshooter.io
@@ -51595,7 +51171,6 @@ smetrics.solinst.com
 sollosul.com.br
 trk.solo.be
 a.solo.to
-tr.email.solocal.com
 tr.mail.solocal.com
 vkscdg.solocruceros.com
 smetrics.solomobile.ca
@@ -51734,7 +51309,6 @@ link.sooooon.com
 sooqr.com
 click.em.soothe.com
 emb.soothe.com
-link.email.soothe.com
 lp.sophos.com
 plugin.sopro.io
 de.soquair.com
@@ -51770,7 +51344,6 @@ tongji.home.soufun.com
 lm.souid.com
 vi1.souid.com
 deep.souk.com.br
-links.ab.soul-cycle.email
 soulapp.cn
 gvxnff.soulara.com.au
 links.soulsoftware.org
@@ -51784,7 +51357,6 @@ events-api.soundcloud.com
 no9pldds1lmn3.soundcloud.com
 telemetry.soundcloud.com
 wt.soundestlink.com
-click.email.soundhound.com
 share.soundit.com
 marketing.soundtrackyourbrand.com
 secure.sour1bare.com
@@ -52099,7 +51671,6 @@ get.spot.so
 download.spotangels.com
 spoteffects.net
 spotexchange.com
-ablink.emails.spothero.com
 track.spothero.com
 pod.spoti.fi
 adeventtracker.spotify.com
@@ -52756,8 +52327,6 @@ solutions.stratus.com
 info.stratus.hr
 analytics.strava.com
 c.strava.com
-email.strava.com
-email1.strava.com
 tracing-collector.strava.com
 stats.strawberry.rocks
 elqtracking.strayer.edu
@@ -52800,7 +52369,6 @@ trk.strinarytrk.com
 go-test.string.me
 track.rdtk.strip2tip.com
 ycjhuh.stripe-club.com
-email.stripe.com
 errors.stripe.com
 r.stripe.com
 t.stripe.com
@@ -52839,7 +52407,6 @@ images.studentlending.ca
 rhoxnc.studentuniverse.com
 affiliate.studio51.team
 liosix.studio55.fi
-tr.emailing.studiocanal.com
 analytics.studiodesignapp.com
 frdoki.studioglass.work
 amphibian.studionimbus.nl
@@ -53171,8 +52738,6 @@ surfplezier.nl
 get.surfshark.net
 tagman.surfstitch.com
 sadbmetrics.surinenglish.com
-email-link.mg.surkus.com
-email-link.mg-staging.surkus.com
 link.lpm.surkus.com
 link.lpt.surkus.com
 surperverse.com
@@ -53688,19 +53253,15 @@ asp.taishokunext.com
 taisi666.top
 taiwancivilgovernment.com
 19035955.automated.tajawal.com
-19035955.email.tajawal.com
 19035955.loyalty.tajawal.com
 19035955.mktg.tajawal.com
 6519114.automated.tajawal.com
-6519114.email.tajawal.com
 6519114.loyalty.tajawal.com
 6519114.mktg.tajawal.com
 ablink.loyalty.tajawal.com
 ablink.mktg.tajawal.com
 app.tajawal.com
-link.email.tajawal.com
 link.mktg.tajawal.com
-links.email.tajawal.com
 tajdad.cn
 partner.tajemstvi-uspechu.cz
 partneri.tajomstvochudnutia.sk
@@ -54254,7 +53815,6 @@ get.staging.tellusapp.com
 go.tellusapp.com
 partner-affilbox.telly.cz
 ads.telma.com.mk
-data.email.telmore.dk
 descargar.telocompro.com.bo
 images.info.telogis.com
 content.wire.telstra.com
@@ -54473,7 +54033,6 @@ tf58.com
 tfactorys.com
 tfaforms.com
 tfaforms.net
-www.tfaftemail.com
 marketing.tfawealthplanning.com
 tfbulkidn.com
 tfczk.xyz
@@ -54746,7 +54305,6 @@ userexperience.thehut.net
 ndqdxm.thehyundai.com
 yujmyt.theiconic.co.nz
 ablink.e.theiconic.com.au
-email.app.theiconic.com.au
 fazphz.theiconic.com.au
 stats.theiere-tasse.com
 s.theifp.ca
@@ -54765,8 +54323,6 @@ thejierou.net
 thejourney.com
 advert.api.thejoyrun.com
 click.mail.theknot.com
-email.member.theknot.com
-email.qa.member.theknot.com
 branch.thekono.com
 branch-sandbox.thekono.com
 kl-branch.thekono.com
@@ -54797,7 +54353,6 @@ youronestopshop.themagnetgroup.com
 i5ixiwch2f.themakersmob.com
 crow.themarbleking.com
 ens.themarket.ch
-ablink.emails.themarket.nz
 ablink.info.themarket.nz
 ned.themarketingscience.com
 analytics.themarketiq.com
@@ -54909,7 +54464,6 @@ dm-target.thermofisher.com
 dx.thermofisher.com
 elia.thermofisher.com
 em.thermofisher.com
-em-email.thermofisher.com
 em-info2.thermofisher.com
 event.thermofisher.com
 event1.thermofisher.com
@@ -55029,7 +54583,6 @@ thewhizmarketing.com
 adbsmetrics.thewhoo.com
 marketing.thewilsonagency.com
 thewindrun.com
-email.thewithotel.com
 lpyxrp.thewodlife.com.au
 smetrics.thewolf.ca
 seniorliving.thewoodlandsatfurman.org
@@ -55072,7 +54625,6 @@ yftkzg.thisisfutbol.com
 insights.thisisgrow.com
 link.thisislex.app
 thisiswaldo.com
-email.thislife.com
 cat.thisminute.app
 tagman.thistle.com
 go.thisuseful.com
@@ -55105,7 +54657,6 @@ marketing-tracking.thomsonreuters.com
 metrics.legalsolutions.thomsonreuters.com
 one-source.tax.thomsonreuters.com
 spain.thomsonreuters.com
-temails.productnotice.thomsonreuters.com
 test.thomsonreuters.com
 tracking.thomsonreuters.com
 trail.thomsonreuters.com
@@ -55237,7 +54788,6 @@ analytics.ticketmaster.at
 analytics.ticketmaster.be
 analytics.ticketmaster.ch
 analytics.ticketmaster.co.nz
-click2.email.ticketmaster.com
 metrics.ticketmaster.com
 smetrics.ticketmaster.com
 spon.ticketmaster.com
@@ -55450,7 +55000,6 @@ stats.tirolerjobs.at
 aurum.tirto.id
 trk.tirto.id
 reg.tiscali.cz
-ablinks-staging.email.tispr.com
 tisszhb.cn
 stat.tiara.tistory.com
 titan.com
@@ -55507,7 +55056,6 @@ stats.tl8.io
 hcbox.tlamka.cz
 tlaol.com
 tlbjw.com
-emails.tlc.com
 links.tlc.com
 metrics.tlc.com
 sa.tlc.com
@@ -55588,7 +55136,6 @@ analytics.tnt.africa
 sanalytics.tnt.africa
 stats.tnt.com
 analytics.tntdram.com
-7701534.emails.tntdrama.com
 agility.tntdrama.com
 analytics.tntdrama.com
 metrics.tntdrama.com
@@ -55606,7 +55153,6 @@ images.chef-lavan.tnuva.co.il
 tnvnnn.xyz
 tny.lv
 tnzjrj.xyz
-to-email.com
 lp.to-lipton.com
 adlc-exchange.toast.com
 cm-exchange.toast.com
@@ -55796,7 +55342,6 @@ track.topdevices.net
 stats.topdrawermedia.com
 marketing.topekapartnership.com
 topfab.co.nz
-web.email.topfarmacia.it
 go.topfaxreview.com
 tff.topfinanceforecast.com
 partner.topforteam.cz
@@ -55941,7 +55486,6 @@ adebis.toushi-up.com
 toushibao.com
 analytics.tout.com
 toutanymm.asia
-tr.email.toute-la-franchise.com
 tr.news.toute-la-franchise.com
 ad.toutiao.com
 d.toutiao.com
@@ -56257,7 +55801,6 @@ b.travel-assets.com
 smtx.travel.com.au
 travelaudience.com
 travelbase.nl
-emails.travelchannel.com
 links.travelchannel.com
 metrics.travelchannel.com
 sa.travelchannel.com
@@ -56448,15 +55991,12 @@ app.trimenu.com
 marketing.trimtabconsultants.com
 app.info.trinet.com
 tracking.trinet.com
-page.email.trinity-health.org
-tracking.email.trinity-health.org
 blog.trinityconsultants.com
 info.trinityconsultants.com
 trinitymedia.ai
 smetrics.us.trintellix.com
 p-pan.triodos.com
 t-pan.triodos.com
-email.triodos.nl
 admissions.trios.com
 chloro.trip.com
 ic.trip.com
@@ -56974,7 +56514,6 @@ ads.tvb.com
 ads.cdn.tvb.com
 tvbingo.dk
 koifrz.tvc-mall.com
-tr.emailing.tvcaraibes.tv
 logger.tvchosun.com
 marketing.tvcn.nl
 tvdpebx.cn
@@ -57225,7 +56764,6 @@ mdws.ubcu.ca
 ubeaui.xyz
 ubembed.com
 honjgr.ubeo.app
-email.uber.com
 events.uber.com
 uberads.com
 uberflip.com
@@ -57398,7 +56936,6 @@ ugvbsrbht.xyz
 ugvip.com
 oicmda.ugyismegveszel.hu
 app.cph.uh.edu
-data.email.uhc.com
 metrics.uhc.com
 smetrics.uhc.com
 smetrics.ctm.uhc.com
@@ -57706,7 +57243,6 @@ www2.unit4.nl
 aiq-in.vacations.united.com
 analytics.vacations.united.com
 cltxxq.cruises.united.com
-email.everyonesocial.united.com
 mailers.unitedadlabel.com
 marketing.unitedautocredit.net
 servicing.unitedautocredit.net
@@ -57724,7 +57260,6 @@ go.unitusccu.com
 analytics.social.unity.com
 eloqua-tracking.unity.com
 eloqua-trackings.unity.com
-email.everyonesocial.unity.com
 ads.internal.unity3d.com
 ads.prd.ie.internal.unity3d.com
 analytics.cloud.unity3d.com
@@ -57995,7 +57530,6 @@ t.usajaguars.com
 m.usaloanrelief.com
 usancit.top
 ijaabm.usanetwork.com
-links.email.usanetwork.com
 marketing.usaprogrip.com
 rtk.usasend.online
 track.usasjbtracking.com
@@ -58439,7 +57973,6 @@ vat-search.eu
 partner.vataonline.cz
 asttcp.vatera.hu
 marketing.vathorst.nl
-data.emailservice.vattenfall.nl
 digitalninjas.vattenfall.nl
 sstats.vattenfall.nl
 stats.vattenfall.nl
@@ -58676,7 +58209,6 @@ subscribe.verintsystemsinc.com
 uk.verintsystemsinc.com
 unifiedwfo.verintsystemsinc.com
 video.verintsystemsinc.com
-emails.verishop.com
 request.verisign.com
 smetrics.verisign.com
 forms.verisigninc.com
@@ -58691,10 +58223,8 @@ images.connect.veritivcorp.com
 outreach.veritivcorp.com
 ets.verivox.com
 analytics.verizon.com
-data.email.verizon.com
 metrics.verizon.com
 sanalytics.verizon.com
-unsubscribe.email.verizon.com
 images.verizonconnect.com
 images2.verizonconnect.com
 images3.verizonconnect.com
@@ -58746,7 +58276,6 @@ images.go.vertivco.com
 tracking.vertivco.com
 barracuda.verto.exchange
 verve.com
-email.vervemail.com
 branchtest.veryableops.com
 vgs-collect-keeper.apps.verygood.systems
 tracking.shop.verymobile.it
@@ -58888,7 +58417,6 @@ mdws.victorycreditunion.ca
 go.victorystrategiesunlocked.com
 partner.victus.cz
 tracking.vid4u.org
-ablink.emails.vida.com
 ablink.info.vida.com
 ablink.test.vida.com
 lp.vidaativanoticias.com
@@ -58897,7 +58425,6 @@ track.vidajovemsempre.com
 vidalytics.com
 tracker.vidamaisnatura.com.br
 tracker.vidamaisnatura.net.br
-emailmarketing.vidanthealth.com
 info.vidanthealth.com
 lp.vidaperfeita.fun
 track.vidapositivaportal.com
@@ -59016,7 +58543,6 @@ tracking.viewlift.com
 viewpay.tv
 barnacle.viewsource.io
 viewstalk.com
-viewstripo.email
 get.viggo.com
 power.viggo.com
 get.viggo.energy
@@ -59068,7 +58594,6 @@ prism.villageneva.com
 tr.satisfaction.villagesnature.com
 app.villanova.com
 t.villanova.com
-click.email.vimeo.com
 player-telemetry.vimeo.com
 fresnel.vimeocdn.com
 fresnel-events.vimeocdn.com
@@ -59127,7 +58652,6 @@ sex.viralof.online
 viraloninsta.com
 viralsweep.com
 tagman.virgin-atlantic.com
-data.email.virginatlantic.com
 metrics.virginatlantic.com
 smetrics.virginatlantic.com
 tagman.virginatlantic.com
@@ -59161,7 +58685,6 @@ t.virosync.com
 info.virtela.net
 virtocommerce.com
 smetrics.virtual-cosme.net
-tr.email.virtual-expo.com
 marketing.virtual-images.com
 info.virtualization-online.org
 sales.virtualpbx.com
@@ -59651,7 +59174,6 @@ voiceads.com
 log.voicecloud.cn
 marketing.voicefirstsolutions.com
 voicefive.com
-email.voices.com
 voilatile-pa.googleapis.com
 sentry.voipgrid.nl
 marketing.voiply.us
@@ -59685,7 +59207,6 @@ smetric.volkswagen.it
 smetrics.volkswagenfinancialservices.nl
 target.volkswagenfinancialservices.nl
 my.volleybaldirect.nl
-email.vollrathco.com
 volmaaktvolmaaktdeal.com
 partner.volne-reality.cz
 partneri.volny-termin.cz
@@ -59759,7 +59280,6 @@ vnl1.voyage-prive.nl
 sstats.voyages-sncf.com
 stats.voyages-sncf.com
 t.voyages-sncf.com
-tr.email.voyagesleclerc.com
 tr.news.voyagesleclerc.com
 k.voyageursdumonde.be
 k.voyageursdumonde.ca
@@ -59866,8 +59386,6 @@ telemetry.vtex.com
 rc.vtex.com.br
 vtlyrj.xyz
 vtnmxx.xyz
-email-click-test-for-branch.vts.com
-email-clicks.vts.com
 a8.vtuber.sexy
 aff.vtui.ch
 a.vturb.net
@@ -60215,7 +59733,6 @@ link.watchbravotv.com
 get.watchcat.app
 trk.get.watchfreevideo.vip
 watcho.com
-emails.watchown.tv
 link.watchoxygen.com
 marketing.watchsystems.com
 data-0dc128409f.watchtime.net
@@ -60385,7 +59902,6 @@ acc-omnichannel-solutions.wearetriple.com
 acc-preview-gtm.wearetriple.com
 chattybadger-wocket.wearetriple.com
 data-analytics.wearetriple.com
-email.wearetriple.com
 face-app.wearetriple.com
 gdpr-portal.acc.wearetriple.com
 gdpr.acc.wearetriple.com
@@ -61132,7 +60648,6 @@ marketing.wingd.com
 wingify.com
 iopxiu.wingly.io
 alpaca.wingmantracker.com
-email.wingocard.com
 wingsurf.cn
 share.winit.nyc
 anijjm.winkelstraat.nl
@@ -61171,9 +60686,6 @@ stats.wired.com
 wiredplus.com
 smetrics.wireimage.com
 wirelessdevicestats.googleapis.com
-ablinksemail.wirexapp.com
-email.wirexapp.com
-email-test.wirexapp.com
 data-48bcc52851.wirtrauern.at
 link.wisaw.com
 tracking.continuingstudies.wisc.edu
@@ -61326,6 +60838,7 @@ wnifdlae.top
 wnllmyw.xyz
 wnmaoc.xyz
 wnmoobz.icu
+wnojded.icu
 wnootzc.icu
 wnstug.xyz
 m.wnxcg.com
@@ -61480,7 +60993,6 @@ worjeklmq.com
 sqmazf.workamajig.com
 workarea.com
 iesopeaktracker.workbenchenergy.com
-email.msg.workday.com
 otrack.workday.com
 otracks.workday.com
 workers.dev
@@ -61847,6 +61359,7 @@ my.xactware.com
 response.xactware.com
 stats.xactware.com
 xad.com
+xadulxs.cn
 xafuzcxr.xyz
 xahelper.com
 xahycw.com
@@ -63302,7 +62815,6 @@ images.info.yoursolutionspartner.com
 ad.yourtreasureshub.com
 tracking.yourvitalvibrancesolution.com
 yousee.com
-data.email.yousee.dk
 images.info.yousee.dk
 g.youshishop.com
 see.yousoon.com
@@ -64312,7 +63824,6 @@ jumbo.zomato.com
 partner.zombeek.cz
 zomcz.cyou
 o3gxzoewxl1x.cp.zomro.com
-web.email.zone3.com
 smetrics.zoneperfect.com
 a8cv.zoner.com
 h5log.zongheng.com
@@ -64526,7 +64037,6 @@ emarketing.zulkiepartners.com
 deepdive.zum.com
 estat.zum.com
 luhoio.zum.com
-email.zumaoffice.com
 referrals.zunify.me
 zunmi.cn
 js1.zuocai.tv
