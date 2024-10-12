@@ -144,7 +144,7 @@ class Resolver(object):
                 if match('^.*(jp|de|fr|tw|hk|kr|cc|ru|la|se|kz|pl|ua|es|uk|co)/.*', line):
                     break
                     
-                if match('^.*(yandex|yahoo).*', line):
+                if match('^.*(yandex|yahoo|email.).*', line):
                     break 
                     
                 if match('^.*@@.*', line):
