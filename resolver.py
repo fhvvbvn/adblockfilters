@@ -90,7 +90,7 @@ class Resolver(object):
                             break
                     block = self.__analysis(domain)
                     break
-                # @@||example.org^: unblock access to the example.org domain and all its subdomains.
+                # @@||example.org^: unblock access to the example.org domain 和 all its subdomains.
                 if match('^@@\|\|.*\^$', line):
                     domain = line[4:-1]
                     if domain.find('*') >= 0 or domain.find('/') >= 0:
