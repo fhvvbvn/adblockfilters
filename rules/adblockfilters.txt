@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241012211523
-! Last modified: 2024/10/12 21:15:23
-! Blocked Filters: 87399
+! Version: 20241012212918
+! Last modified: 2024/10/12 21:29:18
+! Blocked Filters: 87413
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -4684,6 +4684,11 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /.*/$permissions=private-state-token-issuance=(),document
 /.*/$permissions=private-state-token-redemption=(),document
 /.*/$permissions=run-ad-auction=(),document
+/.*\.*\.shouji\.sogou\.com/
+/.*\.[a-zA-Z0-9.-]skwai\.com/
+/.*\.a\.market\.xiaomi\.com/
+/.*\.data\.hicloud\.com/
+/.*\.log\.aliyuncs\.com/
 /.bootscripts/analytics.min.js
 /.webscale/rum?
 /.well-known/private-click-measurement
@@ -4987,6 +4992,14 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /Web_JS_Stats.
 /Web_JS_Stats.js
 /[0-9]{1,2}\/[0-9]{5,6}\.js/$script,third-party
+/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
+/[a-zA-Z0-9.-]*-ad\.sm\.cn/
+/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
+/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
+/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
+/[a-zA-Z0-9.-]*-lm\.adkwai\.com/
+/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
+/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
 /[a-z]+\d+\.cnzz\./
 /\(com\?\d+/$third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
@@ -6061,6 +6074,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /clientele/reports/*
 /clientlib-analytics-core.
 /clientstat?
+/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
 /cls/check.php?$image
 /cls_report?
 /clys.js?2020
