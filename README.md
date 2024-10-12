@@ -48,6 +48,7 @@
 | AdGuard Mobile App Banners  filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/20_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Mobile_App_Banners__filter.txt) | 2024/10/12 |
 | ublock annoyances filter | filter | [原始链接](https://ublockorigin.pages.dev/filters/annoyances.min.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ublock_annoyances_filter.txt) | 2024/10/12 |
 | ublock ad filter | filter | [原始链接](https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.min.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ublock_ad_filter.txt) | 2024/10/12 |
+| 自用 | filter | [原始链接](https://github.com/fhvvbvn/ad-filters-subscriber/raw/refs/heads/v2/rule/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ublock_ad_filter.txt) | 2024/10/12 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
