@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241013161019
-! Last modified: 2024/10/13 16:10:19
-! Blocked Filters: 87382
+! Version: 20241014000847
+! Last modified: 2024/10/14 00:08:47
+! Blocked Filters: 87377
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1328,6 +1328,11 @@ $removeparam=e,domain=clockks.com|tellywebnews.com
 $removeparam=e_criteoId
 $removeparam=e_pubcid
 $removeparam=ebisAdID
+$removeparam=ebisOther1
+$removeparam=ebisOther2
+$removeparam=ebisOther3
+$removeparam=ebisOther4
+$removeparam=ebisOther5
 $removeparam=ec,domain=nextdoor.com
 $removeparam=ecmp,domain=4wheelparts.com
 $removeparam=edsacid
@@ -17964,8 +17969,6 @@ b3infoarena.in##+js(aeld, load, 2000)
 b5200.org##[id^="adt"]
 b8b8.tv##[id^="top_960x90"],.adsbygoogle
 b8yy.com##.chat,[height="70"]
-baattv.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-baattv.com##+js(acs, document.oncontextmenu)
 baba-mail.co.il###modal-reg
 babel.com##.infopub
 babel.com##[id^=adReplacement]
@@ -25316,7 +25319,6 @@ descarga.xyz##+js(aopw, atOptions)
 descarga.xyz##+js(aopw, smrtSB)
 descarga.xyz##.code-block-1.code-block
 descargas.verwin.com$image
-descargasnsn.com##+js(aopr, plusonet)
 descargasok.*##+js(acs, document.addEventListener, google_ad_client)
 descargaspcpro.net###AdSense1
 descargaspcpro.net###HTML90
@@ -36852,7 +36854,6 @@ kdslife.com##a[href*="kds.2144.cn"]
 kdslife.com##a[href="//club.kdslife.com/app.php"]
 kdslife.com,pchome.net##.weixin
 ke-1.com##+js(aeld, load, onload)
-ke-1.com##+js(ra, oncontextmenu|onkeydown|onmousedown)
 ke.com##.app-down
 ke.com##.app_content
 ke.com##.app_daoliu_layer
@@ -41872,8 +41873,6 @@ mangahub.io###adblock-notice
 mangahub.io##.ads-container
 mangahub.io##.alert.alert-warning
 mangaid.click##+js(acs, document.oncontextmenu)
-mangainn.net##.chapter-bottom-ads
-mangainn.net##.chapter-top-ads
 mangakita.id,mangakita.net##+js(set, puShown1, true)
 mangaku.*##+js(acs, $, contextmenu)
 mangaku.*##+js(aeld, contextmenu)
@@ -49905,7 +49904,6 @@ qt.io##.b-article__share-footer
 qt.io##.c-sidebar-newsletter
 quad9.net##.base-share-buttons
 quadcities.townsquaremedia.info$image
-quadrinhoseroticos.net##+js(ra, oncontextmenu|onselectstart|onselect|oncopy)
 qualityfilehosting.com##+js(acs, document.ondragstart, document.oncontextmenu)
 qualityfilehosting.com##+js(aopw, disableEnterKey)
 qualityfilehosting.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
@@ -59780,9 +59778,6 @@ vipthz.com###fwin_content_imc_attachad [style="WIDTH: 100%; padding-left:10px;"]
 vipthz.com###fwin_content_imc_attachad [style="WIDTH: 100%; padding-left:10px;"] > div > p > a[href][target="_blank"]
 vipurl.in##+js(set, blurred, false)
 viralfeed.*##.admania-widgettit
-viralinindia.net##+js(set, disableSelection, noopFunc)
-viralinindia.net##+js(set, nocontext, noopFunc)
-viralinindia.net##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 viralogic.xyz##+js(abort-on-property-read, mousedwn)
 viralsbaba1.blogspot.com###btn-gotolink:others()
 viralsbaba1.blogspot.com###btn-gotolink:remove-attr(disabled)
