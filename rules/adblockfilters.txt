@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241013000815
-! Last modified: 2024/10/13 00:08:15
-! Blocked Filters: 87290
+! Version: 20241013084129
+! Last modified: 2024/10/13 08:41:29
+! Blocked Filters: 87304
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -2747,6 +2747,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 *$script,3p,denyallow=chatango.com|jquery.com|hwcdn.net,domain=sports-stream.*
 *$script,3p,denyallow=chatango.com|twitter.com|x.com,domain=time4tv.online
 *$script,3p,denyallow=cleanpng.com|kisspng.com|disqus.com|disquscdn.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|facebook.net,domain=pngio.com
+*$script,3p,denyallow=cloudflare.com,domain=jav.fm|jav.sh|jav.vin
 *$script,3p,denyallow=cloudflare.com,domain=myadultanimes.com
 *$script,3p,denyallow=cloudflare.com,domain=pornhail.com
 *$script,3p,denyallow=cloudflare.com,domain=putlockers.li
@@ -24846,7 +24847,6 @@ dads-banging-teens.com,home-xxx-videos.com,mature-chicks.com,teens-fucking-matur
 dads-banging-teens.com,home-xxx-videos.com,mature-chicks.com,teens-fucking-matures.com##+js(aeld, getexoloader)
 daemon-hentai.com###secondary > div.widget:last-child
 daemon-hentai.com##+js(aopr, b2a)
-daemon-hentai.com##+js(nostif, nextFunction)
 daemonanime.net##+js(acs, document.addEventListener, google_ad_client)
 daemonanime.net##+js(acs, eval, replace)
 daemonanime.net#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
@@ -28901,6 +28901,10 @@ find800.cn##.guang_block
 findamasters.com###billboard
 findamasters.com##+js(set-constant, AdGlare, {})
 findamasters.com##+js(set-cookie, signup_win_closed, true)
+findandfound.ga##+js(aopr, $.prototype.html)
+findandfound.ga##+js(aopr, onload)
+findandfound.ga##+js(ra, oncontextmenu, body)
+findandfound.ga,png.is##+js(aopr, adb_checker)
 findaphd.com###billboard-inner
 findaphd.com#$#.modal-backdrop { display: none !important; }
 findaphd.com#$#body { overflow: visible !important; padding-right: 0 !important; }
@@ -32766,7 +32770,7 @@ hltv.org##body, body::before:style(background-image: unset !important;)
 hmanga.world##+js(no-fetch-if, method:HEAD)
 hmanga.world#%#//scriptlet('prevent-fetch', 'method:HEAD')
 hmangamatome.net###text-39
-hmc-id.blogspot.com##+js(nostif, AdBlock)
+hmc-id.blogspot.com,jemerik.com##+js(nostif, AdBlock)
 hmd.site#?#.clearfix > p:has(> span.clearfont:contains(torrent hentai magnet))
 hmetro.com.my,bharian.com.my,nst.com.my##+js(set-cookie, appDownloadBanner, 1)
 hmitalk.com##div[class*="-pubadban "]
@@ -35593,6 +35597,9 @@ jattmate.com,saveshared.com,simpledownload.net##+js(aopr, String.fromCharCode)
 jauns.lv##.node-tools
 jav-desu.xyz##.home-img-box:has(> div.related-ad)
 jav.re##+js(aost, onload, /app.js)
+jav.sh##+js(aopr, AaDetector)
+jav.sh##+js(aopr, document.regexpSrcDomainPlaceholder)
+jav.sh##center > div
 jav1080.com###custom_html-3
 jav1080.com###custom_html-4
 jav247.top##+js(aopr, __Y)
@@ -42205,6 +42212,13 @@ mchacks.net##+js(nostif, checkAds)
 mckinsey.com##section[class^="StickySubscriptionFooter"]
 mcleaks.net##+js(aeld, np.detect)
 mcleaks.net##div.col-lg-12[style="margin-bottom: 30px;"]
+mcloud.bz##+js(acs, Math, XMLHttpRequest)
+mcloud.bz##+js(aopr, __Y)
+mcloud.bz##+js(aopr, open)
+mcloud.bz##+js(nosiif, break)
+mcloud.bz,vid2faf.*,vidplay.*##[src^="assets/bn"]:upward([style])
+mcloud.bz,vidplay.*,vidstream.pro,vizcloud.*##+js(ra, data-id|data-p, '[data-id],[data-p]', stay)
+mcloud.bz,vidstream.pro,vid2faf.*##+js(nowoif)
 mcmod.cn###McmodDonate
 mcmod.cn##a[href^="https://link.mcmod.cn/target/service-ad-vat"]
 mcncc.com##div.a_mu,div.a_cn,div.wp.a_t,div.GzList,div#diynavtop.area
@@ -48332,7 +48346,6 @@ pnd.*##+js(aopr, AaDetector)
 pnd.*##+js(aopw, Fingerprint2)
 pnd.*##.banner-captcha
 pnd.*##A[href$=".html"][rel="nofollow norefferer noopener"]
-png.is##+js(aopr, adb_checker)
 png.is##div.rounded-0.alert-info.alert:nth-of-type(1)
 png.is#$#ins.adsbygoogle[data-ad-slot] { height: 1px!important; }
 pngio.com##+js(aopr, LieDetector)
@@ -51062,6 +51075,7 @@ rtxkeeda.com##+js(nosiif, _0x)
 rtxkeeda.com##div[style="background:#ededed;"]
 rtxkeeda.com##ins.adsbygoogle
 ru-mi.com##div[data-retailrocket-markup-block]
+ru-xvideos.me##+js(nostif, innerText, 2000)
 ru.hexlet.io##.hexlet-blog-banner-wrapper
 ruan8.com##[href^="http://1.055intn.cn"]
 ruanjianxia.com###gaosu_downloads
@@ -51656,8 +51670,6 @@ seattletimes.com###userMessagingOverlay
 seattletimes.com##+js(nostif, apstagLOADED)
 sebhastian.com##.p-5
 seclub.org##a[href^="http://waplog.net/"]
-secondhandsongs.com##+js(trusted-replace-argument, String.prototype.startsWith, 0, 0, condition, /^\/(?:performance|work|artist|release|label|explore|statistics)$/)
-secondhandsongs.com##^script:has-text(ad_block)
 secondlifetranslations.com##+js(aost, encodeURIComponent, inlineScript)
 secondlifetranslations.com##+js(rmnt, #text, javascript)
 secondlifetranslations.com##+js(set, disable_hot_keys, undefined)
@@ -54593,6 +54605,7 @@ sui.com#@#.fb-btn
 suicidepics.com##+js(nostif, css_class.show)
 suizhoushi.com##.sznew_ad_top
 suizhoushi.com##div[id^="sznew_ad"]
+suj.nu##.ads
 suki-kira.com#%#//scriptlet("remove-attr", "disabled", "button.vote-submit")
 sukidesuost.info###custom_html-23
 sukidesuost.info##+js(nosiif, visibility, 1000)
@@ -59080,8 +59093,6 @@ vice.com,nybooks.com,galesburg.com,mobilesyrup.com,news-journalonline.com##.arti
 victor-mochere.com##+js(nostif, ai_)
 victory.avadacom.com$image
 vid.onlymu.site##.tips
-vid2faf.*##+js(nowoif)
-vid2faf.*,vidplay.*##[src^="assets/bn"]:upward([style])
 vid4up.*###aoverlay
 vid4up.*##+js(nowoif)
 vidaextra.com,blacksea-cbc.net,fenerbahce.org,xatakamovil.com,applesfera.com,genbeta.com,espinof.com,xataka.com,xatakawindows.com##.article-social-share
@@ -59206,7 +59217,6 @@ vidoza.net##.download-green
 vidoza.net##.in-block
 vidoza.net##.simpleToast
 vidoza.net##[id*="ScriptRoot"]
-vidplay.*,vizcloud.*##+js(ra, data-id|data-p, '[data-id],[data-p]', stay)
 vidplaystream.top##+js(nowoif)
 vidplaystream.top##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 vidpro.net##+js(nowoif)
@@ -59225,6 +59235,10 @@ vidsrc.*##+js(set, DisableDevtool, noopFunc)
 vidsrc.*##+js(set, console.clear, trueFunc)
 vidsrc.*##^script:has-text(/\{delete window\[/)
 vidstream.*##+js(nowoif, !api?call=, 10, obj)
+vidstream.pro##+js(aopr, mm)
+vidstream.pro##+js(nosiif, break)
+vidstream.pro##.aslot
+vidstream.pro##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647;"]
 vidstreaming.xyz##+js(nosiif, devtoolsDetector)
 vidstreaming.xyz##+js(nowoif)
 vidstreaming.xyz##+js(set, Div_popup, '')
