@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241014000847
-! Last modified: 2024/10/14 00:08:47
-! Blocked Filters: 87377
+! Version: 20241014084011
+! Last modified: 2024/10/14 08:40:11
+! Blocked Filters: 87388
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -581,6 +581,11 @@ $doc,removeparam=dclid
 $doc,removeparam=deliveryName,domain=abp.nl
 $doc,removeparam=draftsforfriends
 $doc,removeparam=dtpid
+$doc,removeparam=ebisOther1
+$doc,removeparam=ebisOther2
+$doc,removeparam=ebisOther3
+$doc,removeparam=ebisOther4
+$doc,removeparam=ebisOther5
 $doc,removeparam=eblink
 $doc,removeparam=ectrans
 $doc,removeparam=elq,domain=~comcast.com|~comcastforbusiness.com
@@ -2885,6 +2890,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 *$script,3p,denyallow=jsdelivr.net|cloudflare.net,domain=klubsports.click
 *$script,3p,denyallow=jsdelivr.net|facebook.net|fastly.net|fbcdn.net|marathimovies.online|tawk.to,domain=marathi.love|marathimovies.online|vipmarathi.xyz
 *$script,3p,denyallow=jsdelivr.net|fastly.net|swarm.video,domain=warnforlese.net
+*$script,3p,denyallow=jwplatform.com,domain=vidlink.pro
 *$script,3p,denyallow=recaptcha.net|gstatic.com,domain=dglinker.com
 *$script,3p,denyallow=static.addtoany.com,domain=nicesss.com
 *$script,3p,denyallow=storage.googleapis.com,domain=filmesdostorrenthd.net
@@ -2938,7 +2944,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 *$script,3p,domain=topwwnews.com
 *$script,3p,domain=ukrainesmodels.com
 *$script,3p,domain=uproxy2.biz
-*$script,3p,domain=vidlink.pro
 *$script,3p,domain=webmusic.*
 *$script,3p,domain=zinchanmanga.com
 *$script,3p,from=freeuseporn.com,to=~cloudflare.com
@@ -5065,7 +5070,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}\??(?:_=\d+|v=\d)?$/$frame,xhr,popup,3p,match-case
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$doc,frame,popup
 /^https?:\/\/(?:q\.)?[0-9a-z]{4,8}\.xyz\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,3p,match-case
-/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p,redirect=noop.js,to=com
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-z]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p,redirect=noop.js,to=com
 /^https?:\/\/.*\/easylist\/[0-9]{5}/
 /^https?:\/\/[-0-9a-z]{5,}\.com\/[0-9a-z]{8,10}\?key=[0-9a-f]{32}$/$frame,3p
 /^https?:\/\/[-a-z]{8,15}\.(?:com|net)\/400\/\d{7}(?:\?v=\d+)?$/$script,3p
@@ -23122,11 +23127,11 @@ clicks.workforce.ceipalmail.com$image
 clickscoin.com##.d-sm-block.d-none
 clickscoin.com##a[href^="https://albeitinflame.com/"]
 cliclavoro.gov.it##.tcl-sharer
-client.falixnodes.net##+js(rmnt, script, verifyAdEngine)
+client.falixnodes.net##+js(rmnt, script, !window.adngin)
 client.falixnodes.net##+js(rpnt, script, (window.loadtwo, (window.loadtwo === undefined || true || window.googlescriptloaded)
 client.falixnodes.net##+js(rpnt, script, typeof window.loadtwo, typeof window.loadtwo === true)
 client.falixnodes.net##+js(set, window.adngin, {})
-client.falixnodes.net##^script:has-text(verifyAdEngine)
+client.falixnodes.net##^script:has-text(!window.adngin)
 client.pylexnodes.net##+js(rmnt, script, onerror)
 client.pylexnodes.net##.ad-banner-square
 client.pylexnodes.net##a.box-title:has-text(Ads)
@@ -26322,7 +26327,6 @@ dr-farfar.com##div[class^="essb-sharebooster"]
 dr-farfar.net##+js(nano-setInterval-booster, display(), , 0.02)
 draco.verwin.com$image
 dragcave.net##+js(no-setTimeout-if, google_ads_frame)
-dragcave.net##+js(nostif, adsbygoogle, 2000)
 dragon-guide.net##.container > .gutter:first-child
 dragonball-multiverse.com#@#.social-networks
 dragonbounbd.foroactivo.com#@#.social_btn
@@ -31125,6 +31129,7 @@ gogoanime.*##.adx
 gogoanime.*##.anime_video_body_cate > div[style]:has(> div[id] + script[src])
 gogoanime.*##.banner_center
 gogoanime.*,gogoanimes.*##+js(nowoif)
+gogoanime.co.in,icelz.to##+js(aopw, Adcash)
 gogoanimetv.*##+js(aopr, AaDetector)
 gogoanimetv.*##+js(nosiif, _0x)
 gogoanimetv.*##+js(nowoif)
@@ -52142,6 +52147,7 @@ sfirmware.com##.cc-window
 sfirmware.com##.post-ads
 sflix.to##+js(nosiif, /_0x|devtools/)
 sflix.to##+js(nostif, devtools)
+sfmcompile.club##+js(acs, document.querySelectorAll, adConfig)
 sfweekly.com##+js(aopw, ai_adb_overlay)
 sg169.com###coupleft
 sg169.com###couprigth
@@ -55668,6 +55674,9 @@ texte.work##+js(remove-attr, oncontextmenu|onkeydown, body)
 texteditor.nsspot.net##+js(set, gadb, false)
 textograto.com##+js(nostif, ())
 textovisia.com##+js(aopr, isAdBlockActive)
+textreverse.com##+js(no-fetch-if, snigelweb.com)
+textreverse.com##.clearfix
+textreverse.com##.moretooladd
 textstudio.com##.premium-banner
 texture-packs.com##+js(abort-on-property-read, mdpDeBlockerDestroyer)
 texture-packs.com##+js(no-xhr-if, adsbygoogle)
@@ -59260,7 +59269,7 @@ vidlii.com##+js(set, blockAdBlock, trueFunc)
 vidlii.com##ins.adsbygoogle
 vidlink.org##[target="_blank"]
 vidlink.pro##+js(aopr, aclib)
-vidlink.pro##+js(aost, atob, /\b[a-z]\.onload(?:@http| injectedScript)/)
+vidlink.pro##+js(aopw, Adcash)
 vidlo.us##+js(aeld, , _0x)
 vidload.net##+js(aopr, AaDetector)
 vidlox.*##A[href$=".html"][rel="nofollow norefferer noopener"]
@@ -66622,6 +66631,7 @@ zzzyk.com###Tinfo
 ||api.foursquare.com/*/logactions
 ||api.fw.tv/embed/
 ||api.github.com/_private/browser/stats$important
+||api.gogoanime.zip/promo
 ||api.goodbarber.net/statsapi/
 ||api.huo360.com/www/back/$image
 ||api.idg.zone/intextlinks-tracking/
@@ -74727,6 +74737,7 @@ zzzyk.com###Tinfo
 ||icao4.com/uploads/pic/2.jpg
 ||icast.
 ||icecat.biz/stats/scripts/live-stats.js
+||icelz.to/lib.js
 ||icelz.to/tv/global-devtools-blocker.js$script
 ||icgp.ie/overview/js/tracker.php
 ||ichiba.faq.rakuten.net/resource/*/RakutenMobile_Banner/
