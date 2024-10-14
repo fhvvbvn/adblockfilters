@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241014161209
-! Last modified: 2024/10/14 16:12:09
-! Blocked Filters: 87474
+! Version: 20241015000916
+! Last modified: 2024/10/15 00:09:16
+! Blocked Filters: 87475
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -5446,7 +5446,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /alog.mobile.min.js
 /altiframe.php$domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /altiframe2.php$domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
-/altyazitube[0-9a-z]+\.[a-z]{2,}/##+js(noeval-if, /chp_?ad/)
 /amazon_linker.min.js
 /amazon_products_prod.js$script,domain=aajtak.in
 /amp-access/cta/*
@@ -24689,6 +24688,7 @@ curseforge.com##+js(nano-sib)
 curseforge.com##+js(no-fetch-if, googlesyndication)
 curseforge.com##:is(.project-description,div.project-detail__content) [href^="/linkout?remoteUrl=http"]:is([href*="fxco.ca"]) > img
 curseforge.com#?#main > div.client-marketing > :not([class^="timer"])
+curseforge.com,sheepesports.com,automoto.it,calcmaps.com,moto.it,insidermonkey.com,udocz.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 cursomecanet.com##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 cursorinfo.co.il,buzzspor.com##.share_social
 curto.win##+js(aeld, click, trigger)
@@ -42309,7 +42309,7 @@ mcncc.com##div.a_mu,div.a_cn,div.wp.a_t,div.GzList,div#diynavtop.area
 mcoc-guide.com#@#ins.adsbygoogle[data-ad-client]
 mcoc-guide.com#@#ins.adsbygoogle[data-ad-slot]
 mcocguideblog.com##+js(acs, disableselect, reEnable)
-mconverter.eu##+js(nostif, offsetHeight)
+mconverter.eu##+js(set, abd, {})
 mcpedl.com##+js(nano-setInterval-booster, countdown, , 0.02)
 mcqmall.com##+js(no-fetch-if, ads)
 mcrypto.club###id-custom_banner
@@ -45082,6 +45082,7 @@ nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #
 neyrologos.gr##+js(acs, document.oncontextmenu)
 neyrologos.gr##+js(aopr, disableSelection)
 nfl.com##[class$="adblock"]
+nflscoop.xyz##+js(aopr, aclib)
 nflstreams.me##+js(acs, setTimeout, admc)
 nflstreams.me##.m-1.fw-bold.btn-danger.btn[data-openuri="|BTN_URL|"]
 nflstreams.me##.position-absolute
@@ -50385,6 +50386,7 @@ realityblurb.com##+js(aopr, HTMLIFrameElement)
 realitykings.com##section[aria-live="polite"][id^="mfe-one-join-container-"]
 realliving.e.bauer-media.com.au$image
 realmoasis.com##+js(aeld, click, openPopupForChapter)
+realmoasis.com##+js(aopr, Object.prototype.popupOpened)
 realmoasis.com##.rev-src
 realmofdarkness.net##.widget_ssba_widget
 realmtracker.com,tracker.network,fortnitetracker.com##.trn-site-appbar
@@ -52271,7 +52273,6 @@ shazam.com##.shz-frame-promotionbanner
 shazam.com##.shz-menu-item[data-shz-cmd="share"]
 shazysport.pro,streamhd247.info##+js(json-prune, *, *.adserverDomain)
 sheamateur.com##+js(aopr, __htapop)
-sheepesports.com,automoto.it,calcmaps.com,moto.it,insidermonkey.com,udocz.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 shefinds.com##.house__unit
 shefinds.com##.subscribe-footer-wrap
 shefinds.com##div[class*="page-social-wrap"]
@@ -54134,6 +54135,7 @@ sportstiger.com##body:style(overflow: auto !important;)
 sportstream.live##+js(aopr, checkABlockP)
 sportsupa.com##+js(ra, oncontextmenu)
 sportsurge.net##+js(acs, document.documentElement, break;case $.)
+sportsurge.net##+js(rmnt, script, adserverDomain)
 sportsv.net##.adv01
 sportsv.net##.article-ad,.article-ad2,.leftside-banner,#ad-big-top,.box.ad
 sporttery.cn###newDiv
@@ -54881,8 +54883,6 @@ svetapple.sk#?#.td-post-content > p:has(> a[href="https://svetapple.sk/bazar/"])
 svetserialu.to##+js(nowoif)
 svipvids.com##+js(aopw, KillAdBlock)
 svn.avadacom.com$image
-svoboda.org#$#.hdr { margin-top: 0 !important; }
-svoboda.org#$#.promo-banner { display: none !important; }
 svoboda.org#$#body { padding-top: 0 !important; }
 svoboda.org#?#.wsw > div.wsw__embed:has(> div.infgraphicsAttach > div[id^="GR-"] > a[href^="https://news.google.com/publications/"])
 svoboda.org#?#div[id^="GR-"] > div#form-container:has(> div#mc_embed_signup)
@@ -62815,6 +62815,7 @@ xxxtik.com##+js(acs, atob, Uint8Array)
 xxxtime.sextgem.com##^script[language="javascript"]:has-text(open)
 xxxtubezoo.com,zooredtube.com##+js(aeld, DOMContentLoaded, preventExit)
 xxxtubezoo.com,zooredtube.com##+js(aopr, popunderSetup)
+xxxuxxx.com##div[class]:not([id]):has(>script[src*="/ad-provider.js"])
 xxxvideos.ink###hidme
 xxxvideos.ink##.curiosity
 xxxvideos.ink##li.plate:has(iframe[width="300"])

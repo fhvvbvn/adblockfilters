@@ -24,7 +24,7 @@
 
 | 规则 | 类型 | 原始链接 | 加速链接 | 更新日期 |
 |:-|:-|:-|:-|:-|
-| damengzhu filter | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/abpmerge/refs/heads/main/CSSRule.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/damengzhu_filter.txt) | 2024/10/14 |
+| damengzhu filter | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/abpmerge/refs/heads/main/CSSRule.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/damengzhu_filter.txt) | 2024/10/15 |
 | Uniartisan AdBlock lite filter | filter | [原始链接](https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Uniartisan_AdBlock_lite_filter.txt) | 2024/10/14 |
 | ADgk filter | filter | [原始链接](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ADgk_filter.txt) | 2024/09/22 |
 | AdGuard Chinese filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/224.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | 2024/10/14 |
@@ -43,11 +43,11 @@
 | jiekouAD | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/jiekouAD.txt) | 2024/10/12 |
 | AdGuard Widgets filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/22_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Widgets_filter.txt) | 2024/10/14 |
 | AdGuard Social Media filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Social_Media_filter.txt) | 2024/10/14 |
-| AdGuard Popups filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/19_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Popups_filter.txt) | 2024/10/14 |
+| AdGuard Popups filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/19_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Popups_filter.txt) | 2024/10/15 |
 | AdGuard Other Annoyances filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/21_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Other_Annoyances_filter.txt) | 2024/10/14 |
 | AdGuard Mobile App Banners  filter | filter | [原始链接](https://filters.adtidy.org/extension/ublock/filters/20_optimized.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Mobile_App_Banners__filter.txt) | 2024/10/14 |
-| ublock annoyances filter | filter | [原始链接](https://ublockorigin.pages.dev/filters/annoyances.min.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ublock_annoyances_filter.txt) | 2024/10/14 |
-| ublock ad filter | filter | [原始链接](https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.min.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ublock_ad_filter.txt) | 2024/10/14 |
+| ublock annoyances filter | filter | [原始链接](https://ublockorigin.pages.dev/filters/annoyances.min.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ublock_annoyances_filter.txt) | 2024/10/15 |
+| ublock ad filter | filter | [原始链接](https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.min.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/ublock_ad_filter.txt) | 2024/10/15 |
 | 自用 | filter | [原始链接](https://github.com/fhvvbvn/ad-filters-subscriber/raw/refs/heads/v2/rule/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/自用.txt) | 2024/10/12 |
 
 ## Star History
