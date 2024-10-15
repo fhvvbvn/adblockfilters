@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241015000916
-! Last modified: 2024/10/15 00:09:16
-! Blocked Filters: 87475
+! Version: 20241015083842
+! Last modified: 2024/10/15 08:38:42
+! Blocked Filters: 87492
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -4413,6 +4413,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .hit.gemius.*.js
 .hit.gemius.*?
 .hit.stat24.
+.hongi7ie8owiie*.site^$script,third-party
 .hootsuite.com/trk?
 .html?$third-party,domain=m.800xs.net
 .html?ad_
@@ -17125,6 +17126,8 @@ arabincest.com##+js(acs, $, test)
 arabnaar.com##+js(nosiif, visibility, 1000)
 arabseed.*##+js(aeld, , _0x)
 arabseed.*##.ads-aa
+arabtalking.com##+js(adjust-setTimeout, secondsWait, *, 0.001)
+arabtalking.com##+js(nano-setInterval-booster, secondsWait, *, 0.001)
 arahdrive.com##+js(nano-setInterval-booster, Number, *, 0.001)
 arahdrive.com##+js(set, protection, noopFunc)
 aranzulla.it##+js(aopr, navigator.userAgent)
@@ -19631,6 +19634,7 @@ blackenterprise.com##.hdrbanart
 blackenterprise.com##.penci-sidebar-widgets.penci-sticky-sidebar.widget-area-1.widget-area > .theiaStickySidebar
 blackhatworld.com##+js(abort-current-script, navigator.userAgent, AdBlockOn)
 blackhatworld.com##+js(nostif, show)
+blackhatworld.com,forum.redfox.bz,macrumors.com,platinmods.com##.notice--enablePush
 blacklist.1897pentagram.com$image
 blacklist.webspecmail.com$image
 blackmod.net##+js(refresh-defuser)
@@ -25787,6 +25791,8 @@ divxtotal.*,divxtotal1.*###banner_publi
 divxtotal.*,divxtotal1.*##+js(acs, jQuery, btoa)
 divyabhaskar.co.in##[id^="Ad"]:upward([style])
 diy.pconline.com.cn##DIV.modBoxA.hotPj + DIV.ivy230
+diyetkolik.com###kkPaylasSutunu
+diyetkolik.com###solAnaSutun
 diyifanwen.com###ArtTl
 diyifanwen.com###Hzh1
 diyifanwen.com###Hzh2
@@ -28189,6 +28195,7 @@ f*.baidu.com/it/u=*,*&fm=$third-party,domain=~baijiahao.baidu.com
 f.uliba.net##[href="http://www.linuxprobe.com/"]
 f1fastlap.blogspot.com##+js(acs, document.oncontextmenu)
 f1fastlap.blogspot.com##+js(acs, document.onselectstart)
+f1jouhou2.com##.onunume
 f1jouhou2.com##.rankings
 f1livegp.*##+js(acs, setTimeout, admc)
 f1livegp.net###blockblockA
@@ -29315,6 +29322,7 @@ football-tribe.com##.sharetools-menu
 football-ukraine.com###reachMedia
 football-ukraine.com###shadowMedia
 footballstream.tv,mlbstream.tv,nbastream.tv,nflstream.tv##+js(acs, decodeURI, decodeURIComponent)
+footcalcio.com###btmrss
 footstockings.com##+js(set, flashvars.popunder_url, '')
 footstockings.com##+js(set, flashvars.video_click_url, '')
 footwearnews.com##.c-widget--newsletter
@@ -29470,7 +29478,6 @@ forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
 forum.psnprofiles.com,fcine.net##.cShareLink
 forum.qt.io##ul.dropdown-menu > li > a[component^="share/"]
 forum.redfox.bz,excel.web.tr,taker.im##div[data-widget-key="forum_overview_share_page"]
-forum.redfox.bz,macrumors.com,platinmods.com##.notice--enablePush
 forum.release-apk.com###page-header:has(+ .phpbb-ads-center:matches-css(height: 280px)):style(margin-bottom: -265px !important)
 forum.release-apk.com##+js(acs, eval, replace)
 forum.release-apk.com##+js(aeld, load, onload)
@@ -33192,6 +33199,8 @@ host-cdn.net^$image,redirect-rule=32x32.png,domain=maxstream.video|maxlinks.onli
 host.dan-work.com###sp_ad2
 host3v.net##[id^="ad"]
 hostelworld.com##.gta-fixed-wrapper
+hoster.by##.m-article-socials
+hoster.by##div[class^="m-"][class*="-mailing"]
 hostingunlock.com##+js(acs, $, show)
 hostlove.com###yoru_right
 hostlove.com##.ad0
@@ -36595,6 +36604,7 @@ jumpmanclubbrasil.com.br##+js(acs, addEventListener, nextFunction)
 jumpmanclubbrasil.com.br##.home-ad-con
 jumpmatome2ch.biz##.d-contents
 jumpmatome2ch.biz##.rss02
+jumpmatome2ch.biz##.rss_hd
 jumpmatome2ch.biz##div[class^="sprss"]
 jumpmatome2ch.biz#?#.rss-hd:contains(/(?:おすすめ|人気)記事$/)
 jumpmatome2ch.net###rss-top
@@ -43280,7 +43290,8 @@ modrinth.com##.content-wrapper[ethical-ads-big]
 modrinth.com##.info-wrapper[data-v-7cd21295]
 modrinth.com##.info-wrapper[ethical-ads-big=""]
 modrinth.com##a[rel*="sponsored"]:upward(.normal-page__content > div)
-modrinth.com##section.normal-page__content :is([href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"]) > img
+modrinth.com##section.normal-page__content :is([href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"],[href^="https://rb.gy/"]) > img
+modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"][href*="?r="] img
 modrinth.com##section.normal-page__content a[href*="/redirect/"] img
 modsbase.com##+js(nowebrtc)
 modshost.net##+js(nano-setInterval-booster, timeleft, *, 0.02)
@@ -55417,6 +55428,7 @@ techmody.io##+js(nano-sib, , *, 0)
 techmuzz.com##+js(nosiif, adblocker)
 techmyntra.net##+js(nano-stb)
 technemo.xyz##+js(set, blurred, false)
+technewsworld.com##+js(aopr, pum_popups)
 technical.city##.container > div[style^="margin-bottom:"]
 technicalatg.com##+js(nano-setInterval-booster, timer, *, 0.02)
 technicalatg.com##+js(nano-setInterval-booster, wpsafe-, *, 0.02)
@@ -57535,6 +57547,7 @@ trendhunter.com##.tha__social
 trendmicro.com##.sharebuttons
 trends.google.*##button.widget-actions-item[ng-click="share()"]
 trends.google.*##share[ng-if="shareConfig"]
+trendyol.com###new-user-banner
 trendyol.com##+js(set-constant, WebPushManager, noopFunc)
 trendyol.com##.coupon-modal-container
 trendyol.com#$#body.gender-popup-lock { overflow: auto !important; }
@@ -59324,8 +59337,10 @@ videzz.net##+js(set, pData.adblockOverlayEnabled, 0)
 videzz.net##.prevent-first-click
 vidhd.*##+js(aopr, AaDetector)
 vidhidepre.com##+js(nowoif, !vidhidepre.com)
+vidhub.me,vidhub.tv##.adwap
 vidhub.me,vidhub.tv##.promolnk
 vidhub.me,vidhub.tv##.promote-link
+vidhub.me,vidhub.tv##.promotelink
 vidia.tv##+js(acs, $, undefined)
 vidia.tv##+js(aopr, AaDetector)
 vidia.tv##+js(nostif, iframe)
@@ -62386,6 +62401,7 @@ xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xhtree.com,xhwid
 xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,xhxh3.xyz,valuexh.life,xhdate.world,xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhtab2.com,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com#$#header.promo { min-height: auto !important; }
 xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,xhxh3.xyz,valuexh.life,xhdate.world,xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.video-actions > li.video-actions__item:has(> button > i.reply + span)
 xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,xhxh3.xyz,valuexh.life,xhdate.world,xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##aside[data-role$="ab-message"]
+xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,xhxh3.xyz,valuexh.life,xhdate.world,xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class^="popup-"][class*="withShadow"]
 xhtml?$domain=kanshu8.net
 xhvid1.com##+js(acs, Array.prototype.indexOf, popunder)
 xhvid1.com##.player-add-overlay
@@ -63964,6 +63980,7 @@ zol.com.cn/adrs/
 zol.com.cn/pvn/
 zol.com/index.php?c=Shop_ZolShopIndex
 zombie-film.club##+js(remove-class, isBranding, body)
+zombit.info###single-popup
 zona-leros.com##+js(nostif, Adb)
 zona-leros.com##.store_fondo
 zona-leros.net##+js(aeld, DOMContentLoaded, shortener)
