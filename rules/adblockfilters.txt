@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241015161153
-! Last modified: 2024/10/15 16:11:53
-! Blocked Filters: 91890
+! Version: 20241016000954
+! Last modified: 2024/10/16 00:09:54
+! Blocked Filters: 91900
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -4136,6 +4136,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 -universal-analytics/
 -vlybypoc2019.cloudfunctions.net/vtrack?vid=
 -wrapper-analytics-prod.cloudfunctions.net/
+.*gcdcjr000.fun/$script,third-party
+.*ryt111.fun/$script,third-party
 .1.1.1.l80.js^$third-party
 .189.gd^*.html?p=$popup,third-party
 .194007.com/4058.gif
@@ -27431,6 +27433,7 @@ coolsoft.altervista.org###content-right-floatbox
 coolsoft.altervista.org##+js(nostif, _0x)
 coolutils.com###bottomBanner
 coolwallpapers.me##+js(nosiif, dfgh-adsbygoogle)
+coomer.su##.header + a[href^="https://simplex.chat/contact#/"]
 copydev.com##+js(acs, addEventListener, google_ad_client)
 copyfuture.com#?#.tabbable > div:-abp-contains(宝红)
 copymanga.org##.col-2 > .dailyRecommendation + div[style^="width:"][style*="position: relative;"]
@@ -33977,8 +33980,13 @@ geekwire.com###subscribe-box-mobile
 geihui.com##div#new_step1,div#webcs_panel
 geino2news.seesaa.net#$##banner { height: auto !important; }
 geinou-nude.com##div[id^="widget_main_top"]
+geinoukame.com##.ninja-recommend-block + br
+geinoukame.com##.ninja-recommend-block + hr
 geinoukame.com##div[style*="width: 822px;height:600px;overflow: scroll;"]
 geinoukame.com##div[style*="width:100%;height:400px;overflow:auto;"]
+geinoukame.com##div[style^="border-style: solid ; border-width: 1px; padding:"][style*="width: 822px"]
+geinoukame.com##div[style^="border-style: solid ; border-width: 1px; padding:"][style*="width: 822px"] + br
+geinoukame.com##div[style^="border-style: solid ; border-width: 1px; padding:"][style*="width: 822px"] + br + hr
 gellerreport.com##.__hinit
 gellerreport.com#?#.widget-area > section.widget h2.donate-title:upward(section.widget)
 gelukinbewegingchallenge.nl##body:style(overflow: auto!important)
@@ -45933,6 +45941,7 @@ meduza.io###DailySubscriber
 meduza.io##.EmailSubscription-module-root
 meduza.io##.Layout-module-banner
 meduza.io##.MaterialNote
+meduza.io##.PopoverBanner-module-root
 meduza.io##.Toolbar
 meduza.io##body[class^="amp-"] div[class^="style__BannerTop-"]
 meduza.io#?#div[data-testid] > ul[class^="Toolbar-module_list_"] > li[class^="Toolbar-module_item_"]:has(> button[data-testid="toolbar-button"] > span[class^="ToolbarButton-module_text"]:contains(/Telegram|Телеграм|Фб|Фейсбук|Твиттер|Вк|Ок/))
@@ -47405,7 +47414,6 @@ mtrend.cn##.tjlanmu_2
 mtrend.cn##a[href*="taomoubao.com"]
 mtrend.cn##a[href^="http://tao.mtrend.cn/"]
 mtrend.cn##div[style="float:left; width:100%; margin-bottom:25px; text-align:center;"]
-mts.by##.tariff > section.app
 mtsproducoes.*##+js(aopw, block_detected)
 mtv-ktv.net###aShow
 mtv.com##+js(acs, document.createElement, admiral)
@@ -71559,6 +71567,7 @@ zzzyk.com###Tinfo
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de
 ||assets.adobedtm.com^$domain=sacbee.com|centredaily.com|tagesspiegel.de
 ||assets.adobedtm.com^$third-party
 ||assets.adsttc.com/insights/form-funnel.min.js
@@ -82639,6 +82648,7 @@ zzzyk.com###Tinfo
 ||msn.com^*/track.js
 ||msn.ynet.com/c/tj_comm.js
 ||msnbc.msn.com^*/analytics.js
+||mssdk*.zijieapi.com^
 ||mssdk.tiktokw.us/web/report?
 ||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=history.com
 ||mssl.fwmrm.net/libs/adm/*/AdManager.js$domain=atresplayer.com,important,badfilter

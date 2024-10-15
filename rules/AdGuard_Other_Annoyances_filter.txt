@@ -1,15 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: 5UqZHpa1mxYsDXuVw+3vkg
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1728977825-3600.patch
+! Checksum: YwsOZw1NoIg2+Ip/jU3abA
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1728999496-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.27.4
-! TimeUpdated: 2024-10-15T07:33:45+00:00
+! Version: 2.0.27.9
+! TimeUpdated: 2024-10-15T13:34:35+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 instagram.com##._aagw:empty
+kod.ru##div[class^="Share_wrapper"]
 thehindu.com##+js(abort-on-stack-trace, Promise, CheckIncognito)
 no-one-no.net##iframe[width="560"][height="315"][src^="https://www.youtube.com/embed/"]
 opennet.ru,opennet.me##body > div[style$="width:100%; height: 62px;"]
@@ -1248,7 +1249,10 @@ banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.ba
 banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.banki.ru/products/"]
 ##a[href^="https://apay-up-banner.com?merchantId="] > img
 ||apay-up-banner.com^$image,third-party
+agaroot.co.jp##.cta_float_img
 trendyol.com###new-user-banner
+avito.ru##div[class*="free-delivery-container-"]
+avito.ru##div[class^="personal-discount"]
 avito.ru##div[data-marker="standard-banner"]
 x.com,twitter.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 hokende.com##.bottom_campaign_link
