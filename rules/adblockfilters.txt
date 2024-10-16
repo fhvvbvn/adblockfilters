@@ -3,8 +3,8 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241016000954
-! Last modified: 2024/10/16 00:09:54
+! Version: 20241016083840
+! Last modified: 2024/10/16 08:38:40
 ! Blocked Filters: 91900
 !
 $$a[href="/js/app.htm?url="]
@@ -24626,9 +24626,9 @@ civileats.com##.row > section.sidebar-right > div.wrapper-social-media
 civilenggforall.com##+js(aopr, blockAdBlock)
 civilsdaily.com###z.modal
 civitai.com##+js(no-fetch-if, googlesyndication)
-civitai.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 civitai.com##div:is(.shadow, .flex.w-full.justify-center[style=""]):has(a[href="/pricing"] img[alt="Please support civitai and creators by disabling adblock"]):remove()
 civitai.com##div[class^="mantine-"][style^="grid-template-columns:"] > div.flex-col.border.p-2
+civitai.com##div[style^="min-height: 250px; min-width:"]
 civitai.com#?#body div:has(> div[dir="ltr"] form[style] > div[class^="mantine-"] > button[type="submit"])
 ciweimao.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 ciweimao.com##+js(aopr, document.oncontextmenu)
