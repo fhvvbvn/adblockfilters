@@ -30,7 +30,6 @@
 ###QQ_Full
 ###SOHU_MAIN > .module-cmt-float-bar
 ###SmBnLink
-###TopAdvert
 ###Video-Shunt-Box + .container
 ###ZAML
 ###Zi_ad_a_H
@@ -50,7 +49,6 @@
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-B1-ATF
 ###ad-SNSSplashAd
-###ad-box
 ###ad-floatwin
 ###ad-header-mobile-contener
 ###ad-index
@@ -61,7 +59,6 @@
 ###ad.slide
 ###ad1[onclick="window.open(this.url)"]
 ###ad1[style^="position:"]
-###ad900
 ###adAreaForLookOnline1
 ###adAreaForLookOnline2
 ###adAreaForLookOnline3
@@ -69,11 +66,6 @@
 ###adBlockAlertWrap
 ###adBlockDetect
 ###adBlockerModal
-###adBody01
-###adBody02
-###adBody03
-###adBody04
-###adBody06
 ###adBody07
 ###adBrandDev
 ###adBrandingStation
@@ -100,15 +92,8 @@
 ###adLeftFloat
 ###adRightFloat
 ###adSpot
-###adUn_1
-###adUn_2
-###adUn_3
 ###adUrl
-###ad_1
-###ad_banner
 ###ad_blocker
-###ad_bottom
-###ad_box
 ###ad_box1
 ###ad_box2
 ###ad_full
@@ -117,12 +102,8 @@
 ###ad_hf_out2
 ###ad_hf_out4
 ###ad_hf_out5
-###ad_left
-###ad_link
 ###ad_popup_background
 ###ad_popup_wrapper
-###ad_right
-###ad_text:not(textarea)
 ###adad
 ###adb-actived
 ###adb-enabled
@@ -163,9 +144,6 @@
 ###adbox_right
 ###adbpopup
 ###adh5
-###adjs_id
-###adleft
-###adright
 ###adrights14
 ###ads-blocked
 ###ads-container
@@ -176,13 +154,9 @@
 ###ads.row
 ###adsModal
 ###ads_c_tpc
-###ads_inner
-###ads_left
 ###ads_popup
-###ads_right
 ###ads_top_video
 ###adsblocker_detected
-###adsense
 ###adsense-area-label
 ###adsense-header
 ###adsense-link
@@ -211,11 +185,8 @@
 ###adv-3
 ###adv-fixed-square
 ###adv_wrap_hh
-###advert_1
-###advertisement_box
 ###advertisementjsalert
 ###advertisings
-###advt
 ###adx_cggp
 ###alert_windows > .q-dialog__backdrop
 ###allpng
@@ -237,7 +208,6 @@
 ###asdw2 + img
 ###aside_cat_ad_bottom
 ###asx_text
-###bannerAd
 ###bd-hl-content
 ###bfad
 ###bfad1
@@ -246,7 +216,6 @@
 ###bfad4
 ###bfad5
 ###bfad6
-###bgad
 ###bgframe[style^="position: fixed;"]
 ###billboard_desk
 ###billboard_mob
@@ -405,7 +374,6 @@
 ###container > .wrapper > .fl
 ###container > a.block
 ###container.container > a.item
-###content-ad
 ###content_adblock_message
 ###coupletBox
 ###coupletLeft
@@ -444,16 +412,10 @@
 ###fixedAd
 ###fixedban
 ###fk_faiVisitStateAd
-###flashad
-###floatAD_l
-###floatAD_r
-###floatAd-left
-###floatAd-right
 ###floatad-winpop
 ###fnAdblockingOverlay
 ###fnbt
 ###fondAdblock
-###footAd
 ###footads
 ###footer_fix_ggw
 ###frameS8CyqB
@@ -551,12 +513,10 @@
 ###guanggao2[style^="position"]
 ###gudingweiDiv
 ###haoxinqing_me_img
-###head_ad_area
 ###header + #shang
 ###header + #topBox
 ###header > a[target="_blank"] > img[style="width:100%;height:60px;margin-bottom:2px;"]
 ###header-top + .advertisement
-###header_ad
 ###header_global_ad
 ###hellobox > .mylist
 ###hengfu > #jiukan
@@ -564,7 +524,6 @@
 ###hengfu2.banner
 ###hfad
 ###hj-right-aside[style="float: right;"]
-###homead
 ###hongbao20201217
 ###ifadmiddle
 ###iframe-ad
@@ -608,16 +567,13 @@
 ###leftFloat1 + #rightFloat1
 ###leftFloat[style="z-index: 999; position: fixed; left: 0px; bottom: 0px;"]
 ###left_ad
-###left_adv
 ###left_couple
 ###left_couple + #right_float
 ###left_couplet.close_discor
 ###left_down_float_ad
 ###left_float + #right_float
 ###left_float.close_discor
-###left_top_ad
 ###left_up_float_ad
-###leftad
 ###leftad2
 ###leftd.leftd
 ###lefttd.lefttd
@@ -688,10 +644,8 @@
 ###piao_div_5[style*="width:140px;"]
 ###play[style="padding: 10px;"] > a[href*=".xmcdn.com"]
 ###player-bottom-ads
-###playerAd
 ###playerAdvLayer
 ###playerJsvLayer.jsv-layer
-###player_ad
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
@@ -749,13 +703,10 @@
 ###section_advertisements
 ###sign-ad
 ###sitefocus.focus
-###slide_ad
-###slider_ad
 ###smartbanner.ios
 ###smartbanner.windows
 ###snActive-wrap
 ###sponsorAdDiv2
-###sponsored_links
 ###sticky-ad
 ###sticky-ad-bottom
 ###sticky-ad-container
@@ -813,16 +764,12 @@
 ###textsponsor
 ###tie-popup-adblock
 ###timedfuo
-###top-ad
 ###top-ads
 ###top-gg-container
-###topAdv
 ###topNavad
 ###top_ad
-###top_ad_box
 ###top_ads0
 ###top_box > a[onclick^="javascript"]
-###topad1
 ###toperAd2
 ###toptb + div[align="center"]
 ###toptd.toptd
@@ -869,7 +816,6 @@
 ###yahooads
 ###yp-home[role="tabpanel"]
 ##.AD_TAC_BOX
-##.AdTop
 ##.AdblockBanner
 ##.AdblockMessage
 ##.AdblockMessage_msg
@@ -911,20 +857,13 @@
 ##.abk-img
 ##.abk-item.abk-banner
 ##.above_video_banner
-##.ad-300x250
-##.ad-300x600
-##.ad-5
-##.ad-6
 ##.ad-above-footer
 ##.ad-alert-message-text
 ##.ad-alert-wrapper
-##.ad-area
-##.ad-banner
 ##.ad-below-adjacent-post
 ##.ad-below-header-menu
 ##.ad-below-post-title
 ##.ad-below-related-post
-##.ad-block
 ##.ad-block-cn
 ##.ad-block-detected
 ##.ad-block-enabled
@@ -935,37 +874,26 @@
 ##.ad-blocked-wrapper
 ##.ad-blocker-warning
 ##.ad-blocking-advisor-wrapper
-##.ad-body
 ##.ad-box
-##.ad-cell
 ##.ad-container
 ##.ad-couplet-common
-##.ad-desktop
 ##.ad-frame
 ##.ad-frame-container
-##.ad-group
 ##.ad-iframe
 ##.ad-iframe-container
 ##.ad-item-wrap[style*="abcd"]
-##.ad-left
 ##.ad-left-down
-##.ad-mod
 ##.ad-pc
 ##.ad-placement
 ##.ad-popup
 ##.ad-popup-content
-##.ad-r
-##.ad-right
 ##.ad-right-down
 ##.ad-right-top
-##.ad-section
 ##.ad-shine-panel
 ##.ad-site
 ##.ad-slot-placeholder
 ##.ad-tabSplit
-##.ad-text
 ##.ad-title
-##.ad-top
 ##.ad-wireframe
 ##.ad-wireframe-wrapper
 ##.ad-zone
@@ -973,24 +901,12 @@
 ##.ad.noadmo
 ##.ad.none
 ##.ad.w
-##.ad01
-##.ad02
-##.ad03
-##.ad04
-##.ad1000
 ##.ad250left
 ##.ad250right
-##.ad250x250
-##.ad300
 ##.ad300left
-##.ad300x250
 ##.ad336left
-##.ad728
-##.ad960
-##.ad980
 ##.ad990x130
 ##.ad990x90
-##.adBanner
 ##.adBlock-banner
 ##.adBlockDetectModal
 ##.adBlockDetectedSign
@@ -999,7 +915,6 @@
 ##.adBlockWarning
 ##.adContainer
 ##.adContainer[style="margin-top: -5px"]
-##.adDingT
 ##.adFrame
 ##.adFrameCnt
 ##.adFrameContainer
@@ -1010,30 +925,14 @@
 ##.adHF6
 ##.adIframe
 ##.adIframeCount
-##.adInfo
-##.adLink
-##.adNone
 ##.adPlaceholder
 ##.adTextList
 ##.adWrap
-##.ad_1000x90
-##.ad_250x250
-##.ad_300250
-##.ad_336x280
-##.ad_640x90
-##.ad_90
-##.ad_960
-##.ad_banner
-##.ad_bar
 ##.ad_belowfirstpost_frame
-##.ad_bg
 ##.ad_block_detected
 ##.ad_block_off
 ##.ad_blocker
 ##.ad_bot
-##.ad_box
-##.ad_btn
-##.ad_content
 ##.ad_content_mask
 ##.ad_couplebanner
 ##.ad_footerbanner
@@ -1041,15 +940,10 @@
 ##.ad_frame_around
 ##.ad_headerbanner
 ##.ad_hf
-##.ad_hover_href
 ##.ad_id_1,.ad_id_2,.ad_id_3,.ad_id_4,.ad_id_5
 ##.ad_iframe2
 ##.ad_img
-##.ad_mod
-##.ad_news
-##.ad_notice
 ##.ad_pc
-##.ad_right
 ##.ad_right_1
 ##.ad_right_2
 ##.ad_side
@@ -1061,10 +955,7 @@
 ##.ad_sidebar_left
 ##.ad_sidebar_right
 ##.ad_size_160x600
-##.ad_text
 ##.ad_thread
-##.ad_top
-##.ad_two
 ##.ad_v2
 ##.ad_v3
 ##.ad_vertisement
@@ -1145,12 +1036,9 @@
 ##.adblocker-message
 ##.adblocker-root
 ##.adblocker-wrap
-##.adboard
-##.adbottom
 ##.adbox-bg.adscounter
 ##.adbox250
 ##.adbox900
-##.adclass
 ##.add-gg
 ##.addddddwarp
 ##.adframe
@@ -1160,8 +1048,6 @@
 ##.adguru-modal-popup
 ##.adh5
 ##.adiframe
-##.adline
-##.adlist
 ##.adlistcss
 ##.adnz-ad-placeholder
 ##.adpc
@@ -1171,27 +1057,18 @@
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads > img
-##.ads-1
-##.ads-2
 ##.ads-after-content
 ##.ads-after-header
 ##.ads-all
 ##.ads-before-content
 ##.ads-block-warning
-##.ads-content
 ##.ads-img
-##.ads-item
 ##.ads-placeholder
 ##.ads-slot-placeholder
 ##.ads-title + .article-bottom-apps
 ##.ads.flex
-##.ads02
-##.ads03
-##.ads1
 ##.ads100
 ##.ads200
-##.ads3
-##.ads4
 ##.ads_
 ##.ads_all > .ads_w
 ##.ads_desktop
@@ -1295,35 +1172,24 @@
 ##.adsensemobile
 ##.adslot_popup
 ##.adsoho
-##.adspace
 ##.adspop
 ##.adss-mob
 ##.adswarning
-##.adtable
 ##.adthrive_custom_ad
-##.adtop
-##.adtxt
-##.adv-300-250
 ##.adv-6park
 ##.adv-couplets
 ##.adv-g1
 ##.adv-overlay
 ##.adv1
 ##.adv2
-##.adv250
 ##.adv3
 ##.adv4
 ##.adv5
 ##.adv6
 ##.adv7
 ##.advInfoElem
-##.adv_img
-##.adv_left
-##.adv_right
 ##.advert--placeholder
-##.advert-card
 ##.advert-short
-##.advert_nav
 ##.advertise
 ##.advertising_lightbox
 ##.adwap
@@ -1354,12 +1220,10 @@
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.archive > a[ontouchstart="this.click();"]
 ##.area > .tuiguang
-##.area_ad
 ##.artad
 ##.article > .static-container-4 > .media
 ##.article > .static-container-4 > .media + .recommendation_widget
 ##.article-pop-up-ad
-##.article_ad
 ##.articleads
 ##.artplayer-plugin-ads
 ##.asb-index
@@ -1373,7 +1237,6 @@
 ##.ayx[style^="position: fixed;bottom"]
 ##.b300 > .h100 > a[href^="http"]
 ##.b3001 > .h100
-##.b_ad
 ##.b_oscar1
 ##.b_pr
 ##.b_sxc
@@ -1390,7 +1253,6 @@
 ##.before_playing_cctv.yc
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
-##.bg_ad
 ##.bhgg
 ##.big-ads
 ##.big-advertisement
@@ -1439,10 +1301,8 @@
 ##.book > #btmBox
 ##.bottom-ads-container
 ##.bottom-ads-content
-##.bottom-adv
 ##.bottom-mobile-ad
 ##.bottom-pic,.col-pd.mb10
-##.bottomAd
 ##.bottomSponsor
 ##.bottom_fixed > #imgs_link4
 ##.bottom_fixed > a > img[src$=".gif"]
@@ -1453,12 +1313,10 @@
 ##.bottomd + .leftd
 ##.bottomd > .closebox2
 ##.bottommob.swiper-container-horizontal
-##.box-ad
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 ##.broadcastMe[style="width: 1200px;"]
 ##.btn.btn-success.text-white[href*=".com:"]
 ##.bus_adsbox
-##.c-ad
 ##.cailyzad
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
@@ -1472,7 +1330,6 @@
 ##.chat-top-ad
 ##.clearfix > a > IMG[referrerpolicy='no-referrer'][src]:not([style='display: block;'])
 ##.clearfix.col5.row > #listBox
-##.col-ad
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
 ##.col6 > a[onclick*="横幅"]
@@ -1504,7 +1361,6 @@
 ##.content > #dhxhtml
 ##.content > a > .topline
 ##.content-ad-container
-##.content-ads
 ##.content-ads-bottom
 ##.content-advert
 ##.content-advertisment
@@ -1516,7 +1372,6 @@
 ##.couplet_9cb0d
 ##.coupletad
 ##.cpcad.nopc
-##.ct-ad-article-wrapper
 ##.ctm_ad
 ##.cui-pt-item[data-qhb]
 ##.d_banner_inner
@@ -1589,7 +1444,6 @@
 ##.fixed_ad
 ##.fixed_adslot
 ##.fixed_advert_banner
-##.flash_ad
 ##.flex-row > #propagandaLeft
 ##.flex-row > #propagandaRight
 ##.float-ad
@@ -1607,7 +1461,6 @@
 ##.fnwehjnc12
 ##.foot-dp-fix
 ##.footads
-##.footer-ad
 ##.frAd
 ##.frontpageAdvM
 ##.fuckYouAdBlock
@@ -1850,11 +1703,7 @@
 ##.happy_undie-mob
 ##.hasFootAd
 ##.hbp > .wp_banner
-##.hd-adv
-##.head-ad
 ##.headThreeImg > .block > a > img
-##.head_ad
-##.headad
 ##.header-ad-desktop
 ##.header-ad-mobile
 ##.header-background + style + .index-banner:not([id]):not([style]) > div[class^="swiper"]
@@ -1889,9 +1738,6 @@
 ##.horizontaltextadbox
 ##.horizsponsoredlinks
 ##.hortad
-##.house-ads
-##.hp_textlink_ad
-##.html5-ad-progress-list
 ##.htvad
 ##.hzxld
 ##.iHead960x90
@@ -1900,7 +1746,6 @@
 ##.imagegg-container
 ##.img-cctv.lazyLoad
 ##.imgBox > div[class^="ad"]
-##.imgad
 ##.inPlayerGGdiv
 ##.index-center-tc-index2.index-center-tc > a
 ##.index-top-aassd
@@ -1915,7 +1760,6 @@
 ##.infomation + #notice_container > .event-notice
 ##.inner-advertise
 ##.it618_firstad_flex
-##.item-ad
 ##.itopbar + .container
 ##.j-cctv-click
 ##.jav-nav + .bcpic
@@ -2026,7 +1870,6 @@
 ##.kuandu > .bottommob
 ##.layui-container > .app2
 ##.left > .b300
-##.leftAd
 ##.leftadv
 ##.leftd + .rightd
 ##.leftd1 + .rightd1
@@ -2040,10 +1883,7 @@
 ##.loc-home-top-adv-new
 ##.lol-ad
 ##.lol_ad
-##.long_ad
 ##.look_more_a[onclick^="open_app"]
-##.lt_ad
-##.lyad
 ##.lyzm-prevent
 ##.m-ContentAd
 ##.m-ad
@@ -2094,11 +1934,9 @@
 ##.mid-article-banner-ad
 ##.mid-outbrain
 ##.midAdvert
-##.mid_ad
 ##.middleAdWrapper
 ##.min-height-ad
 ##.mk_ads
-##.mks_ads_widget
 ##.ml_ad1
 ##.ml_ad3
 ##.ml_ad5
@@ -2365,8 +2203,6 @@
 ##.qpdb + a[href]
 ##.qzdhf
 ##.qzhfaaa
-##.r-ad
-##.r_ad
 ##.read-container [onclick='goAppHtml();']
 ##.readerListADbox
 ##.readmidad
@@ -2375,11 +2211,6 @@
 ##.remove-ads
 ##.right > .b300
 ##.right > .content > .ads
-##.right-ad
-##.rightAD
-##.rightAd
-##.right_advert
-##.rightadv
 ##.rightd + .leftd1
 ##.rmp-ad-container
 ##.room-ad-bottom
@@ -2399,12 +2230,8 @@
 ##.section > div > div[class][data-version]
 ##.self-gg
 ##.show-app2 + .apple
-##.side-ad
-##.side_ad
-##.sidead
 ##.sideadvert
 ##.sideadverts
-##.sidebar-ad
 ##.sidebar-ads
 ##.siteAnn1
 ##.slide-ad
@@ -2417,7 +2244,6 @@
 ##.space-y-6 > .advertising
 ##.spon-img[src*=".alicdn."]
 ##.sponsor-popup
-##.sponsor_image
 ##.sponsor_popup
 ##.spot_nav_under_ad
 ##.ssr1
@@ -2437,9 +2263,6 @@
 ##.tab-content + .col-pd
 ##.tads
 ##.test-adblock-overlay
-##.text-ad
-##.textAd
-##.textad
 ##.textadlist
 ##.textadv
 ##.theme-dark > .ayx > a
@@ -2454,35 +2277,29 @@
 ##.top > a > .topline[src^="/photo/"]
 ##.top > div[style="max-width: 1235px; width: 100%; text-align:center; margin-left: auto; margin-right: auto"]
 ##.top-a2db[data-group]
-##.top-ads
 ##.top-ads-container
 ##.top-ads-content
 ##.top-bar-adblock
 ##.top-gg
 ##.top-meta > .moj-content
 ##.top-read-ad
-##.topAd
 ##.topSponsor
-##.top_ad
 ##.top_ad_ban
 ##.top_box > #foot
 ##.top_box > #indextop
 ##.top_box > #news
 ##.top_box > li > a[href^="/js/app.htm?"]
 ##.top_func_ad
-##.topad1
 ##.topads
 ##.topbanner + .nav + .banner
 ##.toy52_outer
 ##.toy52apparel_ALL
 ##.tp_advertising
 ##.trad3
-##.trc-content-sponsored
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txp_ad_center
 ##.txtguanggao
-##.ui-ad
 ##.uk-width-1-1.adbox
 ##.under-player-ad-mobile
 ##.under_player > div[class*="lg:hidden"]
@@ -2499,7 +2316,6 @@
 ##.vp-project-home > .ads-container
 ##.w-full > .banner.el-carousel
 ##.w100b > .m_adv
-##.w_ad
 ##.wbalist_thumb[style*="/upload/site/"]
 ##.wemziguanggao
 ##.wf_ad_block
@@ -3410,10 +3226,7 @@
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://2kkfof.vip"]
-##a[href^="http://ad-apac.doubleclick.net/"]
-##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://ad.moemoe."]
-##a[href^="http://affiliate.godaddy.com/"]
 ##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://s.73xx.icu/xgmn"]
@@ -3818,7 +3631,6 @@
 ##div[id^="advads_ad_"]
 ##div[id^="azwangye"][style*="z-index: 11000;"]
 ##div[id^="div-gpt-"]
-##div[id^="div-gpt-ad"]
 ##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="google_dfp_"]
 ##div[id^="gpt_ad_"]
@@ -7673,7 +7485,6 @@ ctvnews.ca##.polopoly_embed
 ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
-cultura.uol.com.br###homecampanha
 cuonet.com##.hidden-sm > .widget-box + div:not([class]):not([style])
 cupfox.app###outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app##.banner > div.banner-content.right
@@ -7923,7 +7734,6 @@ dlive.tv##.v-snack--bottom
 dlkoo.cc##ins[id^="tanxssp-outer-conmm_"]
 dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 dm010.com##a[href*=".apk"]
-dm5.com###a1
 dm5.com###youce
 dm5.com##.index-side-code
 dm5.com#$#body[style*="overflow"] { overflow: auto !important; }
@@ -10873,7 +10683,6 @@ kdslife.com##a[href*="kds.2144.cn"]
 kdslife.com,pchome.net##.weixin
 ke.qq.com##.bottom-bar
 kehuan.net.cn##.bread_728x90
-keirin.netkeiba.com#?#div[class^="Column_Detail"] > div.banner320:has(> a[href] > img[src*="appdl_banner_square"])
 kekememes.de#$#body { overflow: visible!important; }
 kekenet.com###bottomlink
 kekenet.com###weixinwz
@@ -11664,6 +11473,7 @@ masok.cn###bottomLayer
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
 mat6tube.com##.main > .c_video > .container > [style]:not(.video_player)
 match.tdping.com##P[style='text-align:left;margin:0;'],td.livetitle > L
+matchendirect.fr##.bloc_coldroite[style]
 materialtools.com#@#.ad-center
 math-prosto.ru###requestShutOfBlocker
 mati.hk##.banner_middle
@@ -11850,6 +11660,7 @@ mitbbs.ca,mitbbs.com##.newskuang2
 mitbbs.ca,mitbbs.com##table[width="336"][height="280"]
 mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
 miushuo.com###leftDiv1
+mixch.tv#$#body { overflow: auto !important; }
 mjzj.com##div[id^="sidebar-top-carouse"]
 mm-cg.com###ArticlesEx_box
 mm-cg.com###ioshowAD
@@ -11984,7 +11795,6 @@ msn.cn,msn.com##div.actiontray-container
 msn.cn,msn.com##div.consumption-river
 msn.com###displayAdCard
 msn.com###taboola-above-homepage-thumbnails
-msn.com##.ad
 msn.com##div[class^="weatherMobileUpsellContainer-"]
 msn.com##div[data--adqjyluqt]
 msn.com#$##irisbannerph { display: none !important; }
@@ -12067,6 +11877,7 @@ myanimelist.net##._unit
 myanimelist.net##.header-mini-banner
 myanimelist.net##div[data-text="Get the App"]
 mybook.ru##.ant-btn-goToApp
+mybook.ru#?#.ant-col-lg-3 > div[class] > div[class]:has(> div[class] > a[href^="https://redirect.appmetrica.yandex.com/serve/"])
 mycq.qq.com##div[style^="width:960px;"]
 myday.com.tw##.myday_ad_950
 myday.com.tw##.myday_ad_left
@@ -12523,6 +12334,7 @@ onemanhua.com##body > div[style^="position: fixed;"][style*="z-index:"]
 onemanhua.com##div[id^="rn_ad_native"]
 oneplusbbs.com,wstx.com,xiaot.com###diy4
 online-convert.com##.extension-container
+online.citysuper.com.hk###MainContent > div[class="shopify-section"]:has(> div.brand-section > div > div.brand-section-inner > div.brand-section__buttons > a[href="https://online.citysuper.com.hk/pages/city-super-hk-app"])
 online.citysuper.com.hk###shopify-section-download-app-banner
 onlinedown.net##.g-huodong
 onlinedown.net##.king-soft-area
@@ -14501,7 +14313,6 @@ tgfcer.com##.ad_headerbanner
 tgfcer.com##.ad_text
 tgfcer.com##.portalbox
 tgfcer.com##div[id^="ad_thread"]
-tgfcer.com#@##content_adv
 th-sjy.com##.banner-post
 th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
@@ -14753,6 +14564,7 @@ travel.rakuten.co.jp###appDlBn
 travel.rakuten.co.jp###ptr_app_bnr
 travel.rakuten.co.jp##span[id="footerBannerAppDL"]
 trendyol.com,tripadvisor.ru,prog-8.com,spice.eplus.jp,catalog.onliner.by,hket.com,fashion-headline.com,momoshop.com.tw,ticketjam.jp,kompas.com,sevenbank.co.jp,booth.pm,reverso.net,bangumi.org,msn.com,m.investing.com,m.spiegel.de,mavcsoport.hu,m.trendyol.com,autobild.de,infranken.de,m.douglas.de,focus.de###smartbanner
+tribune.net.ph###sw-wrapper
 trilltrill.jp##.articleDetail-ReadMore_W2A
 trilltrill.jp#$#.header-GlobalHeader { padding-top: 0 !important; }
 trilltrill.jp#$#.header-MenuBar { margin-top: -70px !important; }
@@ -15702,6 +15514,7 @@ xiakexsw.com##a[href^="/"][rel="nofollow"]
 xiakexsw.com##script + div[style]
 xianzhenyuan.cn##.sd_ad:not(#xztba)
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
+xiaohongshu.com##.button-bottom-bar
 xiaohongshu.com#?#.note-view-container > div.nav-bar-box:has(> div.reds-box div.reds-text:contains(小红书App))
 xiaohutuwb.com##.ceo_ads
 xiaolz.cn###masonry2
@@ -16141,7 +15954,6 @@ zcool.com.cn#@#.advtop
 zdface.com#@#.top-ad
 zeekmagazine.com##.td-all-devices
 zeenews.india.com##.ctadownloadbox
-zeflix.online##noindex > div[id]:has(> div > a[href="https://zetflix.app/"])
 zglww.net##.tool
 zgpingshu.com##a[href^="http://cy.aiboxs.cn/"][target="__blank"]
 zh.moegirl.org.cn#?#.swiper-slide:has(> a[href^="https://m.tb.cn/"])
