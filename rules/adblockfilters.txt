@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241017161148
-! Last modified: 2024/10/17 16:11:48
-! Blocked Filters: 92084
+! Version: 20241018001011
+! Last modified: 2024/10/18 00:10:11
+! Blocked Filters: 92108
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -24164,6 +24164,7 @@ chashebao.com##.ad960
 chasingthedonkey.com##+js(nowoif)
 chasingthedonkey.com##.newsletter-signup-section
 chatglm.cn##.agent_head_DownloadApp
+chatgpt.com##div[class^="lg"]:has(> div.mx-auto > div.block > div.relative > div.mb-2 > div.flex > div.flex-row > svg[height="62"][width="62"])
 chatta.it##+js(nostif, Adv)
 chattanoogan.com##+js(set, AbleToRunAds, true)
 chaturbate.com##.RoomSignupPopup
@@ -24224,6 +24225,8 @@ chen-xing/figure_bed*
 chengdu.cn###ad_cover,.ad-banner,#sideBox[style],[class^="ad-"]
 chengdu.cn##.pop_box
 chengdu.cn,oeeee.com,ofweek.com##div[class^="ad-"]
+cherio199.blog.fc2.com##.free_space_body
+cherio199.blog.fc2.com##.mainEntryBlock ~ center > table[width="920"]:has(div[style^="height:205px;overflow:auto;"])
 cherrynudes.com##+js(acs, loadTool, popping)
 cherrynudes.com##[href^="http://links.verotel.com/"]
 cherrynudes.com##[href^="http://www.g4mz.com/"]
@@ -32483,7 +32486,6 @@ flickr.com##.fluid-share-cameraroll-view
 flickr.com##.fluid-share-photo-view
 flickr.com##.nav-banner-container
 flickr.com##.spaceball
-flickr.com##.sub-photo-right-view [href^="/account/upgrade"]:upward(.sub-photo-right-view > div)
 flickr.com##.sub-photo-submoola-view
 flickr.com##section:has([href*="istockphoto.com"])
 flicks.com.au##.blog-meta__share
@@ -33931,6 +33933,7 @@ gazetadopovo.com.br##+js(aeld, copy)
 gazetadopovo.com.br##.ads-desktop
 gazetadopovo.com.br##.box-promo-newsletter
 gazetedamga.com.tr##+js(aopw, importFAB)
+gazetegercek.com.tr,turgutluyanki.com,imaret.com.tr,haberimport.com,afyonhaber.com##body .googlenewsm-btn
 gazetekadikoy.com.tr#@#.social-box
 gazetememur.com,epicdope.com,myfin.by##.custom-share
 gazetevatan.com,milliyet.com.tr##.breadcrumb__google-news
@@ -48126,6 +48129,7 @@ navcomic.com##body > div#document-header > aside.widget.widget_text
 naver.com##+js(aeld, /contextmenu|selectstart|dragstart/)
 naver.com##._promotionBanner,._banner
 naver.com##.naver-splugin
+navi.onamae.com##top-enquete-popup
 navitime.com##.app-banner-header
 nayisahara.com##+js(nano-setInterval-booster, counter, *, 0.001)
 nazya.com###fav-container > span.rght
@@ -49288,6 +49292,7 @@ nudes7.com##+js(acs, document.addEventListener, adsbygoogle)
 nudeselfiespics.com##+js(noeval-if, popUnderStage)
 nudevista.link##.bnblog
 nudevista.link##.sidebar-bn
+nudezzers.org##+js(rmnt, script, adBlockNotice)
 nudistube.com##+js(aopr, document.dispatchEvent)
 nudogram.com##+js(acs, decodeURI, decodeURIComponent)
 nudogram.com##+js(aopr, decodeURI)
@@ -54227,6 +54232,7 @@ rawg.io##.profile-head__share-button
 rawg.io,iherb.com##.welcome-banner
 rawkuma.com##+js(aeld, mousedown, shown_at)
 rawkuma.com##+js(aeld, readystatechange, document.removeEventListener)
+rawkuma.com##.kln > a > img
 rawlazy.si##.content-text.lh-16.font-12x
 rawmanga.top##+js(aopr, AaDetector)
 rawneix.in##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
@@ -58549,8 +58555,8 @@ stream2watch.*##+js(aopr, AdservingModule)
 stream2watch.*##.min-test
 stream2watch.*##p[style="color:white;"]
 stream3.verwin.com$image
-stream4free.live##+js(aopw, adcashMacros)
-stream4free.live##.closeButton
+stream4free.*###promo
+stream4free.*##+js(aeld, load, nextFunction)
 streamable.com##nav ~ div[class]:has(> a[href$="page-video-ad"])
 streamable.com#?#div[id^="player"] div.flex > button[class] > span:contains(Share):upward(2)
 streamadblocker.*##+js(acs, setTimeout, admc)
@@ -60682,6 +60688,7 @@ time.com#$#body { overflow: visible !important; }
 time.com,nypost.com#$#.jw-wrapper.jw-reset { transform: unset !important; width: unset !important; max-width: unset !important; }
 time.is##.social_buttons + div[style="font-size:14px;float:right;margin:0 10px 10px 10px"]
 time2hack.com,techblog.nexxwave.eu,blobstreaming.org,quillette.com,creativerly.com,axion.zone,crio.do###ghost-portal-root
+timeanddate.com###ad-wrap
 timeanddate.com###ad300
 timeanddate.com##+js(addEventListener-defuser, load, Dislike intrusive ads)
 timeanddate.com##+js(addEventListener-defuser, scroll, _onscroll)
@@ -62108,7 +62115,6 @@ turbopages.org##.fixed_widget-feedback
 turbopages.org##.share__services
 turbopages.org##.social-panel-root
 turgutluyanki.com##.fix-socials_btm
-turgutluyanki.com,imaret.com.tr,haberimport.com,afyonhaber.com##.googlenewsm-btn
 turismando.net##+js(nano-setInterval-booster, className, *, 0.001)
 turk-debrid.net##+js(abort-current-script, window.document.getElementById, s65c)
 turkanime.*###sponsored
@@ -62535,7 +62541,7 @@ uc123.com##[class^="ads"]
 uc129.com##.gg_tonglan,.ad-960,.adsbygoogle,.bingpai
 ucanwatch.*##+js(nowoif)
 ucbug.com##.recommend-image,.baidu_fx
-uciteljica.net,udemyking.com,uiuxsource.com,ukigmoch.com,umabomber.com,unityassets4free.com,uozzart.com,uploadbank.com,uprwssp.org,usahealthandlifestyle.com,userupload.*,ustimz.com,ustvgo.live,utaitebu.com,uur-tech.net##+js(noeval-if, /chp_?ad/)
+uciteljica.net,udemyking.com,uiuxsource.com,ukigmoch.com,umabomber.com,unityassets4free.com,uozzart.com,uploadbank.com,uprwssp.org,uqozy.com,usahealthandlifestyle.com,userupload.*,ustimz.com,ustvgo.live,utaitebu.com,uur-tech.net##+js(noeval-if, /chp_?ad/)
 ucoin.net###bottom-notice
 ucoin.net##+js(set-constant, window.canRunAds, true)
 ucptt.com##+js(nowoif)
@@ -63416,7 +63422,9 @@ versiya.info#?#div[class="sidebar"]:has(> div#fb-root)
 verstka.media##.verstka-telegram-banner
 verstka.media##.vm-single-post-content > p:has(> a[href="https://t.me/svobodnieslova"])
 verstka.media##.vm-single-post-content > p[class="has-background"][style="background-color:#47d4ff"]
+verstka.media##.wp-block-post:has(> a[href="http://verstkasupport.media/"])
 verstka.media##.wp-site-blocks div.verstka-mobile-topbar
+verstka.media#?#.vm-single-post-content > p:contains(ИНОСТРАННЫМ АГЕНТОМ)
 versus.com##div[class^="Share__"]
 verteleseriesonline.com##+js(adjust-setTimeout, updateReloj, , 0.02)
 verteleseriesonline.com##+js(aopr, adBlockDetected)
@@ -63526,6 +63534,8 @@ video1tube.com##+js(set, popit, false)
 videobot.stream##+js(aopr, __Y)
 videobot.stream##+js(set, console.clear, undefined)
 videobug.net,videofun.me,vidzur.com##.randid
+videocardz.com##*:style(user-select: text !important; -ms-user-select: text !important; -moz-user-select: text !important; -khtml-user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
+videocardz.com#$##videocardz-article * { user-select: auto !important; }
 videochums.com###social aside:has(> ul > li > a[href^="https://twitter.com/intent/"])
 videoconverterfactory.com##.down-bannerbg
 videodownloaderultimate.com#$##m_offer { display: none!important; }
@@ -64996,6 +65006,9 @@ watch.nbc.com$image
 watch.plex.tv##button[data-testid="shareButton"]
 watch.sling.com##+js(json-prune, ssai_manifest ad_manifest playback_info.ad_info qvt.playback_info.ad_info)
 watch.syfy.com$image
+watch2chan.com##.widget-below-sns-buttons
+watch2chan.com##.widget_custom_html:has(> div.textwidget > div.emphasize-link)
+watch2chan.com##.widget_custom_html:has(> div.textwidget > div[class^="rss"])
 watch4hd.*##+js(aopr, open)
 watch4hd.*##.btn-block.btn
 watchaccordingtojimonline.com,watchcalifornicationonline.com,watchdowntonabbeyonline.com,watcheronline.net,watchhouseonline.net,watchmalcolminthemiddle.com,watchonlyfoolsandhorses.com,watchprettylittleliarsonline.com,watchrulesofengagementonline.com,watchsuitsonline.net,watchlostonline.net##+js(nowoif)
@@ -71137,6 +71150,8 @@ zzzyk.com###Tinfo
 ||answerscloud.com^$third-party
 ||antdv.com/kaikeb
 ||antdv.com/yideng
+||antennasync.me/imp.php
+||antennasync.me^$third-party
 ||anthropologie.com/XgWM9nuH/init.js
 ||anti-cheat.info^$third-party
 ||antiadtape.com/stat/
@@ -71727,6 +71742,7 @@ zzzyk.com###Tinfo
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com
 ||assets.adobedtm.com^$domain=sacbee.com|centredaily.com|tagesspiegel.de
 ||assets.adobedtm.com^$third-party
 ||assets.adsttc.com/insights/form-funnel.min.js
@@ -75550,6 +75566,7 @@ zzzyk.com###Tinfo
 ||demaxiya.com/v4/dd/
 ||demdex.net^$third-party
 ||demo.zeenews.com/ads/counter.php
+||demowebcode.online^$all
 ||denakop.com^$third-party
 ||dengage.com^$third-party
 ||dengekionline.com^$removeparam=osusume_banner
@@ -85597,8 +85614,12 @@ zzzyk.com###Tinfo
 ||reddit.com/static/pixel.png$image
 ||reddit.com/svc/shreddit/perfMetrics
 ||reddit.com/timings/
+||reddit.com^$removeparam=%243p
+||reddit.com^$removeparam=%24deep_link
 ||reddit.com^$removeparam=correlation_id
 ||reddit.com^$removeparam=post_fullname
+||reddit.com^$removeparam=post_index
+||reddit.com^$removeparam=rdt
 ||reddit.com^$removeparam=ref
 ||reddit.com^$removeparam=ref_campaign
 ||reddit.com^$removeparam=ref_source
@@ -87770,6 +87791,7 @@ zzzyk.com###Tinfo
 ||stream.cz/*/v2/vast$xhr
 ||stream.shuzilm.cn/report
 ||stream2watch.*/sw.js$script,1p
+||stream4free.tv/*.php^$frame,1p
 ||streamable.com^$doc,removeparam=src_internal
 ||streamable.com^$doc,removeparam=src_player
 ||streamable.com^$removeparam=src_internal
@@ -87952,6 +87974,7 @@ zzzyk.com###Tinfo
 ||surfe.be^$important
 ||surfe.pro/js/net.js$script,xhr,redirect-rule=noop.js
 ||surfshark.com^$removeparam=transaction_id
+||surfside.io/event/track|
 ||surinenglish.com/adbd^
 ||survey.hyzen-cloud.com/pixel/
 ||surveymonkey.com/resp/api/metrics
@@ -90196,6 +90219,7 @@ zzzyk.com###Tinfo
 ||wasm.stream
 ||wataugademocrat.com/shared-content/art/stats/common/tracker.js
 ||watch-series.*/sw.js$script,1p
+||watch2chan.com/pickup_$script
 ||watch32hd.org/adblock
 ||watch32hd.org/tracking
 ||watchfreexxx.net/*.php$script,1p

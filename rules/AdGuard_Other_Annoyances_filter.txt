@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JayYXCVPIsY3xSCQ5cCE4Q
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1729132590-3600.patch
+! Checksum: Lxj90S9Oa7rQOXYmu02GPA
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1729172242-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.27.12
-! TimeUpdated: 2024-10-16T15:34:47+00:00
+! Version: 2.0.27.15
+! TimeUpdated: 2024-10-17T13:33:36+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -363,6 +363,7 @@ vgr.by##body .edgtf-post-group
 kv.by###our-channels
 kv.by##.telegramim_button
 fb.ru##.intext
+verstka.media#?#.vm-single-post-content > p:contains(ИНОСТРАННЫМ АГЕНТОМ)
 kavkaz-uzel.eu#?#.articles-body_contents > p:contains(ИНОСТРАННЫМ АГЕНТОМ)
 techtarget.com#?#.resources-bar-header:contains(Sponsored News)
 techtarget.com##.sponsored-news
@@ -1275,6 +1276,8 @@ banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.ba
 banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.banki.ru/products/"]
 ##a[href^="https://apay-up-banner.com?merchantId="] > img
 ||apay-up-banner.com^$image,third-party
+rawkuma.com##.kln > a > img
+skillbox.ru##.js-article-banner
 infoq.com###infoq section.promo
 infoq.com##.notice
 infoq.com###infoq .event__container
@@ -3213,6 +3216,7 @@ t24.com.tr##+js(set-constant, Object.prototype.autoplay, 0)
 ||securitylab.ru/js/cpb.js
 ||xn--b1aew.xn--p1ai/media/*/js/nocopy.js
 lezhinus.com,lezhin.com###viewer-coach
+videocardz.com#$##videocardz-article * { user-select: auto !important; }
 oricon.co.jp#$#.all-lyrics { -webkit-touch-callout: default !important; -webkit-user-select: auto !important;-moz-user-select: text !important; -ms-user-select: text !important; user-select: auto !important; -webkit-tap-highlight-color: black !important; }
 kkbox.com#$#.lyrics { user-select: auto !important; }
 unofficialtwrp.com#$#html { -webkit-touch-callout: default !important; -moz-user-select: text !important; -webkit-user-select: text !important; -ms-user-select: text !important; -o-user-select: text !important; user-select: text !important; -khtml-user-select: text !important; }

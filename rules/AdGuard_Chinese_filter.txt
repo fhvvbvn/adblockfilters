@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8sm7enuG+G83RvSpMyeKMQ
-! Diff-Path: ../patches/224/224-s-1729147018-3600.patch
+! Checksum: JD2FXixJXKCj3OD8O67Rtg
+! Diff-Path: ../patches/224/224-s-1729179459-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.23.96
-! TimeUpdated: 2024-10-17T06:33:33+00:00
+! Version: 2.1.24.0
+! TimeUpdated: 2024-10-17T15:33:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4806,6 +4806,13 @@ newduba.cn###jq_youxi
 ||ioykmxa.icu^
 ||abixkw.xyz^
 ||suresdb.top^
+##a[href*="/souv5.com/"]
+||xpicj6.cc^
+||xpicj8.cc^
+||rtroytj33.fun^
+||1iohncj.xyz^
+||euresdw.top^
+||tgb1l.icu^
 ||erqtga.xyz^
 ||wkabios.icu^
 ||opkmio.xyz^
@@ -14479,7 +14486,7 @@ my0511.com###lphybbschklogdiv
 nextapple.com###lrec01
 mcbbs.net###lsform + .y
 antpedia.com###luxury_car
-btnull.org###ly
+btnull.org,gying.net,gying.org,gying.si,gying.in,gyg.la,gyg.si###ly
 playno1.com###m12
 playno1.com###m2
 playno1.com###m7
