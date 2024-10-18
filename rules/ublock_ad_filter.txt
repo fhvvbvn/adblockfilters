@@ -1,7 +1,7 @@
 ! Title: uBlock filters
 ! Expires: 5 days
-! Last modified: Thu, 17 Oct 2024 02:39:12 +0000
-! Diff-Path: ../patches/2024.10.17.211.patch#ublock-filters
+! Last modified: Fri, 18 Oct 2024 03:30:17 +0000
+! Diff-Path: ../patches/2024.10.18.270.patch#ublock-filters
 ! Diff-Expires: 317 minutes
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! *** uAssets:filters/filters.txt ***
@@ -2055,6 +2055,7 @@ mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*##iframe[src^="p
 xfreehd.com##.nvheader > span:has-text(Advertisement)
 *$frame,redirect-rule=noopframe,domain=xfreehd.com
 xfreehd.com##.ad-body:remove()
+xfreehd.com##+js(rmnt, script, navigator.brave)
 ||downloadfullfree.com^$xhr,redirect=nooptext
 adsrt.*##+js(acs, atob, decodeURIComponent)
 adsrt.*##+js(aopw, Fingerprint2)
@@ -10548,6 +10549,14 @@ stream4free.*###promo
 ||shebudriftaiter.net^
 ||audiencegarret.com^
 nudezzers.org##+js(rmnt, script, adBlockNotice)
+funnywifiname.net###clickfakeplayer[href]:remove-attr(href)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rumble.com,important
+lover937.net##+js(acs, document.write)
+lover937.net##+js(set, checkerimg, noopFunc)
+lover937.net##+js(acs, setTimeout, document.getElementById)
+@@||tpc.googlesyndication.com/daca_images/simgad/$domain=lover937.net
+! Prefer specific to generic (benefits Optimal in uBOL)
+arstechnica.com##.ad-wrapper
 ! Link shortener filters go into their own dedicated list
 ! *** filters/ubo-link-shorteners.txt ***
 ! gplinks all domains (gplinks.co/EWu8)
@@ -11362,6 +11371,7 @@ djpunjab2.in,djqunjab.in,foodxor.com,geniussolutions.co,mealcold.com,mixrootmods
 djqunjab.in,geniussolutions.co###interstitial-container
 geniussolutions.co##+js(aost, document.getElementById, adsBlocked)
 djqunjab.in##+js(rmnt, script, deblocker)
+skillheadlines.in##+js(aost, document.getElementById, adsBlocked)
 hosty.uprwssp.org###btnfianl:style(display: block !important;)
 lootdest.com##+js(nowoif, , 5)
 @@||0.entlysearchin.info^$ping,domain=lootdest.com
@@ -11564,6 +11574,9 @@ ikingfile.mooo.com##+js(nowoif)
 fuckingfast.co##+js(rpnt, script, !seen && ad, false)
 ||fuckingfast.co/f/*/dl^$xhr,1p
 ||senditfast.cloud^$doc
+streamelements.com##+js(set, google_srt, 0)
+streamelements.com##+js(set, sensorsDataAnalytic201505, {})
+||validate.strms.net/*adblock%3Dtrue$doc,uritransform=/adblock%3Dtrue/adblock%3Dfalse/
 !#if env_mobile
 ! *** filters/filters-mobile.txt ***
 !----- 2020 -----
@@ -14096,7 +14109,7 @@ songspk.*##+js(aost, Object, /(?=^(?!.*(https)))/)
 ! ##+js(acs, document.createElement, ;}}};break;case $.)
 moviesnation.*##+js(acs, document.createElement, ;}}};break;case $.)
 ! ##+js(acs, EventTarget.prototype.addEventListener, delete window)
-9animetv.to,advertisertape.com,animeunity.to,animeyabu.org,anitube.*,arc018.to,ate60vs7zcjhsjo5qgv8.com,buffshub.stream,daddylive1.ru,file4go.*,flostreams.xyz,fsportshd.net,hdfilme.*,hdstream.one,jpopsingles.eu,lato.sx,linkz.wiki,lulu.st,lulustream.com,movies4u.*,movieshubweb.com,player.smashy.stream,putlocker.*,sflix.*,soap2day.*,sportsgames.today,sportshub.stream,streamtape.*,swiftload.io,subtitlecat.com,toonstream.*,tvsportslive.fr,vidsrc.*,viprow.*,vixcloud.co,volokit2.com,ythd.org,watchadsontape.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
+9animetv.to,advertisertape.com,alphatron.tv,animeunity.to,animeyabu.org,anitube.*,arc018.to,ate60vs7zcjhsjo5qgv8.com,buffshub.stream,daddylive1.ru,file4go.*,flostreams.xyz,fsportshd.net,hdfilme.*,hdstream.one,jpopsingles.eu,lato.sx,linkz.wiki,lulu.st,lulustream.com,movies4u.*,movieshubweb.com,player.smashy.stream,putlocker.*,sflix.*,soap2day.*,sportsgames.today,sportshub.stream,streamtape.*,swiftload.io,subtitlecat.com,toonstream.*,tvsportslive.fr,vidsrc.*,viprow.*,vixcloud.co,volokit2.com,ythd.org,watchadsontape.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
 atlaq.com,bolly4umovies.*,douploads.net,moalm-qudwa.blogspot.com,shurt.pw##+js(aopr, zfgformats)
 123movieshub.*,animeunity.*,bflix.*,cima-club.*,flixhq.*,hindilinks4u.*,mcloud.bz,t7meel.*,theflixer.tv,vidstream.pro##+js(aopr, zfgstorage)
 01fmovies.com,123moviesfun.is,bmovies.*,bolly4umovies.*,putlocker.*##+js(acs, Math, XMLHttpRequest)
@@ -14128,6 +14141,7 @@ file4go.net##+js(no-xhr-if, outbrain)
 /^https?:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xhr,3p
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,3p
 ||go.bundlebyte.net^
+||ostupsaury.net^
 ?oo=1^$xhr,3p
 !!! other filters for pp
 *$3p,xhr,script,denyallow=arc.io|cdnjs.cloudflare.com|cloudflare.net|fastly.net|fontawesome.com|jwpcdn.com,domain=files.im
@@ -17475,7 +17489,7 @@ fitnakedgirls.com##+js(nowoif)
 javporn.tv##.floating-banner
 javporn.tv###text-6
 bunkr.*##+js(aopr, popMagic.init)
-bunkr.*##+js(acs, String.fromCharCode, /btoa|break;case/)
+bunkr.*,bunkr-albums.io##+js(acs, WebAssembly, Promise)
 bunkr.*##^script:has-text(WebAssembly)
 ||bunkr-cache.se/js/script.js$script,domain=bunkr.*
 ||qakzfubfozaj.com^
@@ -19485,13 +19499,13 @@ interfootball.co.kr,a-ha.io,cboard.net,jjang0u.com,joongdo.co.kr,viva100.com,gam
 badmouth1.com,blog.esuteru.com,blog.livedoor.jp,dziennik.pl,etnews.com,eurointegration.com.ua,flatpanelshd.com,fourfourtwo.co.kr,gadgets360.com,hoyme.jp,itainews.com,iusm.co.kr,jin115.com,lamire.jp,logicieleducatif.fr,missyusa.com,mydaily.co.kr,ndtvprofit.com,picrew.me,taxguru.in,text-compare.com,tweaksforgeeks.com,reportera.co.kr,sportsrec.com,sportsseoul.com,videogamemods.com,wfmz.com,worldhistory.org,onlinegdb.com,winfuture.de,issuya.com,pravda.com.ua,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,oradesibiu.ro,freemcserver.net,w.grapps.me,gazetaprawna.pl,pressian.com##^script[onload*="error-report.com"]
 automobile-catalog.com,motorbikecatalog.com,blog.esuteru.com,blog.livedoor.jp,itainews.com,jin115.com,allthetests.com,javatpoint.com,globalrph.com,carscoops.com,crosswordsolver.com,cruciverba.it,ff14net.2chblog.jp,heureka.cz,indiatimes.com,laleggepertutti.it,meeco.kr,motscroises.fr,news4vip.livedoor.biz,oeffnungszeitenbuch.de,onecall2ch.com,oraridiapertura24.it,palabr.as,rabitsokuhou.2chblog.jp,suzusoku.blog.jp,the-crossword-solver.com,thestockmarketwatch.com,word-grabber.com,wort-suchen.de,woxikon.*,freemcserver.net,golf-live.at,kreuzwortraetsel.de,raetsel-hilfe.de,verkaufsoffener-sonntag.com,horairesdouverture24.fr,nyitvatartas24.hu,modhub.us,yugioh-starlight.com,winfuture.de##^script:has-text(error-report.com)
 worldhistory.org##^script:has-text(adShield)
-pravda.com.ua##^script:has-text(Ad-Shield)
+lovelive-petitsoku.com,pravda.com.ua##^script:has-text(Ad-Shield)
 slobodnadalmacija.hr##^script:has-text(adrecover.com)
 !#else
 interfootball.co.kr,a-ha.io,cboard.net,jjang0u.com,joongdo.co.kr,viva100.com,gamingdeputy.com,thesaurus.net,alle-tests.nl,maketecheasier.com,automobile-catalog.com,allthekingz.com,motorbikecatalog.com,tweaksforgeeks.com,m.inven.co.kr,mlbpark.donga.com##+js(rmnt, script, KCgpPT57bGV0IGU)
 automobile-catalog.com,motorbikecatalog.com,blog.esuteru.com,blog.livedoor.jp,itainews.com,jin115.com,allthetests.com,javatpoint.com,globalrph.com,carscoops.com,crosswordsolver.com,cruciverba.it,ff14net.2chblog.jp,heureka.cz,indiatimes.com,laleggepertutti.it,meeco.kr,motscroises.fr,news4vip.livedoor.biz,oeffnungszeitenbuch.de,onecall2ch.com,oraridiapertura24.it,palabr.as,rabitsokuhou.2chblog.jp,suzusoku.blog.jp,the-crossword-solver.com,thestockmarketwatch.com,word-grabber.com,wort-suchen.de,woxikon.*,freemcserver.net,golf-live.at,kreuzwortraetsel.de,raetsel-hilfe.de,verkaufsoffener-sonntag.com,horairesdouverture24.fr,nyitvatartas24.hu,modhub.us,yugioh-starlight.com,winfuture.de##+js(rmnt, script, error-report.com)
 worldhistory.org##+js(rmnt, script, adShield)
-pravda.com.ua##+js(rmnt, script, Ad-Shield)
+lovelive-petitsoku.com,pravda.com.ua##+js(rmnt, script, Ad-Shield)
 slobodnadalmacija.hr##+js(rmnt, script, adrecover.com)
 !#endif
 ||slobodnadalmacija.hr/templates/site/js/adrecover-new.js
@@ -21952,8 +21966,8 @@ momondo.*##div[data-resultid$="-sponsored"]
 lvturbo.com##+js(set, isadb, false)
 @@*$ghide,domain=now.gg|now.us
 @@||dn0qt3r0xannq.cloudfront.net/nowgg-$script
-now.gg,now.us,xn--31byd1i.net##+js(no-fetch-if, googlesyndication)
-||fundingchoicesmessages.google.com/i/pub$script,redirect=noopjs,domain=now.gg|now.us|xn--31byd1i.net
+now.gg,now.us,skibiditoilet.yourmom.eu.org,xn--31byd1i.net##+js(no-fetch-if, googlesyndication)
+||fundingchoicesmessages.google.com/i/pub$script,redirect=noopjs,domain=now.gg|now.us|skibiditoilet.yourmom.eu.org|xn--31byd1i.net
 iptv-list.live##+js(noeval-if, isFairAdBlocker)
 qcheng.cc##+js(aopr, killAdKiller)
 @@||busuu.com^$ghide
@@ -23434,14 +23448,6 @@ freewsad.com##+js(set-local-storage-item, email, true)
 karaoketexty.cz##+js(nostif, /native|\{n\(\)/)
 karaoketexty.cz##+js(ra, style, [style^="background"], stay)
 karaoketexty.cz##+js(ra, href, [target^="_"], stay)
-*.gif$domain=lk21official.*|nontondrama.*,image
-lk21official.*,nontondrama.*##+js(rmnt, script, adsPlay)
-nontondrama.*,playeriframe.*###admad
-lapakbuah.site##.content
-lapakbuah.site##.bg-dark.bottom
-lk21static.xyz##+js(nano-sib)
-lk21official.*###overlay
-stream.hownetwork.xyz###donate
 tucinehd.com##+js(nostif, nextFunction, 2000)
 tucinehd.com##+js(rmnt, script, pop1stp)
 senda.pl##+js(no-fetch-if, googletagmanager)
