@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241018001011
-! Last modified: 2024/10/18 00:10:11
-! Blocked Filters: 92108
+! Version: 20241018083837
+! Last modified: 2024/10/18 08:38:37
+! Blocked Filters: 92113
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -2491,6 +2491,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 *$image,1p,redirect-rule=1x1.gif,domain=viralpornhub.com
 *$image,3p,denyallow=cdn77.org|fpbns.net|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com|thumb.live.mmcdn.com,from=pussyspace.com|pussyspace.net
 *$image,3p,denyallow=earnload.com,domain=earnload.*
+*$image,3p,domain=app.axenthost.com,redirect-rule=1x1.gif
 *$image,3p,domain=fc-lc.com
 *$image,3p,domain=up-4ever.net
 *$image,3p,redirect-rule=1x1.gif,domain=world4.eu
@@ -23278,6 +23279,7 @@ bundle.app#?#.fixed-bottom:has(> div.popup button.download)
 bunkr.*##+js(aopr, popMagic.init)
 bunkr.*##^script:has-text(WebAssembly)
 bunkr.is##+js(aeld, , exoJsPop101)
+bunkr.si##center:has(>script[src*="/lv/esnk/"][src$="/code.js"])
 bunq.me###cookieConsentAccept
 bunq.me##.fixed
 buondua.com##.main-body > div > div[class]:not([class^="item"]):not([class^="article"]):has-text(/^Sponsored ads$/)
@@ -43838,6 +43840,7 @@ loveawake.com##ins.adsbygoogle
 lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 lovegreen.net##.related_services_banner_mail
 lovejav.net##div[style="text-align:center;min-height:100px;margin-top:10px"]
+lovelive-ss.com##.blogroll-header
 lovelynudez.com##+js(aopr, popit)
 lovemeow.com#@#.share-buttons
 lovepanky.com##.single-subscribe
@@ -47007,6 +47010,7 @@ monsterenergy.com##.articleCon .share
 monsterhunternow.com###download
 monstersandcritics.com##.newsletter-surround
 monstream.org##+js(aopr, BetterJsPop)
+montanafreepress.org##.has-dark-gray-background-color.has-background
 montreal.ctvnews.ca##.viafoura-share
 montreal.ctvnews.ca##.viafoura-share + .viafoura
 montrealgazette.com##aside.promotional
@@ -51165,6 +51169,7 @@ painaltube.com##.widget > div.widget
 paipai.fm###sideForum + div
 paipai.fm###the-logo + .fr
 paipai.fm##.wrapbg
+pairs.lv##.w-full.fixed.bottom-0.z-10
 pajalusta.club##+js(nowoif)
 pajalusta.club##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 pak-mcqs.net##+js(aopw, _pop)
@@ -51992,7 +51997,6 @@ pinterest.*##+js(json-prune, resource_response.data.[-].pin_promotion_id)
 pinterest.*##.GrowthUnauthPinImage > a > div[class^="Jea"]:has(button[class^="noButtonStyles "])
 pinterest.*##.Hsu.iyn.zI7:nth-of-type(2) > div > .FullPageModal__scroller
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
-pinterest.*##[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"])
 pinterest.*##[data-grid-item]:has([data-test-pin-id] a[href^="http"][rel] [data-test-id="pincard-oneTap-with-link"])
 pinterest.*##[data-test-giftwrap]
 pinterest.*##a[href*="&epik="]:upward([data-grid-item])
@@ -79197,7 +79201,7 @@ zzzyk.com###Tinfo
 ||html-load.com^$font,ping,media
 ||html-load.com^$redirect=noopjs,domain=carscoops.com|dziennik.pl|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|issuya.com|iusm.co.kr|logicieleducatif.fr|mydaily.co.kr|mynet.com|onlinegdb.com|picrew.me|pravda.com.ua|reportera.co.kr|sportsrec.com|sportsseoul.com|taxguru.in|text-compare.com|thesaurus.net|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|winfuture.de|worldhistory.org|yorkshirepost.co.uk|automobile-catalog.com|motorbikecatalog.com|maketecheasier.com|etnews.com|wort-suchen.de|word-grabber.com|palabr.as|motscroises.fr|cruciverba.it|oradesibiu.ro|w.grapps.me|gazetaprawna.pl|pressian.com
 ||html-load.com^$redirect=noopjs,domain=raenonx.cc|indiatimes.com|freemcserver.net|missyusa.com
-||html-load.com^$script,xhr,domain=blog.esuteru.com|blog.livedoor.jp|itainews.com|hoyme.jp|jin115.com|lamire.jp|picrew.me|ndtvprofit.com|crosswordsolver.com|cruciverba.it|gloria.hr|heureka.cz|javatpoint.com|laleggepertutti.it|m.economictimes.com|meeco.kr|motscroises.fr|oeffnungszeitenbuch.de|ondemandkorea.com|oraridiapertura24.it|palabr.as|rabitsokuhou.2chblog.jp|suzusoku.blog.jp|the-crossword-solver.com|thestockmarketwatch.com|word-grabber.com|wort-suchen.de|woxikon.*|golf-live.at|motherlyvisions.com|kreuzwortraetsel.de|raetsel-hilfe.de|verkaufsoffener-sonntag.com|horairesdouverture24.fr|nyitvatartas24.hu|modhub.us|ff14net.2chblog.jp|news4vip.livedoor.biz|onecall2ch.com|yugioh-starlight.com|winfuture.de
+||html-load.com^$script,xhr,domain=blog.esuteru.com|blog.livedoor.jp|itainews.com|hoyme.jp|jin115.com|lamire.jp|picrew.me|ndtvprofit.com|crosswordsolver.com|cruciverba.it|gloria.hr|heureka.cz|javatpoint.com|laleggepertutti.it|m.economictimes.com|meeco.kr|motscroises.fr|oeffnungszeitenbuch.de|ondemandkorea.com|oraridiapertura24.it|palabr.as|rabitsokuhou.2chblog.jp|suzusoku.blog.jp|the-crossword-solver.com|thestockmarketwatch.com|word-grabber.com|wort-suchen.de|woxikon.*|golf-live.at|motherlyvisions.com|kreuzwortraetsel.de|raetsel-hilfe.de|verkaufsoffener-sonntag.com|horairesdouverture24.fr|nyitvatartas24.hu|modhub.us|ff14net.2chblog.jp|news4vip.livedoor.biz|onecall2ch.com|yugioh-starlight.com|winfuture.de|automobile-catalog.com|motorbikecatalog.com
 ||html-load.com^$~css,domain=dogdrip.net|infinityfree.com|thestar.co.uk|yorkshirepost.co.uk|smsonline.cloud
 ||html-online.com/like.html
 ||html5games.com/event/
@@ -79797,6 +79801,7 @@ zzzyk.com###Tinfo
 ||img.alandal.com/promo/$image,domain=asura.gg|asurascans.com
 ||img.baidu.com/hunter/musicmonkey.min.js
 ||img.bzzyx.cn/dipiao.js
+||img.etimg.com/photo/msid-111576466/whatsapp-banner.jpg
 ||img.ferlie.net^$domain=wangchao.net.cn
 ||img.gaoyong666.com/startup^
 ||img.ithome.com/file/css/style.v5.css
