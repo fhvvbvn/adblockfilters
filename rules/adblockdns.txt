@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241020000819
-! Last modified: 2024/10/20 00:08:19
-! Blocked domains: 58274
+! Version: 20241020084210
+! Last modified: 2024/10/20 08:42:10
+! Blocked domains: 58283
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -8511,6 +8511,7 @@
 ||goldfish.boleary.dev^
 ||hwkoro.bolf.cz^
 ||pgedqw.bolf.ro^
+||nrpukcsgboqr0gz2o8.www.bolighub.dk^
 ||go.bal.bollore.com^
 ||link.bolsanelo.com.br^
 ||bolt.com^
@@ -25373,6 +25374,7 @@
 ||webdata.iag.cloud^
 ||reindeer.iainbroome.com^
 ||iaiqk.top^
+||iairuo.xyz^
 ||l.ialoc.app^
 ||track.iam.cash^
 ||mosquito.iamamandaperez.com^
@@ -28555,6 +28557,7 @@
 ||jystea.com^
 ||jyuskb.cn^
 ||jyvith.xyz^
+||jyxzrb.xyz^
 ||jzjpntr.xyz^
 ||jzjxmj.com^
 ||s.jzkelida.com^
@@ -30021,6 +30024,7 @@
 ||info.lakewoodwestend.org^
 ||laksdn.com^
 ||www.laksjd4.com^
+||lalabaos1020.top^
 ||xgwqvg.lalafel.com^
 ||a8.lalala-clean.com^
 ||lalamove.com^
@@ -32843,6 +32847,7 @@
 ||mdpcdn.com^
 ||mdpjnppsbjv.bid^
 ||mdqhyxe.cn^
+||mdqikg.xyz^
 ||mdqpkdne.xyz^
 ||mdsahkln.xyz^
 ||info.mdsol.com^
@@ -35820,6 +35825,7 @@
 ||webinar.ndtco.com^
 ||ndtzx.com^
 ||game.nduoa.com^
+||ndysxhs.icu^
 ||marketing.ne-t.com^
 ||ne9377.com^
 ||near-place.com^
@@ -38461,6 +38467,7 @@
 ||notify.oupeng.com^
 ||r.bxb.oupeng.com^
 ||startup.oupeng.com^
+||ouplc.icu^
 ||ourblogthing.com^
 ||trk.ourdailyapples.org^
 ||ad.ourgame.com^
@@ -48376,6 +48383,7 @@
 ||kkgkpl.suzuki.com.mx^
 ||tms.suzukibusinesscloud-qa.com^
 ||info.suzy.com^
+||sv2fo.icu^
 ||ssc.svaboda.org^
 ||affiliate.svarecky-obchod.cz^
 ||partner.svatba.cz^
@@ -52885,6 +52893,7 @@
 ||jssd.uumeitu.com^
 ||uunak.cn^
 ||uuoizbtl.xyz^
+||uuresdt.top^
 ||g.uusee.com^
 ||pop.uusee.com^
 ||traffic.uusee.com^

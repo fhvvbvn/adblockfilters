@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241020000819
-! Last modified: 2024/10/20 00:08:19
-! Blocked Filters: 55281
+! Version: 20241020084209
+! Last modified: 2024/10/20 08:42:09
+! Blocked Filters: 55283
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -12290,6 +12290,7 @@ boldsky.com##div[class^="one-head-share"]
 boldsky.com,filmibeat.com,goodreturns.in,oneindia.com###oiNotification
 bole90.com###xy_toast_ad
 bolicheintercambios.net##+js(nano-setInterval-booster, count-, , 0.02)
+bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 bollypluse.in##+js(nano-setInterval-booster, downloadButton, 1000, 0.02)
 bollywoodlife.com,foursquare.com##.shareSocial
 bolshoibelarus.by##div[class^="s2s_"]
@@ -39420,6 +39421,7 @@ zzzyk.com###Tinfo
 ||cdn.counter.dev^$third-party
 ||cdn.cr.org/etc/designs/electronics/clientlibs/tracking.js
 ||cdn.dataroid.com/sdk/web/dataroid-websdk.js
+||cdn.debugbear.com^$third-party
 ||cdn.deporvillage.com/tracking-library/
 ||cdn.dopc.cz/gen/detect.png
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
@@ -40913,6 +40915,7 @@ zzzyk.com###Tinfo
 ||data.bilibili.*/log/
 ||data.biliintl.com/log^
 ||data.clickocean.io/actions/
+||data.debugbear.com^$third-party
 ||data.digitalks.az^$third-party
 ||data.game.xiaomi.com/1px.gif
 ||data.gov.in/ogdp-stats-
@@ -41027,7 +41030,6 @@ zzzyk.com###Tinfo
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||dealnews.com/lw/ul.php
-||debugbear.com^$third-party
 ||debugease.com/static/js/show.js
 ||dec.azureedge.net/sdk/telerik-dec-client.min.
 ||dec.sitefinity.com/collect/
@@ -48450,7 +48452,7 @@ zzzyk.com###Tinfo
 ||performax.cz^$third-party
 ||performgroup.com/metrics/
 ||performtracking.com^$third-party
-||perimeterx.net^$third-party
+||perimeterx.net/api/v1/collector/
 ||perion.com^$third-party
 ||perk0mean.com^$third-party
 ||perljs.com^$third-party
