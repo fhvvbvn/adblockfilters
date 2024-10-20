@@ -135,6 +135,9 @@ class Resolver(object):
                 if match('^.*app=.*', line):
                     break
 
+                if match('^.*baidu.com##.*', line):
+                    break
+                
                 if match('^.*(jp|de|fr|tw|hk|kr|cc|ru|la|se|kz|pl|ua|es|uk|co)#.*', line):
                     break
                     
