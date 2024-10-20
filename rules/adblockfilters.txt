@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241020161100
-! Last modified: 2024/10/20 16:11:00
-! Blocked Filters: 55328
+! Version: 20241020200624
+! Last modified: 2024/10/20 20:06:24
+! Blocked Filters: 54182
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -2792,7 +2792,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /?log=performance-
 /?mailoptin-ajax=track_optin_impression
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,~third-party
-/?placementName=$script,redirect=noop.js,domain=vpslog.net
 /?r=dir&zoneid=$doc,removeparam
 /?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$doc,removeparam
@@ -7380,127 +7379,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 10web.io##.entry-content > div[id^="ctablocks_scrollbox_"]
 1101.com###footer > ul > li:not([class="home"])
 1101.com#$#body[style="padding-top: 72px;"] { padding-top: 0 !important; }
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_bar
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_daoliu
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###global_notice_wrap
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-tbguess\/pagelet\/sidebar
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/ad
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/fengchao_ad
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_baidu_promote
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list + li[class]:not(.j_thread_list)
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.mediago-ad-wrapper
-1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_placeholder
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,wefan.baidu.com,xingqu.baidu.com##.tbui_aside_float_bar + .clearfix
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###duoku_servers_list
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###encourage_entry
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###frs-list-game
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_cover_head_wrapper
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_forum
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_frs_head
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_live_list
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_live_widget
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_rank
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_star_bus_before
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_ten_years
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_worldcup_info_banner
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###loan_ad_mod_a
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###local_pb_top
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-header\/pagelet\/head_content_middle > div[class]:not([class*="_"]):first-child
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_order_head
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .activity_head
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .tbui_slideshow_list
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_left_float
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_spread_video
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pop_frame
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###replyBusinessImg
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list:not([data-field])
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###union_mod
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###worldcup_guess_frs_wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###worldcup_topic
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.BAIDU_CLB_AD
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.app_forum_top_nav_tab
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.banner-wrapper
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.bus-top-activity-wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.content_top
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.cps_wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.diamond-mall-aside
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.firework-wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.firework_sender_wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.frs_act_repost_wrapper_outter
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game-head-game-info-wrapper
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_banner
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_banner_common_wapper
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_content
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_list_and_rank
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_spread_thread
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_tab
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme1
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme2
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.images_game_container
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_banner_post
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_click_stats[href*="adn.baidu.com"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_couplet
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_df_card
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field])
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt + .listBtnCnt + #listTalkCnt
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4756933479,"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.kn_nine_wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_banner
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post + div[class]:not(.l_post)
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1224761005,"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1480174042,"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1480194257,"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1990070693,"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":50012654,"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.live_show_aside
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.lot_wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.per_list.j_per_list.per_list_frs
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.play_list_panel
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.score_ecr_wrapper
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.spreadad
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + div[class]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_info.poster_success
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_dir_ad
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_local_58
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top_toutu_admarks + .tbui_slideshow_list
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_aside
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.wanle_tab_tip
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##[id^="spreadad_"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##body > div[ad-dom-img]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###forum_recommend
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###questionnaire_bg
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###questionnaire_contianer
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###video_aside
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.bonus_forum_aside
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dialogJ.umoney-promotion-dialog
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dialogJmodal
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_recommend
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.topic_list_box
 111cn.net##div[id^="c_ads"],.v_ad,.r1,.left_iframe
 111os.com###btmBox
 111os.com###midBox
@@ -7845,10 +7723,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 18av.mm-cg.com###primary_content > #Dfrom
 18av.mm-cg.com##.ut_ad_box
 18av.pro##.video-server > .inplayer
-18avhub.com,18avtube.com,adultwefong.com,aicoin.net.cn,avmimi.com,fsdpp.cn,mm-cg.com,mse.360.cn,sports.qq.com,suopao.org,ting56.com,txzqw.me,youxi.baidu.com###banner
 18avinin.com##a[href^="http"]:not([href*="18avinin."]) > img[src*=".18avinin.com/wp-content/uploads/"]
 18avinin.com##a[href^="https://forms.gle/"]
-18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,ip138.com,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,txzqw.me,youxi.baidu.com###banner
 18avtube.com,avmimi.com,mm-cg.com###friendLink
 18avtube.com,mm-cg.com###partner
 18avtube.com,mm-cg.com##.CN_qmvtoy
@@ -8407,14 +8283,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 3g.163.com,m.163.com##section.recommend.js-recommend
 3g.163.com,m.163.com##span.s-openApp
 3g.ali213.net##.common-3g-block
-3g.baidu.com,m.baidu.com,m2.baidu.com,m3.baidu.com,m5.baidu.com###copyright+[style^="position: fixed"]
-3g.baidu.com,m.baidu.com,m2.baidu.com,m3.baidu.com,m5.baidu.com##.ec_wise_ad, .c-blocka ec_title
-3g.baidu.com,m.baidu.com,m2.baidu.com,m3.baidu.com,m5.baidu.com##[srcid=vid_recommend]
-3g.baidu.com,m.baidu.com,m5.baidu.com##.blank-frame
-3g.baidu.com,m.baidu.com,m5.baidu.com##div[style="overflow: hidden;background: #fff;position: relative;"]
-3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
-3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##div:has(>.openBox-container)
-3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##div:has(>div[id$="_1"]+div[id$="_5"])
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 3g.cn##.downloan_3G
@@ -9065,7 +8933,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 90zq.net,90zq.com##[id^="ad_"]
 91.com,beihaiting.com,guitarchina.com,hao123.com,site.baidu.com,sojson.com##.banner2
 91.com,hao123.com##.cn_banner
-91.com,hao123.com,site.baidu.com###midline
 91.p03.space###headnav,#footcontainer,#relatedtag-content
 911cha.com##.adbox
 911cha.com##.sideqr
@@ -9935,8 +9802,6 @@ aipai.com##.banner_90
 aipai.com##.video_gg
 aipai.com##canvas~*
 aipai.com##div.side_gg,div#baidu_gg,div#pm_bgg,div[class^="wbanner_baidu_"],div.wbanner_baidu_689,div.banner_90,.con_l,.con_r,div#videosRightDown,div.cover_inner,a.pmp_random,[class^="banner_"],#theme_gg,.pm_bgg,[id^="cs_gg"],.spread,.ad
-aiqicha.baidu.com##.float-banner
-aiqicha.baidu.com##div[class="app-enter"]
 aiqicha.baidu.com#@#.share-label
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
@@ -10334,7 +10199,6 @@ api.guailie.com##+js(set-constant, killAdKiller, noopFunc)
 api.guailie.com#%#//scriptlet('set-constant', 'killAdKiller', 'noopFunc')
 api.guailie.com#@#.google-ad
 api.mixpanel.com/track$image
-api.so.lianmeng.360.cn,pos.baidu.com##body
 apic.in##.ad,.adsbygoogle,[src="http://www.apic.in/dyd.png"]
 apiref.com###navbarRightAd
 apiref.com,iodraw.com,matools.com###popAd
@@ -10673,8 +10537,6 @@ australianaviation.com.au#?##main_sidebar > div.widget_text:has(> div.textwidget
 australianaviation.com.au#?##main_sidebar > div.widget_text:has(> div.textwidget > div.sidebar-share)
 auth.services.adobe.com#@#.SocialButtons
 authentikcanada.com##+js(set-cookie, Klaviyo-Popup, true)
-author.baidu.com##.ht-container
-author.baidu.com##.shareEntry-blank
 author.today##+js(remove-attr, oncontextmenu|onselectstart|ondragstart|onmousedown|unselectable, .noselect)
 author.today##+js(remove-attr, oncontextmenu|onselectstart|ondragstart|onmousedown|unselectable, .page-content)
 author.today##button[data-hint="Поделиться"]
@@ -10902,294 +10764,6 @@ bafrahaber.com##.detay-sosyal-alan
 baibako.tv##.topserial > a
 baidu.book.3g.cn##.box2_bg
 baidu.book.3g.cn##.mip-stats-eventload.bot_bar
-baidu.com###J-super-layer-promote
-baidu.com###activateGuidePopupOuter
-baidu.com###adCard
-baidu.com###adMainTopLeft
-baidu.com###adMainTopRight
-baidu.com###adTitleRight
-baidu.com###ad_xbox_1
-baidu.com###ad_xbox_2
-baidu.com###ad_xbox_3
-baidu.com###asideLeft
-baidu.com###asideRight
-baidu.com###bdrainrwDragButton
-baidu.com###bdyx_float_rb
-baidu.com###cms-company
-baidu.com###cms-scroll
-baidu.com###content_right > div > div[id^="m"]
-baidu.com###copyright + .banner
-baidu.com###couplet-left
-baidu.com###couplet-right
-baidu.com###ec_im_container
-baidu.com###exp-fixed-bottom
-baidu.com###fc-left
-baidu.com###fengchao-dialog
-baidu.com###fengchaoad
-baidu.com###gamePromo
-baidu.com###ggbtm
-baidu.com###header > [style="overflow: hidden;background: #fff;"]
-baidu.com###header > div:last-child
-baidu.com###header > div:last-child > div > a:first-child
-baidu.com###header > div:last-child > div:nth-child(2)
-baidu.com###index_banner_top
-baidu.com###index_right_float
-baidu.com###index_right_top
-baidu.com###j-ad-first
-baidu.com###j-ad-side
-baidu.com###knowledge-answer
-baidu.com###left-promotion
-baidu.com###login-wraps > a.index-banner.square-banner-bgicon
-baidu.com###menu-item-4,#menu-item-6,#menu-item-18,#menu-item-15,#menu-item-14,UL.menu-item-wrap,DIV.channel-mgr-wrapper,#menu-container
-baidu.com###page-copyright
-baidu.com###page-copyright > div[style^="position: fixed;"][ref]
-baidu.com###page-copyright.se-page-copyright.se-copyrig
-baidu.com###page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
-baidu.com###page-pre
-baidu.com###qrcode-chunwan
-baidu.com###qtqy_container
-baidu.com###relative_shop_flow
-baidu.com###s-hotsearch-wrapper
-baidu.com###search-union-ad
-baidu.com###search_bottomad
-baidu.com###sning1
-baidu.com###sning2
-baidu.com###sning3
-baidu.com###spage-top-banner
-baidu.com###tab_news_1
-baidu.com###tab_news_1 > div.tab-news-content.water-container:nth-child(2)
-baidu.com###u1 > div.guide-info:last-child
-baidu.com###video_push_box
-baidu.com###wgt-ad-right-fixed
-baidu.com###wgt-left-promo
-baidu.com##.FYB_RD
-baidu.com##._1k19YN3-qdVhoYpBLDMjYV
-baidu.com##.ad-block-1
-baidu.com##.ad-list
-baidu.com##.ad-platform-tips
-baidu.com##.ad-taishan
-baidu.com##.ad-vip-close
-baidu.com##.ad-vip-close-bottom
-baidu.com##.adLog
-baidu.com##.adTopImg
-baidu.com##.adver-one-item-wrapper
-baidu.com##.afd-ad
-baidu.com##.afd-item
-baidu.com##.animation.new-ux-recom-wrapper.c-recomm-wrap
-baidu.com##.app-bar
-baidu.com##.app-guide
-baidu.com##.app-side-ad
-baidu.com##.app-side-banner
-baidu.com##.apphint
-baidu.com##.aside-inner > div[style*="height:"]
-baidu.com##.b2c-universal-card-product-item-wrapper
-baidu.com##.baiduapp-ad-container
-baidu.com##.banner-active
-baidu.com##.banner-cover
-baidu.com##.banner-wrapper-defensive
-baidu.com##.banner_center_adv2
-baidu.com##.bannerdown
-baidu.com##.banners
-baidu.com##.barea-ad
-baidu.com##.bd-aside-ad
-baidu.com##.bds-list-ads
-baidu.com##.bottom-guide
-baidu.com##.bottom-right-dsp-ad-wrap
-baidu.com##.brand-entry
-baidu.com##.businessvip-wrapper
-baidu.com##.c-container.ec-container
-baidu.com##.c-gap-bottom-small:has(>a>div>div[class^="jr-stock-open-account-"])
-baidu.com##.c-result.result[srcid='mkt_ad_space']
-baidu.com##.c-result[data-tpl="adv_wenku_fc"]
-baidu.com##.c-video-player
-baidu.com##.cbg-Ads
-baidu.com##.chunwan-wrapper
-baidu.com##.commentEmbed-backHomeCard
-baidu.com##.container:has( > .bottom-section > .item_voice_room[data-yysid])
-baidu.com##.container_frs:has( > .voice_room_card_frs[data-url*="yylive"])
-baidu.com##.content-adv
-baidu.com##.corneradv
-baidu.com##.cpc-adv-container
-baidu.com##.desktop-guide
-baidu.com##.download-app-parent
-baidu.com##.ec-ad
-baidu.com##.ec-ads-container
-baidu.com##.ec-fc-ad-results
-baidu.com##.ec-oad
-baidu.com##.ec-result-inner
-baidu.com##.ec_ad
-baidu.com##.ec_ad_results
-baidu.com##.ec_im_container
-baidu.com##.ec_pc_ad
-baidu.com##.ec_sma_im
-baidu.com##.ec_wise_ad
-baidu.com##.ecom_pingzhuan
-baidu.com##.ecomad-banner-loading
-baidu.com##.egg-red-envelope
-baidu.com##.experience-card-bar-wrap
-baidu.com##.eye-catching-tpl-container
-baidu.com##.fc-ad-line
-baidu.com##.fc-wenku-ad
-baidu.com##.first-card-container
-baidu.com##.fufei-activity-bar
-baidu.com##.game-adv-fram
-baidu.com##.gg-content
-baidu.com##.ggbtm-vip-close
-baidu.com##.guide-to-univer-app-root
-baidu.com##.guidetowkOperationwg-root
-baidu.com##.home-app-promotion
-baidu.com##.hotad-list-box
-baidu.com##.icon-bdad
-baidu.com##.img-adv-swap1
-baidu.com##.index-banner-text
-baidu.com##.index-module_drawerHand__aRhcO
-baidu.com##.intro-adv
-baidu.com##.invoke-app-floating-tips
-baidu.com##.invoke-app-san-container
-baidu.com##.l-header-ad
-baidu.com##.landrightbanner
-baidu.com##.lianmeng-pause
-baidu.com##.link-banner
-baidu.com##.manual-spread
-baidu.com##.med-invoke-box.aladdin__3qKHL.c-container
-baidu.com##.mkt-ball-wrapper
-baidu.com##.na-ec-ad-tag
-baidu.com##.na-ec-waterfall
-baidu.com##.nav_ads
-baidu.com##.navs-bottom-bar
-baidu.com##.news-container
-baidu.com##.openAppCarsouselTpl
-baidu.com##.openAppCommonTpl-100
-baidu.com##.openBox-shareEntry
-baidu.com##.openall3
-baidu.com##.opening-season-dialog
-baidu.com##.opr-zhaopin-ad-ctn
-baidu.com##.optimus
-baidu.com##.pageLeftFixedAD
-baidu.com##.pauseadv
-baidu.com##.picad
-baidu.com##.player-pause-code
-baidu.com##.pop-manager-view-containter
-baidu.com##.popup-lead
-baidu.com##.qb-other-answer-wmad
-baidu.com##.quality-elinks
-baidu.com##.reader-pop-manager-view-containter
-baidu.com##.rec-feeditem
-baidu.com##.rec-item:has(> .vbox > div > .appad-relate-rectpl)
-baidu.com##.recommend-goods-card
-baidu.com##.redenvelope-small
-baidu.com##.rel-exp-feed-ad-item
-baidu.com##.result-op[tpl="b2b_prod"] > div > .c-border
-baidu.com##.result-op[tpl="game-page-right-openservice"]
-baidu.com##.result-op[tpl="pc-education-fs"]
-baidu.com##.result-op[tpl="pc-soft-accurate"] > div > .c-row
-baidu.com##.result-op[tpl="sp_hot_sale"]
-baidu.com##.result-op[tpl="vmp_strengthen_brand"]
-baidu.com##.rightAd-skin
-baidu.com##.rmb-carsousel-position-bottom
-baidu.com##.rmb-growth-common-tpl-1-wrapper
-baidu.com##.s-hotsearch-wrapper
-baidu.com##.s-nativead-item
-baidu.com##.s-news-banner-wrap
-baidu.com##.s-news-special[data-url^="http://vip.baidu.com/"]
-baidu.com##.s-tutorial-tip
-baidu.com##.sam_iebrowser_banner
-baidu.com##.school-promotion-pop-wrap
-baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
-baidu.com##.search-aside-adWrap
-baidu.com##.search-box-wrapper + .pager-container
-baidu.com##.sf-wrap > .c-back + div[id]:last-child
-baidu.com##.sfc-image-content-ad-container
-baidu.com##.sfc-image-content-ad-xg-cell
-baidu.com##.sfc-image-content-adrecomm
-baidu.com##.sfc-image-content-adrootnew
-baidu.com##.sfc-image-content-adtext
-baidu.com##.sfc-image-content-waterfall-item > div:not([class]) > .sfc-image-content-cell
-baidu.com##.slide-bner-adv-ret
-baidu.com##.spage-couplet-container
-baidu.com##.spread-wrap
-baidu.com##.square-banner-bgicon.index-banner
-baidu.com##.square-banner-icon.index-banner
-baidu.com##.suggest-hot
-baidu.com##.swan-ad-fc-feed
-baidu.com##.tab_news
-baidu.com##.tb-threadlist__item.tb-banner
-baidu.com##.tc-card[tpl="fc_before_fixads"]
-baidu.com##.text-advertise
-baidu.com##.text-link-ads
-baidu.com##.top-ad-cont
-baidu.com##.top-banner-ad-wrap
-baidu.com##.ts-qrcode
-baidu.com##.under-tips
-baidu.com##.union-tg
-baidu.com##.v-s-tuiguang-wrap
-baidu.com##.w-question-list[data-sign]
-baidu.com##.wa-zp-exact-new-border
-baidu.com##.wapAd
-baidu.com##.wgt-ad-bmc
-baidu.com##.wgt-ad-exp-pic
-baidu.com##.wgt-ads
-baidu.com##.wgt-bottom-ask
-baidu.com##.wgt-bottom-union
-baidu.com##.wgt-union
-baidu.com##.wgt-union-wapqbyoux-ads
-baidu.com##.yitiao-box
-baidu.com##DIV.c-container.ec-container
-baidu.com##DIV.navs-bottom-bar
-baidu.com##DIV[class='qrcode call']
-baidu.com##DIV[data-module='rec:undefined-undefined']
-baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
-baidu.com##[class$="_ad"]
-baidu.com##[class$="_ads"]
-baidu.com##[class*="ad"][class*="Recommend"]
-baidu.com##[class*="ad"][class*="recommend" i]
-baidu.com##[class*="ad"][class*="recommend"]
-baidu.com##[class*="brand" i][class*="Entry" i]
-baidu.com##[class*="brand"][class*="Entry"]
-baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
-baidu.com##[class*=afd]
-baidu.com##[class=related-news]
-baidu.com##[class^="ball-wrapper"]
-baidu.com##[class^="cu-video-player"]
-baidu.com##[class^="openApp"]
-baidu.com##[class^="sfc-video-page"] > [class="mask"],[class="sfc-video-page-vertical-player-layer"],div[class^="sfc-video-page-list"],[class^="c-loading"]
-baidu.com##[class^='ball-wrapper']
-baidu.com##[data-tpl='adv_wenku_fc']
-baidu.com##[data-video-player='true']
-baidu.com##[srcid*="_ad"]
-baidu.com##a.ball-wrapper__3BTBO.c-blocka
-baidu.com##article[class*="c-container aladdin__3qKHL"][rl-link-href$=".recommend_list.baidu.com"]
-baidu.com##article[style*="rgba(255, 0, 0, 0);display:"]
-baidu.com##div.FYB_RD
-baidu.com##div.ad-wrapper
-baidu.com##div.blank-frame
-baidu.com##div.egg-bubble
-baidu.com##div.suggest-hot
-baidu.com##div[class$="-ecom-ads"]
-baidu.com##div[class$="-result se-predestroy"]
-baidu.com##div[class*="fc-"][tplid]
-baidu.com##div[class="c-recomm-wrap new-ux-recom-wrapper"]
-baidu.com##div[class="c-result result"][srcid="med_invoke_box"][tpl="med_invoke_box"]
-baidu.com##div[class="c-result result"][srcid][new_srcid][order][tpl="recommend_list"][data-log^="{'fm':'alop','ensrcid':'9Xx','order':'6','waplogo':1,'mu'"]
-baidu.com##div[class="down-app"]
-baidu.com##div[class="egg-bubble"]
-baidu.com##div[class="fengchao-el"]
-baidu.com##div[class="gh-safari-btn-wrap2"]
-baidu.com##div[class="na-like-container"]
-baidu.com##div[class="yitiao-container"]
-baidu.com##div[class="yx-recommend-container"]
-baidu.com##div[class^="ec-ad"]
-baidu.com##div[data-ad]
-baidu.com##div[id="download-wrapper"]
-baidu.com##div[id="fengchao_els"]
-baidu.com##div[id="page-pre"][class="se-page-pre-style"]
-baidu.com##div[id^="toast"]
-baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
-baidu.com##div[style^="position: relative;overflow: hidden;line-height: 0;z-index: 1;"]
-baidu.com##div[tpl="live_medical_san"]
-baidu.com##div[wat-item-data-id="no-img"][class="sfc-image-content-waterfall-item"]
-baidu.com##section.bottom-intro
-baidu.com##td[align="left"] > div[id="con-ar"] > div.result-op[tpl="right-wz"]
 baidu.com#$##content_left > div[style*="display:block !important;"]:not(.result) { position: absolute!important; left: -4000px!important; }
 baidu.com#$#.ec_wise_ad { position: absolute !important; left: -3000px !important; }
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
@@ -11240,73 +10814,10 @@ baihe.com##.scrollULeft
 baihe.com##.scrollUpf
 baihe.com##div.carousel
 baihei.net##.a_h
-baijiahao.baidu.com###searchwordSdk
-baijiahao.baidu.com##._3cAIWshMtS86T-V_NTTzch, .followSuper
-baijiahao.baidu.com##.bottomMargin
-baijiahao.baidu.com##.btnContainer
-baijiahao.baidu.com##.contentPadding.bottomTTSStruct
-baijiahao.baidu.com##.contentPadding:is(.bottomTTSStruct, .contentMedia > div)
-baijiahao.baidu.com##.headDeflectorContainer
-baijiahao.baidu.com##.infinite-scroll-component__outerdiv
-baijiahao.baidu.com##.invokeAppBtnWrapper, .openImg, #headDeflectorContainer
-baijiahao.baidu.com##.is-shown
-baijiahao.baidu.com##.newHeadDeflectorContainer
-baijiahao.baidu.com##.openImg
-baijiahao.baidu.com##.related-news
-baijiahao.baidu.com##.undefined
-baijiahao.baidu.com##.undefined, .headDeflectorContainer
-baijiahao.baidu.com##.uukjsi6a_zpZccrqYiI3k
-baijiahao.baidu.com##.wxUnfoldText
-baijiahao.baidu.com##DIV[class='_1T6TbV3IOYsTyKUDLU3h5K']
-baijiahao.baidu.com##DIV[class='_23jxxPi62SsDrI4gDqqvlk onepxT']
-baijiahao.baidu.com##DIV[class='_2zYa3D96DKBK80Jm2RnKgv commonPadding']
-baijiahao.baidu.com##DIV[class='_3WFzQS_lKvtlzIVerP0mqD']
-baijiahao.baidu.com##DIV[class='commentTitle']
-baijiahao.baidu.com##DIV[class='linepxT _17c98MKx3ljJ1pHH7afKI3']
-baijiahao.baidu.com##DIV[class='openall3']
-baijiahao.baidu.com##DIV[class='outmargin']
-baijiahao.baidu.com##SPAN[class='_2v86xffLyWbTz5nRDFr_L_ _2xxXjJo3ZlFeRRLLUMtAr_']
-baijiahao.baidu.com##SPAN[class='psDTG2YH-UVvL5hI8Ye4a']
-baijiahao.baidu.com##div.contentPadding.contentMedia.contentSpd
-baijiahao.baidu.com##div[id="bdrainrwDragButton"]
-baijiahao.baidu.com##div[style^="left: calc"]
-baijiahao.baidu.com##span[class*="cm-variable"]
 baijiahao.baidu.com#?#.layer-item:contains(百度)
 baijiahao.baidu.com#?#div.layer-item:contains(打开)
 baijiahao.baidu.com#?#span:contains(打开APP)
 baijiahao.baidu.com#?#span:contains(打开百度APP)
-baijiahao.baidu.com,feed.baidu.com##body > div[id$="-container"]:last-child
-baike.baidu.com###J-bds_app
-baike.baidu.com###J-super-layer-promote
-baike.baidu.com###J-superLayer-main
-baike.baidu.com###J-union-wrapper
-baike.baidu.com###adLayerSideWrap
-baike.baidu.com##.BK-after-content-wrapper
-baike.baidu.com##.BK-after-content-wrapper > div[class][id] > a[onclick^="page.Mixedor.mixedOpen"][target="_blank"]
-baike.baidu.com##.BK-after-content-wrapper > ul[class][id] > li > a[onclick^="page.Mixedor.mixedOpen"][target="_blank"]
-baike.baidu.com##.BK-before-content-wrapper > div > a[target="_blank"][data-num][onclick^="page.Mixedor.mixedOpen("]
-baike.baidu.com##.J-yitiao-content
-baike.baidu.com##.appdownload.item
-baike.baidu.com##.baike-dynamic-wrapper
-baike.baidu.com##.invoke-baiduApp-img
-baike.baidu.com##.pinzhuanWrap
-baike.baidu.com##.squareAni.square.super-layer-promote
-baike.baidu.com##.top-icon.spark-icon
-baike.baidu.com##.wgt-baikeapp-promote-container
-baike.baidu.com##A[onclick='page.Mixedor.mixedOpen(this,3)']
-baike.baidu.com##DIV[class='theme-container']
-baike.baidu.com##DIV[class='theme-margin']
-baike.baidu.com##[class="qtqy-container"]
-baike.baidu.com##[class="qtqy-container"],[class="yitiao-content J-yitiao-content"],[class="yitiao-title"]
-baike.baidu.com##[class^="relative-shop-"]
-baike.baidu.com##[class^="yitiao-"]
-baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
-baike.baidu.com##a[onclick="page.Mixedor.mixedOpen(this,0)"]
-baike.baidu.com##div.right-ad,.bottom-promotion,.adArea-wrapper,#side_box_unionAd,#fc_guess_like_new
-baike.baidu.com##div[class][id]>a[data-num][onclick^="page.Mixedor.mixedOpen"]
-baike.baidu.com##div[class^="index-module_drawerHand__"]
-baike.baidu.com##div[style="height: 57px;"]
-baike.baidu.com##ul[class][id]>li>a[onclick^="page.Mixedor.mixedOpen"]
 baike.baidu.com#?#.BK-after-content-wrapper > ul[class][id] > li:has(> a[onclick^="page.Mixedor.mixedOpen"][target="_blank"])
 baike.baidu.com$$div[class="relative-shop-"]
 baike.baidu.com$$div[class="s-items J-items"]
@@ -11323,7 +10834,6 @@ baike567.com,wuhaozhan.net##.pure-u-md-8-24 iframe
 baikequ.com,lkyw.net###bottommob
 baiku-sokuho.info##.links2
 baiku-sokuho.info##div[id^="rss"]
-baishi.baidu.com##.video-adv,.adv-container,#playerPauseAdv
 baiten.cn##.JS_advertisement
 baiten.cn##.news2ad
 baitoru.com##.common-cutSpace > div[style="padding: 40px 10px 0px;"]
@@ -11391,8 +10901,6 @@ banzou.name###ads_1
 banzou.name###ads_2
 banzou.name###appfu
 banzou.name###daiyan
-baobao.baidu.com##.qb-relate-box
-baobao.baidu.com##section.qb-commend-wrap
 baofeng.com###appview
 baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
@@ -11582,7 +11090,6 @@ bde4.icu#@#a[href*="/entry/register/?i_code="]
 bdimg.com##div[data-track*="fengchao"]
 bdimg.com,tieba.baidu.com,tieba.com##div[class][lgoinprompt="prompt"]
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
-bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_post_list_item)
 bdimg.com/static/m-question-new/widget/ad-union-
 bdinfo.net###header_AD
 bdjobs.com##.promo-top
@@ -12386,7 +11893,6 @@ bowwowinsurance.com.au##.newsletter-subscription-wrapper
 bowwowinsurance.com.au#$#.modal-backdrop { display: none !important; }
 bowwowinsurance.com.au#$#.modal-promo-code { display: none !important; }
 bowwowinsurance.com.au#$#body { overflow: auto !important; padding-right: 0 !important; }
-boxnovel.baidu.com##.wechat-wrapper
 boxofficeturkiye.com##.share__container
 boyfriendtv.com##+js(addEventListener-defuser, click, interstitial)
 boylove1.mobi##+js(set-cookie, avPopupCookie, 1)
@@ -13370,10 +12876,6 @@ clipdiary.com##.col-md-2 > div.well
 clipstudio.net###csp2_banner_set
 clipstudio.net##.c-ads_banner
 clipstudio.net##.c-sns_btns
-cloud.baidu.com##+js(remove-class, header-body-no-scroll, body)
-cloud.baidu.com##.cloud-header-operate
-cloud.baidu.com##a[data-track-value="右侧banner"]
-cloud.baidu.com##div[class*="width"][class$="-center"] a[href^="https://cloud.baidu.com/product/wenxinworkshop?"]
 cloud.baidu.com#$#.__9EcYiCyZ { display: none !important; }
 cloud.google.com##a[track-type="social share"]
 cloud.letv.com##div#ad_show_box
@@ -13897,7 +13399,6 @@ cpt.com.br##.whats-materia
 cpt.com.br##.whatsapp-footer
 cpu-monkey.com##div[title^="Share "]
 cpu-world.com##.bottom_ad
-cpu.baidu.com##A[href*='cpro.baidu.com']
 cpuid.com###downloading > div.advert
 cq.house.163.com##div.area,A[href="http://m.jiu.163.com/"],SPAN[class="blank9"]
 cq.qq.com##DIV.main_bg.pt0,DIV#CQ12_Full.l_qq_com,DIV[style^="width:960px;"],DIV.dayuw_maintext,DIV.clearfix[style^="width:1000px;"],DIV[style^="width:1000px;height:60px;"],DIV[style^="width:1000px; height:60px;"],DIV.sourch.fl
@@ -14526,10 +14027,6 @@ developer.android.com##.devsite-badger-award
 developer.android.com##devsite-snackbar
 developer.apple.com##.push-subscription-banner-container
 developer.apple.com##.social-share-container
-developer.baidu.com##+js(no-setTimeout-if, R.open)
-developer.baidu.com##+js(remove-class, articel_detail_fix-header__3-GMz, body[class])
-developer.baidu.com##a[class^="articel_detail_begining-market-po"]
-developer.baidu.com##a[class^="articel_detail_block-item__"][data-track-value$="banner"]
 developer.baidu.com#$#a[class^="articel_detail_top-market-pos__"] { display: none !important; }
 developer.microsoft.com##div[aria-label="Promotional Banner"]
 developer.nvidia.com##+js(abort-current-script, jQuery, surveyCookieName)
@@ -14594,7 +14091,6 @@ dicionariocriativo.com.br,pciconcursos.com.br,oantagonista.uol.com.br,otempo.com
 dicionarioinformal.com.br##a[href="/ajax.php?funcao=social_share"]
 dicionarioinformal.com.br##a[href^="javascript:fbShare("]
 dickieslife.com##.vf-newsletter-popup
-dict.baidu.com##.tran-download-ad
 dict.cn###tjcd
 dict.cn##.search-right-ad5
 dict.cn##.search-right-ad7
@@ -15251,7 +14747,6 @@ duowan.com##.dwPlayer-pauseDaWrap,DIV.ad,DIV.promot-box,div.full-banner,div#dw-l
 duowan.com##.full-banner
 duowan.com##.lolboxapps-qrcode
 duowan.com##.ui-business
-dushu.baidu.com##.openBox-shareEntry
 duzcepusula.com,denizlidesiyaset.com,gazete365.com##.SocialTools > ul > li:not(.print):not(.resizer)
 duzcetv.com##.wpicon
 dv-gazeta.info#?##maincolumn > div.postmetadata:has(> div.fb-like)
@@ -15413,10 +14908,6 @@ eastmoney.com,1234567.com.cn##div.lazy.fund_hei90,div.lazy.fund_hei60,div[data-u
 easyai.tech##.sidebar-inner > .widget_media_image:nth-child(n+2)
 easyayurveda.com,clujust.ro,secondlifetranslations.com,tunovelaligera.com##+js(abort-on-property-read, disable_hot_keys)
 easyicon.net##.page_big_adv
-easylearn.baidu.com##.feedback-icon
-easylearn.baidu.com##.kaixue-dialog-mask
-easylearn.baidu.com##.kaixuebanner
-easylearn.baidu.com##.vip-banner-cont
 easylinkref.com##+js(nano-setInterval-booster, #second, , 0.02)
 easylinks.in##+js(adjust-setTimeout, #get_btn, , 0.02)
 easymc.io##+js(adjust-setTimeout, e(t-1), *, 0.001)
@@ -15794,7 +15285,6 @@ eol.cn###small_adright
 eol.cn##.ad_490
 eol.cn##.listAd
 eol.cn##div[id^="s1_"]
-eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 eotrx.substackcdn.com$image
 epaper.hindustantimes.com#@#.share_article
@@ -15960,7 +15450,6 @@ europcar.com###wt_overlay
 europelanguagejobs.com##.social-sharing-container
 evades.io##+js(set-constant, adBlockerDetected, false)
 eventernote.com##.gb_social
-events.baidu.com##.bottom-img
 every.to##.post-body > div.border-dashed:has(> a[href^="https://every.to/subscribe?"])
 every.to##.post-body p:has(> em + a[href^="https://every.to/subscribe"])
 every.to##button[id$="share"]
@@ -16150,20 +15639,6 @@ fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com,terabox.
 fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com,terabox.fun##+js(nano-setInterval-booster, clearInterval, *, 0.001)
 fantasy.tv##.play_ad,.video_ad_left,.play_ad_one
 fantuan.tv##.app-guide
-fanyi-pro.baidu.com###coupon-ad
-fanyi.baidu.com###app-read
-fanyi.baidu.com##.app-bar
-fanyi.baidu.com##.app-side-banner
-fanyi.baidu.com##.appbanner
-fanyi.baidu.com##.banner_img_container
-fanyi.baidu.com##.bottom-intro
-fanyi.baidu.com##.extra-banners
-fanyi.baidu.com##.hot-link-middle
-fanyi.baidu.com##.trans-side-ad-wrap
-fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
-fanyi.baidu.com##[class^="jifeng-"]
-fanyi.baidu.com##a[class="app-bar"]
-fanyi.baidu.com##div[id="desktop-guide-wrapper"]
 fanyi.baidu.com,longzhu.com##.banner-wrap
 fanyi.sogou.com##.img-banner
 fanyi.sogou.com##.survey
@@ -16262,7 +15737,6 @@ fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 fedex.com##fedex-smart-banner
 fedex.com##trk-shared-smart-app-banner
 fedscoop.com,statescoop.com,edscoop.com,defensescoop.com,cyberscoop.com##.stickybar--newsletter
-feed.baidu.com##a[data-type="ec_ad"]
 feedly.com##.SignupFooter
 feedly.com##button[title="Save to Twitter"]
 feedough.com#$#body { overflow: visible!important; }
@@ -16492,7 +15966,6 @@ firefoxchina.cn##a[track_key="sites_saoma"]
 firefoxchina.cn##div[trace-key="ad_theme_skin_link"]
 firefoxchina.cn##div[trace-key="mh_channel_rec_tpth"]
 firefoxchina.cn##ul[track-key="adv_links"]
-firefoxchina.cn,hao123.com,muzhi.baidu.com##.bottom-banner
 firefoxchina.cn,taoyitu.com##.float-banner
 firesticktricks.com##.banner-btm-section
 firesticktricks.com##.mysticky-welcomebar-fixed-wrap
@@ -16600,7 +16073,6 @@ flyme.cn###appDownloadTips
 flynorse.com##app-mailing-list
 flyzy2005.com##.baidu_ad
 flyzy2005.com##.widget_kratos_ad
-fm.baidu.com##.ad-material,.audio-ad
 fm.douban.com##.left
 fmdisk.com##div#dl_tips,div#down_box2,img[width="960"][height="90"],ins.adsbygoogle,div#dll,div#dlr,img[width="960"][height="80"],div#Layer100,img[width="650"][height="90"],img[src^="http://www.fmdisk.com/ima/"]
 fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; font-size: 14px; text-align:left;"] > p
@@ -17252,7 +16724,6 @@ gasaq.com###guanggao_left
 gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gasaq.com##[class^="guanggao"]
-gate.baidu.com,m.baidu.com###container
 gaten.info##.overlay
 gaten.info#?#.m-auto > div#app:upward(1)
 gateoverflow.in##.qa-sidebar
@@ -18063,17 +17534,6 @@ hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 hankyung.com##+js(window.open-defuser, popup)
 hanman/static/dist/ppm/js/main.js
-hanyu.baidu.com###J_Suspens
-hanyu.baidu.com###download-wrapper
-hanyu.baidu.com###fengchao_els.c-container.card.fengchao-els
-hanyu.baidu.com##.app-promotion-icon
-hanyu.baidu.com##.fengchao-el
-hanyu.baidu.com##.promotion-top-el
-hanyu.baidu.com##[id^="fengchao_els"]
-hanyu.baidu.com##div[class="hanyu-app-wrap"]
-hanyu.baidu.com##div[class="hanyu-download-wrap"]
-hanyu.baidu.com##div[class="promotion-top-el"]
-hanyu.baidu.com##img[class="banner-img"]
 hanzify.org##iframe[allowtransparency="true"],[height="50"],[class="mirror-adr"]
 hao.360.cn###background.festival
 hao.360.cn###daily-hotword
@@ -18197,14 +17657,10 @@ hao123.com##a[class^="gameyixing-link-"]
 hao123.com##div[alog-alias="hot-goods"]
 hao123.com,jiegeng.com###siye
 hao123.com,jiegeng.com##.rightTip
-hao123.com,sohu.com,tieba.baidu.com##.advertise
 hao123.sh##.box-banner
 hao4k.cn##.lineC_right
 hao7zhe.com##.a_mu,[width="150"][height="300"],.a_pt,.wp.a_f
 haodf.com##div.closeid,div[class^="index_bottom"]
-haokan.baidu.com##+js(no-setTimeout-if, /autoShow.*localStorage\.setItem\(.auto_login_show_count/)
-haokan.baidu.com##.landrightbanner
-haokan.baidu.com##.page-top-rightinfo-popover
 haokan5.com##.ad8,.ads
 haokoo.com##[href="http://m.moomcherry.com/jysd/"],[href^="http://item.m.jd.com/product/"]
 haolexiang.com##div.ctrl_ad,div.right_ad2
@@ -19477,29 +18933,6 @@ im286.net##.im286-t
 im286.net##.qybj
 im286.net##[class$="im286-t"],.wp.qybj
 imacos.top##.sitetips
-image.baidu.com###adsearch
-image.baidu.com###cmsimage
-image.baidu.com###ecomContainer
-image.baidu.com###imgCmsAdPart
-image.baidu.com###imgid > .fcimgpage
-image.baidu.com###only-lady-sec
-image.baidu.com###plz-albums
-image.baidu.com###plz-head-banner
-image.baidu.com###relEcom
-image.baidu.com###relecom54
-image.baidu.com##.boxBanner
-image.baidu.com##.ford-tag
-image.baidu.com##.imglist > .fcImgli
-image.baidu.com##.mod-promo
-image.baidu.com##.recom
-image.baidu.com##.right-banner-area
-image.baidu.com##.sample0
-image.baidu.com##.sample1
-image.baidu.com##.sample2
-image.baidu.com##.tjImgli
-image.baidu.com##.tjad
-image.baidu.com##.wrapper_dot_box.dot_black
-image.baidu.com##div[id^="relecom"]
 image.baidu.com#?#.newfcImgli:-abp-has(.fc-ad-tip)
 image.baidu.com,nongjitong.com##.recommend
 image.baidu.com/search/aspdetail?tn=baiduaspdetail&word=
@@ -19874,77 +19307,7 @@ iprovpn.com##+js(abort-current-script, $, #saveBig)
 iproxy.online#?#div[class^="sc-"] > div[class^="sc-"]:has(> span:contains(Поделитесь))
 iptv444.com$$a[target="_blank"]
 iptv4best.com##+js(nano-setInterval-booster, #CountDown, , 0.02)
-ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
-ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###con-ar > .result-op[mu*="nourl.ubs.baidu.com"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > div
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > tbody
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > ul
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > a[href*="//e.baidu.com/?refer="]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class]:has(span[data-tuiguang])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > div
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > tbody
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > ul
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div:has(.ec-tuiguang)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div:not([class]) > div[data-placeid]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div:not([id]) > div[id][data-rendered="true"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div[class][style]:not([id])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div[id*="00"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > style[id^="s-"] + div[id]:nth-child(2)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > style[id^="s-"] + style + div[id]:nth-child(3)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > [class]:has(span[data-tuiguang])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > div:has(.ec-tuiguang)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > div[id][data-click^="\7b \"fm"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar):not([class])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > table > tbody > tr > td > table
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-temai-category
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-temai-general
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-weigou-view-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###lm
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###op_wiseapp
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.EC_newppim
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ec_bdtg
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-car-powerful-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-health-pagelist-wrapper
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-health-poplist-wrapper
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-loan-list-card
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-tg-content
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-wealth-list-card-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-weigou-nav-buy
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecom-result
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.op_tvplay_main
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.opr-xmas-game-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.res_top_banner
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"],.result-op[tpl="game-page-romance"],.result-op[tpl="right_chris_prize_list"],.result-op[tpl="right_game_recommend"],.result-op[tpl="right_timeliness2"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-romance"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_chris_prize_list"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_game_recommend"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_timeliness2"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.tools > .shouji
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ylbx_game_desc
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="EC_pla_"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="ecl"][class*="game"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="ecl-edu-"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="ecr"][class*="game"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[data-click="\7b \"rsv_srcid\":49516\7d "]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="2"] ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="_canvas"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="_canvas"],div[id^="ecl-pc-game-"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id^="ecl-pc-game-"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[srcid="13602"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="app_normal"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="b2b_straight"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="houses_new"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[data-for] + style ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + script + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + script + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [style*="important"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div.result[data-cost]:has(.c-row > a[target="_blank"] > span:contains(腾讯广告))
@@ -19952,7 +19315,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > d
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?#div[id$="_canvas"]
-ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com##.c-container:has(.t > a[data-landurl])
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#.c-container:-abp-has(.t > a[data-landurl])
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div[id]
@@ -20241,14 +19603,6 @@ iveybusinessjournal.com##.share-stack
 iviewui.com##.ivu-alert
 ivoox.com#$#.modal-backdrop { display: none !important; }
 ivoox.com#$#body { overflow: auto !important; padding-right: 0 !important; }
-iwan.baidu.com###banner-box
-iwan.baidu.com###banner-info
-iwan.baidu.com###j-ditu
-iwan.baidu.com###j-media
-iwan.baidu.com###side-xbox
-iwan.baidu.com##.banner-container
-iwan.baidu.com##.side-banner
-iwan.baidu.com##div#rmaContainer,a#small-img,div.banner-container,div[class$="-banner"],div.ad,div.side-ad,#mp-werbung-left,#mp-werbung-right
 iwatch365.com###banner,.banner_body,.wp.a_h
 iwatchme2u.com##+js(adjust-setTimeout, video-ad-timeout, *, 0.02)
 iwatchme2u.com##+js(window.open-defuser, /bit\.ly|kbtv/)
@@ -20602,9 +19956,6 @@ jikipedia.com##.download-link
 jikipedia.com##div[class^="ad-card"]
 jiligame.com##img[onerror="zhurl($(this))"]
 jimms.fi##.cart-share
-jin.baidu.com##.grid-mt.loan-recommend
-jin.baidu.com##a:last-child
-jin.baidu.com##div.loan-recommend.grid-mt
 jin10.com###J_wdgg_t
 jin10.com##.cooperation-container
 jin10.com##.jin-declaration[class*="_b"]
@@ -20643,27 +19994,7 @@ jingdianlaoge.com##div[style="width:970px; height:130px;"]
 jinghua.cn##[style*="height: 250px;"],iframe[height="270px"]
 jinghuasoft.com##.zhifubao
 jingjs.top:22655
-jingyan.baidu.com###wgt-ad-guess > .ad-card, .feed-ad-wrap
-jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
-jingyan.baidu.com###wrapper > div.exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
-jingyan.baidu.com##.activity-entrance
-jingyan.baidu.com##.ad-card
-jingyan.baidu.com##.aside-pro-container
-jingyan.baidu.com##.asp-self-rander > .asp-wrap
-jingyan.baidu.com##.bk-common-video-list
-jingyan.baidu.com##.content-box.wgt-ad-guess
-jingyan.baidu.com##.feed-ad-wrap
-jingyan.baidu.com##.fresh-share-exp-e
-jingyan.baidu.com##.rel-exp-feed-ad-item
-jingyan.baidu.com##.right-fixed-related-wrap
-jingyan.baidu.com##.task-panel-entrance
-jingyan.baidu.com##.wgt-ad-recommend + div[class]
-jingyan.baidu.com##.wgt-cms-banner
-jingyan.baidu.com##[class*="feed-ad-"]
-jingyan.baidu.com##div.ad-card
-jingyan.baidu.com##div.left-promotion,.bottom-ads-container,.wgt-left-promo
 jingyan.baidu.com$$aside[class="wgt-ad"]
-jingyan.baidu.com,zhidao.baidu.com##[href*="/baidu.php?"]
 jingyanlib.com##.TEST-ad
 jingyanlib.com##.adToastWin
 jingyanlib.com##.admorecon
@@ -20917,86 +20248,6 @@ juksy.com##.js-adCoverPopup
 juksy.com##div[ad-uid]
 jumi.tv##a[href^="https://l.tapdb.net/"]
 jump.5ch.net###navbarResponsive
-jump.bdimg.com,tieba.baidu.com###adide_platform
-jump.bdimg.com,tieba.baidu.com###aside_ad
-jump.bdimg.com,tieba.baidu.com###aside_ad_wrapper
-jump.bdimg.com,tieba.baidu.com###bdshare
-jump.bdimg.com,tieba.baidu.com###guide_fc
-jump.bdimg.com,tieba.baidu.com###j_navtab_game
-jump.bdimg.com,tieba.baidu.com###j_navtab_wanle
-jump.bdimg.com,tieba.baidu.com###local_board
-jump.bdimg.com,tieba.baidu.com###media_item
-jump.bdimg.com,tieba.baidu.com###novel-ranking
-jump.bdimg.com,tieba.baidu.com###plat_act_wrapper
-jump.bdimg.com,tieba.baidu.com###spage_game_tab_wrapper
-jump.bdimg.com,tieba.baidu.com###spage_liveshow_slide
-jump.bdimg.com,tieba.baidu.com###tieba-notice.region_bright
-jump.bdimg.com,tieba.baidu.com###top_activity
-jump.bdimg.com,tieba.baidu.com###xiu8_follow_warn
-jump.bdimg.com,tieba.baidu.com##.achievement_medal_wrapper
-jump.bdimg.com,tieba.baidu.com##.add_guessing_btn
-jump.bdimg.com,tieba.baidu.com##.app_download_box
-jump.bdimg.com,tieba.baidu.com##.app_forum_rank_float
-jump.bdimg.com,tieba.baidu.com##.aside_region.celebrity
-jump.bdimg.com,tieba.baidu.com##.card_userinfo_honor
-jump.bdimg.com,tieba.baidu.com##.d_icons
-jump.bdimg.com,tieba.baidu.com##.d_nameplate
-jump.bdimg.com,tieba.baidu.com##.dialogJ.game_player_auth_dialog
-jump.bdimg.com,tieba.baidu.com##.dialogJ.tieba-sign-card
-jump.bdimg.com,tieba.baidu.com##.edui-btn-medal
-jump.bdimg.com,tieba.baidu.com##.edui-btn-paypost
-jump.bdimg.com,tieba.baidu.com##.fMember_cnt
-jump.bdimg.com,tieba.baidu.com##.fansparty-wrap
-jump.bdimg.com,tieba.baidu.com##.fav-wrapper
-jump.bdimg.com,tieba.baidu.com##.gift-goin
-jump.bdimg.com,tieba.baidu.com##.guess-sidebar-container
-jump.bdimg.com,tieba.baidu.com##.icon_author
-jump.bdimg.com,tieba.baidu.com##.icon_group
-jump.bdimg.com,tieba.baidu.com##.icon_replyer
-jump.bdimg.com,tieba.baidu.com##.icon_tbworld
-jump.bdimg.com,tieba.baidu.com##.icon_wrap
-jump.bdimg.com,tieba.baidu.com##.ihome_aside_section[j-mygift]
-jump.bdimg.com,tieba.baidu.com##.ihome_game_group
-jump.bdimg.com,tieba.baidu.com##.j-post-send-gift
-jump.bdimg.com,tieba.baidu.com##.j_surveillance
-jump.bdimg.com,tieba.baidu.com##.j_tbnav_tab_a[stats-data^="fr=tb0_forum&st_mod=frs&st_value=tabgroup"]
-jump.bdimg.com,tieba.baidu.com##.member_rank
-jump.bdimg.com,tieba.baidu.com##.nani_app_download_box
-jump.bdimg.com,tieba.baidu.com##.p_mall_tail
-jump.bdimg.com,tieba.baidu.com##.platform_aside_tieba_partner
-jump.bdimg.com,tieba.baidu.com##.pre_icon_wrap
-jump.bdimg.com,tieba.baidu.com##.profile_bottom
-jump.bdimg.com,tieba.baidu.com##.region_bright.celebrity
-jump.bdimg.com,tieba.baidu.com##.save_face_bg
-jump.bdimg.com,tieba.baidu.com##.share_btn_wrapper
-jump.bdimg.com,tieba.baidu.com##.showBar
-jump.bdimg.com,tieba.baidu.com##.showlist_wap
-jump.bdimg.com,tieba.baidu.com##.sofa_front_list_wrap
-jump.bdimg.com,tieba.baidu.com##.split
-jump.bdimg.com,tieba.baidu.com##.star_nav_ico_activity
-jump.bdimg.com,tieba.baidu.com##.star_nav_ico_deal
-jump.bdimg.com,tieba.baidu.com##.star_nav_ico_group
-jump.bdimg.com,tieba.baidu.com##.star_nav_ico_tuan
-jump.bdimg.com,tieba.baidu.com##.tbui_fbar_bazhu
-jump.bdimg.com,tieba.baidu.com##.tbui_fbar_props
-jump.bdimg.com,tieba.baidu.com##.thread_recommend_ps
-jump.bdimg.com,tieba.baidu.com##.tieba_notice
-jump.bdimg.com,tieba.baidu.com##.u_app
-jump.bdimg.com,tieba.baidu.com##.u_appcenterEntrance
-jump.bdimg.com,tieba.baidu.com##.u_bdhome
-jump.bdimg.com,tieba.baidu.com##.u_blue
-jump.bdimg.com,tieba.baidu.com##.u_game
-jump.bdimg.com,tieba.baidu.com##.u_grab_treasure
-jump.bdimg.com,tieba.baidu.com##.u_joinvip
-jump.bdimg.com,tieba.baidu.com##.u_member
-jump.bdimg.com,tieba.baidu.com##.u_menu_tbmall
-jump.bdimg.com,tieba.baidu.com##.u_mytbmall
-jump.bdimg.com,tieba.baidu.com##.u_split
-jump.bdimg.com,tieba.baidu.com##.u_wallet
-jump.bdimg.com,tieba.baidu.com##.u_xiu8
-jump.bdimg.com,tieba.baidu.com##.user_card_vip_tips
-jump.bdimg.com,tieba.baidu.com##.user_score
-jump.bdimg.com,tieba.baidu.com##.userinfo_scores
 jump.refinery29.com$image
 jumpbookstore.com###header_app_banner
 jumpmatome2ch.biz##.d-contents
@@ -22399,41 +21650,7 @@ m.babytree.com##.wrap > section[class*="4"],.wrap > div[class*="4"]
 m.babytree.com##.wrap > section[class*="9"],.wrap > div[class*="9"]
 m.babytree.com##a[class$="-join"]
 m.babytree.com##script + a[class]
-m.baidi.com,www.baidu.com##DIV[class='voice call']
-m.baidu.com###bottom
-m.baidu.com###navs
-m.baidu.com###page-copyright
-m.baidu.com###page-copyright > div[style^="position: fixed;"][style*="height: 52px;"]
-m.baidu.com##.blank-frame
-m.baidu.com##.callicon-wrap
-m.baidu.com##.ec_adv
-m.baidu.com##.ec_wise_ad
-m.baidu.com##.news_ad
-m.baidu.com##.square-banner-bgicon.index-banner
-m.baidu.com##.suggest-hot
-m.baidu.com##.water-container.tab-news-content
-m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
-m.baidu.com##a[href*="m.lecai.com"]
-m.baidu.com##div[class*="ad-container-"]
-m.baidu.com##div[class="nr-afdLargePic"]
-m.baidu.com##div[class="tab_news"]
-m.baidu.com##div[id^="adLargePicVideo"]
 m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
-m.baidu.com,www.baidu.com###provider,div[class$="fixed"],SECTION#middle_banner,.ec_ad_results,.shopping-item,#bottomOperate
-m.baidu.com,www.baidu.com##ARTICLE[class='c-container aladdin__10uYO']
-m.baidu.com,www.baidu.com##A[class='hint-qnaire-bar']
-m.baidu.com,www.baidu.com##DIV[class='baiduapp-icon']
-m.baidu.com,www.baidu.com##DIV[class='c-container ec_resitem ec-new2  ec_wise_im ec_resitem_card ec_adv_last ec-adclick-bgcolor']
-m.baidu.com,www.baidu.com##DIV[class='c-container ec_resitem ec-new2  ec_wise_im ec_resitem_card ec_adv_last']
-m.baidu.com,www.baidu.com##DIV[class='c-container ec_resitem ec-new2  ec_wise_im ec_resitem_card']
-m.baidu.com,www.baidu.com##DIV[class='c-container ec_resitem_card ec_resitem_rs']
-m.baidu.com,www.baidu.com##DIV[class='c-line-bottom ec_guess']
-m.baidu.com,www.baidu.com##DIV[class='ec_urlline']
-m.baidu.com,www.baidu.com##DIV[class='rw-list']
-m.baidu.com,www.baidu.com##DIV[class='rw-title']
-m.baidu.com,www.baidu.com##H3[class='c-title c-color-link c-gap-top-small c-gap-bottom-small c-line-clamp3']
-m.baidu.com,www.baidu.com##P[class='c-line-clamp3 c-color ']
-m.baidu.com,www.baidu.com##div[tpl*="ball"]
 m.banggood.com#$#body { overflow:visible!important; }
 m.bilibili.com###floatBtn
 m.bilibili.com###openAppBtn
@@ -23198,18 +22415,6 @@ maomaomom.com###execphp-15
 maomaomom.com###execphp-21
 maomaomom.com###execphp-4
 maomaomom.com##.textwidget > table[width="1050"]
-map.baidu.com###fis_elm__12
-map.baidu.com###fis_elm__6
-map.baidu.com###index-areaEntry-widget
-map.baidu.com###mapBanner
-map.baidu.com###message-panel
-map.baidu.com##+js(set-cookie, showLoginPopup, 1)
-map.baidu.com##+js(set-local-storage-item, firstEnter, false)
-map.baidu.com##.bottom-banner-float
-map.baidu.com##.container.styleguide.index-widget-guidebanner
-map.baidu.com##.damoce-search-item
-map.baidu.com##.poiLeadDownloadCard
-map.baidu.com##.search-item[data-stat-code="poisearch.damoce.item"]
 map.baidu.com#?##page-wrapper > div#common-bottombanner-widget-fis:has(> div.common-widget-bottom-banner-changeId > div.bottom-banner-float)
 map.baidu.com#?#body > div[id]:has(> div#downloadnativepopupUlink)
 mapfan.com##mf-share-button
@@ -23344,23 +22549,6 @@ mayoclinic.org##.internal-promo-stack-order
 mayoclinic.org##.mayoad
 mayoclinic.org##.myc-subscription-form
 mbasic.facebook.com,m.facebook.com##[data-ft*="quick_promotion_instance_log_data_encoded"]
-mbd.baidu.com###content_wrapper + div + .default-container
-mbd.baidu.com###headDeflectorContainer
-mbd.baidu.com##.commonPadding
-mbd.baidu.com##.default-container
-mbd.baidu.com##.drag-wrap
-mbd.baidu.com##.mergeVideoTop
-mbd.baidu.com##.related-news > section:first-child + div
-mbd.baidu.com##DIV[class='commentTitle']
-mbd.baidu.com##DIV[class='horizontal']
-mbd.baidu.com##DIV[class='openall3']
-mbd.baidu.com##SPAN[class='openText']
-mbd.baidu.com##[class$="=="]:has(span[class$="="])
-mbd.baidu.com##[class*="drag"]
-mbd.baidu.com##[class^="borderBottom"]
-mbd.baidu.com##[class^="infinite-scroll"]
-mbd.baidu.com##div[class=""]:has([class^="wrap-"] > span)
-mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
 mbd.baidu.com/newspage/api/getrelatednews?nid=news_
 mbd.baidu.com/newspage/api/landing?page=landingshare&refresh=
 mbjremix.com##+js(nano-setInterval-booster, /wpsafe|wait|timer/, *, 0.001)
@@ -23854,10 +23042,6 @@ mobil.akilliphone.com#$#html { overflow: auto !important; }
 mobile-hoken.com###sp_bnr
 mobile-hoken.com##.popup._active
 mobile-review.com#?#p:has(> strong:contains(Поделиться))
-mobile.baidu.com##.p_fixed_lb
-mobile.baidu.com##SECTION.detail-banner.banner-ck
-mobile.baidu.com##div[class*="card-recommend"]
-mobile.baidu.com##div[class^="detail-banner-"]
 mobile.yangkeduo.com##.pdd-go-to-app
 mobile.yangkeduo.com##.quick-entrance-3 .pdd-lazy-image
 mobile.yangkeduo.com##div.footer-item:nth-of-type(2)
@@ -24237,7 +23421,6 @@ music.163.com##.n-clmnad
 music.163.com##.topfr
 music.163.com##.u-ft
 music.apple.com##button[title^="共有"]
-music.baidu.com##div#adMainTopLeft,div.adm ,div#adBottom,div.ad
 music.wandhi.com##.google-auto-placed
 music.youtube.com##ytmusic-mealbar-promo-renderer
 musify.club##.st-browser__page
@@ -24245,12 +23428,6 @@ musify.club##.zmdi-share
 musixmatch.com##+js(remove-attr, style|oncontextmenu, body)
 mutyun.com###chuukan
 muylinux.com,newsmaker.md,gkseries.com###media_image-3
-muzhi.baidu.com###union-qbbanner,[class^="sow"],div#ads-bottom,.EC_ads_listborder
-muzhi.baidu.com##.leftnest
-muzhi.baidu.com##.quick-ask-2 + .android + div
-muzhi.baidu.com##.rightnest
-muzhi.baidu.com##.wgt-best-answer + script + div
-muzhi.baidu.com##.wgt-container
 muzhuangnet.com##.widget_sentence
 muzijie.com##div[style="height: 280px;"]
 muzikindir.vip##.social-icons > li > center > *:not(center)
@@ -24481,7 +23658,6 @@ nandemoiiyoch.com##div[id^="sns-"]
 nandu.com##div#top-ad
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
-nani.baidu.com,ala.baidu.com##.tbui_aside_float_bar + .clearfix
 nanifile.com#?##oframeplayer > pjsdiv[style]:has(pjsdiv:contains(Ad Block))
 nanrenwo.net##div.ad-container,div.joke_img,div#img_weixin,div.bx-wrapper,[id^="content0"]
 nanrenwo.net##div[id^="content"]
@@ -24738,13 +23914,6 @@ news.abplive.com##._viewInApp
 news.abs-cbn.com##.MuiGrid-container > div.MuiGrid-root:has(> .MuiBox-root > button[class^="react-share"])
 news.acer.com##div[class^="SubscribeForm_"]
 news.am##.main-content > div[style="background-color:#32afed"]
-news.baidu.com###detail-HotScrollNews-wrapper
-news.baidu.com###favoriteTips
-news.baidu.com###share
-news.baidu.com###women-picwall
-news.baidu.com##.recommend-animate
-news.baidu.com##.recommend-mask
-news.baidu.com##.swipe-backflow-container
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.cgtn.com##.openBtn
 news.china.com.cn##.Wrapper > div[style]
@@ -25831,20 +25000,6 @@ pairs.lv##.w-full.fixed.bottom-0.z-10
 palestinechronicle.com##+js(abort-current-script, jQuery, donateBoxId)
 pallabmobile.in,woowebtools.com,wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 paloaltonetworks.com##.subscribe-box
-pan.baidu.com###share_ad_info_panl
-pan.baidu.com##.active-msg
-pan.baidu.com##.activity-icon
-pan.baidu.com##.box
-pan.baidu.com##.decrease-active
-pan.baidu.com##.phone-banner
-pan.baidu.com##.photo-banner
-pan.baidu.com##.share-error-ad
-pan.baidu.com##.wp-side-options
-pan.baidu.com##A.active-msg
-pan.baidu.com##div.content DIV.photo-banner
-pan.baidu.com##div[class$="ad-platform-tips"]
-pan.baidu.com,music.baidu.com,yun.baidu.com##[class|=ad]
-pan.baidu.com,yun.baidu.com##[id^="share-ad-"],A#share_ad_info_panl,div[id^="cpro_"],img.share-center,.ad-platform-tips,.banner-active
 pan666.cn##.footer > .containerNarrow
 panasonic.com#$#body { overflow: visible!important; }
 panda.studyis.xyz##+js(nano-setInterval-booster, wpsafe-countdown2, *, 0.002)
@@ -26408,8 +25563,6 @@ platform.autods.com#%#//scriptlet('set-constant', '_conv_q.push', 'noopFunc')
 play.163.com###FixedBot
 play.163.com##.m-fixedTop
 play.anghami.com##.register-banner
-play.baidu.com###m-client-product,#right-ads,div.rightAd-skin,.top-banner-ad-wrap
-play.baidu.com##div#right-ads,div.rightAd-skin
 play.google.com##div[data-is-touch-wrapper] > button:has(> span > svg > path[d^="M18 16.08c-"])
 play.kotlinlang.org#@#.share__button
 play.rtl.lu##div[class^="layout_container"] > div[class^="style_toolbox"]
@@ -26482,7 +25635,6 @@ pniao.com##.AD_kk
 pniao.com##.moveOne_ad
 po-kaki-to.com###text-5 div.site-Introduction
 po-kaki-to.com##.top-site-andander
-po.baidu.com###shareBoxBlank
 po18wen.com,po18co.com##div[id] + p + script + div[id]
 po18wen.net##[style*="pointer-events: none;"]
 po18wen.net##img[style="border: 1px inset #00FF00"]
@@ -26679,7 +25831,6 @@ portalimprensa.com.br##.clsTabsModTwitterFacebook
 portea.com,bbcearth.com,tiojoao.com.br,proprivacy.com,kiiw.icu,urbes.com.br,filmold.com##.modal
 portfolio.hu##+js(abort-current-script, document.getElementById, adblock)
 portugues.com.br##.artigo > a[data-share]
-pos.baidu.com##.container,#container
 positivepsychology.com#$#body { overflow: visible !important; padding-right: 0 !important; }
 post-gazette.com##.pg-notifybox
 post-gazette.com,toledoblade.com##.pgevoke-contentarea-socialbuttons-wrapper
@@ -26714,9 +25865,6 @@ postupi.online##.social-wrap
 postype.com##+js(remove-class, disable-selection, body)
 postype.com##.post-reaction > .action-group
 potepan.com##.ArticleBody__sns-share
-power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
-power.baidu.com,zhidao.baidu.com##.wgt-clew[data-type="goods"]
-power.baidu.com,zhidao.baidu.com##style[id^="s-m"] + div[id^="m"]
 pozirk.online##.info-share
 pp*.hkslg.net^$image
 ppc.world##.detected-block-modal
@@ -27754,7 +26902,6 @@ rising.cn##.new-1111
 rising.cn##.search-news1
 rising.cn##.shuangshiyib
 riwyat.com,hiraethtranslation.com,filmzone.com,brokensilenze.net##+js(abort-on-property-write, disableEnterKey)
-rj.baidu.com##div#ader,div.mid-recommend,div.ad,dl.cl.xld,.entrance
 rjfcw.cn##li[style*="1200px"]
 rjno1.com##+js(addEventListener-defuser, error, event.target.tagName)
 rjno1.com##main > div[class^="qnb"]
@@ -28224,7 +27371,6 @@ searchenginewatch.com#$#body { overflow: auto!important; margin-right: 0!importa
 seattletimes.com###userMessagingOverlay
 sebhastian.com##.p-5
 seclub.org##a[href^="http://waplog.net/"]
-secr.baidu.com##DIV.banner
 secretmine.net###main-content > br
 secretmine.net###main-content > center
 secretmine.net##.background-cover
@@ -28522,6 +27668,7 @@ signup.com$image
 signupgenius.com##+js(set-constant, sugabuAdsLoaded, true)
 signupgenius.com#@#.ad-placement
 signupgenius.com#@#.adholder2
+siguyy.tv##[style^="position: fixed;"]
 siguyy.tv##^script:has-text(data:)
 sihmar.com##[width="300"],[height="280"]
 sikopedia.com,apexheadline.com##.fab-btn.extended-fab
@@ -28760,7 +27907,6 @@ sis001.com,sis001.us##.ad_text,#ad_headerbanner
 sisiww.com##.yezicheng_sub,img[height="80px"]
 sisixxb.com##.preflink
 sisurl.net##div#ad_mobileHeader
-site.baidu.com##.pstr.mt10
 site.ip138.com###link
 site123.com*openedMessages.php$image
 sitechecker.pro##app-general-banner
@@ -29834,9 +28980,6 @@ suspilne.media##.c-article-info-share
 sutekinakijo.com#?#.plugin-memo > div.side > script[src$="/blogroll.js"]:upward(2)
 sutin0831.pixnet.net#$#div[class*="-ad-sidebar-"] { position: absolute!important; left: -3000px!important; }
 suxzp.com##.full-screen-cover
-sv.baidu.com##.open-button-wrap
-sv.baidu.com##[class$=container]
-sv.baidu.com##[data-type="ec-feed"],[data-pagepd^="web_tuiguang"]
 svetacdn.in#?##oframeplayer > pjsdiv:has(> pjsdiv > pjsdiv[style*="transform"] > svg > g > path[d^="M5.5662845,8.26248366"])
 svetacdn.in#?##pjsfrrsplayer ~ pjsdiv[style]:has(> pjsdiv:not([style]) > pjsdiv[style*="background: rgb(42, 161, 194);"][style*="transform: scale(3.5);"]) + pjsdiv
 svetapple.sk#?#.td-post-content > p:has(> a[href="https://svetapple.sk/bazar/"])
@@ -30642,120 +29785,6 @@ tiboo.cn##.sectionAd
 tidal.com##.secondary-buttons > div.secondary-button:nth-child(2)
 tidal.com#?#.modal-action-list > li.modal-action-wrapper:contains(/Twitter|Facebook/)
 tie.163.com,uump4.com,uump4.net###top-banner
-tieba.baidu.com###celebrity
-tieba.baidu.com###diversBanner
-tieba.baidu.com###guide_fc,#global_notice_wrap,.content_top,.forum_header>div:first-child,.app_forum_top_nav,#encourage_entry,[id^=pagelet_encourage-appforum],.iframe_wrapper.clearfix,.d_sign_split~*,#thread_list>li:not([class*=thread_]),#j_p_postlist>div:not([data-field]):not(#j_p_postlist),#j_p_postlist>div[data-isautoreply],#game_live_list,#com_u9_head,.play_list_panel.j_play_list_panel,div.search_main_wrap~*,#aside_ad,a.j_click_stats.img_wrap,div.firework-wrap
-tieba.baidu.com###j_light_see_index
-tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
-tieba.baidu.com###list_item_wrapper j_click_stats
-tieba.baidu.com###pb_cut_hot_recommend
-tieba.baidu.com###pb_reply_postor_wrap > .daoliu-content-wrap
-tieba.baidu.com###plat_recom_carousel,.head_banner{height:75px;}
-tieba.baidu.com###spage_game_tab_wrapper
-tieba.baidu.com###spage_liveshow_slide
-tieba.baidu.com##+js(no-setTimeout-if, o.customPassLogin())
-tieba.baidu.com##.activity_head
-tieba.baidu.com##.appBottomPromote
-tieba.baidu.com##.appPromote
-tieba.baidu.com##.app_download_box
-tieba.baidu.com##.banner-wrapper
-tieba.baidu.com##.bottom-guide-box
-tieba.baidu.com##.celebrity.aside_region
-tieba.baidu.com##.clearfix.top-sec
-tieba.baidu.com##.client_ad_banner
-tieba.baidu.com##.client_ad_topBanner
-tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
-tieba.baidu.com##.client_ad_topBanner_all
-tieba.baidu.com##.client_ghost_icon
-tieba.baidu.com##.comment-box
-tieba.baidu.com##.daoliu_sign_in_show
-tieba.baidu.com##.dia_mask
-tieba.baidu.com##.dia_wrapper
-tieba.baidu.com##.father-cut-daoliu-normal-box
-tieba.baidu.com##.father-cut-recommend-normal-box
-tieba.baidu.com##.feed-cut
-tieba.baidu.com##.fengchao-banner-defensive
-tieba.baidu.com##.fixed_bar_logo
-tieba.baidu.com##.footer
-tieba.baidu.com##.frs_pb_leadapp_pop_show
-tieba.baidu.com##.hongbao_page_pop_common
-tieba.baidu.com##.hot-recommend-title.recommend-title
-tieba.baidu.com##.img-open-app
-tieba.baidu.com##.img_info_introduce
-tieba.baidu.com##.j_click_stats, .j_click_stats+*
-tieba.baidu.com##.j_feed_li[fid="3665221"]
-tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0f\\u7ad9\\u957f\""]
-tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5feb\\u8baf\\u5927\\u7ba1\\u5bb6\""]
-tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
-tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
-tieba.baidu.com##.li.tl_shadow.tl_shadow_new
-tieba.baidu.com##.light_top_ext_area
-tieba.baidu.com##.list_item_
-tieba.baidu.com##.load-more.wake-app
-tieba.baidu.com##.login-wake-modal-mask
-tieba.baidu.com##.more-btn-desc:contains(打开APP)
-tieba.baidu.com##.more-image-desc
-tieba.baidu.com##.more_btn_package
-tieba.baidu.com##.nav-bar-bottom
-tieba.baidu.com##.only-lz
-tieba.baidu.com##.open-app-guide
-tieba.baidu.com##.open-style
-tieba.baidu.com##.operate-btn
-tieba.baidu.com##.operation-chat.wake-app
-tieba.baidu.com##.panel_bottom
-tieba.baidu.com##.pb-footer.footer.j_footer.j_pb_footer
-tieba.baidu.com##.pb_bright_share.p_share_ding
-tieba.baidu.com##.post-cut-guide
-tieba.baidu.com##.post-page-entry-btn
-tieba.baidu.com##.post_client_down
-tieba.baidu.com##.r-top-sec
-tieba.baidu.com##.recommend-list
-tieba.baidu.com##.recommend-title
-tieba.baidu.com##.tb-forum-user__join-btn
-tieba.baidu.com##.tbui_fbar_down.tbui_aside_fbar_button
-tieba.baidu.com##.tbui_fbar_feedback.tbui_aside_fbar_button
-tieba.baidu.com##.tbui_fbar_share.tbui_aside_fbar_button
-tieba.baidu.com##.tbui_slideshow_slide
-tieba.baidu.com##.tieba-custom-pass-login
-tieba.baidu.com##.tl_spread
-tieba.baidu.com##.top-guide-wrap.top-guide
-tieba.baidu.com##.top_toutu_admarks
-tieba.baidu.com##.tuijian-wrap
-tieba.baidu.com##.u_member
-tieba.baidu.com##.ui_image_header_bottom
-tieba.baidu.com##A[class='pb_cut_hot_recommend_content j_recommend_item']
-tieba.baidu.com##A[class='recommend_item j_recommend_item']
-tieba.baidu.com##DIV.panel_bottom,LI.tl_shadow tl_shadow_new ^
-tieba.baidu.com##DIV.pb_cut_hot_recommend
-tieba.baidu.com##DIV[class='empty_wrap']
-tieba.baidu.com##DIV[class='j_daoliubar']
-tieba.baidu.com##DIV[class='re_floor']
-tieba.baidu.com##DIV[class='recommend_list_title']
-tieba.baidu.com##DIV[class='top-guide top-guide-wrap']
-tieba.baidu.com##DIV[id^='aside-ad']
-tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
-tieba.baidu.com##SPAN.top_bar_content_text,DIV.appPromote_wrapper scale-1px-bottom,IMG.j_footer_logo_img,#m_footer,DIV.no_mean,DIV.addbodybottom,DIV.j_footer footer
-tieba.baidu.com##[class$="j_click_stats"]
-tieba.baidu.com##[class="l_post l_post_bright j_l_post clearfix"][data-field="{}"]
-tieba.baidu.com##[class^=footer]
-tieba.baidu.com##a[href*="/baidu.php?url="]
-tieba.baidu.com##div.banner-wrapper,div.fixed-nav-bar.nav-bar-wrapper,div.recommend-list,div.nav-bar-wrapper
-tieba.baidu.com##div.daoliubar.appPromote
-tieba.baidu.com##div.father_cut_daoliu
-tieba.baidu.com##div.fengchao-banner-defensive
-tieba.baidu.com##div.nav-bar-bottom
-tieba.baidu.com##div.open-style
-tieba.baidu.com##div.panel_bottom,li.tl_shadow tl_shadow_new
-tieba.baidu.com##div.sponsor_banner
-tieba.baidu.com##div.tb-footer-wrap
-tieba.baidu.com##div.ui_image_header_bottom
-tieba.baidu.com##div[add-shield-track]
-tieba.baidu.com##div[class*="appPromote"]
-tieba.baidu.com##div[class*="fixed-nav-bar nav-bar-wrapper"]
-tieba.baidu.com##div[class*="nav-bar-wrapper"]
-tieba.baidu.com##div[class*='-ad-pb-']
-tieba.baidu.com##div[class="sub-img-list"],div[class="appPromote_wrapper scale-1px-bottom"],div[class="j_pb_footer j_footer footer pb-footer"]
-tieba.baidu.com##li.tb-share__item:nth-of-type(1)
 tieba.baidu.com#$#.navbar-box { top: 44px!important; }
 tieba.baidu.com#$#.special_conf_skin .wrap1 { background: none !important; }
 tieba.baidu.com#$#.tb-backflow-defensive { display: none !important; }
@@ -30771,8 +29800,6 @@ tieba.baidu.com$$div[class="pb_cut_hot_recommend"]
 tieba.baidu.com$$div[class="pb_prompt_"]
 tieba.baidu.com$$div[class="pbshare_recommend_wrapper"]
 tieba.baidu.com$$img[class="fixed_bar_"]
-tieba.baidu.com,wapp.baidu.com##.iSlider-wrapper-container-hot-thread
-tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 tieba.baidu.com/mo/q/tuijianindex?uid=
 tieba.baidu.con##DIV.list_item_wrapper j_click_stats
 tielu.cn##[class^="ad"]
@@ -30819,8 +29846,6 @@ tiktok.com#$##app > .layout-box { padding: unset !important; }
 tiktok.com#$#body > div[dir="ltr"] > div.box-border:has(div[style^="min-height: 240px; max-height:"]) { display: none !important; }
 tiktok.com#$?#style[id="tux-screen-lock"] { remove: true; }
 tiktokio.com#?#section:has(> div.section-content div[id^="image_"] > a[href^="https://play.google.com/"])
-tiku.baidu.com##.to-app
-tiku.baidu.com##.wap-bottom-op
 tim.it##+js(set-cookie, TIM_ScaricaApp_Negative, 1)
 time.com##.jw-float-bar
 time.com##.mag-subs
@@ -31905,15 +30930,6 @@ v.2345.com##div.mt10,div.baiduSearchIvy
 v.360.cn##DIV.banner-g4
 v.6.cn##.charge
 v.6.cn##.zoro
-v.baidu.com###GoodblockAD5
-v.baidu.com###bannerAdvMainFirst
-v.baidu.com##.adv-background
-v.baidu.com##a[href^="http://www.602.com/"]
-v.baidu.com##div[class="container adv-container"]
-v.baidu.com##div[class^="bdvideo-adver-"]
-v.baidu.com##div[id^="adv_asp_"]
-v.baidu.com##div[videoadv],a[href^="http://g.youxi.v.baidu."]
-v.baidu.com##iframe[id^="adframe_wrap"]
 v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.daum.net##.box_floating:has(button[data-tiara-action-name="다음앱배너_클릭"])
 v.duba.com##[id^="ad-"],[class^="ad-"],div#fixedad
@@ -32430,7 +31446,6 @@ wantgoo.com##div[type="adv"]
 wantgoo.com#@#.shareBtns
 wanyx.com##.AdArea2,.AdArea
 wap.10010.com##DIV.youicon,DIV.foot_bq,DIV.swiper-container_l
-wap.baidu.com##.tab_news
 wap.eastmoney.com##a[class="open-inapp"]
 wap.faloo.com###anzhuang_100
 wap.faloo.com###footerApp
@@ -32461,12 +31476,6 @@ wap.sougou.com###sug_wraper
 wap.yushuwu.cloud##+js(noeval-if, WebSocket)
 wap.yushuwu.cloud#%#//scriptlet('prevent-eval-if', 'WebSocket')
 wap.zol.com.cn###waitrep
-wapbaike.baidu.com##ul[class][id] > li
-wapp.baidu.com##.j_click_stats
-wapwenku.baidu.com##p.pd5,p.wapAd
-wapwenku.baidu.com,wk.baidu.com###bottomFixed
-wapwenku.baidu.com,wk.baidu.com##.tout
-wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 waranote.livedoor.biz##.social_group
 warda.at#$#body { overflow: visible !important; }
 warda.at#$#html { overflow: visible !important; }
@@ -32707,7 +31716,6 @@ wellandgood.com##.signup-form > div:not(.menu-social-menu-container)
 wellness4live.com##+js(nano-setInterval-booster, timer, *, 0.001)
 wellsfargo.com##.sideUtility
 welovepg.polymail.io$image
-wen.baidu.com##.feed-recommend
 wenda.haosou.com##div#e_idea_wenda_detail_rightBox,.mod-top-ad,div.garllery_ad,div[class="clearfix js-show-data"]
 wenda.so.com##a[href^="http://e.so.com/search/eclk?"]
 wenda.so.com##div#tuiguang,.js-show-data,.garllery_ad
@@ -32718,54 +31726,6 @@ wendu.cn###topads
 wendu.cn##body > div[style^="width:1000px;"]
 wendu.com##.foot_adv
 wendu.com##.head-banner
-wenku.baidu.com###ggbtm-ads
-wenku.baidu.com###ppt-bottom-ads
-wenku.baidu.com##+js(remove-class, zsj-act)
-wenku.baidu.com##+js(set,history.replaceState,noopFunc)
-wenku.baidu.com##.area[href*="/adclick?aid="]
-wenku.baidu.com##.banner-more-title
-wenku.baidu.com##.bottom-theme-select-wrap
-wenku.baidu.com##.bottom-theme-wrap-mask
-wenku.baidu.com##.browser-label-guide
-wenku.baidu.com##.clearfix.sb-con > .qrHover
-wenku.baidu.com##.client-btn.middle-btn
-wenku.baidu.com##.client-btn.small-btn > .tool-icon
-wenku.baidu.com##.client-download-wrap
-wenku.baidu.com##.client-rec-wrapper
-wenku.baidu.com##.commerce-flow
-wenku.baidu.com##.dialog-ad-hd
-wenku.baidu.com##.doc-btns-wrap > .app-btn.small-btn
-wenku.baidu.com##.docBtns.-VIP_RIGHT.core-btn-wrapper
-wenku.baidu.com##.edu_class_pop_dialog
-wenku.baidu.com##.extension
-wenku.baidu.com##.fix-block.relative-course-wrapper
-wenku.baidu.com##.fold-page-btn
-wenku.baidu.com##.fold-page-tip
-wenku.baidu.com##.header-wrapper > .fixed-activity-bar
-wenku.baidu.com##.inner-vip.vip-pop-wrap
-wenku.baidu.com##.pay-vip-btn-wrap
-wenku.baidu.com##.pure-tool-btn.tool-btn.full-screen
-wenku.baidu.com##.qricon
-wenku.baidu.com##.reader-download-app
-wenku.baidu.com##.reader-to-cashier-vip > .rights-wrap
-wenku.baidu.com##.searchBox.-VIP_RIGHT.core-btn-wrapper
-wenku.baidu.com##.service-entry
-wenku.baidu.com##.tool-bar.app-btn.small-btn > .tool-icon
-wenku.baidu.com##.vip-activity-wrap
-wenku.baidu.com##.vip-activity-wrap-new
-wenku.baidu.com##.vip-card-wrap
-wenku.baidu.com##.vip-member-pop-content
-wenku.baidu.com##.vip-pay-pop-v2-wrap
-wenku.baidu.com##.vip-privilege
-wenku.baidu.com##.wk-chat-modal
-wenku.baidu.com##.wubai-wrap
-wenku.baidu.com##.zhixin-ads
-wenku.baidu.com##.zhixin-right
-wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
-wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
-wenku.baidu.com##div[class="hx-recom-wrapper"]
-wenku.baidu.com##div[id^="html-reader-AD-"]
-wenku.baidu.com##div[id^="html-reader-banner-"]
 wenku.baidu.com#$#.vip-member-pop-content { display: none !important; }
 wenku.baidu.com#$#body { overflow: visible !important; }
 wenku1.com##.dd300
@@ -32939,43 +31899,6 @@ wizrocketmail.net$image
 wj001.com###guanggao,#ad,#ad1
 wjla.com,wpde.com##div[class^="index-module_shareColumn_"]
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
-wk.baidu.com###carousel
-wk.baidu.com###na-dialog-root
-wk.baidu.com##.b-tuijian-root
-wk.baidu.com##.bottom-bar-guid-to-univer.bottom-bar-global
-wk.baidu.com##.btn-vip
-wk.baidu.com##.btn-welfare
-wk.baidu.com##.card-below-reader.card
-wk.baidu.com##.card-vip.card-wrap
-wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
-wk.baidu.com##.core-card
-wk.baidu.com##.fc-ad-contain
-wk.baidu.com##.fc-ad-wrap
-wk.baidu.com##.guess-rec-text-root > .w-container.rec-head > .rec-go-search-guide
-wk.baidu.com##.guide-to-univer-app-root
-wk.baidu.com##.guidetowkappwg-root
-wk.baidu.com##.icon-app
-wk.baidu.com##.lure.btn-download
-wk.baidu.com##.middle-box-root
-wk.baidu.com##.open-app-btn
-wk.baidu.com##.pay-doc-marquee
-wk.baidu.com##.pop-manager-view-containter
-wk.baidu.com##.reader-pop-manager-view-containter
-wk.baidu.com##.rec-text-root
-wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
-wk.baidu.com##.top-banner-guide
-wk.baidu.com##.video-rec-inner
-wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
-wk.baidu.com##.wk-container.fc-btm-root
-wk.baidu.com##.wk-container.gain-doc-block-root
-wk.baidu.com##div.b-bigpic-root
-wk.baidu.com##div.b-tuijian-root
-wk.baidu.com##div.b-zhiding-root
-wk.baidu.com##div.bottom-bar-global
-wk.baidu.com##div.btn-view-in-app
-wk.baidu.com##div.gain-doc-block-root.wk-container
-wk.baidu.com##div.guidetowkappwg-root
-wk.baidu.com##div.guidetowkvipwg-root.vip-guide-contanier
 wlkp24.info##.single-article__share
 wly.trosloids.com:33668
 wm-help.net###share_fix
@@ -33241,16 +32164,7 @@ www.antpedia.com###articlebody a.adv_oraurl,[class^="tag-b"],.n-img-div,#luxury_
 www.apkmirror.com##.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.avtbo.com$$img[style="padding-bottom"]
-www.baidu.com##.c-invoke-willshow-class.c-line-clamp1
-www.baidu.com##.direct-new
-www.baidu.com##.gh-safariicon-container
-www.baidu.com##.med-invoke-box
-www.baidu.com##.rw-list-container2.rw-list-container > .c-line-clamp1
 www.baidu.com$@$div[class="ad_"]
-www.baidu.com,3g.baidu.com,m.baidu.com,m5.baidu.com##.na-ec-waterfall
-www.baidu.com,3g.baidu.com,m.baidu.com,m5.baidu.com##.news-list-wrapper
-www.baidu.com,m.baidu.com##.listbox
-www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.bilibili.com##.bili-video-card:has(.bili-video-card__info--ad)
 www.bilibili.com##.feed-card:has(.bili-video-card__info--ad)
 www.bilibili.com##.float-btn, .open-btn
@@ -34128,7 +33042,6 @@ yb983.com##div[id^="pop"]
 yce.perfectcorp.com##div[class^="app-buttons_appButtonBlock__"]
 ycombinator.com##div[class^="mb-"] > div.flex:has(> #mc_embed_signup_scroll)
 yczbb.com##div#noad
-yd.baidu.com##.ui-distribution-bar
 ydm.life##[onclick*="surnum"][style],img[style*="z-index:2147483647"][onclick*="javascript:"]
 ydss.cn###indexBlad
 ydss.cn###jd_ad,[class="bm bml pbn"] table
@@ -34405,7 +33318,6 @@ youtube.com#?#.ytd-metadata-row-container-renderer:has(> div.style-scope > ytd-r
 youtube.com/api/stats/ads?
 youtubers.me###sharer-side
 youwuyun.com##[src="/libs/img/ad.gif"]
-youxi.baidu.com###coupletBanner
 youxi.com##div#left_mid,div#right_mid,div#banner
 youxi.kugou.com###scrollUp
 youxituoluo.com##.myg,[href="http://www.itutu.tv/static/download3/"]
@@ -34651,61 +33563,8 @@ zhicheng.com##.newa2
 zhicheng.com##.normal-banner
 zhicheng.com##.sf_1
 zhicheng.com##[id^="BAIDU_SSP__wrapper_"],#guideLayer,.rdtj,.ad960,.adsbygoogle,#b_downfile,.newsgame
-zhidao.baidu.com###act-link-banner
-zhidao.baidu.com###feed-recommend
-zhidao.baidu.com###knowledge-answer-list
-zhidao.baidu.com###knowledge-answer-list, #feed-recommend, .feed-recommend-title
-zhidao.baidu.com###main-content > div[class]:first-child > a
-zhidao.baidu.com###qb-content div.businessvip-wrapper
-zhidao.baidu.com###wap-youx-change-asp
-zhidao.baidu.com##.conference-banner-all
-zhidao.baidu.com##.contextual-earches
-zhidao.baidu.com##.daily-header-download
-zhidao.baidu.com##.doodle-container
-zhidao.baidu.com##.doodle-container,.feed-recommend,.wgt-recommend-business,[class*="-ads"],[class*="related-yxiao-item"],[class*="icon-bdad"],[class*="-youx"]
-zhidao.baidu.com##.earn-points-exchange-gifts-bubble
-zhidao.baidu.com##.ec-ad.wgt-recommend-answer-container
-zhidao.baidu.com##.exp-payask-card-wrapper
-zhidao.baidu.com##.feed-recommend-list
-zhidao.baidu.com##.feed-recommend-title
-zhidao.baidu.com##.header-act-entry
-zhidao.baidu.com##.icon-bannerad
-zhidao.baidu.com##.icon-bdad
-zhidao.baidu.com##.icon_ad
-zhidao.baidu.com##.js-hot-topic.wgt-topic-hot
-zhidao.baidu.com##.jump-top-box
-zhidao.baidu.com##.knowledge-answer-list-index
-zhidao.baidu.com##.law-ads-container
-zhidao.baidu.com##.left-show.new-answer-entry
-zhidao.baidu.com##.question-ads-exp
-zhidao.baidu.com##.recommend-answer-link
-zhidao.baidu.com##.reply-item:has(>div[data-ispaychat="1"])
-zhidao.baidu.com##.show.doodle-container
-zhidao.baidu.com##.singin-bubble
-zhidao.baidu.com##.single-up-ads-wrapper
-zhidao.baidu.com##.vricxrhmzs-ecom-ads
-zhidao.baidu.com##.wap-youx-change-asp
-zhidao.baidu.com##.zhidao-app.menu-right-list-item
-zhidao.baidu.com##[class$='-ecom-ads']
-zhidao.baidu.com##[id^=kwlgn]
-zhidao.baidu.com##[id^=ngpwz5cff]
-zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
-zhidao.baidu.com##div[class$="icon-bdad"]
-zhidao.baidu.com##div[class^="cms-slide"] > p[class="cms-link-title"]
-zhidao.baidu.com##div[class^="wgt-ads"]
-zhidao.baidu.com##div[id="feed-recommend"]
-zhidao.baidu.com##div[id^="contextual"]
 zhidao.baidu.com#?#.wgt-ads
 zhidao.baidu.com$$div[class="doodle-container"]
-zhidao.baidu.com,www.baidu.com##.icon-bannerad
-zhidao.baidu.com,www.baidu.com##DIV#wgt-related-questions
-zhidao.baidu.com,www.baidu.com##DIV[class='new-answer-entry left-show']
-zhidao.baidu.com,www.baidu.com##DIV[class='question-line']
-zhidao.baidu.com,www.baidu.com##FOOTER#respect-footer
-zhidao.baidu.com,www.baidu.com##IMG[class='icon_ad']
-zhidao.baidu.com,www.baidu.com##IMG[src*='iknowwap.bdimg.com']
-zhidao.baidu.com,www.baidu.com##SPAN[class='act-entry-icon']
-zhidao.baidu.com,www.baidu.com##UL[class='feed-recommend-list']
 zhideqiang.com##A[href*="quan.zhideqiang.com"]
 zhiding.cn###MgBox
 zhidiy.com###festival_float_bottom
@@ -34958,8 +33817,6 @@ zuowen.com##.cj
 zuowen.com##.couplet_left
 zuowen.com##.couplet_right
 zuowen.com##.dialogP
-zuoye.baidu.com##div.aside-inner,div[class$="anner"],.cpro
-zuoye.baidu.com##dl[class="card related"]
 zuoye.baidu.com,zybang.com###QRinside
 zuoye.baidu.com,zybang.com###aside
 zuoyebang.com##DIV[class^="questionQRCodeWrap_"]
@@ -55137,8 +53994,6 @@ zzzyk.com###Tinfo
 ~allthingsopen.org##a[href*=".com?aff="]
 ~alternativeto.net,~gog.com##.icon-reddit
 ~autosalon.tv##.article-line
-~baidu.com##a[href*="/cpro."]
-~baidu.com##a[href*="/cpro/"]
 ~band.us##a[href*="//band.us/plugin/share?"]
 ~band.us##a[onclick*="//band.us/plugin/share?"]
 ~band.us##a[onclick^="bandapp://create/post"]
@@ -55250,7 +54105,6 @@ zzzyk.com###Tinfo
 ~naver.com##a[onclick*="//share.naver.com/"]
 ~nextinpact.com###socialbar
 ~norton.com##.social-row
-~pan.baidu.com##.share-list
 ~philosophia-perennis.com##.et_social_facebook
 ~philosophia-perennis.com##.et_social_icons_container
 ~philosophia-perennis.com##.et_social_networks
