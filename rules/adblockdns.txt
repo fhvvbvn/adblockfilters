@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241020200624
-! Last modified: 2024/10/20 20:06:24
-! Blocked domains: 58287
+! Version: 20241021000822
+! Last modified: 2024/10/21 00:08:22
+! Blocked domains: 58277
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -905,7 +905,6 @@
 ||3dm.3dimensional.com^
 ||3djuegos.com^
 ||3dlancer.net^
-||fc.3dmgame.com^
 ||ga1.3dmgame.com^
 ||ga2.3dmgame.com^
 ||cnt.3dmy.net^
@@ -1247,7 +1246,6 @@
 ||55labs.com^
 ||55lu.com^
 ||maxtat.55truck.com^
-||sp.qf.56.com^
 ||5603.net^
 ||1.5646.cn^
 ||2.5646.cn^
@@ -2765,7 +2763,6 @@
 ||adnoco.com^
 ||adnocregs-portal.com^
 ||adnocvendorsrg.com^
-||a-m-s.adnonstop.com^
 ||a-m-s.adnonstop.com.cn^
 ||adnow.com^
 ||smetrics.adnradio.cl^
@@ -13197,7 +13194,6 @@
 ||cqftonline.com^
 ||cqhnm.com^
 ||cqisam.xyz^
-||cbjg.cqnews.net^
 ||phpad.cqnews.net^
 ||rts.cqqc3.com^
 ||siw.cqqc3.com^
@@ -16308,7 +16304,6 @@
 ||a.v.duowan.com^
 ||gt.duowan.com^
 ||market.duowan.com^
-||other.v.duowan.com^
 ||playstats.v.duowan.com^
 ||stats.v.duowan.com^
 ||vupload.duowan.com^
@@ -16654,7 +16649,6 @@
 ||admissions.easterncollege.ca^
 ||mdws.easternedgecu.com^
 ||bddtlog.eastmoney.com^
-||bdstatic.eastmoney.com^
 ||bdstatics.eastmoney.com^
 ||bdwblog.eastmoney.com^
 ||cp2.eastmoney.com^
@@ -26053,7 +26047,6 @@
 ||imevzbn.cn^
 ||swebstats.imf.org^
 ||webstats.imf.org^
-||ad.qn.img-space.com^
 ||stat.img-space.com^
 ||securetags.img.com.br^
 ||img18.com^
@@ -29703,7 +29696,6 @@
 ||download.kuailefun.com^
 ||kuaipai666.cn^
 ||kuaishang.cn^
-||kuaishang.com.cn^
 ||open.e.kuaishou.cn^
 ||e.kuaishou.com^
 ||promotion-partner.kuaishou.com^
@@ -31735,6 +31727,7 @@
 ||hbdt.luomi.com^
 ||f1.luoshenbest.cn^
 ||track.luremii.com^
+||luresdl.top^
 ||e5obq1v261.www.lurkit.com^
 ||start.luscii.com^
 ||lusha.com^
@@ -37045,7 +37038,6 @@
 ||novudialog.nl^
 ||novusenergie.nl^
 ||novusenergie.org^
-||cpms.now.com^
 ||viu.now.com^
 ||app.now.vn^
 ||nowe.com^
@@ -41627,7 +41619,6 @@
 ||adlog.qingting.fm^
 ||admgr.qingting.fm^
 ||logger.qingting.fm^
-||kf.qingwk.com^
 ||qingzhencai.net^
 ||qiota.com^
 ||qiqipower.com^
@@ -48650,7 +48641,6 @@
 ||sytsr.com^
 ||sytz1288.com^
 ||syxgsq.com.cn^
-||syzjxz2018.cn^
 ||dimg1.sz.net.cn^
 ||ssc.szabadeuropa.hu^
 ||szakaldesign.hu^
