@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241020084210
-! Last modified: 2024/10/20 08:42:10
-! Blocked domains: 58283
+! Version: 20241020161101
+! Last modified: 2024/10/20 16:11:01
+! Blocked domains: 58286
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -5739,6 +5739,7 @@
 ||atomicblast.lol^
 ||nshadr.atomicboxx.com^
 ||atomik.vip^
+||atorks.xyz^
 ||atp-science-au.myshopify.com^
 ||atp.fox^
 ||ac.atpanel.com^
@@ -38470,6 +38471,7 @@
 ||ouplc.icu^
 ||ourblogthing.com^
 ||trk.ourdailyapples.org^
+||ouresdk.top^
 ||ad.ourgame.com^
 ||d276.ourmidland.com^
 ||ourot.com^
@@ -48633,6 +48635,7 @@
 ||sysadult.cn^
 ||metrics.sysco.com^
 ||sysdig.com^
+||syshwc.xyz^
 ||eloqua.syslog-ng.com^
 ||smetrics.sysmex-support.com^
 ||sysomos.com^
