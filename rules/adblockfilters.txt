@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241021000821
-! Last modified: 2024/10/21 00:08:21
-! Blocked Filters: 53395
+! Version: 20241021083956
+! Last modified: 2024/10/21 08:39:56
+! Blocked Filters: 53396
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -24331,6 +24331,7 @@ nuomi.com#@##hongbao
 nuoqiu.com##SPAN.baidu,DIV.parttop[style="height:90px;"]
 nutella.com#@#.socials
 nutgeek.com##[src^="https://img.nutgeek.com/ad-"],.widget_cjtz
+nuvid.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 nvidianews.nvidia.com##.connect .col-lg-6:has(a[href="/alerts"])
 nvidianews.nvidia.com#$#.connect .col-lg-6 { flex: 0 0 100% !important; max-width: 100% !important; }
 nwdb.info#$#body .div-gpt-ad_adblock_test:not(#style_important) { display: block !important; }

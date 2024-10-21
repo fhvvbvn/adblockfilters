@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241021000822
-! Last modified: 2024/10/21 00:08:22
-! Blocked domains: 58277
+! Version: 20241021083957
+! Last modified: 2024/10/21 08:39:57
+! Blocked domains: 58278
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -22724,6 +22724,7 @@
 ||go.gpcom.com^
 ||gpiagk.xyz^
 ||gpmzkg.xyz^
+||gpowow.xyz^
 ||gpqkeq.xyz^
 ||sdk.gpshopper.com^
 ||sypi.gpshopper.com^
@@ -26295,8 +26296,8 @@
 ||smetrics.infinitiusa.com^
 ||a8.infinitussub.com^
 ||learn.infinitylearn.com^
-||no88kks.infinityscans.net^
 ||ok88okg.infinityscans.net^
+||yes88kks.infinityscans.net^
 ||infisecure.com^
 ||influ2.com^
 ||br.potato1.influitive.com^
