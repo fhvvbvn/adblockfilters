@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241021083957
-! Last modified: 2024/10/21 08:39:57
-! Blocked domains: 58278
+! Version: 20241021161212
+! Last modified: 2024/10/21 16:12:12
+! Blocked domains: 58288
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -9360,6 +9360,7 @@
 ||bureaulidwienvandeven.nl^
 ||bureauvdo.nl^
 ||nurflv.bureauxlocaux.com^
+||buresdv.top^
 ||clicks.flaming.burger-king.ch^
 ||link.mail.burgerking.ca^
 ||link.yourway.burgerking.ca^
@@ -18652,6 +18653,7 @@
 ||smetrics.expressverified.ca^
 ||marketing.expworld.com^
 ||exquisiteartisanship.com^
+||exqvak.xyz^
 ||a8cv.exrg-premium.shop^
 ||webmaster.extabit.com^
 ||link.extasy.com^
@@ -23208,6 +23210,7 @@
 ||browser.gwdang.com^
 ||router.gwdang.com^
 ||res.gwifi.com.cn^
+||gwogrgq.icu^
 ||app.gwsportsapp.in^
 ||apptest.gwsportsapp.in^
 ||gwylm.com^
@@ -28010,6 +28013,7 @@
 ||jivvjl.xyz^
 ||jixmlx.xyz^
 ||jiyou2014.com^
+||jizxnr.xyz^
 ||jizzads.com^
 ||jjhuigou.com^
 ||smetrics.jjill.com^
@@ -30020,6 +30024,7 @@
 ||laksdn.com^
 ||www.laksjd4.com^
 ||lalabaos1020.top^
+||lalabaos1021.top^
 ||xgwqvg.lalafel.com^
 ||a8.lalala-clean.com^
 ||lalamove.com^
@@ -34788,6 +34793,7 @@
 ||t-s.msimmunology.com^
 ||smetrics.mslifelines.com^
 ||msltzer.cn^
+||msmcoa.xyz^
 ||browser.events.data.msn.cn^
 ||c.msn.cn^
 ||srtb.msn.cn^
@@ -42356,6 +42362,7 @@
 ||sanalytics.rbs.nl^
 ||sanalytics.rbsbank.dk^
 ||sanalytics.rbsbank.no^
+||rbsr0.icu^
 ||c0ak.rbxcdn.com^
 ||c0cfly.rbxcdn.com^
 ||crashes.rbxinfra.com^
@@ -49538,6 +49545,7 @@
 ||afilyo.tfehotels.com^
 ||tflybplr.xyz^
 ||sentry.svc.tfw.io^
+||tfzah.icu^
 ||tgb1l.icu^
 ||tgcfmh.com^
 ||tgdopodk.com^
@@ -52322,6 +52330,7 @@
 ||t.griztix.umt.edu^
 ||app.umterps.com^
 ||t.umterps.com^
+||umwcyw.xyz^
 ||umyai.com^
 ||unablehope.com^
 ||unaccountablecreator.com^
@@ -52910,6 +52919,7 @@
 ||uvnc.com^
 ||uvnjlm.cn^
 ||uvpqrydt.xyz^
+||uvwnkmf.icu^
 ||uw9377.com^
 ||seek.uwa.edu.au^
 ||wywvyf.uwants.com^
