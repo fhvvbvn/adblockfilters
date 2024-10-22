@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241022083849
-! Last modified: 2024/10/22 08:38:49
-! Blocked domains: 58118
+! Version: 20241022161145
+! Last modified: 2024/10/22 16:11:45
+! Blocked domains: 58130
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -682,6 +682,7 @@
 ||js1.2abc8.com^
 ||shopify.2adosum.com^
 ||2adpro.com^
+||2axpwa4.xyz^
 ||2bj.cn^
 ||redirectdemoqpay.2c2p.com^
 ||2cart.net^
@@ -5144,6 +5145,7 @@
 ||appmobile-bridge-js.s3-eu-west-1.amazonaws.com^
 ||bd-a-1.appmobile.cn^
 ||bd-china-1.appmobile.cn^
+||cnbd1.appmobile.cn^
 ||appmonet.com^
 ||appnext.com^
 ||appnexus.com^
@@ -8626,6 +8628,7 @@
 ||smetrics.boothehvac.com^
 ||netdna.bootstrapcdn.com^
 ||bootstraplugin.com^
+||bootstron.com^
 ||cyber.boozallen.com^
 ||event.boozallen.com^
 ||info.boozallen.com^
@@ -13065,6 +13068,7 @@
 ||stats.coursepad.com^
 ||nsc.coutts.com^
 ||sc.coutts.com^
+||couvxlif.top^
 ||metrics.covance.com^
 ||smetrics.covance.com^
 ||covatic.io^
@@ -15982,6 +15986,7 @@
 ||dpjzr.top^
 ||dpmonline.com^
 ||dpvmx.com^
+||dpw202504.com^
 ||dpweupc.icu^
 ||app.ihub.dpworlduae.com^
 ||angelfish.dpya.com^
@@ -29973,6 +29978,7 @@
 ||www.laksjd4.com^
 ||lalabaos1020.top^
 ||lalabaos1021.top^
+||lalabaos1022.top^
 ||xgwqvg.lalafel.com^
 ||a8.lalala-clean.com^
 ||lalamove.com^
@@ -30868,6 +30874,7 @@
 ||zssfsu.lilysilk.com^
 ||pixel.lilystyle.ai^
 ||events.limango.com^
+||limbecculvers.com^
 ||limelight.com^
 ||hvbsmv.limeroad.com^
 ||limesurvey.org^
@@ -44258,6 +44265,7 @@
 ||sbiloi.xyz^
 ||somni.sbimobility.com^
 ||sbixby.com^
+||sbmhqe.xyz^
 ||affiliatesmedia.sbobet.com^
 ||stbg.bankonline.sboff.com^
 ||sbovgy.xyz^
@@ -45873,6 +45881,7 @@
 ||t.sjuhawks.com^
 ||sjuqc.com^
 ||sjv.io^
+||sjyhead.icu^
 ||m.sjzhushou.com^
 ||sousuo.xm.sjzhushou.com^
 ||events.sk.ht^
@@ -48864,6 +48873,7 @@
 ||applinks.tarrakki.com^
 ||smetrics.tarrantcounty.com^
 ||tarteaucitron.io^
+||tarvrf.xyz^
 ||marketing.tas.business^
 ||app.task.io^
 ||taskanalytics.com^
@@ -56359,6 +56369,7 @@
 ||cv.xn--bcktcvdzde3c.biz^
 ||a8aspconv.xn--bgm-os4bt98xxicx4fqs5c8e8agvq.com^
 ||a8aspconv.xn--biglobe-kc9k.com^
+||xn--bqro42frpg5up.cn^
 ||acv.xn--dckf5a1e821s9i7b.com^
 ||a8cv.xn--eckl3qmbc6976d2udy3ah35b.com^
 ||a8.xn--google-873exa8m6161dbbyb.net^
@@ -58005,6 +58016,7 @@
 ||zp22938576.com^
 ||rmxhti.zpacks.com^
 ||zpcj8.online^
+||zpeqosn.icu^
 ||zpplsii.xyz^
 ||zpvfsrb.xyz^
 ||zqgixxp.icu^
