@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241022161145
-! Last modified: 2024/10/22 16:11:45
-! Blocked domains: 58130
+! Version: 20241023001005
+! Last modified: 2024/10/23 00:10:05
+! Blocked domains: 58141
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -3381,6 +3381,7 @@
 ||afterpay.com^
 ||marketing.afterschoolallstars.org^
 ||aftersell.app^
+||tag.aftvnews.com^
 ||smetrics.afvclub.ca^
 ||smetrics.afvclub.com^
 ||piwik.ag-projects.com^
@@ -14509,6 +14510,7 @@
 ||bun1.dayi.org.cn^
 ||daymodern.com^
 ||dayugslb.com^
+||dayujs.top^
 ||dazhantai.com^
 ||dazhonghua.cn^
 ||bdjs.daziba.cn^
@@ -18879,6 +18881,7 @@
 ||mshow.fang.com^
 ||fangfeeling.com^
 ||fangfeng009.xyz^
+||fanjs.top^
 ||fanli.com^
 ||hlhyzh.fann.cz^
 ||fanpicks.dk^
@@ -18939,6 +18942,7 @@
 ||zxuafe.fashionette.nl^
 ||inspire.fashionframeworks.com^
 ||jldtlh.fashionnova.com^
+||ldpsh.fashionnova.com^
 ||legal.fashionresource.com^
 ||trk.fashionresource.com^
 ||eewdrt.fashiontofigure.com^
@@ -23755,6 +23759,7 @@
 ||app.health2sync.com^
 ||go.healthallowancecentre.com^
 ||track.healthandharmony1.com^
+||mob2.healthapplines.com^
 ||link.healthbank.io^
 ||clk.healthbestchoice.org^
 ||get.healthbestoffers.site^
@@ -24274,6 +24279,7 @@
 ||tech.hindustantimes.com^
 ||marketing.hines.com^
 ||hinet.net^
+||client-telemetry.hingeprod.net^
 ||prod-ue1-metrics.hingeprod.net^
 ||mgbivj.hintaopas.fi^
 ||8041691.comms.hipages.com.au^
@@ -24803,6 +24809,7 @@
 ||r541.houstonchronicle.com^
 ||web.houstontexans.com^
 ||web.houstontexansluxe.com^
+||houvxliu.top^
 ||evt.houzz.com^
 ||learn.houzz.com^
 ||ml.houzz.com^
@@ -26009,6 +26016,7 @@
 ||l.imax.com^
 ||imbox.io^
 ||links.imcas.com^
+||metrics.imdb.com^
 ||ime-sa.com^
 ||communication.imec.be^
 ||communication.imechyperspectral.com^
@@ -29240,6 +29248,7 @@
 ||stat.kleos.cz^
 ||info.klett-international.com^
 ||kleurenpunctuur.nl^
+||statsjs.klevu.com^
 ||klfbnklddfbkn.com^
 ||axp.klfy.com^
 ||analytics.klickly.com^
@@ -41565,6 +41574,7 @@
 ||zeus.qj.net^
 ||1.qjhm.net^
 ||qjjtc.com^
+||qjoges.xyz^
 ||qjwvwu.xyz^
 ||bdgg.qjy168.com^
 ||qkdk.com^
@@ -52271,6 +52281,7 @@
 ||igjytl.unice.com^
 ||a8.unicoffee.tech^
 ||uniconsent.com^
+||unicontainers.com^
 ||trout.unicornplatform.com^
 ||info.unicosystem.com^
 ||info.unicous.com^

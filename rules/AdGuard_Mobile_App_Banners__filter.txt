@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9NKkrFR0gYsoI8/L+/uopA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1729564600-3600.patch
+! Checksum: S0kJVRx9bjakzA4FYn0a1A
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1729607820-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.17.16
-! TimeUpdated: 2024-10-21T20:33:21+00:00
+! Version: 2.0.17.20
+! TimeUpdated: 2024-10-22T14:33:27+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ###xm_app_stickyHeader
@@ -20,6 +20,7 @@
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 ###SmBnLink
 turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+fontanka.ru##article > div[class^="wrapper_"]:has(> a[href^="https://redirect.appmetrica.yandex.com/"])
 proton.me##div[aria-labelledby="mobile-banner-title"]
 chatgpt.com##div[class^="lg"]:has(> div.mx-auto > div.block > div.relative > div.mb-2 > div.flex > div.flex-row > svg[height="62"][width="62"])
 meteoprog.com###app-popup
@@ -1227,6 +1228,8 @@ check24.de#$#.c24m-asb-visible { position: absolute !important; }
 !+ NOT_OPTIMIZED
 3sat.de#$#.smartbanner-show .playlist-wrap { height: calc(100%) !important; }
 !+ NOT_OPTIMIZED
+amazon.*,amazon.es,amazon.fr,amazon.com,amazon.com.br,amazon.ca,amazon.com.mx,amazon.co.jp###native-app-upsell
+!+ NOT_OPTIMIZED
 joyn.de##.ButtonMobileStickyHint_HintContainer__Layout__coBBZ
 !+ NOT_OPTIMIZED
 voicy.jp##v-sp-footer-app-leading
@@ -1426,6 +1429,11 @@ honeysanime.com#$##header-line-2 { margin-top: -60px !important; }
 honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
+mercadolivre.com.br#$#body { overflow: auto !important; }
+mercadolivre.com.br#$#.download-app-banner-container { display: none !important; }
+music.yandex.*##div[class^="player-bar_miniBrickContainer"] > a[data-name="GO_TO_APP_BUTTON"]
+music.yandex.*##div[class^="player-bar_miniBrickContainer"] > a[class^="download-app-button_appLink"]
+minne.com##aside[class^="MinneAppBannerForProductPage"]
 pairs.lv##.w-full.fixed.bottom-0.z-10
 m.iyf.tv##.container:has(> div.download-title)
 video.tv-tokyo.co.jp###modal:has(> div#modal-inner > div#webpushsp)
@@ -1921,7 +1929,7 @@ hitosara.com##.app_publicity
 hitosara.com##.app_banner_link
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.nWi0wf.kDTz5c
 m.tutu.ru##div[class*="styles__appLinks"]
-makuake.com##.footer_app_banner
+carview.co.jp,makuake.com##.footer_app_banner
 m.chitai-gorod.ru#$#.mobile-app-popup { display: none!important; }
 m.chitai-gorod.ru#$#body { overflow: auto!important; }
 atresplayer.com##div[class^="style__BreakSpace-"]
