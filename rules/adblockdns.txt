@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241022000936
-! Last modified: 2024/10/22 00:09:36
-! Blocked domains: 58113
+! Version: 20241022083849
+! Last modified: 2024/10/22 08:38:49
+! Blocked domains: 58118
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -4810,6 +4810,7 @@
 ||go.anthonyliftgates.com^
 ||afxapu.anthonysfla.com^
 ||anthrazit.ch^
+||api.antibanads.com^
 ||shows.anticipate-event.com^
 ||cyntgd.anticipazionitv.it^
 ||smetrics.anticoagulante.info^
@@ -23193,6 +23194,7 @@
 ||gypowdr.com^
 ||gyqifa.com^
 ||gyrtg.com^
+||gyunce.xyz^
 ||gz-data.com^
 ||gz00005.top^
 ||gzasiatech.net^
@@ -33944,6 +33946,7 @@
 ||mlcrosoft.cloud^
 ||mlcrosoft.info^
 ||mlegyu.xyz^
+||mlgowell.com^
 ||mlgrrqymdsyk.com^
 ||mlhdvjv.xyz^
 ||mlicci.xyz^
@@ -42918,6 +42921,7 @@
 ||cephalopod.revelio.io^
 ||elqtracking.revenera.com^
 ||explore.revenera.com^
+||api.revenuads.com^
 ||revenuehero.io^
 ||event-api.reverb.com^
 ||planarian.reverberate.org^
@@ -43586,6 +43590,7 @@
 ||rpxnow.com^
 ||rqgsf.com^
 ||rqnefp.xyz^
+||rqroytj33.fun^
 ||clk.rratrack.com^
 ||images.info.rrd.com^
 ||fgdnj.rrivanc.top^

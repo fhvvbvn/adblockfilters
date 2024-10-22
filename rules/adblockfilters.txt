@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241022000935
-! Last modified: 2024/10/22 00:09:35
-! Blocked Filters: 53489
+! Version: 20241022083848
+! Last modified: 2024/10/22 08:38:48
+! Blocked Filters: 53491
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -29619,6 +29619,7 @@ thewikihow.com##.tg-channel-lnk
 thewordcracker.com,krtopic.com##.sns-go
 theworld.cn##.download-now
 thewrap.com###share-icons-wrapper
+thewrap.com##.wp-block-newsletter-builder-signup-form
 thewrap.com#$#body { overflow: visible!important; }
 thewrap.com#$#html { overflow: visible!important; }
 theyarehuge.com##div[data-nosnippet]
@@ -36247,6 +36248,7 @@ zzzyk.com###Tinfo
 ||app.snov.io/back/track-first-visit
 ||app.snyk.io^$removeparam=page,doc
 ||app.turbobiyt.net/js/analytics/index.js
+||app.usercentrics.eu/session/1px.png$important
 ||app.video.baidu.com/adapp_static^
 ||app.video.baidu.com/bootimg^
 ||app.watchthem.live/pixel-track/
