@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241023001004
-! Last modified: 2024/10/23 00:10:04
-! Blocked Filters: 53597
+! Version: 20241023083802
+! Last modified: 2024/10/23 08:38:02
+! Blocked Filters: 53607
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -10891,7 +10891,8 @@ baomidou.com##[opts*="CheckAdBlocked"]
 baomidou.com##body > div[style^="position: absolute; top: 0px; left: 0px; width: 100%;"]
 baomoi.com##a[data-href*="share"]
 baopublishing.it##.widget_socialsharing_widget
-baozimh.one##[class^="banner"]:has(.adCode)
+baozimh.one,baozimh.org##.adshow
+baozimh.one,baozimh.org##[class^="banner"]:has(.adCode)
 baozimh.one,yazhouse8.com##.banners
 baozoumanhua.com##.ad-area-banner,.random-ad
 barandbench.com##.arr--share
@@ -10901,7 +10902,6 @@ barchart.com##+js(set-local-storage-item, barchart.bcIsEvenLoggingModal, true)
 barchart.com##.bc-twittertimeline-wrapper
 barchart.com##.bc-webinar-card
 barchart.com##.modal-share-group
-barrons.com,wsj.com##button[aria-label="Share Button"]
 barstoolsports.com##.sharingLinks__social
 barstoolsports.com#@#.socialwrap
 basarisiralamalari.com###fl813691
@@ -22289,7 +22289,6 @@ makerworld.com##.portal-css-vxcmzt
 maketecheasier.com##.newsub-box
 makler.md###item_shareBlock
 makuake.com###scrollContent
-makuake.com##.footer_app_banner
 makuake.com##.toApplyLinkSide_Pos_Project
 malasngoding.com#$#body { overflow-y: visible!important; }
 malatyam.com#?#div.d-print-none > span.fw-light:has( > i.fa-share)
@@ -22366,6 +22365,8 @@ manning.com#$#body { overflow: visible!important; }
 manoramaonline.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 manoramaonline.com##.share_block_sub
 manqian.cn###adLocationConfig,.node-ad-bg
+mansionglobal.com##div[data-test="social-share"]
+mansionglobal.com,vice.com,nybooks.com,galesburg.com,mobilesyrup.com,news-journalonline.com##.article-newsletter-signup
 manutd.com##.icon-share-card-lite
 manutd.com##div[data-impression^="Notification_Prompt"]
 manwa.fun###detail > div:has(> div.ad-area-close)
@@ -22433,6 +22434,7 @@ marketing.1password.co%2Ftrk%3Ft%3D$image
 marketplace.visualstudio.com##.ux-social-icons
 marketwatch.com##div[aria-label="Utility Bar"] > div[class^="css-"]:has(> button[aria-label="Share Button"])
 marketwatch.com##div[type="wtrn_cxense"][class^="css-"]
+marketwatch.com,barrons.com,wsj.com##button[aria-label="Share Button"]
 markmanson.net##.footer-opt-in
 markmanson.net##.in-article-opt-in
 markmanson.net#$##exit-modal { display: none!important; }
@@ -25636,6 +25638,7 @@ pokemonbbs.com###rss_pc
 pokemongo-get.com###appreach-box
 pokemongo.gishan.net##div[id$="-share-buttons"]
 pokemongolive.com##.blogPost__post__socialLinks
+pokeos.com##+js(no-fetch-if, www3.doubleclick.net)
 poklw.com##img[alt="恰饭广告"]
 polandballwiki.com###siteNotice
 politeka.net##.b__share-buttons
@@ -26581,6 +26584,8 @@ realpython.com#?#.card:has(> form[action="/optins/process/"])
 realsport101.com,stealthoptional.com,epicstream.com##button[aria-label="article share"]
 realt.by##.reading-box
 realt.by#?#div.col > div.object-item div[class^="col"]:has(> div.ya-share2)
+realtor.com##.product-specific-widget
+realtor.com##.social-share__article
 realtor.com##div[class^="MobileBannerstyles"]
 realty.ya.*##+js(json-prune, rtb direct)
 reason.com##.puprf-signup-widget
@@ -28235,6 +28240,7 @@ sogou.com##.game-op
 sogou.com##.gamesRec20220801
 sogou.com##.hd-slider > .slider-container
 sogou.com##.js-ad-item
+sogou.com##.layer__saLayer
 sogou.com##.mobad
 sogou.com##.part-left-not-qb
 sogou.com##.pop-tuiguang
@@ -30482,6 +30488,9 @@ tweaktown.com##+js(addEventListener-defuser, copy, bypassEventsInProxies)
 tweaktown.com##.right_subscribe
 tweaktown.com##div[class^="sharedesktop"]
 twibbonize.com##.participant-header-share
+twibuz.com##div[class^="blogroll-"]
+twibuz.com##footer ~ div[class^="sitabar"]
+twibuz.com##iframe[src^="https://twibuz.com/"]
 twicomi.com##.social-buttons-for-author-page
 twidropper.com##.downBg
 twiiter.com,twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
@@ -31094,7 +31103,6 @@ vice.com##.article__socialize
 vice.com##.wp-block-jetpack-sharing-buttons-wrapper
 vice.com##aside > div.block-visibility-hide-medium-screen:has(div.wp-block-savage-platform-beehiiv-form)
 vice.com#@#.ad-placement
-vice.com,nybooks.com,galesburg.com,mobilesyrup.com,news-journalonline.com##.article-newsletter-signup
 vid.onlymu.site##.tips
 vidaextra.com,blacksea-cbc.net,fenerbahce.org,xatakamovil.com,applesfera.com,genbeta.com,espinof.com,xataka.com,xatakawindows.com##.article-social-share
 videezy.com##+js(adjust-setTimeout, download_file, , 0.02)
@@ -31124,8 +31132,6 @@ videosxgays.com##+js(remove-class, with-ticker, body)
 videosxgays.com##.yellow-bar
 videosxgays.com##div[class^="news-ticker"]
 videouroki.net##+js(adjust-setTimeout, /action-downloadFile?)
-vidhub.me,vidhub.tv##.adwap
-vidhub.me,vidhub.tv##.promolnk
 vidhub.me,vidhub.tv##.promotelink
 vidmo.pro#?##mcont > div.items:has(> div.item-card > div.addthis_inline_share_toolbox)
 viet-jo.com##div[style="width:99.5%;text-align:center;min-height:200px;height:auto"]
@@ -32992,6 +32998,7 @@ yamakei-online.com##.ad-pop-nw3-nw4
 yamakei-online.com##.article-single-share
 yamap.com##.Posts__Download__Section
 yamap.com##.ShareSns
+yamiisoku.com##iframe[data-src^="https://blogroll.livedoor.net/"]
 yamm-track.appspot$image
 yan.vn##.float-right
 yan.vn##.imgShareFB
@@ -36503,7 +36510,7 @@ zzzyk.com###Tinfo
 ||asset2.uniwa.cn/assets/custom/csstock$image
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu
 ||assets.adobedtm.com^$domain=sacbee.com|centredaily.com|tagesspiegel.de
 ||assets.adobedtm.com^$third-party
 ||assets.adsttc.com/insights/form-funnel.min.js
@@ -40578,6 +40585,7 @@ zzzyk.com###Tinfo
 ||embedly.com/widgets/xcomm.html$third-party
 ||embedly.com/widgets/xcomm.html^$third-party
 ||embedme.top/embed/extra
+||embodimentcelestial.com/cdn/shopifycloud/consent-tracking-api/*/consent-tracking-api.js
 ||emea.flow.microsoft.com/providers/Internal.Telemetry
 ||emediatrack.com^$third-party
 ||emihosting.com^*/tracking/
@@ -47135,6 +47143,7 @@ zzzyk.com###Tinfo
 ||pl2.cp31.ott.cibntv.net/playlist/m3u8?ids=
 ||pl2.youku.com/playlist/m3u8?ids=
 ||pl520.com^$third-party
+||pla.atlasos.net/api/event
 ||placemypixel.com^$third-party
 ||plantdigestion.com^$third-party
 ||plarium.com/landings/$removeparam
@@ -51245,6 +51254,7 @@ zzzyk.com###Tinfo
 ||tweetmeme.com/i/scripts$third-party
 ||twentyonepilots.com/akam/13/5793fe71^
 ||twgreatdaily.com/site/js/name/stat
+||twibuz.com/*.html$subdocument
 ||twitcount.com^$third-party
 ||twitter-badges.$third-party
 ||twitter.com/1.1/jot/client_event.json

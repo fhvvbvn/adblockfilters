@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241023001005
-! Last modified: 2024/10/23 00:10:05
-! Blocked domains: 58141
+! Version: 20241023083803
+! Last modified: 2024/10/23 08:38:03
+! Blocked domains: 58145
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -17714,6 +17714,7 @@
 ||tr.communication.enkiapp.io^
 ||tr.mep.enkiapp.io^
 ||tr.news.enkiapp.io^
+||enkvum.xyz^
 ||act.enli.net^
 ||enlightent.cn^
 ||content.enlightiumacademy.com^
@@ -28861,6 +28862,7 @@
 ||community.keeperz.app^
 ||links.keepitcleaner.com.au^
 ||analytics.keepstreams.com^
+||servo-report.keepstreams.com^
 ||getapp.keepy.me^
 ||piwik.kees.nl^
 ||secure.keet1liod.com^
@@ -42328,6 +42330,7 @@
 ||meryjanechile.rdtrke.com^
 ||cm.trk.rdtrkr.com^
 ||rdtuijian.com^
+||rdxqbp.xyz^
 ||secure.checkout.re-brand-de.com^
 ||secure.checkout.re-brand-fi.com^
 ||info.re-sourcepartners.com^
@@ -45971,6 +45974,7 @@
 ||skroutza.skroutz.gr^
 ||gtm.skrz.cz^
 ||hit.skrz.cz^
+||sksbgm.xyz^
 ||jhprvk.skstoa.com^
 ||xhqpgt.skullpig.com^
 ||uudbvq.skuola.net^
