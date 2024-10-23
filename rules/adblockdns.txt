@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241023161126
-! Last modified: 2024/10/23 16:11:26
-! Blocked domains: 58147
+! Version: 20241024001000
+! Last modified: 2024/10/24 00:10:00
+! Blocked domains: 58150
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -13671,6 +13671,7 @@
 ||partneri.cvicenie-strava.sk^
 ||cvlb.dev^
 ||marketing.cvma.com^
+||cvmuia.xyz^
 ||cvnxetmq.xyz^
 ||metrics.cvs.com^
 ||smetrics.cvs.com^
@@ -39471,6 +39472,7 @@
 ||a8net.pg-learning.net^
 ||pg.com^
 ||vydelavejtesnami.pg.cz^
+||pg2bk.icu^
 ||southwest.pgaofamericagolf.com^
 ||branch.pgatour-mail.com^
 ||analytics.pgatour.com^
@@ -43991,6 +43993,7 @@
 ||news.salonpiscineparis.com^
 ||news.salonreeduca.com^
 ||u.salony.com^
+||retail-client-events-service.internal.salsify.com^
 ||saltsacademy.com^
 ||saltsleaseholder.com^
 ||ros3d4dbs3px.salud-masculina.info^
@@ -45052,7 +45055,6 @@
 ||sgftrrs.com^
 ||tr.pro.sgit.net^
 ||sglahyea.xyz^
-||cdn.sgmntfy.com^
 ||analytics.sgnapps.com^
 ||sgpjpslot.net^
 ||metrics.sgproof.com^
@@ -46446,6 +46448,7 @@
 ||secure.snta0034.com^
 ||www.snta0034.com^
 ||provize.snubni-prsten.cz^
+||snueirk.icu^
 ||an.sny.tv^
 ||slimane.snyttet.website^
 ||snyu.com^

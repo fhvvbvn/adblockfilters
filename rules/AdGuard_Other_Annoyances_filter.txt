@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: gx2eyZxfhdgmojbrTvWQdQ
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1729651002-3600.patch
+! Checksum: B8fxoaAB+B29yO3xIBUR2A
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1729687031-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.27.26
-! TimeUpdated: 2024-10-22T17:33:43+00:00
+! Version: 2.0.27.29
+! TimeUpdated: 2024-10-23T12:33:30+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -21,9 +21,6 @@ bipblog.com##iframe[src="https://www.youtube.com/embed/tagjNNdaD8o?si=J-LfNQ9hsK
 zzz.gamers-luck.com###fix_sidebar
 wap.baidu.com##.tab_news
 baidu.com##.s-hotsearch-wrapper
-google.*###main > div[jscontroller="OPwjEf"]
-google.*##.OBMEnb:has(> .ynRric)
-google.*##.ftihzf:has(> .ynRric)
 lasestrellas.tv###video-players-container > .fixed.bottom-0
 bloomberg.com##div[data-component="inline-recirc"]
 mynet.com##.interest-widget-container
@@ -663,6 +660,7 @@ cgtips.org#$#.mts-cl[id^="content-locker-"] { display: none !important; }
 3dmodelshare.org,3dzip.org#$#div[class][data-locker-id] { display: block !important; }
 labkom.co.id#$#.fca-lockercat-wrapper { display: none!important; }
 labkom.co.id#$#.fca-lockercat-content { display: block!important; }
+nsaneforums.com###cb-nexxe__social__sticky
 infoq.com##.related__group > li:has(> [data-place="BOTTOM"][data-trk-impr])
 onefootball.com##div[class^="EmbeddedVideoPlayer_"]
 onefootball.com##div[class^="EmbeddedVideoPlayer_"] + hr
@@ -1316,6 +1314,9 @@ banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.ba
 banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.banki.ru/products/"]
 ##a[href^="https://apay-up-banner.com?merchantId="] > img
 ||apay-up-banner.com^$image,third-party
+kontur.ru##section[data-show-event-name^="event-adv-link-"]
+rb.ru#$#.mobile_top_banner { display: none !important; }
+rb.ru#$##globalHeader { top: 0 !important; }
 realtor.com##.product-specific-widget
 englishdom.com##.container-banner-teacher
 jaomix.ru##.adblock-service
@@ -2580,6 +2581,7 @@ softpedia.com#$#iframe.swipebox-rightxd[id="relcontent"] { top: 60px!important; 
 !##############################
 !######### JS tweaks ##########
 !##############################
+newzviz.com##+js(nano-setInterval-booster, (time), *, 0.001)
 meawfy.com##+js(nano-setInterval-booster, counter--, *, 0.001)
 meawfy.com##+js(addEventListener-defuser, blur, stopCounter)
 atomohd.ink##+js(adjust-setTimeout, #counter, *, 0.001)
