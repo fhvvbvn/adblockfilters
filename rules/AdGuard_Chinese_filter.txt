@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: w+toV17U/gncKpshe/Gt8A
-! Diff-Path: ../patches/224/224-s-1729755426-3600.patch
+! Checksum: 9Yd82YkkEJJymYtBvhfrCA
+! Diff-Path: ../patches/224/224-s-1729777051-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.24.46
-! TimeUpdated: 2024-10-24T07:33:33+00:00
+! Version: 2.1.24.49
+! TimeUpdated: 2024-10-24T13:33:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1106,6 +1106,8 @@ $script,third-party,denyallow=vixcloud.co|cdn.plyr.io|authkong.com|rsc.cdn77.org
 !
 !
 !
+18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
+18comic.vip##.tab-content + .row:has(> div[class] > div[class] > .group-notice)
 huaren.live##.action-ad
 huaren.live##+js(set-constant, ConFig.config.ads, {})
 wiki.mbalib.com###ad-fold
@@ -4822,6 +4824,8 @@ newduba.cn###jq_youxi
 ||ohkfmi.xyz^
 ||lgkocdi.icu^
 ||gjnbf.com^
+||qdjsiyt.icu^
+||huoxun.wang^
 ||rdxqbp.xyz^
 ||sksbgm.xyz^
 ||enkvum.xyz^
@@ -13707,6 +13711,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 .sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
 szxx.com.cn###A0
+mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn

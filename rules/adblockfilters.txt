@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241024161130
-! Last modified: 2024/10/24 16:11:30
-! Blocked Filters: 53756
+! Version: 20241025000954
+! Last modified: 2024/10/25 00:09:54
+! Blocked Filters: 53769
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -7768,7 +7768,14 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
+18comic.vip###billboard-modal
+18comic.vip###wrapper > div.hidden-lg:has(> div[class*="sticky"])
 18comic.vip##+js(no-setTimeout-if, float_right > div)
+18comic.vip##.billboard-modal
+18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
+18comic.vip##.float-right-daily
+18comic.vip##.modal-backdrop
+18comic.vip##.tab-content + .row:has(> div[class] > div[class] > .group-notice)
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18comic.vip#?#.modal-footer > div[style]:contains(ADBLOCK)
 18h.animezilla.com###manga-bottom
@@ -9127,6 +9134,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://ipv6.google.com*/search^$removeparam=entrypoint
 ://ipv6.google.com*/search^$removeparam=kgs
 ://ipv6.google.com*/search^$removeparam=shndl
+://ipv6.google.com^$doc,removeparam=ie,domain=www.google.*|ipv6.google.com
 ://js.static.*/share/*.js$third-party
 ://js.static.*ping*
 ://kemono.su/$xmlhttprequest,method=patch|post
@@ -9167,6 +9175,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.*.js|$script,third-party,domain=159i.com|thisav.com
 ://www.ebay.$doc,removeparam=/^itm[a-zA-Z0-9].*$/
+://www.google.$doc,removeparam=ie,domain=www.google.*|ipv6.google.com
 ://www.google.*/search^$removeparam=entrypoint
 ://www.google.*/search^$removeparam=kgs
 ://www.google.*/search^$removeparam=shndl
@@ -12172,6 +12181,8 @@ cadenaser.com#?#main > section[class^="c-cad"] ~ div:not([class]):has(.c-news > 
 cadenaser.com,los40.com##.cnt-interaccion
 cafe.daum.net##+js(addEventListener-defuser, load, addEvent()
 cafe.daum.net#$#body * { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: auto!important; -ms-user-select: text!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
+cafebazaar.ir#$#.BottomSheet { display: none !important; }
+cafebazaar.ir#$#html { overflow-y: auto !important; }
 cafebiz.vn##.mail-contact
 cafebiz.vn##.mxhsingle2
 cafebiz.vn##.share_bt
@@ -14085,6 +14096,7 @@ dianyingim.com##iframe[src="/buffer.html"]
 dianyingim.com,dyxs11.com##.popup-tips
 diariobasta.com##.elfsight-widget-social-share-buttons
 diariobasta.com,technofaq.org###custom_html-3
+diariodecuba.com##.newsletter-social-wrapper
 diariodecuyo.com.ar##.content-share-article
 diarionecochea.com,motifyublog.com##.widget_a2a_follow_widget
 dic.pixiv.net###d-sp-itemarticle0
@@ -23564,6 +23576,7 @@ mydrivers.com###a_showhotnews_list_dia
 mydrivers.com###dangbei_down
 mydrivers.com###div_newsyjgg
 mydrivers.com###recommend
+mydrivers.com###track-link
 mydrivers.com##.HSsRgYjfNn
 mydrivers.com##.ab
 mydrivers.com##.adds
@@ -24944,7 +24957,6 @@ otokonokakurega.com##.social-sharing-btn
 otomi-games.com##+js(nano-setInterval-booster, wpsafe-, 2000, 0.02)
 otomi-games.com##+js(nano-setInterval-booster, wpsafe-generate, 1000, 0.02)
 otomobil.com.tr##a[href="https://www.facebook.com/otomobilyayincilik"]
-otomobilgunluklerim.com#@##adcontent
 otonano-shumatsu.com##.popin-block
 otonarisoku.com##div[class$="blogroll"]
 otonarisoku.com##div[style$="px; overflow:hidden;"]
@@ -26822,6 +26834,7 @@ rei.com#$#.modal-open { overflow: visible !important; }
 reissuerecords.net##.single_body_sns
 rekonise.com##+js(remove-attr, disabled, .unlock-button)
 relax-job.com##.js-smartapp-banner
+relax-job.com##.p-smartapp-banner--bottom
 relax-job.com##.p-top-app-appeal
 relazo.net##.l-sidebar a[href="https://twitter.com/official_relazo"]
 relevantmagazine.com##.share_screen
@@ -29079,6 +29092,7 @@ susongbbs.com#@#.ad_banner
 suspilne.media##.c-article-info-share
 sutin0831.pixnet.net#$#div[class*="-ad-sidebar-"] { position: absolute!important; left: -3000px!important; }
 suxzp.com##.full-screen-cover
+svaboda.org##.mailchimp-signup-form
 svetacdn.in#?##oframeplayer > pjsdiv:has(> pjsdiv > pjsdiv[style*="transform"] > svg > g > path[d^="M5.5662845,8.26248366"])
 svetacdn.in#?##pjsfrrsplayer ~ pjsdiv[style]:has(> pjsdiv:not([style]) > pjsdiv[style*="background: rgb(42, 161, 194);"][style*="transform: scale(3.5);"]) + pjsdiv
 svetapple.sk#?#.td-post-content > p:has(> a[href="https://svetapple.sk/bazar/"])
@@ -32068,7 +32082,6 @@ wolframalpha.com##main > div[class] div[class] > a[href="https://www.wolframalph
 wolframalpha.com#?#div[animations]:has(> a[href][target="_blank"] > img)
 woman.chintai##.app-smart-bnr
 woman.nikkei.com##.articleSNS
-wondershare.com##.appBox
 wondershare.com##.d-lg-none
 wondershare.com##a[onclick^="_gaq.push(['_trackEvent', this.href, "]
 wondervelocity.com##+js(nano-setInterval-booster, counter, , 0.02)
