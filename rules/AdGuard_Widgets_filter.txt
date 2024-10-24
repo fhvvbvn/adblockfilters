@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kXwG8OMFJPXEBsGoj7M85Q
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1729701478-3600.patch
+! Checksum: lom4fRGtQrGVDjU4yzvmfA
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1729748206-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.9.97
-! TimeUpdated: 2024-10-23T16:34:03+00:00
+! Version: 2.0.9.98
+! TimeUpdated: 2024-10-24T05:33:23+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### Block useless widgets #######################
@@ -73,6 +73,7 @@ twibuz.com##div[class^="blogroll-"]
 twibuz.com##iframe[src^="https://twibuz.com/"]
 ||twibuz.com/*.html$subdocument
 twibuz.com##footer ~ div[class^="sitabar"]
+onecall2ch.com##.selector00
 onecall2ch.com##iframe[src$="rss.html"]
 yuumi-sokuhou.com##aside div[id^="custom_html-"]
 lovelive-ss.com##.blogroll-header
@@ -676,6 +677,7 @@ monhan-mhw.com###main div.column-inner-2 > div[style$="background: #FFFFFF;"]
 ||toushichannel.net^$subdocument,~third-party
 coolpan.net##.pickupList
 coolpan.net###rss_link3
+erogazou-pinkline.com###adnex-text-widget
 rastaneko-blog.com##center > div[style$="border:1px dotted #000000;"]
 xn--r8jwklh769h2mc880dk1o431a.com##.headlinewra
 xn--r8jwklh769h2mc880dk1o431a.com##.etpickup
@@ -927,6 +929,7 @@ support.apple.com##.accsoffer-wrapper
 g2.com##.g2-sideframe__toggle
 g2.com##.g2-sideframe__initial
 ||snippet.maze.co^$domain=traderie.com
+crossenlawfirm.com###icw
 navitime.co.jp##.ntj-web-nps
 jotform.com##.jfFeedbackButton
 ||blog.livedoor.com/plugins/news/topics.js
@@ -1172,6 +1175,7 @@ istories.media##.swiper-wrapper > div.swiper-slide:has(div[class^="TheTrueStory-
 telegram.hr##.offers-widget
 ||radyosfer.com/player/$domain=unyenethaber.com
 ||s3.tradingview.com/external-embedding/embed-widget-ticker-tape^$domain=yenimesaj.com.tr
+sakasaka10.blog.jp##.article-body-more > .t_b ~ br + br
 laptopmag.com##.hawk-nest
 ||hawk.laptopmag.com^
 ||pcm-intl.speedtestcustom.com^$domain=pcmag.com
