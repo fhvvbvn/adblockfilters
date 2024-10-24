@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241024000959
-! Last modified: 2024/10/24 00:09:59
-! Blocked Filters: 53697
+! Version: 20241024083816
+! Last modified: 2024/10/24 08:38:16
+! Blocked Filters: 53705
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -10037,7 +10037,6 @@ androjungle.com##+js(nano-setInterval-booster, download, *, 0.02)
 andronews18.blogspot.com##+js(nano-setInterval-booster, #countdown, , 0.02)
 andronews18.blogspot.com##+js(nano-setInterval-booster, progressbar, 30, 0.02)
 androplus.org##a[href^="https://px.a8.net/"]
-anews.com.tr,fotomac.com.tr,atv.com.tr,ahaber.com.tr##.detail-google-news
 angelweb.cn###G640x60
 angelweb.cn##.GG960x90
 angelweb.cn##.gg250x250
@@ -12312,6 +12311,7 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 carwale.com###app_download_banner
 carwale.com#?#div[data-skin="bg-transparent"] > div > div > button:contains(Subscribe Now):upward(2)
 carwale.com#?#section > div > div > button:contains(Subscribe Now):upward(1)
+casabrutus.com##.fixed.bottom-32
 castbox.fm##.downloadPlay
 castbox.fm##.sharePageBtn
 catalog.onliner.by##.offers-social
@@ -17706,6 +17706,9 @@ haveagood.holiday##+js(remove-class, top-app-banner-exists, #contentWrapper)
 haveagood.holiday##.conversion
 haveagood.holiday##a[id$="AppBannerTop"]
 haxiu.com##.feedcomm,#pagelet-ad_taobao
+haystack.tv###about-us-panel > section:has(> h1:first-child + div:last-child > a[href*="haystackapp.page.link"])
+haystack.tv##.banner-bg.sticky
+haystack.tv#?#button:has(> p:contains(Get the App))
 hb.ifeng.com###leftdl,#rightdl
 hb.qq.com##DIV.ad001,DIV#sideBars > DIV#tab,UL.tithd1107,DIV[style*="height:60px; width:1000px"],embed[src^="http://mat1.gtimg.com/hb/ad/"],div.absolute[id^="couplet_auto_gen_"],DIV#yashenghuo.common_channel + DIV.clear + DIV,div#hb_LMove,DIV.navigate + DIV.nav + DIV,DIV.navigate + DIV.nav + * + * + DIV,DIV.navigate + DIV.nav + * + * + * + DIV,.ad1
 hb.qq.com##div[style*="width:960px; height:90px;"]
@@ -21336,6 +21339,8 @@ linuxsecurity.com##.newsletter-subscribe-module
 linuxtuto.com###bshare-social
 linuxuprising.com,sabishiidesu.com##.share-box
 linyiren.com##embed[width="600"][height="55"],div[style^="width:960px; height:70px;"],DIV#hd > DIV.wp > DIV[style],div#adone,div#adtwo,div#modelfix.modelfix
+lions-matome.com###footer4
+lions-matome.com,sutekinakijo.com##.plugin-memo:has(> div.side > script[src$="/blogroll.js"])
 lipscosme.com###footer-app-banner
 lipscosme.com##.open-app-banner
 lipscosme.com##.post-show__sns-share
@@ -27186,6 +27191,7 @@ saas.360.cn#$#header[style^="padding-top:"] { padding-top: 0 !important; }
 sabah.com.tr##+js(set-attr, .player > div[data-videoid], data-autoplay, 0)
 sabah.com.tr##.face
 sabah.com.tr##.wp-alert--wrapper:has(> a[href^="https://api.whatsapp.com/send"])
+sabah.com.tr,anews.com.tr,fotomac.com.tr,atv.com.tr,ahaber.com.tr##.detail-google-news
 sabah.com.tr,digitaltrends.com##.gplus
 sabah.com.tr,fikriyat.com,aspor.com.tr##.pageTools > ul > .pin
 sac.net.cn###ad
@@ -29038,7 +29044,6 @@ surl.li##+js(nano-setInterval-booster, disabled, *, 0.02)
 survivalsullivan.com###nonSubscriberDiv
 susongbbs.com#@#.ad_banner
 suspilne.media##.c-article-info-share
-sutekinakijo.com#?#.plugin-memo > div.side > script[src$="/blogroll.js"]:upward(2)
 sutin0831.pixnet.net#$#div[class*="-ad-sidebar-"] { position: absolute!important; left: -3000px!important; }
 suxzp.com##.full-screen-cover
 svetacdn.in#?##oframeplayer > pjsdiv:has(> pjsdiv > pjsdiv[style*="transform"] > svg > g > path[d^="M5.5662845,8.26248366"])
@@ -44684,6 +44689,7 @@ zzzyk.com###Tinfo
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
 ||liod1ours.com^$third-party
+||lions-matome.com/RSS*.html
 ||liquidweb.my.salesforce.com^$domain=nexcess.net
 ||liquipedia.net/stats/
 ||list-manage.com/track/
@@ -48926,6 +48932,7 @@ zzzyk.com###Tinfo
 ||services.themarker.com/ds/impression
 ||servizi.unionesarda.it/controlli/
 ||servo-report.dvdfab.
+||servo-report.keepstreams.*^
 ||servustats.com^$third-party
 ||sese277.info/photo/
 ||sesefu8.com/index.php?m=poster&
@@ -51391,6 +51398,7 @@ zzzyk.com###Tinfo
 ||uadblocker.com/pixel1.php?$third-party
 ||uadx.com^$third-party
 ||uai.com.br^*/analytics.js
+||uapi.production-public.tubi.io/datascience/logging
 ||uarating.com^$third-party
 ||ub-analytics.com^$third-party
 ||ubacollect-*.cloud.dbankcloud.cn^
