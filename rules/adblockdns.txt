@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241025000954
-! Last modified: 2024/10/25 00:09:54
-! Blocked domains: 58158
+! Version: 20241025083846
+! Last modified: 2024/10/25 08:38:46
+! Blocked domains: 58162
 ! unBlocked domains: 0
 !
 ||api.0.0.0.0.cn^
@@ -20495,6 +20495,7 @@
 ||link.tr.freshly.com^
 ||qrtqsy.freshlycosmetics.com^
 ||freshmarketer.com^
+||src.freshmarketer.in^
 ||freshpaint.io^
 ||b.freshpair.com^
 ||track.freshperspectivepoint.com^
@@ -31898,6 +31899,7 @@
 ||smetrics.maclinfordcalgary.com^
 ||mlhtmc.macnificos.com^
 ||kermit.macnn.com^
+||macos.space^
 ||macosrepo.com^
 ||a8clk.macpaw.com^
 ||app.mail.mfg.macquarie.com^
@@ -45341,6 +45343,7 @@
 ||pevftg.shopee.sg^
 ||pciidk.shopee.vn^
 ||connect.shopezrentals.com^
+||pulse.shopflo.com^
 ||log-pq.shopfully.cloud^
 ||stats.shopify.com^
 ||v.shopify.com^
@@ -54158,6 +54161,7 @@
 ||data-452782981b.vorname.com^
 ||data-c854f15f64.vorname.com^
 ||info.vorne.com^
+||analytics.vortexscans.com^
 ||onlinesellerenforcement.vorys.com^
 ||votecompany.com^
 ||votecompany.nl^

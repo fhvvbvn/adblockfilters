@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241025000954
-! Last modified: 2024/10/25 00:09:54
-! Blocked Filters: 53769
+! Version: 20241025083845
+! Last modified: 2024/10/25 08:38:45
+! Blocked Filters: 53775
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -4310,6 +4310,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /ezprice_ad.js
 /ezytrack.js
 /f.gif?
+/facebook-pixel-worker.js
+/facebook-pixel.js
 /facebook/pixel.js
 /facebookPixel.
 /facebook_fbevents.
@@ -25634,6 +25636,7 @@ play.rtl.lu##div[class^="layout_container"] > div[class^="style_toolbox"]
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 player.bilibili.com##div[class$="sendjumpbar"][style="opacity: 1;"]
 player.fm##.download-the-app-mobile-promo
+player.fm##.sponsored-content
 player.fm#$#.open-in-app-promo { display: none !important; }
 player.hboav.com##+js(set-constant, player.VastADPlugin, noopFunc)
 player.hu###pushpushgo-container
@@ -26800,6 +26803,7 @@ ref=blog.roboflow.com$doc,removeparam=ref
 ref=blog.unpac.me$doc,removeparam=ref
 ref=buffer.com$doc,removeparam=ref
 ref=ceneo^$doc,removeparam=ref
+ref=dtf.ru$doc,removeparam=ref
 ref=easywithai$doc,removeparam=ref
 ref=exploit.media$doc,removeparam=ref
 ref=gandalf$doc,removeparam=ref
@@ -36549,6 +36553,7 @@ zzzyk.com###Tinfo
 ||appront.net/click.js
 ||apps.bazaarvoice.com/analytics/
 ||apps.bdimg.com/libs/jquery/*/jquery.min.js$domain=vip.hnywkj.cn
+||apps.omegatheme.com/facebook-pixel/
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/analytics/
 ||appspot.com/api/track/
@@ -53169,6 +53174,7 @@ zzzyk.com###Tinfo
 ||yodayo.com/scripts/pixel.js
 ||yoochoose.net^$third-party
 ||yorkbbs.ca/crm/section/v1/get/list/open
+||yotpo.com/widget-assets/yotpo-pixel/
 ||yottaa.com/rapid.min.js
 ||yottaa.net/log-jh
 ||you.163.com^$removeparam=from
